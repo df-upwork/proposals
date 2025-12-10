@@ -1,0 +1,554 @@
+{
+    "prompts": [
+        {
+            "type": "Organization",
+            "task": "Analyze the document for an organization.",
+            "definition": {
+                "text": "An organization represents the structured entity within which activities and value delivery occur to achieve strategic objectives. It encompasses the interconnected units, roles, and responsibilities that enable the flow of value to customers, stakeholders, or outcomes. By analysing the organization's structure and its alignment with stakeholder needs, inefficiencies can be identified, improvements prioritised, and processes optimised to meet strategic priorities. Keywords to look for include: Organization, Structure, Roles, Responsibilities, and Alignment."
+            },
+            "extractionAndOutput": {
+                "instructions": "For the organization, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the organization.",
+                    "Description": "A detailed explanation of what the organization entails.",
+                    "Structure": "The organizational structure of the company.",
+                    "Roles": "The roles within the organization.",
+                    "Units": "Sub-divisions or units within the organization.",
+                    "Mission Statement": "The mission of the organization.",
+                    "Vision Statement": "The vision of the organization.",
+                    "Values": "The core values guiding the organization.",
+                    "Strategic Goals": "Long-term goals that align with the mission and vision.",
+                    "Stakeholders": "Key stakeholders of the organization.",
+                    "Governance": "The governance framework and policies.",
+                    "Legal Structure": "The legal structure of the organization.",
+                    "Geographic Presence": "Locations and geographic reach of the organization.",
+                    "Size": "The size of the organization in terms of employees, revenue, etc.",
+                    "Culture": "The culture within the organization.",
+                    "History": "The history and milestones of the organization.",
+                    "Strategic Initiatives": "Key initiatives to drive strategic goals.",
+                    "Child Organization units": "Sub-divisions within the organization that are directly under this Organization."
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Organization Units",
+            "task": "Analysis Process for ORGANIZATION UNITS Documentation",
+            "definition": {
+                "text": "An organization unit represents a sub-division or entity within an organization that focuses on specific functions, processes, or objectives to contribute to overall organizational goals. These units often act as operational or strategic building blocks, enabling the organization to deliver value effectively. These can also include committees and Minsters."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of an organization unit found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the organizational unit",
+                    "Description": "A detailed explanation of what the organizational unit entails",
+                    "Purpose": "The intended purpose or function of the organizational unit within the organization",
+                    "Owner": "The individual or team responsible for the organizational unit",
+                    "Parent Unit": "The parent organizational unit to which this unit reports",
+                    "Child Units": "Sub-units that report to this organizational unit",
+                    "Roles": "Specific roles within the organizational unit",
+                    "Processes": "Key processes carried out by the organizational unit",
+                    "Performance Indicators": "Metrics used to measure effectiveness and efficiency",
+                    "Dependencies": "Other units, processes, or systems that the unit depends on",
+                    "Related Units": "Organizational units that are related or linked",
+                    "Risks": "Potential risks associated with operations",
+                    "Improvement Opportunities": "Areas for enhancement or improvement",
+                    "Strategic Alignment": "Alignment with strategic goals and objectives"
+                }
+            },
+            "guidelines": [
+                "1. Cross-reference organizational unit information with parent and child relationships to ensure hierarchical accuracy",
+                "2. Use a systematic approach to complete attributes, marking unavailable data as \"N/A\"",
+                "3. Focus on functional descriptions and relationships within the organizational structure",
+                "4. Document ministerial and committee relationships carefully",
+                "5. Note any temporary or project-specific structures separately"
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Stakeholders",
+            "task": "Analysis Process for STAKEHOLDERS Documentation",
+            "definition": {
+                "text": "Stakeholders, as defined in the Orthogramic framework, represent the individuals, groups, or entities that influence or are influenced by the value delivered within an organization. They are central to defining outcomes, shaping priorities, and driving alignment with organizational objectives. By focusing on stakeholder needs and expectations, organizations can identify inefficiencies, optimise engagements, and ensure strategic goals are met."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a stakeholder found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the stakeholder.",
+                    "Type": "The stakeholders position in relation to the organization.",
+                    "Description": "A detailed explanation of the stakeholder group.",
+                    "Role": "Defined responsibilities and interests of the stakeholder.",
+                    "Organizational Unit": "The organizational unit(s) to which the stakeholder is most closely linked.",
+                    "Engagement Strategies": "Plans to communicate and interact with this stakeholder.",
+                    "Interest Levels": "Degree of influence and interest each stakeholder has in organizational activities.",
+                    "Inputs": "Resources or information stakeholders provide to the organization.",
+                    "Outputs": "Benefits or outcomes stakeholders receive from the organization.",
+                    "Dependencies": "Other stakeholders, processes, or systems that the stakeholder depends on.",
+                    "Related Stakeholders": "Stakeholders that are related or linked to this stakeholder.",
+                    "Performance Indicators": "Metrics used to measure the effectiveness of stakeholder engagement.",
+                    "Risks": "Potential risks associated with stakeholder engagement.",
+                    "Improvement Opportunities": "Areas where stakeholder engagement can be enhanced or improved.",
+                    "Strategic Alignment": "How the stakeholder aligns with the organization's strategic goals and objectives.",
+                    "Stakeholder Requirement": "A need or expectation from individuals or groups that have an interest in the organization's activities."
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Strategy",
+            "task": "Analysis Process for STRATEGIES Documentation",
+            "definition": {
+                "text": "Strategies are sections or statements that describe planned or ongoing initiatives, objectives, or frameworks aimed at achieving specific outcomes. Keywords to look for include: \"strategy,\" \"plan,\" \"objective,\" \"initiative,\" \"framework,\" and \"program.\""
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a strategy found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the strategy.",
+                    "Description": "A detailed explanation of what the strategy entails.",
+                    "Purpose": "The intended purpose or function of the strategy within the organization.",
+                    "Owner": "The individual or team responsible for the strategy.",
+                    "Objectives": "Specific, measurable targets to achieve strategic goals.",
+                    "Key Activities": "Critical actions necessary to implement the strategy.",
+                    "Resources": "Resources allocated for the strategy implementation.",
+                    "Timeline": "The timeline for achieving the strategy.",
+                    "Performance Indicators": "Metrics used to measure the success of the strategy.",
+                    "Dependencies": "Other strategies, initiatives, or processes that the strategy depends on.",
+                    "Related Strategies": "Strategies that are related or linked to this strategy.",
+                    "Risks": "Potential risks associated with the strategy and its implementation.",
+                    "Improvement Opportunities": "Areas where the strategy can be enhanced or improved.",
+                    "Strategic Alignment": "How the strategy aligns with the organization's strategic goals and objectives.",
+                    "Business Objective": "A specific, measurable goal that a company aims to achieve to support its overall strategy.",
+                    "Parent": "A high-level strategy that provides overarching principles or rules guiding business operations. It covers multiple sub-policies.",
+                    "Child": "A specific strategy that falls under a broader parent policy. It provides detailed rules and guidelines for a specific aspect of"
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Capabilities",
+            "task": "Analysis Process for CAPABILITIES Documentation",
+            "definition": {
+                "text": "Capabilities are core organizational functions that serve as a bridge between strategy and execution, enabling organizations to align their goals with day-to-day operations. Keywords to look for include: Capability, Function, Skill, Competency, and Capacity."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a capability found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the capability.",
+                    "Description": "A detailed explanation of what the capability entails.",
+                    "Purpose": "The intended purpose or function of the capability within the organization.",
+                    "Owner": "The individual or team responsible for the capability.",
+                    "Organizational Unit": "The organizational unit(s) to which the capability is linked.",
+                    "Inputs": "The resources, information, or materials required for the capability to function.",
+                    "Outputs": "The deliverables or results produced by the capability.",
+                    "Processes": "The set of processes that define how the capability operates.",
+                    "Performance Indicators": "Metrics used to measure the effectiveness and efficiency of the capability.",
+                    "Dependencies": "Other capabilities, processes, or systems that the capability depends on.",
+                    "Related Capabilities": "Capabilities that are related or linked to this capability.",
+                    "Maturity Level": "The current maturity level of the capability.",
+                    "Tools and Technologies": "Tools and technologies used to support or enable the capability.",
+                    "Compliance and Standards": "Regulatory requirements and standards the capability must adhere to.",
+                    "Cost": "The financial cost associated with implementing and maintaining the capability.",
+                    "Risks": "Potential risks associated with the capability and its operations.",
+                    "Improvement Opportunities": "Areas where the capability can be enhanced or improved.",
+                    "Strategic Alignment": "How the capability aligns with the organization's strategic goals and objectives.",
+                    "Capability Component": "A building block of organizational capabilities, representing specific skills, tools, or processes.",
+                    "Function": "A specific area of activity within an organization that performs a particular role or set of tasks.",
+                    "Parent": "A high-level capability that encompasses multiple sub-capabilities or child capabilities. It represents a broad area of business",
+                    "Child": "A specific capability that falls under a broader parent capability. It represents a more granular aspect of business functionality.",
+                    "Child Process": "A detailed process that supports a child capability. It represents a specific sequence of actions or steps required to"
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Value Streams",
+            "task": "Analysis Process for VALUE STREAMS Documentation",
+            "definition": {
+                "text": "Value Streams transform inputs into valuable outcomes for stakeholders. A Value Stream represents an end-to-end series of activities that creates value, whether for external customers (like patients and communities) or internal stakeholders."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a value stream found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the value stream.",
+                    "Description": "A detailed explanation of what the value stream entails.",
+                    "Purpose": "The intended purpose or function of the value stream within the organization.",
+                    "Owner": "The individual or team responsible for the value stream.",
+                    "Organizational Unit": "The organizational unit(s) to which the value stream is linked.",
+                    "Value Items": "Specific outputs or benefits generated at each stage.",
+                    "Value Stream Stages": "Standards to evaluate performance at each stage.",
+                    "Performance Indicators": "Metrics used to measure the effectiveness and efficiency of the value stream.",
+                    "Dependencies": "Other capabilities, processes, or systems that the value stream depends on.",
+                    "Related Value Streams": "Value streams that are related or linked to this value stream.",
+                    "Maturity Level": "The current maturity level of the value stream.",
+                    "Tools and Technologies": "Tools and technologies used to support or enable the value stream.",
+                    "Compliance and Standards": "Regulatory requirements and standards the value stream must adhere to.",
+                    "Cost": "The financial cost associated with implementing and maintaining the value stream.",
+                    "Risks": "Potential risks associated with the value stream and its operations.",
+                    "Improvement Opportunities": "Areas where the value stream can be enhanced or improved.",
+                    "Strategic Alignment": "How the value stream aligns with the organization's strategic goals and objectives.",
+                    "Parent": "A high-level capability that encompasses multiple sub-capabilities or child capabilities. It represents a broad area of business",
+                    "Child": "A specific capability that falls under a broader parent capability. It represents a more granular aspect of business functionality."
+                }
+            },
+            "guidelines": [
+                "1. Focus on end-to-end processes that deliver clear value",
+                "2. Look for keywords like \"delivery\", \"service\", \"program\", \"system\"",
+                "3. Use \"N/A\" if an attribute cannot be determined from source documents",
+                "4. Include both customer-facing and enabling value streams",
+                "5. Consider how value streams connect to strategic objectives",
+                "6. Where justified, value streams have a maximum of seven value stream stages.",
+                "7. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Value Stream Stages",
+            "task": "Analysis Process for Value Stream Stages",
+            "definition": {
+                "text": "Value Stream Stages are the sequential steps or phases within a value stream, each contributing to the transformation of inputs into valuable outcomes for customers, stakeholders, or the organisation. They represent distinct, interdependent activities that collectively deliver value as part of the overarching value stream. Each stage is characterised by specific inputs, outputs, processes, and performance indicators that define its contribution to the value stream's objectives. While Value Streams encapsulate the end-to-end flow of activities required to deliver a complete product, service, or outcome, Value Stream Stages focus on the granular components or steps within that flow."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a value stream stage found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Stage Title": "Name/title of the value stream stage",
+                    "Parent Value Stream": "The Value Stream it belongs to",
+                    "Description": "What the stage entails",
+                    "Purpose": "Intended function within the value stream",
+                    "Owner": "Responsible individual/team",
+                    "Organizational Unit": "Associated organizational unit(s)",
+                    "Inputs": "Required resources/information",
+                    "Outputs": "Deliverables/results produced",
+                    "Performance Indicators": "Metrics for effectiveness/efficiency",
+                    "Dependencies": "Other stages/systems it depends on",
+                    "Related Value Stream Stages": "Connected stages",
+                    "Risks": "Potential risks",
+                    "Improvement Opportunities": "Areas for enhancement",
+                    "Strategic Alignment": "Alignment with organizational goals",
+                    "Enabling Capability": "Capability that enables this stage"
+                }
+            },
+            "guidelines": [
+                "1. Include all available attributes for each stage",
+                "2. For attributes where information cannot be found in the documentation, mark as \"N/A\" or leave blank",
+                "3. Maintain consistent formatting across all stage entries"
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Products",
+            "task": "Analysis Process for PRODUCTS Documentation",
+            "definition": {
+                "text": "Products are distinct, tangible or intangible offerings created, developed, or delivered by an organization to address specific customer or stakeholder needs. Unlike services, which are activities or processes performed to deliver value, products are self-contained items or solutions that provide value independently or as part of a broader portfolio. Products are typically characterised by defined features, lifecycle stages, and measurable performance, whereas services are ongoing engagements or processes. To differentiate a product from a service: Product: Refers to a tangible or intangible deliverable that serves as a standalone solution to meet specific needs. Products are defined by their features, lifecycle stages, and ability to deliver measurable outcomes independently of ongoing interaction. Examples include software applications, physical goods, or digital tools. Service: Represents an activity or process performed to create or enhance value, often involving direct interaction and collaboration with customers or stakeholders. Services are dynamic, relying on real-time execution or customisation to address specific requirements. Examples include consulting, technical support, or training sessions. This distinction emphasises that products provide self-contained value, while services are centred around interactions and processes that generate or support value."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a product found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the product.",
+                    "Description": "A detailed explanation of what the product entails.",
+                    "Purpose": "The intended purpose or function of the product within the organization.",
+                    "Owner": "The individual or team responsible for the product.",
+                    "Organizational Unit": "The organizational unit(s) to which the product is linked.",
+                    "Lifecycle Management": "Strategies for managing the product from inception to retirement.",
+                    "Market Competitiveness": "Analysis of how the product compares with competitors.",
+                    "Customer Feedback": "Data on customer satisfaction and product performance.",
+                    "Dependencies": "Other products, processes, or systems that the product depends on.",
+                    "Related Products": "Products that are related or linked to this product.",
+                    "Performance Indicators": "Metrics used to measure the success and performance of the product.",
+                    "Risks": "Potential risks associated with the product and its lifecycle.",
+                    "Improvement Opportunities": "Areas where the product can be enhanced or improved.",
+                    "Strategic Alignment": "How the product aligns with the organization's strategic goals and objectives.",
+                    "Product Feature": "A specific functionality or characteristic of a product that provides value to users."
+                }
+            },
+            "guidelines": [
+                "1. Identify sections or references related to products or offerings.",
+                "2. Analyse the relationships between products and other organizational elements (e.g., services, strategic objectives).",
+                "3. Collate information systematically and leave any attribute not mentioned in the source as \"N/A\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Services",
+            "task": "Analysis Process for SERVICES Documentation",
+            "definition": {
+                "text": "Services represent the distinct offerings or activities that contribute to delivering value to a customer, stakeholder, or organizational outcome. They illustrate how value is generated and flows through an organization, connecting strategic objectives to tangible deliverables. By focusing on outcomes and stakeholder needs, services enable organizations to identify inefficiencies, optimise service delivery, and ensure alignment with strategic priorities. Keywords to look for include: Services, Offerings, Process, Flow, Customer Journey, and Outcome. To differentiate a service from a product: Service: Represents ongoing activities or processes performed to deliver value. Services are characterised by interaction and experiences, often requiring real-time execution and collaboration with customers or stakeholders. Examples include consulting, maintenance, or training. Product: Denotes distinct, tangible or intangible offerings designed as self-contained solutions. Products are characterised by defined features, lifecycle stages, and measurable performance. Examples include software, devices, or pre-packaged solutions. This distinction clarifies that while products are standalone deliverables, services focus on the processes and experiences leading to value generation."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a service found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the service element.",
+                    "Description": "A detailed explanation of what the service element entails.",
+                    "Purpose": "The intended purpose or benefit of the service element.",
+                    "Owner": "The individual or team responsible for the service element.",
+                    "Organizational Unit": "The organizational unit(s) involved in the service element.",
+                    "Service Level Agreements": "The SLAs associated with the service element.",
+                    "Channels": "The channels through which the service is provided.",
+                    "Customer Feedback": "The methods for collecting and analyzing customer feedback.",
+                    "Target Users": "Who the service is designed for",
+                    "Delivery Model": "How the service is provided",
+                    "Service Locations/Coverage": "Where is the service delivered"
+                }
+            },
+            "guidelines": [
+                "1. Focus on services with clear delivery components",
+                "2. Note where attributes are not specified in source (\"Not specified\" rather than N/A)",
+                "3. Note any significant service changes or improvements mentioned",
+                "4. The goal is to create a comprehensive service catalog that captures both service characteristics and performance elements while",
+                "maintaining clear connection to source material."
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Information",
+            "task": "Analysis Process for information Documentation",
+            "definition": {
+                "text": "Information, as defined in the Orthogramic framework, represents the critical data and insights that enable and support the flow of value within a value stream. It encompasses the structures, relationships, and contexts that connect strategic objectives to actionable outcomes. By focusing on the management and utilisation of information aligned with stakeholder and organizational needs, organizations can identify gaps, enhance data quality, and ensure alignment with strategic priorities. Keywords to look for include: Information, Data, Insights, Context, and Outcome Alignment."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of information found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the information management element.",
+                    "Description": "A detailed explanation of what the information management element entails.",
+                    "Purpose": "The intended purpose or function of the information management element within the organization.",
+                    "Owner": "The individual or team responsible for the information management element.",
+                    "Organizational Unit": "The organizational unit(s) to which the information management element is linked.",
+                    "Inputs": "The resources, information, or materials required for the information management element.",
+                    "Outputs": "The deliverables or results produced by the information management element.",
+                    "Processes": "The set of processes that define how the information management element operates.",
+                    "Performance Indicators": "Metrics used to measure the effectiveness and efficiency of the information management element.",
+                    "Dependencies": "Other elements, processes, or systems that the information management element depends on.",
+                    "Related Information Elements": "Information elements that are related or linked to this element.",
+                    "Maturity Level": "The current maturity level of the information management element.",
+                    "Tools and Technologies": "Tools and technologies used to support or enable the information management element.",
+                    "Compliance and Standards": "Regulatory requirements and standards the information management element must adhere to.",
+                    "Cost": "The financial cost associated with implementing and maintaining the information management element.",
+                    "Risks": "Potential risks associated with the information management element and its operations.",
+                    "Improvement Opportunities": "Areas where the information management element can be enhanced or improved.",
+                    "Strategic Alignment": "How the information management element aligns with the organization's strategic goals and objectives.",
+                    "Information Component": "A piece of data or information used within the organization to support various processes and decision-making.",
+                    "Parent": "High-level information that provides overarching principles or rules guiding business operations. It covers multiple sub-policies.",
+                    "Child": "Information that falls under broader High-level information. It provides detailed rules and guidelines for a specific aspect of"
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Performance",
+            "task": "Analysis Process for PERFORMANCE Documentation",
+            "definition": {
+                "text": "Performance, as defined in the Orthogramic framework, represents the measurable outcomes and effectiveness of activities within a value stream that contribute to delivering value to a customer, stakeholder, or organizational outcome. It evaluates how efficiently value is generated and flows through an organization, connecting strategic objectives to tangible deliverables. By focusing on performance metrics and stakeholder expectations, organizations can identify inefficiencies, improve operational effectiveness, and ensure alignment with strategic priorities. Keywords to look for include: Performance, Metrics, Effectiveness, Outcomes, and Alignment."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a performance found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the performance metric.",
+                    "Description": "A detailed explanation of what the performance metric entails.",
+                    "Purpose": "The intended purpose or function of the performance metric within the organization.",
+                    "Owner": "The individual or team responsible for the performance metric.",
+                    "Organizational Unit": "The organizational unit(s) to which the performance metric is linked.",
+                    "Inputs": "The resources, information, or materials required for the performance metric.",
+                    "Outputs": "The deliverables or results produced by the performance metric.",
+                    "Performance Indicators": "Metrics used to measure the effectiveness and efficiency of the performance metric.",
+                    "Dependencies": "Other metrics, processes, or systems that the performance metric depends on.",
+                    "Related Performance Metrics": "Performance metrics that are related or linked to this metric.",
+                    "Maturity Level": "The current maturity level of the performance metric.",
+                    "Tools and Technologies": "Tools and technologies used to support or enable the performance metric.",
+                    "Compliance and Standards": "Regulatory requirements and standards the performance metric must adhere to.",
+                    "Cost": "The financial cost associated with implementing and maintaining the performance metric.",
+                    "Risks": "Potential risks associated with the performance metric and its operations.",
+                    "Improvement Opportunities": "Areas where the performance metric can be enhanced or improved.",
+                    "Strategic Alignment": "How the performance metric aligns with the organization's strategic goals and objectives.",
+                    "KPI (Key Performance Indicator)": "A measurable value that demonstrates how effectively an organization is achieving its key business",
+                    "Parent": "A high-level policy that provides overarching principles or rules guiding business operations. It covers multiple sub-policies.",
+                    "Child": "A specific policy that falls under a broader parent policy. It provides detailed rules and guidelines for a specific aspect of business"
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Performance KPIs",
+            "task": "Analysis Process for Performance KPIs Documentation",
+            "definition": {
+                "text": "Performance KPIs, as defined in the Orthogramic framework, represent the quantifiable metrics used to measure the outcomes and effectiveness of activities within a value stream. They highlight how value is delivered and tracked across an organization, connecting strategic objectives to tangible results. By focusing on these KPIs and their alignment with stakeholder and organizational goals, organizations can identify inefficiencies, monitor progress, and optimise processes to ensure strategic priorities are met. Keywords to look for include: Performance KPI, Metrics, Effectiveness, Outcomes, and Strategic Alignment."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a performance KPI found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the KPI.",
+                    "Parent": "The Performance outcome the Performance KPI is related to",
+                    "Description": "A detailed explanation of what the KPI entails.",
+                    "Purpose": "The intended purpose or function of the KPI within the performance measurement framework.",
+                    "Owner": "The individual or team responsible for the KPI.",
+                    "Measurement Method": "How the KPI is measured.",
+                    "Targets": "Specific targets or benchmarks for the KPI.",
+                    "Frequency": "How often the KPI is measured and reported.",
+                    "Data Source": "The source of data for the KPI measurement.",
+                    "Related KPIs": "KPIs that are related or linked to this KPI.",
+                    "Dependencies": "Other KPIs, processes, or systems that the KPI depends on.",
+                    "Risks": "Potential risks associated with the KPI measurement and its interpretation.",
+                    "Improvement Opportunities": "Areas where the KPI measurement can be enhanced or improved.",
+                    "Strategic Alignment": "How the KPI aligns with the organization's strategic goals and objectives."
+                }
+            },
+            "guidelines": [
+                "1. If certain attributes cannot be determined from the text, leave them blank or mark as \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Initiatives",
+            "task": "Analysis Process for Initiatives Documentation",
+            "definition": {
+                "text": "Initiative Identification Guidelines: Initiatives represent the focused efforts or projects undertaken to deliver value to a customer, stakeholder or organizational outcome. They illustrate how value is created and delivered within specific areas of an organization, connecting strategic objectives to tangible outcomes. By focusing on results and stakeholder needs, initiatives enable organizations to identify inefficiencies, prioritise efforts, and ensure alignment with strategic priorities. Keywords to look for include: Initiative, Project, Effort, Objective, and Outcome."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of an initiative found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the initiative",
+                    "Description": "A detailed explanation of what the initiative entails",
+                    "Purpose": "The intended purpose or function of the initiative within the organization",
+                    "Owner": "The individual or team responsible for the initiative",
+                    "Organizational Unit": "The organizational unit(s) to which the initiative is linked",
+                    "Goals": "Specific objectives of the initiative",
+                    "Progress Tracking": "Tools and methods to monitor progress towards initiative goals",
+                    "Resource Allocation": "Distribution and management of resources for initiatives",
+                    "Dependencies": "Other initiatives, processes, or systems that the initiative depends on",
+                    "Related Initiatives": "Initiatives that are related or linked to this initiative",
+                    "Performance Indicators": "Metrics used to measure the success and progress of the initiative",
+                    "Risks": "Potential risks associated with the initiative and its implementation",
+                    "Improvement Opportunities": "Areas where the initiative can be enhanced or improved",
+                    "Strategic Alignment": "How the initiative aligns with the organization's strategic goals and objectives",
+                    "Related strategies": "Strategies that are connected or aligned with the primary strategy",
+                    "Child Program": "A specific program that is part of a larger initiative"
+                }
+            },
+            "guidelines": [
+                "1. Mark missing attributes as \"N/A\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Programs",
+            "task": "Analysis Process for Projects Documentation",
+            "definition": {
+                "text": "Programs are sub-elements of initiatives and consist of interrelated projects or activities that collectively contribute to achieving a set of strategic objectives. They focus on coordination, governance, and the allocation of resources across multiple projects to ensure alignment with overarching organizational goals."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a program found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the program.",
+                    "Description": "A detailed explanation of what the program entails.",
+                    "Purpose": "The intended purpose or function of the program within the organization.",
+                    "Owner": "The individual or team responsible for the program.",
+                    "Organizational Unit": "The organizational unit(s) to which the program is linked.",
+                    "Goals": "Specific objectives of the program.",
+                    "Resources": "Resources allocated for the program implementation.",
+                    "Timeline": "The timeline for achieving the program goals.",
+                    "Performance Indicators": "Metrics used to measure the success of the program.",
+                    "Dependencies": "Other programs, initiatives, or processes that the program depends on.",
+                    "Related Programs": "Programs that are related or linked to this program.",
+                    "Risks": "Potential risks associated with the program and its implementation.",
+                    "Improvement Opportunities": "Areas where the program can be enhanced or improved.",
+                    "Strategic Alignment": "How the program aligns with the organization's strategic goals and objectives.",
+                    "Parent Initiative": "The parent initiative to which this program belongs.",
+                    "Child Projects": "Projects that are part of this program."
+                }
+            },
+            "guidelines": [
+                "1. Identify sections or references to multi-project efforts, coordinated plans, or structured frameworks within an initiative.",
+                "2. Focus on the connections between programs and their parent initiatives to understand strategic alignment.",
+                "3. Highlight interdependencies and linkages between programs and projects.",
+                "4. For missing attributes, mark as \"Not specified\" or \"N/A.\""
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Projects",
+            "task": "Analysis Process for Projects Documentation",
+            "definition": {
+                "text": "Projects are the smallest functional units within a program, focusing on specific deliverables, outcomes, or objectives. They are characterised by a defined scope, timeline, and allocation of resources. Projects ensure the execution of strategic goals by turning broader program objectives into actionable tasks."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a project found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the project.",
+                    "Description": "A detailed explanation of what the project entails.",
+                    "Purpose": "The intended purpose or function of the project within the program.",
+                    "Owner": "The individual or team responsible for the project.",
+                    "Organizational Unit": "The organizational unit(s) to which the project is linked.",
+                    "Goals": "Specific objectives of the project.",
+                    "Resources": "Resources allocated for the project implementation.",
+                    "Timeline": "The timeline for completing the project.",
+                    "Performance Indicators": "Metrics used to measure the success of the project.",
+                    "Dependencies": "Other projects, initiatives, or processes that the project depends on.",
+                    "Related Projects": "Projects that are related or linked to this project.",
+                    "Risks": "Potential risks associated with the project and its implementation.",
+                    "Improvement Opportunities": "Areas where the project can be enhanced or improved.",
+                    "Strategic Alignment": "How the project aligns with the organization's strategic goals and objectives.",
+                    "Parent Program": "The parent program to which this project belongs.",
+                    "Child Projects": "Projects that are part of this project (if applicable)."
+                }
+            },
+            "guidelines": [
+                "1. Focus on detailed tasks or activities clearly linked to broader program objectives.",
+                "2. Highlight the relationship between projects and their parent programs to ensure alignment.",
+                "3. For missing attributes, mark as \"Not specified\" or \"N/A.\"",
+                "4. Analyse interdependencies between projects and their impact on program success."
+            ],
+            "outputFile": "Not applicable"
+        },
+        {
+            "type": "Policy",
+            "task": "Analysis Process for POLICY Documentation",
+            "definition": {
+                "text": "Policies are formal statements or principles established by an organization to guide decision-making and operational behaviour. They serve as the foundation for governance and compliance, ensuring alignment with strategic objectives and regulatory requirements. Unlike processes, which detail how activities are performed, policies establish the rules and frameworks under which those processes operate. A strategy describes 'what we want to achieve and how we plan to achieve it' while a policy describes 'what rules must be followed during strategy execution'. Strategies drive change and future outcomes while policies ensure consistent governance and compliance."
+            },
+            "extractionAndOutput": {
+                "instructions": "For each instance of a policy found, extract and collate details of the attributes listed below and output them to a JSON file.",
+                "attributes": {
+                    "Title": "The name or title of the policy.",
+                    "Description": "A detailed explanation of what the policy entails.",
+                    "Purpose": "The intended purpose or function of the policy within the organization.",
+                    "Owner": "The individual or team responsible for the policy.",
+                    "Organizational Unit": "The organizational unit(s) to which the policy is linked.",
+                    "Requirements": "Specific conditions or criteria to be met under the policy.",
+                    "Compliance Metrics": "Measures to ensure adherence to policies.",
+                    "Review Frequency": "How often the policy is reviewed and updated.",
+                    "Approvals": "Individuals or groups that must approve the policy.",
+                    "Related Policies": "Policies that are related or linked to this policy.",
+                    "Compliance and Standards": "Regulatory requirements and standards the policy must adhere to.",
+                    "Risks": "Potential risks associated with the policy and its implementation.",
+                    "Improvement Opportunities": "Areas where the policy can be enhanced or improved.",
+                    "Strategic Alignment": "How the policy aligns with the organization's strategic goals and objectives.",
+                    "Parent": "A high-level capability that encompasses multiple sub-capabilities or child capabilities. It represents a broad area of business",
+                    "Child": "A specific capability that falls under a broader parent capability. It represents a more granular aspect of business functionality."
+                }
+            },
+            "guidelines": [
+                "1. Look for organizational policies, including corporate, operational, and functional policies.",
+                "2. Focus on policies with clear guidelines or frameworks for governance, compliance, or decision-making.",
+                "3. Note where attributes are not specified in the source and label them as \"Not specified.\"",
+                "4. Analyse the relationships between policies and other organizational elements, such as strategic objectives and governance structures."
+            ],
+            "outputFile": "Not applicable"
+        }
+    ]
+}

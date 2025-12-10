@@ -1,0 +1,1280 @@
+# 0.
+Сегодня 2025-11-20.
+
+# 1.
+## 1.1.
+`UW` ≔ (Upwork: https://en.wikipedia.org/wiki/Upwork)
+
+## 1.2.
+`ꆜ` ≔ (Некий конкретный потенциальный клиент на `UW`)
+
+## 1.3.
+`P⁎` ≔ (Некий конкретный потенциальный проект, опубликованный `ꆜ` на `UW`)
+
+# 2. Информация о `P⁎`
+## 2.1. URL
+https://www.upwork.com/jobs/~021990942446178894203
+
+## 2.2. Title
+Building a Locally Installed Application That Can Push SQL Data
+
+## 2.3. Description
+`PD` ≔ 
+```text
+One of our products is a CRM designed for the title industry (titlesphere.io).
+
+Integration with Title Production Systems (e.g. SoftPro, Resware) is really important because the entire history of their business - all clients/transactions - exist in those system.
+
+The problem is most of the TPS products feel like they were built in the Window 3.1 era and have never been significantly upgraded.  Most of them either don't have a cloud hosting option, or when they do it's just a virtual desktop environment.  
+
+So at the moment most of that data has to be exported regularly via CSV and then imported into TitleSphere.  Which is obviously not ideal, especially when it can be important that data is updated regularly (daily or even 3-4 times a day is ideal)
+
+What we'd like to do is build an application that can be installed on the locally hosted server (usually in the title company's office) , that can regularly query the TPS system's SQL database and then push that data to TitleSphere via our API.
+
+It's a very small amount of data - probably less than 10MB daily even for large teams.  But its important that it be seamless and automated.
+
+Let me know if you have any questions.
+
+Thank you!
+
+Hayden
+```
+
+# 5. Информация о `ꆜ`
+## 5.1. Местоположение
+United States
+Portland
+
+## 5.2. Характеристики компании
+### 5.2.1. Сектор экономики
+Tech & IT
+
+### 5.2.2. Количество сотрудников
+10-99
+
+## 5.3. Характеристики учётной записи на `UW`
+### 5.3.1. Member since
+Oct 19, 2009
+### 5.3.2. Hire rate (%)
+93
+### 5.3.3. Количество опубликованных проектов (jobs posted)
+183
+### 5.3.4. Total spent (USD)
+325K
+### 5.3.5. Количество оплаченных часов в почасовых проектах
+6147
+### 5.3.6. Средняя почасовая ставка (USD)
+25.95
+
+# 6. Другие проекты `ꆜ` на `UW`
+## 6.1. `P1⁎`
+
+### 6.1.1. URL
+https://www.upwork.com/jobs/~021960800958149804397
+
+### 6.1.2. Title
+Sales and/or Marketing for a CRM
+
+### 6.1.3. Description
+`P1D` ≔ 
+```text
+We are looking for someone to help us grow sales for Sphere (https://usesphere.com) and TitleSphere (https://titlesphere.io).  (As well as possibly a new vertical in the near future outside of real estate - exploring which vertical makes most sense right now).   
+
+Someone who can really move the needle top of the funnel - revenue/sales growth (as opposed to brand awareness, Likes, Follows, Thumbs Ups, Bros, etc :).
+
+Our conversion and attrition rates are excellent. Once a user tries it, we’re set. We just need help getting the word out.
+
+We have tried more than a dozen marketing and sales folks over the last 5 years. Most of whom were highly recommended. All of whom have great track records. All of whom were very confident. And none of who were able to have any impact.
+
+This is likely not going to be solved by an off the shelf marketing solution - e.g. SEO, AdWords, Facebook Ads, Facebook groups, Instagram ads, etc have all been tried by multiple experts in the space, who've gotten great results with other businesses on those platforms.  None were close to ROI positive for us (even with a very high LTV).
+
+But possibly there is a creative solution in one of those spaces that can work.  
+
+There is also tons of stuff we haven't tried - e.g. cold calling with targeted list, strategic business development, partnerships, email lists (but not willing to do anything spammy), etc.
+
+This is definitely a challenge. But also huge potential upside.   And we are willing to share that.  Along with an hourly rate we'll add a very meaningful bonuses structure if you can put something together that is ROI positive.  
+
+There is also a budget for testing different strategies/platforms.  
+
+But just to be 100% clear, we have absolutely no interest in building anything intangible right now on the marketing and sales front.  If it doesn't directly lead to an increase in sales in a fairly short timeframe (weeks or months, not years) it's not something we can afford to spend time or money on right now.  
+
+Let me know if you have any questions.
+
+Thanks!
+
+Hayden
+```
+
+### 6.1.4. Publication Date
+3 months ago
+
+### 6.1.5. Payment Terms (USD) 
+#### 6.1.5.1. Expected by `ꆜ`  
+Hourly
+#### 6.1.5.2. Actual
+76 hrs @ $25.00/hr
+Billed: $1,658.74
+
+### 6.1.6. Contractor Level (expected by `ꆜ`)
+Expert
+
+### 6.1.7. Duration (expected by `ꆜ`)
+Less than 30 hrs/week
+3-6 months
+
+### 6.1.8. Contractor Location (expected by `ꆜ`)
+Not specified
+
+# 7.
+## 7.1.
+`POs` ≔⠿ {`P1⁎`}
+
+## 7.2.
+`Ps` ≔ (⠿{`P⁎`} ⋃ `POs`)
+
+## 7.3.
+`Pi` : `Ps`
+
+# 8.
+## 8.1.
+`С⁎` ≔ 
+```
+Компания `ꆜ`
+```
+
+## 8.2.
+⊤ (Все `Pi` касаются `С⁎`)
+
+
+## 8.3.
+Сайты `С⁎`:
+- https://www.titlesphere.io
+- https://www.usesphere.com
+
+# 9.
+`P†` ≔†
+```
+Проблема, о которой `ꆜ` пишет в `PD`:
+~~~
+The problem is most of the TPS products feel like they were built in the Window 3.1 era and have never been significantly upgraded.  
+Most of them either don't have a cloud hosting option, or when they do it's just a virtual desktop environment.  
+
+So at the moment most of that data has to be exported regularly via CSV and then imported into TitleSphere.  Which is obviously not ideal, especially when it can be important that data is updated regularly (daily or even 3-4 times a day is ideal)
+~~~
+```
+
+# 10.
+`T⁎` ≔
+```
+Задача, о которой `ꆜ` пишет в `PD`:
+~~~
+What we'd like to do is build an application that can be installed on the locally hosted server (usually in the title company's office) , that can regularly query the TPS system's SQL database and then push that data to TitleSphere via our API.
+~~~
+```
+
+# 11.
+`Sᨀ` ≔ (Система Sphere, которую разрабатывает `С⁎`) 
+
+# 12.
+`D⸙` ≔
+```
+Официальная документация к `Sᨀ`:
+https://www.usesphere.com/docs/Sphere.Manual.2024.docx?v=10.1.2.1
+```
+
+# 13.
+Содержание `D⸙`:
+~~~markdown
+**GETTING STARTED - IMPORTING & SYNCING**
+
+Getting all your contacts into Sphere, syncing your calendar and email, downloading the Sphere App, and setting a goal for the year are the most important first steps.
+
+**Importing Contacts**
+
+It's important to be selective about which contacts you bring into Sphere. Bringing in hundreds of potential leads from years ago that you never got any traction with will dilute Sphere's effectiveness.
+
+**CSV Upload**
+
+* Go to [People > Import](https://www.usesphere.com/admin/leads/import) (which is a button on the top right). Then go to the Import from CSV section and select the CSV file of contacts you want to import.  
+* Sphere has a field mapping tool that will help you map the fields in your CSV into the correct fields within Sphere.  
+* You can also see a [sample CSV](https://www.usesphere.com/admin/leads/download-sample-csv?type=people) in this section.
+
+**Gmail or Microsoft Contact Import**
+
+[People > import](https://www.usesphere.com/admin/leads/import) (button in the top right corner on the top of the People page). There is a section for importing from Microsoft and another from Gmail.
+
+**Check for Duplicates**
+
+After your contacts have been imported, check for duplicates. There is a small, gray link on the top of the People page near the import button "[Find Duplicates](https://www.usesphere.com/admin/leads/merge)". You can then either merge, merge as a connection (spouse/partner), or ignore.
+
+If you are going to use the Merge All button in the top left, make sure you look through all the potential duplicates first. Some may not actually be duplicates, and one of the merged contacts will be erased.
+
+**CALENDAR SYNC**
+
+There are two ways to get to this. Go to [Settings > Calendar,](https://www.usesphere.com/admin/settings/calendars) or just click on Calendar on the main menu. There is an “Add Calendar” button at the top of both pages.
+
+Once you have setup your calendar, go to [Settings > Calendar](https://www.usesphere.com/admin/settings/calendars) and decide on the items you want to sync.
+
+**SPHERE APP**
+
+Go to the Apple App Store or Google Play Store and search for “Sphere Real Estate” and the Sphere app should be the first result. Download it on your phone and log in.
+
+**GOALS**
+
+* Setting a goal for the year may be the most important aspect of getting Sphere set up. We've tried to make this incredibly quick and intuitive.  
+* Click on the Set a Goal link near the top right on the dashboard. The first time it works as a wizard and asks you one question at a time.  
+* Don't spend a lot of time worrying about getting exactly the right answer. It should only take 3-4 minutes. And you can always come back and tweak as much as you like.  
+* Once your contacts are imported and your business plan is filled out, you're ready to go.
+
+**DASHBOARD**
+
+* The dashboard is where you start when you login every day. It shows all your high-level stats, how you are tracking against your goals, and provides a list of referral calls each day on the To Do list.  
+* The referral calls are only for people you haven't called (or been in a transaction with) in the last 90 days. And anyone with Rank X will never show up on this list (Rank X is for colleagues, vendors, etc.).  
+* You can click on the 3 dots on the To-Do list items to assign team members to the item or add a due date.
+
+**TODAY**
+
+* Every morning, the Today page shows you what's going on today as well as what's coming up that you should be aware of, e.g. birthday, housiversaries in the next couple of weeks.  
+* You can send handwritten cards to multiple clients at once directly from the Today page.  
+* A Today update is sent to your phone via push notification, email, or text each morning (set this up in [Settings > Notifications](https://www.usesphere.com/admin/settings/notifications)).
+
+**PEOPLE**
+
+This is the core functionality most people associate with a CRM. It's where all your contact profiles are stored.
+
+**Adding People**
+
+* You can always import people in bulk via a CSV, from your phone, or from Gmail and Outlook.  
+* To add new contacts one at a time in Sphere, click on the ‘+' button, which is always on the top menu. Or go to the People page and click the “Add People” button on the top right.  
+* There are two ways to add people. One is for you to type in all the information you have for them into the People page fields.
+
+**Intake Form**
+
+The second is just to add their first name and email address and then toggle on the “Send Intake Email” switch at the bottom. This allows you to send out an email with an intake form to the new contact.
+
+You can also send an intake form to multiple people or even to everyone in your database at once.
+
+Ross does this every year around the holidays. He sends out an intake note that says, "Hey, I can't believe it's almost 2024. I would love to send you a holiday card and celebrate your birthday this year. Can you just make sure my information is up to date?”
+
+And over the next few weeks, hundreds of clients will update their profiles and include all kinds of great additional information—birthdays, favorite books, favorite movies, social media links, kids' birthdays, pets' names, etc.
+
+**Lead Source**
+
+Make sure you record the "Lead Source" or who referred to them when you add a new contact. This allows you to create reports that can show you where your business comes from.
+
+**Mass Actions**
+
+You can always click on the tick box next to one or many people's names on the People page list view to create a mass action (most of which are marketing-related), e.g., send a mass email, SMS, intake form, or handwritten card.
+
+**Labels**
+
+You can create as many custom labels as you like (under [Settings > Labels](https://www.usesphere.com/admin/settings/labels)) and add them to people or transactions. This allows you to easily find and sort contacts and create lists.
+
+**Advanced Filters**
+
+You can use the advanced filter to get a very tailored list of people to either export or use for a mass action, e.g., send an email or SMS to all of them.
+
+You can filter by all the categories at the top of the page, e.g. Rank, Client Type, Labels.
+
+You can decide for each whether to use AND, OR, or NOT. E.g., Rank A OR “Active Seller” AND “$1M” NOT “Vancouver”.
+
+This would create a list of all your Rank A clients and people who are not Rank A but have an “Active buyer” label attached to their name, and only Rank A and active buyers who also have a “$1M” label and who also do not have a “Vancouver” label.
+
+**Interaction Notes**
+
+We try to automatically track everything related to the contacts in the Interaction Notes section. e.g., if you send them a handwritten card, make a referral call, send them an intake form, an email, or a text blast, those are all recorded with all the details we have in Interaction Notes. The date and message you send will be noted in chronological order in the interaction notes.
+
+**Emails**
+
+If you sync Sphere with Gmail or Outlook, all emails to and from the contact will be listed in chronological order in the Email section of their People profile.
+
+**Rank**
+
+There are lots of different ranking philosophies. Ross uses it to track the two things he cares most about - transactions and referrals. Here is his system:
+
+1. **A- **2 transactions or 2 referrals, or one of each.  
+2. **B- **1 transaction or 1 referral.  
+3. **C- **Haven't done anything yet but really think they will when the opportunity arises.  
+4. **D- **Haven't done anything yet and not sure yet if they ever will. Ross tries to either delete Ds or graduate them to Cs every 90 days.  
+5. **X- **people who you do not want to market to such as lenders, other brokers, inspectors, etc.
+
+Rank A-D will show up on your to-do list for a referral/check-in call every 90 days (unless they were a part of a transaction in the last 90 days).
+
+The referral call list is an important part of growing your business. If it fills up with people you don't know or don't think it’s worth calling, it's not nearly as useful. So, it's important to only have people ranked A–D who you think are going to help grow your business.
+
+**Connections**
+
+This is the ability to link to contact profiles, e.g., spouses, partners, etc. This allows you to sync some elements of their profiles, e.g., home address, kids, pets.
+
+To connect to profiles, just click on the “Add Connection” button on the top right of the contact page.
+
+**Find Duplicate**
+
+We need to make this easier to find. It's a small font link on the top of the People page next to the Import button.
+
+Finding duplicates allows you to see if potentially the same contact has been entered into Sphere more than once. You can then merge them one at a time or merge the entire list of potential duplicates at once. Just be careful doing this because sometimes people on the list share contact information—e.g., email address or phone number—but are not actually in the same contact.
+
+Along those lines, you can also use the Find Duplicates page to merge as a connection, e.g., connection spouses' profiles.
+
+**Export**
+
+On the top right of the People page, there is an Export button. If you click it, it will export all the contacts in your database.
+
+If you'd like to export a list of people with certain criteria, e.g., a Rank A, you can use the filters on the people page to create that list and then export it.
+
+You can also just manually go through and check the boxes next to the people you want to export.
+
+**TRANSACTIONS**
+
+The Transaction section was designed to help you and your clients track every aspect of a transaction from the point when someone mentions they might want to buy or sell in the next few months through archiving.
+
+**Create a New Transaction**
+
+Either click the ‘+' button on the top menu or click the Add Transaction button on the top right of the transaction page.
+
+**Edit**
+
+To edit a transaction, click on the address on the Transaction page.
+
+**Transaction Stages**
+
+* **All. **This will show you all transactions for the date range selected (which defaults to YTD but can be changed to any date range by using the date selection in the top right).  
+* **Potential. **This is often used as a hot list. If anyone even casually mentions they might be interested in buying or selling, you can create a potential transaction for them. If you put in a rough guess for the price, you'll have some sense of what your funnel looks like at any given time.  
+* **Active. **Active buyers and sellers.  
+* **Listed. **Sellers whose listing is live.  
+* **Pending. **Pending buyer and seller transactions.  
+* **Closed. **A transaction archive of all your closed transactions, including all documents if you add them.  
+* **Got Away. **Any transactions that didn't close, or for which you clicked the "Sell Fell Through" button on the bottom of the Transaction page (which saves a copy of the failed transaction and creates a new transaction with all still relevant data).
+
+**Changing Stages**
+
+You can change the stage of the transaction, e.g., from Potential to Active - with the pulldown menu on the top of the Transaction page.
+
+**Labels**
+
+Labels make it easy for you to find and sort transactions by any criteria. You can create as many custom labels as you like in [Settings > Labels](https://www.usesphere.com/admin/settings/labels) and add them to transactions (or people).
+
+E.g., Ross creates one for every lockbox number and has the rule that it's not allowed to be removed from the transaction until the box is physically removed (and has not lost a lockbox since).
+
+Some labels are also auto generated for stages of the transaction.
+
+**Assignee**
+
+If you have other members of your team that are working on the transaction, add them here.
+
+**Expenses**
+
+Transaction-level expenses are categorized and added to reports.
+
+**Transaction Checklist**
+
+You can create as many unique transaction checklists as you'd like in [Settings > Transactions](https://www.usesphere.com/admin/settings/transaction), e.g., Buyer HOA. You can also add team members to checklist items by default, e.g., Chris is always assigned to the “Thank You Gift” checklist item.
+
+Click on the three dots on a checklist item to open an edit menu that allows you to assign the checklist item to a team member or have an email sent to one/many parties involved when an item is completed.
+
+You can also set a calendar due date for any item or a relative due date for each checklist item, e.g., 2 days before the "Disclosure Deadline”.
+
+**Custom Fields**
+
+You can add or edit transaction fields in [Settings > Transaction > Contract Details](https://www.usesphere.com/admin/settings/transaction/contract).
+
+**Parties Involved**
+
+This allows you to keep track of everyone involved in the transactions and send them updates automatically through the Transaction Timeline.
+
+**Transaction Timeline**
+
+One of our most popular features. The timeline creates a customized client-facing portal for each of your clients' transactions. It allows them to always feel as if they know exactly what's going on and what's happening next.
+
+It also allows you to differentiate yourself in listing appointments because most other agents don't have anything like this. Clients feel more in control, and you receive significantly fewer calls and texts.
+
+You get to decide both whose contact information is listed on the timeline and who receives a copy of the timeline and updates for each transaction.
+
+You can also add and edit explanations of each stage of the timeline in [Settings > Transaction > Contract Details](https://www.usesphere.com/admin/settings/transaction/contract).
+
+You can create a transaction timeline by clicking on the timeline link just below the address at the very top of the transaction page.
+
+**Demand Draft**
+
+This link, just below the address at the very top of a transaction edit page, automatically creates a demand draft using the information you've entered on the transaction page. You can decide for each Demand Draft which fields you want to include.
+
+**Send to Escrow**
+
+In the same spot as the Timeline and Demand Draft links, you'll find the Send to Escrow link. This allows you to automatically create an email to open escrow, include the email address for the escrow officer, and adds the Demand Draft.
+
+**Skyslope**
+
+If you use Skyslope, this button can be used to create and then update the transaction information in Skyslope.
+
+**Document Archive**
+
+A spot for archiving documents related to the transaction for your records. It also allows you to share one or many with parties involved through the transaction timeline.
+
+**Transaction Timeline Links**
+
+This allows you to add links to any sites you think could be helpful for your client or the parties involved. The links are included in the transaction timeline.
+
+**CALENDAR**
+
+Once you sync your Outlook for Google Calendar with Sphere, you can see your calendar and team members' calendars on the Calendar page.
+
+You can decide which Sphere dates (transaction dates, birthdays, housiversaries, etc.) are synced with your calendars in [Settings > Calendar.](https://www.usesphere.com/admin/settings/calendars)
+
+**REPORTS**
+
+The reports currently available are:
+
+* Referrals  
+* Referral Calls  
+* PopBys  
+* Out of Touch  
+* Birthday  
+* Anniversary  
+* Housiversary  
+* Lead Source  
+* Expense  
+* Monthly Summary Report  
+* Full Summary Report  
+* Annual Report
+
+You can set date ranges, search your results, and list them in order by referral source, total referrals, gross sales volume, and gross commission.
+
+You can also send handwritten cards from some reports, e.g., Birthday and Housiversary.
+
+**MARKETING**
+
+Our goal with Sphere has been to create marketing functionality that we'd be excited for our friends and family to receive. Things that provide useful information—e.g., Equity or make them smile by sending a handwritten birthday card with a gift card for an ice cream Sunday at Salt & Straw.
+
+**Handwritten cards**
+
+We've partnered with a company to provide handwritten cards to your clients, which can include a gift card.
+
+The message on the card and the address and return address on the envelope are written with a ballpoint pen. There are hundreds of cards to choose from (more than a dozen housiversary alone), and you can choose your handwriting style (Ross and I always choose the messiest :).
+
+We price them at $4, including postage.
+
+Cards can be set to be sent automatically in [Marketing > Cards > Card Template.](https://www.usesphere.com/admin/leads/handwrytten-settings)
+
+Or you can send them to one person at a time from a list of people by ticking the box next to the names of those you want one sent to on the People page, the birthday or housiversary list on the Today page, or in Reports.
+
+**Equity**
+
+This is like a lite version of HomeBot. Equity provides a monthly market value and home equity update for the client's home.
+
+You can add one or multiple clients to Equity by clicking on the Equity button under the Marketing menu or clicking on the tick box next to their name on the People page and clicking on the Equity button on the top mass action menu.
+
+When a client is added, they get an initial email explaining what Equity is and asking if they would like to get a monthly equity report. If they opt in, they'll receive an updated report each month.
+
+You can customize the home estimate before the first email is sent as part of the signup process.
+
+You can customize the email templates they receive in [Marketing > Equity > Equity Email >Template](https://www.usesphere.com/admin/equity/notes).
+
+You can see a list of all the clients who are subscribed and their open rates in [Marketing > Equity > Subscription](https://www.usesphere.com/admin/equity/subscription).
+
+The data we use comes from several sources, including the Fed's FRED database and Zillow, but isn't available for all addresses.
+
+**Popby**
+
+This allows you to upload a CSV list of popby's, which will then be added to the interaction notes of each client’s profile.
+
+**Groups**
+
+This allows you to create marketing groups to send mass emails or SMS. In the future, there will also be a filter option on the People page.
+
+**Templates**
+
+This is the complete template library—all the templates you've created in the past as well as a library of stock templates. You can start a mass email here or in Email Blast.
+
+**Email Blast**
+
+This is still being built out, but basic email marketing functionality is now available.
+
+Start by selecting a previous template or creating a new template from scratch.
+
+Then add and edit the content of the email.
+
+Then click Continue in the top-right corner. Add the recipients, either individually or by selecting a group. Create a campaign name (which only you will see), the subject line of the email your recipients will see, and the name and email address you want to be associated with the email.
+
+If you are not going to send it now, make sure you click the Save button at the top.
+
+**What if my emails sent from Sphere are going to Junk/bouncing?**
+
+Google has significantly changed it's requirements for delivering email blasts to Gmail accounts in the last six months in order to try to curtail spam (and another significant update is scheduled for Feb 1).
+
+One of the things they now require for mass emails going to Gmail accounts is the sender's email domain (in your case has a note on account that says it's ok for the server sending the email to use it's domain.
+
+If the DNS record doesn't have a note referencing the sending server (in our case usesphere.com) they will mark the email as spam or in some cases even refuse to deliver them.
+
+The good news is this is an easy addition to make to the DNS record. It only takes a minute and only needs to be done once. The steps depend on who you are using as your DNS host, but they are usually as simple as:
+
+1. Login to your DNS host site  
+2. Click on Manage Domain for the URL  
+3. Click on Advanced DNS  
+4. Click on Add New Record  
+5. Select record type "TXT". Under "Host" type in the character '@' and under Value type include:spf.usesphere.com.
+
+We have included a screenshot below of an example of this being added.
+
+![A screenshot of a computerDescription automatically generated][image1]
+
+**SMS Blast**
+
+The landing page on [Marketing > SMS Blast](https://www.usesphere.com/admin/orders/sms-conversation) is an inbox that organizes any SMS conversation by client.
+
+You can create an SMS blast in three ways. You can click on the compost icon on the top right and then type in recipients or select a group.
+
+You can click on the “Send SMS” link on the top left and then tick the boxes next to the clients you want to send the SMS to.
+
+Or you can do something very similar by starting on the People page, ticking the box next to everyone you send an SMS to, and then clicking on the “Send SMS” mass action button at the top of the People page.
+
+**Drip Campaign**
+
+This functionality is still being built out. But it will allow you to use a group or trigger for a list of actions.
+
+For instance, a welcome drip. Anytime anyone is added, they receive a sequence of things, e.g., a welcome email, then two days later an SMS asking if there is anything you can help them with, and four days after that a handwritten welcome card.
+
+Each drip sequence and content are entirely customizable.
+
+**Buy Supplies**
+
+We love All Things Real Estate ([https://www.allthingsrealestatestore.com](https://www.allthingsrealestatestore.com/)) and have built in a link to the Sphere marketing menu to make it easy for you to stock up on signs, logo booties, etc.
+
+**LoLo**
+
+This service is amazing. They connect with the best local businesses in dozens of US cities and provide gift certificates to different businesses each month. The gifts are amazing (e.g., two coffees and pastries at Portland's best bakery), and the price is unbelievable (about $1.25 per client per month).
+
+We can't fully integrate LoLo into Sphere until their API is live later this year. But you can learn more about the service and sign up at [https://lolo.gifts](https://lolo.gifts/).
+
+**TEAM**
+
+We totally overhauled Sphere's team functionality a few years ago to make it much more customizable and modular.
+
+The setup is now similar to that of a social network. You can invite anyone to be on your team. For each person, you get to decide which data you want to share with them, and they get to decide which data they want to share with you.
+
+Making someone part of your team doesn't make them part of anyone else's team (e.g., if you invite two people to your team, they are not automatically connected to each other as well).
+
+The first screen you see when you click on Team is a Team Dashboard. This gives you high-level metrics for everyone on your team.
+
+**Team Settings**
+
+To add someone to your team or create an account for a team member who doesn't have a Sphere account, click on the Team Setting box in the top right corner of the team page.
+
+On the top, you can type in the email address of someone you want to add who already has a Sphere account. Or you can create an account for a team member who doesn't already have one using the “Create an Account” button.
+
+This is also where you can configure and change access privileges for anyone you are connected to.
+
+If you want to pay for team members Sphere subscriptions, you click on the “Manage Subscription” link on this page on the far right of the team members’ row.
+
+**REFERRAL REWARDS**
+
+We put every dime of revenue back into building out and improving the Sphere. So, referrals are huge for us.
+
+And we've tried to make them huge for you too. For every person you refer who subscribes, we'll give them $50 and you $50. A Win/Win/Win.
+
+There are three ways for you to pass on referral rewards.
+
+* Send them your Sphere referral URL. If they click on that to sign up, you both automatically get $50 when they subscribe.  
+* Send them your referral code. We've tried to make these as simple as possible, e.g., your first name. But they must remember to enter the code when they sign up. Which virtually no one ever does.  
+* Type in their name and email address on the top right of the referral rewards page, and they will get an email with a signup link that gives you both the $50.
+
+**SETTINGS**
+
+We've tried to make Sphere as customizable as possible. Most of that is done in settings.
+
+**Account**
+
+It is important to notice there is a top submenu on the Account Settings page that includes Account Information, Change Password, Signature, Subscription, Coupons, Payments, and Billing.
+
+The two major things Account controls are your profile settings (e.g., profile picture, email signatures, personized URLs for Equity, Intake, etc.) and your account type, billing, and subscription information.
+
+**Email**
+
+This is where you can add or remove any Outlook or Gmail address you want to sync with your Sphere account.
+
+**Calendar**
+
+You can add or remove an Outlook or Gmail calendar and decide which dates in Sphere sync with your calendar and when they show up, e.g., client birthdays, housiversaries and virtually any transaction date.
+
+**Connect**
+
+Connect is like a lite version of Calendly. Once it's configured, it allows you to send a vanity URL to clients so they can find a free spot on your calendar and make an appointment.
+
+In Connect settings, you can decide which days of the week you want to be available and how long an appointment they have the option to make, e.g., 15 minutes, 30 minutes, etc.
+
+**To Do**
+
+This controls what shows up on your to-do list. The big one is the very first option at the top, which determines whether referral calls automatically show up (with Rank A-D clients that you haven't been in touch with in the last 90 days).
+
+**People**
+
+It is important to note that there is a top submenu on People Settings that includes the items below.
+
+**Custom Fields. **You can add any additional fields you'd like to show up on the People page.
+
+**Intake Form. **You can add any additional fields you'd like to show up on the People page.
+
+**Connections. **Allows you to select which fields are automatically synced between connected spouses/partners profiles.
+
+**People Type. **Add to and edit the “Type” list on the People profile pages.
+
+**Lead Tracking. **Add to and edit the Lead Tracking pulldown.
+
+**Transactions**
+
+It is important to note that there is a top submenu on People Settings that includes the items below.
+
+**Checklists. **Create new transaction checklists (as many as you'd like) and edit your existing ones, e.g., add or remove checklist items from them. Start by selecting the checklist you want to edit using the pull-down menu on the top left of the page.
+
+You can now select team members you'd like to be responsible for a checklist item by default for every transaction the checklist is added to here.
+
+You can also specify default relative due dates for each item here.
+
+**Contract Details. **Decide what fields show up on your Transaction page, add additional fields, and determine the characteristics of each, e.g., date or currency, whether they show up on the timeline, etc.  
+This is also where you configure defaults for the transaction timeline, e.g., which timeline fields include an explanation, and which have email updates.
+
+**Lead Tracking. **Add and remove items from the Lead Tracking pulldown menu.
+
+**Reviews. **Edit the email template a client receives at the end of a transaction requesting a review and configure the options for the external review sites, e.g., Yelp, Google, Zillow, etc.
+
+**Timeline. **Setting Transaction Timeline defaults are done in [Settings > Transaction > Contract Details](https://www.usesphere.com/admin/settings/transaction/contract). This section allows you to edit the timeline email templates—the initial timeline email as well as Earnest Money Received, etc.
+
+**Skyslope. **If you want to sync Sphere with your Skyslope account, you need to add Skyslope account details here.
+
+**Labels**
+
+Add, edit, or delete labels (some labels can't be deleted because they are incorporated into automated Sphere processes).
+
+**Notifications**
+
+You can decide which type of notification you receive for different types of events, e.g., an open house request, a response on equity, or an intake update.
+
+**Call & SMS**
+
+You can select a phone number that can be used to make calls and send mass SMS through Sphere. Any message sent or received will be automatically added to each client's interaction notes and show up in the SMS inbox.
+
+**Trash**
+
+Any client profiles or transactions that you delete go to the trash so that nothing can ever be entirely deleted accidentally.
+
+~~~ 
+
+# 14. Что беспокоит `ꆜ` (анализ выполнен Gemini Deep Research)
+https://gemini.google.com/share/1f93a58f670e
+
+
+## **1 . Введение: Онтологический базис и контекстуализация проблематики**
+
+В современной индустрии титульного страхования и расчетов (Title & Settlement) наблюдается критический разрыв между маркетинговыми обещаниями технологических вендоров и суровой реальностью операционной эксплуатации. Проект P⁎, инициированный клиентом ꆜ, стал катализатором, вскрывшим глубинные архитектурные противоречия в используемых системах класса TPS (Title Production Software). Данный отчет призван не просто перечислить жалобы клиента, но провести их фундаментальную техническую валидацию, опираясь на онтологию ᛭O и детальный анализ документации, технических требований и рыночных сигналов.
+
+Предметом нашего исследования являются две доминирующие платформы, определяющие ландшафт проекта P⁎: **SoftPro** (в частности, ее флагманская версия Select и облачная инкарнация Hosted) и **Resware** (исторически разработанная Adeptive Software, ныне поглощенная Qualia). Обе системы, несмотря на их широкое распространение и статус отраслевых стандартов, демонстрируют признаки технологического устаревания, которые становятся критическими блокирующими факторами при попытке цифровой трансформации агентства.
+
+В рамках онтологии ᛭O, система TPS рассматривается не просто как инструмент ввода данных, но как центральный нервный узел (hub), агрегирующий потоки данных от андеррайтеров, банков, государственных реестров и конечных потребителей. Любая дисфункция в этом узле — будь то латентность интерфейса, невозможность прямого SQL-запроса или сбой XML-шлюза — приводит к каскадным задержкам, потере транзакционной эффективности и, в конечном счете, к финансовым убыткам.
+
+Клиент ꆜ выражает озабоченность по ряду направлений: от потери суверенитета над собственными данными до невозможности внедрения современных AI-инструментов. Наш анализ показывает, что эти проблемы не являются следствием неправильной настройки на местах, а представляют собой фундаментальные ограничения архитектуры «Walled Garden» (огороженный сад), которую вендоры сознательно выстраивают для монетизации транзакций и удержания клиентской базы. Мы рассмотрим, как эволюция от монолитных On-Premise решений к псевдо-облачным (Hosted) конфигурациям создала «худший из двух миров», где клиент теряет контроль над инфраструктурой, не приобретая взамен гибкости истинных SaaS-платформ.
+
+---
+
+## **2 . Архитектурная дихотомия SoftPro: Select On-Premise против Hosted**
+
+### **2.1. Генезис архитектуры SoftPro Select: Многоуровневая модель и ее узкие места**
+
+Для понимания корня проблем производительности, с которыми столкнулся ꆜ, необходимо детально разобрать архитектуру SoftPro Select. Согласно технической документации 1, Select представляет собой классическое.NET приложение, построенное по многоуровневой (n-tier) архитектуре.
+
+1. **Клиентский уровень (Presentation Tier):** «Толстый» клиент (Smart Client), реализованный на Windows Presentation Foundation (WPF) или Windows Forms. Это приложение требует значительных локальных ресурсов для отрисовки интерфейса и выполнения клиентской логики.  
+2. **Сервер приложений (Application Tier / Middleware):** Сервис SoftPro Select Server, который обрабатывает бизнес-логику, аутентификацию и маршрутизацию запросов.  
+3. **Уровень данных (Data Tier):** Microsoft SQL Server, где хранятся все транзакционные данные, шаблоны документов и конфигурации.
+
+Критически важным аспектом, часто упускаемым при поверхностном анализе, является механизм взаимодействия между этими уровнями. В документации 1 прямо указано: *«All database communication is handled through a single service account used by the mid-tier server. End users do not communicate directly with the database.»* (Вся коммуникация с базой данных осуществляется через единую сервисную учетную запись, используемую сервером среднего звена. Конечные пользователи не общаются с базой данных напрямую).
+
+Это архитектурное решение имеет далеко идущие последствия. В локальной (On-Premise) инсталляции, где все три уровня находятся в одной высокоскоростной локальной сети (LAN) с минимальной задержкой (latency  < 1ms), эта схема работает приемлемо. Однако при переходе в среду Hosted, эта архитектура подвергается стресс-тесту, который она часто не выдерживает.
+
+### **2.2. Иллюзия облака: SoftPro Hosted как симулякр SaaS**
+
+Клиент ꆜ, вероятно, ожидал от перехода на SoftPro Hosted преимуществ современной облачной архитектуры (доступ через браузер, легкие API, масштабируемость по клику). Однако анализ источников 2 показывает, что SoftPro Hosted — это реализация модели **«Lift and Shift»**. Вендор просто берет традиционное десктопное приложение Select и размещает его на своих серверах, предоставляя доступ пользователям через технологии виртуализации (Citrix XenApp или Microsoft Remote Desktop Services).
+
+#### **2.2.1. Проблема «Application Streaming»**
+
+SoftPro Hosted декларирует функциональный паритет с десктопной версией 2, но способ доставки контента кардинально меняет пользовательский опыт (UX). Вместо передачи структурированных данных (JSON/XML), как это делают современные веб -приложения (например, Qualia Core 3), SoftPro Hosted передает *видеопоток* интерфейса и принимает сигналы клавиатуры и мыши.
+
+Это создает жесткую зависимость от качества интернет-канала. Требования к пропускной способности составляют минимум 8 Мбит/с на пользователя.4 Но более критичным параметром является **латентность (ping)** и **джиттер (jitter)**. Поскольку приложение Select изначально разрабатывалось для локальных сетей, оно может совершать сотни мелких синхронных запросов к серверу («chatty protocol») при открытии одной карточки заказа. В локальной сети это незаметно. В удаленной сессии через интернет каждый такой запрос добавляет задержку. Если пинг до дата-центра SoftPro составляет 50-100 мс, интерфейс начинает «фризить», выпадающие списки открываются с задержкой, а ввод текста становится некомфортным.
+
+#### **2.2.2. Периферийная несовместимость**
+
+Другим следствием использования виртуализации является проблема работы с локальными устройствами. Принтеры и сканеры должны «пробрасываться» (redirection) через терминальную сессию. Это часто приводит к конфликтам драйверов и сбоям печати, что является одной из самых частых жалоб пользователей.5 В отличие от веб -приложений, которые просто генерируют PDF для локальной печати, SoftPro Hosted пытается эмулировать прямое подключение к принтеру через WAN-канал, что технологически ненадежно.
+
+### **2.3. Технические требования как индикатор устаревания**
+
+Анализ системных требований для On-Premise версий 1 раскрывает ресурсоемкость платформы. Для обработки потока заказов более 16,000 в месяц требуется кластерная конфигурация с выделением 1 ядра CPU на каждую 1000 заказов и минимум 24 ГБ оперативной памяти только для сервера приложений.
+
+Особое внимание привлекает требование к дисковой подсистеме: *«Disk I/O (throughput) is critical to overall performance»*.1 Это подтверждает, что Select интенсивно работает с временными файлами и базой данных, создавая высокую нагрузку на IOPS. В среде Hosted, где дисковые ресурсы часто виртуализированы и распределяются между множеством клиентов (Multi-tenancy), эффект «шумного соседа» (noisy neighbor) может приводить к непредсказуемым падениям производительности, когда тяжелый отчет одного клиента замедляет работу остальных.
+
+Кроме того, использование IronPython для внутренней автоматизации и скриптинга 6 в Hosted-среде создает риски. Ошибки типа *«Infinite loop detected»*, упоминаемые в технических блогах 6, свидетельствуют о том, что скриптовый движок выполняется синхронно в контексте приложения. В облачной среде, где ресурсы CPU жестко квотируются, зависший скрипт может привести к принудительному завершению сессии пользователя, что воспринимается как «падение» программы.
+
+---
+
+## **3 . Суверенитет данных и проблема доступа к SQL**
+
+### **3.1. Политика изоляции данных в Hosted-среде**
+
+Одной из самых острых проблем для ꆜ является невозможность прямого доступа к данным. В мире корпоративного ПО доступ к базе данных (SQL Access) является стандартом де -факто для построения кастомной аналитики, интеграций и аудита.
+
+Однако в SoftPro Hosted реализована политика **«Black Box»**. Источники 1 подтверждают, что конечные пользователи не имеют прямого доступа к SQL Server. Это ограничение продиктовано архитектурой безопасности мультиарендной среды. Если бы вендор открыл порт 1433 для внешних подключений, возникли бы два риска:
+
+1. **Безопасность:** Риск компрометации всего сервера через уязвимость в одной учетной записи.  
+2. **Стабильность:** Неоптимизированный SQL-запрос (например, SELECT  * по таблице с миллионами записей), запущенный клиентом через Excel или PowerBI, мог бы «положить» сервер, обслуживающий десятки других компаний.
+
+### **3.2. Последствия для бизнес-аналитики (BI) и отчетности**
+
+Отсутствие доступа к SQL Read-Only реплике делает невозможным использование современных BI-инструментов (Tableau, Microsoft Power BI, Domo) в режиме Direct Query. Клиент ꆜ вынужден полагаться на встроенные средства отчетности SoftPro или заказывать разработку кастомных отчетов (Custom Reports & Docs services) у самого вендора за дополнительную плату.7
+
+Это создает ситуацию **Vendor Lock-in** (привязка к вендору). Клиент не владеет своими данными в оперативном смысле; он видит их только через призму интерфейса приложения. Любая попытка выгрузить данные для миграции или глубокого анализа превращается в сложный проект с участием техподдержки вендора.
+
+Попытки обойти это ограничение через экспорт в Excel 7 являются паллиативом, так как теряется реляционная структура данных и актуальность в реальном времени. В эпоху Data-Driven управления это является серьезным конкурентным недостатком.
+
+### **3.3. Миф о VPN-туннелировании к базе данных**
+
+В техническом дискурсе часто упоминается использование VPN (например, SoftEther, GlobalProtect) для доступа к ресурсам.8 Однако важно различать типы доступа. VPN в контексте SoftPro Hosted обеспечивает защищенный транспорт для RDP/ICA протокола (доставка картинки), но не открывает сетевой маршрут к портам базы данных (TCP 1433).
+
+Документация по интеграции с Palo Alto Networks и другими шлюзами 9 показывает возможность настройки сложных туннелей, но для SaaS-провайдеров типа SoftPro предоставление клиенту L3-доступа (сетевой уровень) внутрь своего периметра безопасности — это исключительная редкость. Поэтому, даже имея VPN, клиент ꆜ упирается в прикладной фаервол, блокирующий SQL-трафик.
+
+---
+
+## **4 . Экосистема Resware: Наследие SOAP и риски поглощения**
+
+### **4.1. Архитектурный долг: XML и SOAP против современного мира**
+
+Resware представляет собой другой полюс проблемного поля TPS. Если SoftPro страдает от проблем «толстого клиента» в облаке, то Resware является заложником своей устаревшей архитектуры интеграции, базирующейся на SOAP (Simple Object Access Protocol) и тяжеловесном XML.
+
+Интеграция с Resware не следует современным паттернам RESTful API, привычным разработчикам. Вместо этого используется сложная система «ResWare-to-ResWare Partner Mappings».10  
+Для настройки обмена данными необходимо:
+
+1. Вручную прописывать URL-адреса веб -сервисов (часто специфичные для каждого партнера).  
+2. Использовать WCF (Windows Communication Foundation) с базовой аутентификацией, что требует координации с поддержкой Adeptive для включения соответствующих биндингов на сервере.12  
+3. Манипулировать XML-пакетами, где любая ошибка в схеме или отсутствие обязательного поля (например, RemotePrimaryContactEmployeeID) приводит к сбою всей транзакции с неинформативными ошибками.13
+
+Сравнение с современными API (например, Snapdocs или Qualia API 14) показывает, насколько Resware отстает. Современные системы предоставляют Swagger-документацию, песочницы (sandbox) и используют JSON, который легче и быстрее парсится. Работа с Resware требует от ꆜ содержания штата XML-инженеров или оплаты дорогих консультантов для поддержки работоспособности интеграций.
+
+### **4.2. Стратегический риск: Qualia и будущее Resware**
+
+Приобретение Adeptive Software (разработчика Resware) компанией Qualia в конце 2020 года 16 создало ситуацию экзистенциальной неопределенности для пользователей Resware.  
+Qualia активно продвигает свою собственную облачную платформу (Qualia Core/Connect) как единое решение для индустрии.3 В этой стратегии Resware отводится роль «устаревшего актива» (legacy asset), который поддерживается только для удержания клиентской базы до момента их миграции на Qualia.
+
+#### **4.2.1. Судебные маркеры риска**
+
+Иск компании Stewart Title против Qualia 19 является ярким индикатором рыночных настроений. Крупные игроки опасаются, что Qualia может в одностороннем порядке изменить условия лицензирования или прекратить поддержку Resware, чтобы форсировать переход на свои продукты. Для проекта P⁎ это означает, что любые инвестиции в кастомизацию Resware сегодня могут оказаться списанными убытками завтра, если платформа будет объявлена EOL (End-of-Life).
+
+#### **4.2.2. Пользовательский опыт и стагнация интерфейса**
+
+Отзывы пользователей на профильных форумах 20 характеризуют интерфейс Resware как «prehistoric» (доисторический) и «not user-friendly». Система требует множественного ввода данных и сложной навигации, что увеличивает время обучения персонала и вероятность ошибок. В условиях дефицита кадров и требований к скорости закрытия сделок, такой UX становится тормозом для бизнеса.
+
+### **4.3. Интеграционные ограничения Resware**
+
+Несмотря на заявленную открытость через XML, интеграция с новыми сервисами остается сложной. Например, интеграция с платформой нотариата Proof (ранее Notarize) требует настройки трех различных типов маппинга (Order Placement, Note/Document, Signings) и использования четырех различных REST API вызовов только для возврата документов.11 Это гибридное использование старых SOAP и новых REST методов создает «зоопарк» технологий внутри одной интеграции, усложняя отладку и мониторинг.
+
+---
+
+## **5 . Интеграционные шлюзы и политика «Walled Garden»**
+
+### **5.1. SoftPro 360: Монетизация доступа и «бутылочное горлышко»**
+
+SoftPro 360 позиционируется как универсальный портал для заказа услуг.22 Однако технически это классический Middleware, который выполняет функцию шлюза.  
+Для ꆜ это означает:
+
+1. **Ограничение выбора:** Клиент может работать только с теми вендорами, которые прошли сертификацию SoftPro и интегрированы в сеть 360 . Подключение локального поставщика услуг, не входящего в этот список, невозможно без участия SoftPro, что занимает месяцы и стоит дорого.  
+2. **Финансовая нагрузка:** Бизнес-модель SoftPro 360 часто предполагает взимание транзакционных комиссий (click fees) за каждый заказ услуги. Это скрытый налог на эффективность, который увеличивает операционные расходы (OpEx) агентства.  
+3. **Отсутствие кастомизации:** Данные передаются в жестко заданном формате. Если ꆜ хочет передать специфическое поле данных партнеру (например, код кампании в маркетинговую систему), стандартный коннектор 360 может это не поддерживать, и изменить это самостоятельно клиент не может.22
+
+### **5.2. SoftPro Sync и ограничения API**
+
+Существует функционал SoftPro Sync 24, позволяющий обмениваться данными между различными инсталляциями SoftPro (например, между агентом и андеррайтером). Однако это закрытый протокол «SoftPro-to-SoftPro». Он не решает задачу интеграции с внешним миром (CRM, ERP, HR-системы).
+
+Документация упоминает наличие API 23, но для клиентов Hosted-версии возможности его использования ограничены запретом на установку стороннего кода (Custom Assemblies) на сервере приложений. Это вынуждает клиентов использовать RPA (Robotic Process Automation) как «костыль» для интеграции.
+
+---
+
+## **6 . Анализ сторонних интеграторов: AI и автоматизация коммуникаций**
+
+### **6.1. Alanna.ai: Потенциал AI против реальности Legacy**
+
+Alanna.ai предлагает революционный подход — диалоговый AI для ответов на вопросы клиентов.25 Однако эффективность AI напрямую зависит от доступа к данным.
+
+* **Техническое противоречие:** Для того чтобы Alanna могла ответить на вопрос «Где мои документы?», она должна прочитать статус заказа и содержимое документов из TPS.  
+* **Методы интеграции:** Alanna заявляет о глубокой интеграции с SoftPro и Resware.27 В случае с SoftPro On-Premise это реализуется через прямой SQL-запрос или установку локального агента. В случае SoftPro Hosted, Alanna вынуждена работать через ограниченный API SoftPro 360 или требовать от SoftPro открытия специальных доступов, что часто встречает сопротивление со стороны IT-безопасности вендора.  
+* **Ограничения функционала:** Без полного доступа к данным AI превращается в простой чат-бот, работающий по скриптам, что нивелирует его ценность. Проблема ꆜ может заключаться именно в том, что в их конфигурации (Hosted) Alanna не может реализовать свой потенциал «умного помощника».
+
+### **6.2. CloseSimple: Автоматизация с ручным управлением**
+
+CloseSimple предлагает «Pizza Tracker» для сделок.29 Анализ документации вскрывает важный нюанс: существует три режима работы интеграции — Manual, Automated и Combination.
+
+* **Manual:** Пользователь должен вручную нажать кнопку в SoftPro, чтобы отправить обновление статуса. Это не уменьшает нагрузку на персонал, а просто меняет инструмент.  
+* Automated: Требует настройки триггеров в SoftPro Automation Services. В Hosted-среде доступ к этому конфигуратору часто закрыт для клиента.  
+  Таким образом, ꆜ может платить за сервис автоматизации, но использовать его в ручном режиме из -за ограничений прав доступа в облаке SoftPro.
+
+---
+
+## **7 . Роль RPA: UiPath и Automation Anywhere как вынужденная мера**
+
+В условиях закрытых API и отсутствия доступа к БД, индустрия все чаще обращается к **RPA (Robotic Process Automation)**. Инструменты вроде UiPath и Automation Anywhere 31 используются для эмуляции действий пользователя.
+
+**Сценарий использования:** Робот запускает Citrix-сессию SoftPro Hosted, распознает изображение на экране (OCR/Computer Vision), находит нужные поля, копирует данные и вставляет их в веб -портал андеррайтера или CRM.
+
+**Плюсы:**
+
+* Не требует API и разрешений вендора (работает через пользовательский интерфейс).  
+* Позволяет связать несвязанные системы («Swivel chair automation»).
+
+**Минусы и риски:**
+
+* **Хрупкость:** Малейшее изменение разрешения экрана, шрифта или расположения кнопки в SoftPro Hosted приведет к сбою робота.  
+* **Скорость:** RPA через Citrix работает медленно, так как зависит от отрисовки графики.  
+* **Стоимость:** Лицензии Enterprise RPA платформ (UiPath) дороги, а разработка и поддержка роботов требуют квалифицированных кадров.
+
+Для ꆜ использование RPA — это признак того, что штатные средства интеграции TPS провалились. Это дорогостоящий «пластырь» на архитектурную проблему.
+
+---
+
+## **8 . Сравнительная таблица рисков и ограничений**
+
+Ниже представлена сводная матрица анализа ключевых проблемных зон для SoftPro и Resware, сформированная на основе изученных данных.
+
+| Категория риска | SoftPro Select (Hosted) | Resware (Qualia) | Влияние на проект P⁎ |
+| :---- | :---- | :---- | :---- |
+| **Доступ к данным** | **Блокирующий.** Нет прямого SQL доступа. Данные изолированы в "черном ящике". 1 | **Сложный.** Возможен через XML-выгрузки, но требует парсинга. Прямой доступ к БД зависит от хостинга. | Невозможность построения BI, зависимость от вендора при миграции. |
+| **Интеграция** | **Walled Garden.** Только через SoftPro 360 . Сторонние API ограничены. 22 | **Legacy.** SOAP/XML. Требует сложного маппинга и настройки WCF. 11 | Высокие затраты на подключение новых партнеров. Ограничение инноваций. |
+| **Производительность** | **Зависимая.** RDP/Citrix чувствительны к латентности сети. Проблемы с печатью. 5 | **Стабильная**, но интерфейс перегружен и требует много кликов (UX friction). 20 | Снижение производительности сотрудников, фрустрация пользователей. |
+| **Будущее платформы** | **Стагнация.** "Облако" как маркетинговая обертка для старого ПО. 2 | **Угроза EOL.** Риск закрытия продукта в пользу Qualia Core. 19 | Риск потери инвестиций в настройку и обучение. |
+| **Автоматизация** | **Ограниченная.** Скрипты IronPython могут блокироваться. 6 | **Мощная**, но сложная в настройке (Action Lists). Требует экспертных знаний. | Сложность реализации сквозных процессов без ручного вмешательства. |
+
+---
+
+## **9 . Заключение и стратегические рекомендации**
+
+Проведенный глубокий анализ подтверждает, что проблемы, с которыми столкнулся клиент ꆜ в рамках проекта P⁎, носят системный и архитектурный характер. Они не являются следствием локальных ошибок конфигурации, а проистекают из фундаментальных стратегий вендоров (SoftPro и Qualia), направленных на удержание контроля над экосистемой и данными клиентов.
+
+**Ключевые выводы:**
+
+1. **Архитектурный тупик SoftPro Hosted:** Переход на Hosted-версию SoftPro Select для требовательного клиента с потребностью в данных и интеграциях является шагом назад. Это решение сочетает недостатки десктопного ПО (ресурсоемкость, сложность обновлений) с недостатками облака (зависимость от канала, потеря контроля над БД), не предлагая преимуществ истинного SaaS.  
+2. **Токсичность актива Resware:** Использование Resware в долгосрочной стратегии представляет собой высокий риск. Платформа находится под угрозой каннибализации со стороны материнской компании Qualia. Технический долг в виде SOAP/XML архитектуры делает поддержку интеграций неоправданно дорогой.  
+3. **Барьеры для Инноваций:** Внедрение AI (Alanna) и автоматизации (CloseSimple) на базе текущих TPS сталкивается с искусственными барьерами. Вендоры TPS заинтересованы в продаже собственных, зачастую уступающих по качеству, аддонов, и поэтому ограничивают возможности интеграции для сторонних передовых решений.
+
+**Стратегические рекомендации для ꆜ:**
+
+* **Сценарий А (Восстановление контроля):** Если бизнес-процессы жестко завязаны на функционал SoftPro Select, рассмотреть возврат к модели **On-Premise** (или IaaS — Infrastructure as a Service, где клиент арендует серверы, но управляет ими сам). Это вернет прямой доступ к SQL, позволит настраивать VPN-туннели для данных и использовать локальные интеграции.  
+* **Сценарий Б (Модернизация):** Начать планирование миграции на современную **Cloud-Native TPS** (например, Qualia Core, если устраивает их экосистема, или независимые игроки типа Spruce/Endpoint, если они доступны на рынке). Это решит проблемы производительности интерфейса и API-доступности, но потребует полной перестройки процессов.  
+* **Сценарий В (Гибридная автоматизация):** В текущей конфигурации инвестировать в **RPA** как временное решение для преодоления интеграционных разрывов, понимая высокую стоимость владения и хрупкость этого решения. Отказаться от попыток построить Real-time BI на базе Hosted-данных, перейдя на асинхронную отчетность (ежедневные выгрузки).
+
+Ситуация требует от ꆜ принятия жестких решений: либо смириться с ролью пассивного пользователя в «огороженном саду» вендора, либо инвестировать в собственную инфраструктуру для возвращения цифрового суверенитета.
+
+---
+
+*Конец отчета.*
+
+#### **Works cited**
+
+1. SoftPro Select System Requirements, accessed November 20, 2025, [https://www.softprocorp.com/softpro-system-requirements-select/](https://www.softprocorp.com/softpro-system-requirements-select/)  
+2. Real Estate Hosted Software Data  - SoftPro, accessed November 20, 2025, [https://www.softprocorp.com/real-estate-software-solutions/softpro-hosted-software/](https://www.softprocorp.com/real-estate-software-solutions/softpro-hosted-software/)  
+3. Resware  - Qualia, accessed November 20, 2025, [https://www.qualia.com/resware/](https://www.qualia.com/resware/)  
+4. SoftPro System Requirements – Hosted, accessed November 20, 2025, [https://www.softprocorp.com/softpro-system-requirements-hosted/](https://www.softprocorp.com/softpro-system-requirements-hosted/)  
+5. SoftPro Support: The Most Common Issues & How to Solve Them  - Premier One, accessed November 20, 2025, [https://premier-one.com/softpro-support-the-most-common-issues-how-to-solve-them/](https://premier-one.com/softpro-support-the-most-common-issues-how-to-solve-them/)  
+6. Error | Home on the web  ~ Dan Van Fleet, accessed November 20, 2025, [http://danvanfleet.com/index.php/tag/error/](http://danvanfleet.com/index.php/tag/error/)  
+7. Custom Reports & Docs  - SoftPro, accessed November 20, 2025, [https://www.softprocorp.com/software-services/custom-reports-and-docs/](https://www.softprocorp.com/software-services/custom-reports-and-docs/)  
+8. SoftEther VPN vs. SoftPro Comparison  - SourceForge, accessed November 20, 2025, [https://sourceforge.net/software/compare/SoftEther-VPN-vs-SoftPro/](https://sourceforge.net/software/compare/SoftEther-VPN-vs-SoftPro/)  
+9. Sitemap  - Palo Alto Networks, accessed November 20, 2025, [https://docs.paloaltonetworks.com/sitemap](https://docs.paloaltonetworks.com/sitemap)  
+10. ResWare/A.S.K. Search Integration User Guide  - Stewart Title, accessed November 20, 2025, [https://www.stewart.com/content/dam/stewart/education-and-training/PDFs/resware-a.s.k-search-integration-user-guide.pdf](https://www.stewart.com/content/dam/stewart/education-and-training/PDFs/resware-a.s.k-search-integration-user-guide.pdf)  
+11. Resware & Notarize | How it Works, accessed November 20, 2025, [https://www.notarize.com/blog/resware-notarize](https://www.notarize.com/blog/resware-notarize)  
+12. Resware to Resware Mappings  -  - The Docs, accessed November 20, 2025, [https://www.getroo.io/docs/resware/partner-resware-to-resware/](https://www.getroo.io/docs/resware/partner-resware-to-resware/)  
+13. Common error messages in ResWare  - Proof Help Center, accessed November 20, 2025, [https://support.proof.com/hc/en-us/articles/1500002944961-Common-error-messages-in-ResWare](https://support.proof.com/hc/en-us/articles/1500002944961-Common-error-messages-in-ResWare)  
+14. Snapdocs Scheduling Open API  - Support Hub, accessed November 20, 2025, [https://support.snapdocs.com/open-api](https://support.snapdocs.com/open-api)  
+15. Qualia API, accessed November 20, 2025, [https://www.qualia.com/qualia-api/](https://www.qualia.com/qualia-api/)  
+16. Qualia Acquires Developer of ResWare  - ALTA, accessed November 20, 2025, [https://www.alta.org/news-and-publications/news/20201222-Qualia-Acquires-Developer-of-ResWare](https://www.alta.org/news-and-publications/news/20201222-Qualia-Acquires-Developer-of-ResWare)  
+17. Our Next Stage  - Qualia Insight, accessed November 20, 2025, [https://blog.qualia.com/qualia-acquires-adeptive-resware/](https://blog.qualia.com/qualia-acquires-adeptive-resware/)  
+18. Resware Comparison  - Qualia, accessed November 20, 2025, [https://www.qualia.com/resware-comparison/](https://www.qualia.com/resware-comparison/)  
+19. Stewart Title files suit against Qualia over software license | News  - The Title Report, accessed November 20, 2025, [https://www.thetitlereport.com/Articles/Stewart-Title-files-suit-against-Qualia-over-softw-90030.aspx](https://www.thetitlereport.com/Articles/Stewart-Title-files-suit-against-Qualia-over-softw-90030.aspx)  
+20. Is it just me or do people also feel that there needs to be better settlement/closing software for title insurance companies? : r/RealEstate  - Reddit, accessed November 20, 2025, [https://www.reddit.com/r/RealEstate/comments/3r2mz4/is _it _just _me _or _do _people _also _feel _that _there/](https://www.reddit.com/r/RealEstate/comments/3r2mz4/is_it_just_me_or_do_people_also_feel_that_there/)  
+21. Real Estate Software : r/paralegal  - Reddit, accessed November 20, 2025, [https://www.reddit.com/r/paralegal/comments/qdf7wc/real _estate _software/](https://www.reddit.com/r/paralegal/comments/qdf7wc/real_estate_software/)  
+22. SoftPro 360 Integrations, accessed November 20, 2025, [https://www.softprocorp.com/real-estate-software-solutions/softpro-360-data-integration/](https://www.softprocorp.com/real-estate-software-solutions/softpro-360-data-integration/)  
+23. SoftPro Select  - Real Estate Closing Software, accessed November 20, 2025, [https://www.softprocorp.com/real-estate-software-solutions/softpro-select/](https://www.softprocorp.com/real-estate-software-solutions/softpro-select/)  
+24. Resources for the SoftPro Sync integration in SoftPro 360, accessed November 20, 2025, [https://info.softprocorp.com/resources-for-softpro-sync-integration-in-softpro-360](https://info.softprocorp.com/resources-for-softpro-sync-integration-in-softpro-360)  
+25. Softpro intgeration | alanna.ai, accessed November 20, 2025, [https://www.alanna.ai/softpro-integration/](https://www.alanna.ai/softpro-integration/)  
+26. Why AI Will Actually Restore Some of our Humanity  - American Land Title Association, accessed November 20, 2025, [https://www.alta.org/news-and-publications/news/20250123-Why-AI-Will-Actually-Restore-Some-of-Our-Humanity](https://www.alta.org/news-and-publications/news/20250123-Why-AI-Will-Actually-Restore-Some-of-Our-Humanity)  
+27. Pythonic.ai vs Alanna.ai, accessed November 20, 2025, [https://www.alanna.ai/pythonic-vs-alanna/](https://www.alanna.ai/pythonic-vs-alanna/)  
+28. Alanna.ai vs CloseSimple Review, accessed November 20, 2025, [https://www.alanna.ai/alanna-ai-vs-closesimple/](https://www.alanna.ai/alanna-ai-vs-closesimple/)  
+29. CloseSimple  + SoftPro; Elevate Your Closing Experience, accessed November 20, 2025, [https://www.closesimple.com/resources/softpro-white-paper](https://www.closesimple.com/resources/softpro-white-paper)  
+30. CloseSimple  + ResWare; Elevate Your Closing Experience, accessed November 20, 2025, [https://www.closesimple.com/resources/resware-white-paper](https://www.closesimple.com/resources/resware-white-paper)  
+31. The Top 9 Digital Transformation Solutions for Credit Unions in 2026 | Proof, accessed November 20, 2025, [https://www.proof.com/blog/the-top-9-digital-transformation-solutions-for-credit-unions-in-2026](https://www.proof.com/blog/the-top-9-digital-transformation-solutions-for-credit-unions-in-2026)  
+32. Maximize Efficiency in Your Title Business with AI, accessed November 20, 2025, [https://www.skylinetitlesupport.com/blog/maximize-efficiency-in-your-title-business-with-ai](https://www.skylinetitlesupport.com/blog/maximize-efficiency-in-your-title-business-with-ai)
+
+# 15.
+## 15.1.
+`D𐊑⠿` ≔ ⠿~ (Заблуждения `ꆜ` относительно `P⁎`)
+
+## 15.2.
+`D𐊑ᵢ` : `D𐊑⠿`
+
+## 15.3.
+`Pⰳ(D𐊑ᵢ)` ≔
+```
+Правдоподобность `D𐊑ᵢ`.
+Правдоподобность заблуждения `D𐊑ᵢ` означает оценку того, насколько утверждение `D𐊑ᵢ` действительно является заблуждением `ꆜ`. 
+```
+
+# 16. Анализ `D𐊑⠿` (выполнен Gemini Deep Think)
+https://gemini.google.com/share/94bacc2fc0cf
+
+## 1. Идентификация потенциальных заблуждений `ꆜ` (`D𐊑⠿`)
+
+Анализ проекта `P⁎`, предложенного клиентом (`ꆜ`), направлен на создание локально устанавливаемого приложения (`T⁎`) для прямого извлечения данных из SQL-баз систем производства титулов (TPS) и их отправки в CRM TitleSphere. Цель — автоматизировать процесс, который сейчас выполняется через ручной экспорт CSV (`O.md`::`P†`).
+
+Исследование задачи в контексте онтологии `᛭O` и анализа рынка (`O.md`::§14) выявило, что видение проекта основано на нескольких критических предположениях, которые с высокой степенью вероятности являются заблуждениями (`D𐊑⠿`). Эти заблуждения касаются технической осуществимости, организационной приемлемости и сложности реализации предложенного решения.
+
+`D𐊑⠿` ≔ ⠿{`D𐊑₁`, `D𐊑₂`, `D𐊑₃`, `D𐊑₄`}
+
+### 1.1. `D𐊑₁`
+
+`D𐊑₁` ≔
+
+```
+Предположение об универсальной доступности прямого доступа к SQL-базам данных TPS.
+```
+
+### 1.2. `D𐊑₂`
+
+`D𐊑₂` ≔
+
+```
+Игнорирование организационных, регуляторных барьеров и политик безопасности (IT Friction).
+```
+
+### 1.3. `D𐊑₃`
+
+`D𐊑₃` ≔
+
+```
+Предположение о гомогенности технологического ландшафта TPS и универсальности предложенного решения.
+```
+
+### 1.4. `D𐊑₄`
+
+`D𐊑₄` ≔
+
+```
+Недооценка сложности извлечения данных (ETL) и стоимости поддержки прямой SQL-интеграции.
+```
+
+## 2. Анализ и оценка `D𐊑⠿`
+
+### 2.1. Анализ `D𐊑₁`: Универсальная доступность SQL
+
+Клиент предполагает, что установка приложения на "locally hosted server" позволит "regularly query the TPS system's SQL database" (`O.md`::§10).
+
+#### 2.1.1. Доводы за `Pⰳ(D𐊑₁)` (Это заблуждение)
+
+1.  **Распространенность Hosted-сред:** Значительная часть рынка использует Hosted-решения (например, SoftPro Hosted). Это не истинные облачные решения, а виртуализация десктопных приложений (RDP/Citrix) (`O.md`::§14.2.2).
+2.  **Политика "Black Box":** В Hosted-средах вендоры контролируют инфраструктуру и блокируют прямой доступ к SQL Server для обеспечения безопасности и стабильности мультиарендной среды (`O.md`::§14.3.1). Доступ к портам базы данных извне не предоставляется (`O.md`::§14.3.3).
+3.  **Архитектура N-Tier:** Даже при локальном (On-Premise) развертывании системы, такие как SoftPro Select, используют многоуровневую архитектуру. Доступ к базе данных осуществляется исключительно через сервер приложений, а не напрямую конечными пользователями или сторонними приложениями (`O.md`::§14.2.1).
+
+#### 2.1.2. Доводы против `Pⰳ(D𐊑₁)` (Это не заблуждение)
+
+1.  **Сегмент On-Premise:** Существуют истинные локальные инсталляции, где титульная компания полностью контролирует сервер и технически может предоставить доступ к SQL.
+2.  **Целевой фокус:** Возможно, `ꆜ` осознанно фокусируется только на сегменте On-Premise, считая его достаточным.
+
+#### 2.1.3. Вердикт
+
+Заблуждение заключается в генерализации подхода. Решение, основанное исключительно на прямом доступе к SQL, неприменимо к значительному и растущему сегменту Hosted-решений. Предложенное техническое решение (`T⁎`) не может служить универсальным интеграционным продуктом для всей клиентской базы.
+
+**`Pⰳ(D𐊑₁)` ≔ 85/100**
+
+-----
+
+### 2.2. Анализ `D𐊑₂`: Игнорирование барьеров безопасности и комплаенса
+
+Предположение, что титульные компании согласятся установить стороннее ПО и предоставить ему прямой доступ к своим производственным базам данных.
+
+#### 2.2.1. Доводы за `Pⰳ(D𐊑₂)`
+
+1.  **Регуляторная среда (NPI/GLBA):** Индустрия титульного страхования обрабатывает крайне чувствительные персональные и финансовые данные (Non-public Personal Information - NPI) и строго регулируется (например, законом Gramm-Leach-Bliley Act - GLBA).
+2.  **Отраслевые стандарты (ALTA Best Practices):** Стандарты ALTA требуют строгого контроля доступа к NPI, применения принципа наименьших привилегий (PoLP) и формализованного управления рисками поставщиков (Vendor Risk Management).
+3.  **Критические риски безопасности:** Прямой доступ к базе данных значительно увеличивает поверхность атаки (утечка учетных данных, SQL-инъекции) и позволяет обойти механизмы контроля и аудита, реализованные на уровне приложения TPS.
+4.  **Риски стабильности и производительности:** IT-отделы будут блокировать установку стороннего ПО на критически важные серверы из-за опасений, что прямые SQL-запросы могут вызвать замедление работы или сбои в производственной системе (`O.md`::§14.3.1).
+
+#### 2.2.2. Доводы против `Pⰳ(D𐊑₂)`
+
+1.  **Бизнес-мотивация:** Клиенты заинтересованы в автоматизации трудоемкого ручного процесса экспорта CSV (`O.md`::`P†`).
+2.  **Снижение рисков:** Доступ можно ограничить учетной записью только на чтение (Read-Only) или доступом к реплике базы данных.
+
+#### 2.2.3. Вердикт
+
+Это наиболее критическое заблуждение. В строго регулируемой финансовой индустрии организационные и безопасностные барьеры являются определяющими. Получение разрешения на установку такого агента будет чрезвычайно сложным. IT и комплаенс-отделы клиентов с высочайшей вероятностью заблокируют такую инициативу из-за неприемлемых рисков.
+
+**`Pⰳ(D𐊑₂)` ≔ 95/100**
+
+-----
+
+### 2.3. Анализ `D𐊑₃`: Гомогенность ландшафта и универсальность решения
+
+Клиент запрашивает "an application" для интеграции с "Title Production Systems (e.g. SoftPro, Resware)" (`O.md`::§2.3) путем запроса к "SQL database", подразумевая единый подход.
+
+#### 2.3.1. Доводы за `Pⰳ(D𐊑₃)`
+
+1.  **Фундаментальные различия архитектур:** SoftPro и Resware имеют принципиально разные технологические стеки. SoftPro базируется на .NET/MS SQL (`O.md`::§14.2.1). Resware использует устаревшую архитектуру интеграции на основе SOAP/XML и WCF (`O.md`::§14.4.1). Прямой доступ к SQL не является стандартным методом интеграции для Resware.
+2.  **Разнообразие моделей развертывания:** Разные модели хостинга (On-Premise vs. Hosted) требуют разных подходов к интеграции. Там, где SQL недоступен, могут потребоваться альтернативные методы, такие как RPA (Robotic Process Automation) (`O.md`::§14.7) или использование вендорских API.
+3.  **Стратегия "Walled Garden":** Вендоры продвигают собственные контролируемые интеграционные шлюзы (например, SoftPro 360) (`O.md`::§14.5.1), создавая фрагментированный ландшафт.
+
+#### 2.3.2. Доводы против `Pⰳ(D𐊑₃)`
+
+1.  **Модульная архитектура:** Под "an application" можно подразумевать модульную систему с различными адаптерами (SQL, API, RPA), хотя описание проекта фокусируется исключительно на SQL.
+
+#### 2.3.3. Вердикт
+
+Предложенный технический подход (запрос к SQL) не является универсальным. Он неприменим к Resware и облачным версиям SoftPro. Создание надежной интеграции потребует разработки отдельных коннекторов для каждого вендора и типа развертывания.
+
+**`Pⰳ(D𐊑₃)` ≔ 90/100**
+
+-----
+
+### 2.4. Анализ `D𐊑₄`: Недооценка сложности ETL и стоимости поддержки
+
+Клиент ожидает, что решение будет "seamless and automated", и подкрепляет это аргументом о малом объеме данных ("less than 10MB daily") (`O.md`::§2.3).
+
+#### 2.4.1. Доводы за `Pⰳ(D𐊑₄)`
+
+1.  **Высокая степень кастомизации:** Системы TPS характеризуются возможностью глубокой кастомизации (пользовательские поля, экраны, бизнес-правила). Это означает, что схема базы данных значительно отличается от инсталляции к инсталляции, делая невозможным создание универсального набора SQL-запросов.
+2.  **Сложность и отсутствие документации:** Схемы баз данных TPS сложны, проприетарны и не документированы для внешних пользователей. Это требует значительного реверс-инжиниринга.
+3.  **Хрупкость и стоимость поддержки (TCO):** Прямая интеграция с базой данных крайне чувствительна к изменениям схемы. Обновления TPS могут сломать интеграцию без предупреждения. Поддержка такой системы требует постоянной адаптации, что делает стоимость владения (TCO) высокой.
+4.  **Сложность не коррелирует с объемом:** В проектах ETL сложность определяется фазами извлечения (Extraction) и трансформации (Transformation), а не объемом загрузки (Load).
+
+#### 2.4.2. Доводы против `Pⰳ(D𐊑₄)`
+
+1.  **Стабильность ядра:** Основные транзакционные таблицы могут оставаться относительно стабильными.
+2.  **Опыт в индустрии:** TitleSphere обладает доменной экспертизой и понимает структуру данных.
+
+#### 2.4.3. Вердикт
+
+Клиент сильно недооценивает трудоемкость маппинга данных и стоимость долгосрочной поддержки. Эквивалентность малого объема данных и простоты задачи — это заблуждение. Возможность кастомизации и отсутствие контроля над схемой данных являются серьезными препятствиями для создания "бесшовного" продукта.
+
+**`Pⰳ(D𐊑₄)` ≔ 85/100**
+
+# 17. Анализ `D𐊑⠿` (выполнен Gemini Deep Research)
+https://gemini.google.com/share/b347cd65e073
+
+
+## **Введение: Эпистемологический разрыв в восприятии облачной архитектуры Legacy-систем**
+
+Современная индустрия титульного страхования (Title Insurance) находится в состоянии глубокого технологического дуализма. С одной стороны, мы наблюдаем стремительное развитие клиентских интерфейсов, CRM-систем и платформ взаимодействия с потребителем, примером чего является внедряемая клиентом ꆜ система Sphere (Sᨀ). С другой стороны, фундамент операционной деятельности — системы производства титула (Title Production Systems, TPS) — остается глубоко укорененным в архитектурных парадигмах конца XX века. В данном отчете мы проводим исчерпывающий анализ технической осуществимости проекта P⁎, инициированного клиентом ꆜ, который стремится преодолеть этот разрыв путем создания локального приложения-моста.
+
+Центральной проблемой исследования является валидация набора гипотез клиента (D𐊑⠿), касающихся возможности прямой интеграции локальной инфраструктуры с проприетарными облачными решениями SoftPro Hosted и Resware. Анализ базируется на онтологической модели ᛭O, описывающей профиль компании (10-99 сотрудников, штат Орегон), и детальном изучении технической документации вендоров. Мы классифицируем текущие представления клиента как системные заблуждения (D𐊑ᵢ), проистекающие из смешения понятий IaaS (Infrastructure as a Service) и SaaS (Software as a Service) в их специфической реализации «Lift and Shift», характерной для консервативных отраслевых вендоров.
+
+Целью данного документа является не просто опровержение гипотез клиента, но предоставление глубокого архитектурного обоснования невозможности реализации проекта в заявленном виде, а также выявление скрытых причинно-следственных связей между маркетинговым позиционированием «облачных» версий TPS и их реальными техническими ограничениями. Мы рассмотрим, как эволюция протоколов безопасности, модели мультиаренды (multi-tenancy) и коммерческие интересы вендоров формируют непреодолимый «стеклянный потолок» для независимых интеграторов.
+
+---
+
+## **1. Феноменология «Hosted» среды: Деконструкция заблуждения о локальном контроле (D𐊑₁)**
+
+### **1.1. Архитектурная дихотомия: Виртуализация против Облачных вычислений**
+
+Первым и, возможно, наиболее критическим заблуждением клиента (D𐊑₁) является убежденность в возможности инсталляции собственного исполняемого кода в среде, которую вендор маркирует как «Hosted». Клиент формулирует задачу как создание приложения, которое будет установлено «на локально размещенном сервере» для опроса облачной базы данных. Это утверждение вскрывает фундаментальное непонимание топологии развертывания SoftPro Select Hosted и Resware.
+
+Согласно техническим спецификациям SoftPro 1, решение Hosted представляет собой не предоставление виртуального сервера с правами администратора (как в AWS EC2 или Azure VM), а доставку приложения через терминальные сервисы (Citrix XenApp или Microsoft RDS). В этой модели клиент получает доступ исключительно к *видеопотоку* интерфейса приложения и вводу данных (клавиатура/мышь). Вычислительные мощности, файловая система (за исключением перенаправленных дисков) и реестр операционной системы остаются полностью скрытыми и недоступными для пользователя.
+
+#### **Таблица 1.1. Сравнительный анализ моделей доступа**
+
+| Характеристика | On-Premise (Локально) | IaaS (Собственное облако) | SoftPro Hosted / Resware Cloud (SaaS) |
+| :---- | :---- | :---- | :---- |
+| **Владение ОС** | Полное (Admin Rights) | Полное (Root/Admin) | Отсутствует (User context only) |
+| **Доступ к ФС** | Полный (C:, D:) | Полный | Ограниченный («песочница», перенаправление дисков) |
+| **Установка ПО** | Произвольная | Произвольная | Заблокирована политиками AppLocker |
+| **Сетевой стек** | Полный контроль | Полный контроль | Изолированный VLAN, доступ только к шлюзу |
+| **Доступ к SQL** | Прямой (TCP 1433/Named Pipes) | Прямой | **Заблокирован** (только через UI приложения) |
+
+Как видно из Таблицы 1.1, среда SoftPro Hosted является классическим примером «Walled Garden» (огороженного сада). Попытка клиента «установить приложение» на серверной стороне натолкнется на политики безопасности Group Policy Objects (GPO), которые блокируют запуск любых неподписанных вендором бинарных файлов.3 Более того, даже скриптовые языки, встроенные в саму систему (например, IronPython в SoftPro), работают в жестко ограниченном контексте («песочнице»), что подтверждается отчетами об ошибках типа «Infinite loop detected» при попытке выхода за пределы допустимых операций.5
+
+### **1.2. Проблема «Application Streaming» и иллюзия локальности**
+
+Клиент ꆜ отмечает, что текущие TPS-продукты «ощущаются как созданные в эпоху Windows 3.1». Это наблюдение технически обосновано. SoftPro Select — это «толстый клиент» (Smart Client) на базе.NET/WPF, который требует значительных ресурсов для отрисовки интерфейса.1 При переносе в облако (Hosted) вендор не переписывает приложение на веб-технологии, а использует виртуализацию.
+
+Это создает ситуацию, при которой приложение физически выполняется в дата-центре вендора, а пользователь видит его проекцию. Заблуждение клиента заключается в том, что он пытается взаимодействовать с этой проекцией программными методами, пригодными для локальной среды. Однако между «офисным сервером» клиента и «сервером приложений» вендора лежит публичный интернет с его латентностью и отсутствием прямой сетевой видимости. Установка приложения в офисе (в Портленде) не дает ему доступа к процессам, оперативной памяти или файловым дескрипторам сервера в дата-центре SoftPro. Это два разных, непересекающихся мира.
+
+Дополнительным фактором, усложняющим понимание, является использование технологий бесшовных окон (Seamless Windows), когда удаленное приложение выглядит как локальное окно на рабочем столе пользователя. Это визуальное удобство скрывает тот факт, что весь обмен данными происходит через проприетарный протокол (ICA/RDP), который инкапсулирует только графику и ввод, но не структурные данные базы данных.6
+
+---
+
+## **2. Непроницаемость уровня данных: Анализ блокировки прямого SQL-доступа (D𐊑₂, D𐊑₅)**
+
+### **2.1. Анатомия запрета на TCP порт 1433**
+
+Центральным элементом стратегии интеграции, предложенной клиентом, является «регулярный опрос SQL-базы данных» (regularly query the TPS system's SQL database). Анализ источников 3 позволяет с уверенностью 98/100 квалифицировать это как технически неосуществимое намерение в рамках стандартных контрактов Hosted.
+
+В архитектуре мультиарендности (Multi-tenancy), используемой SoftPro и Qualia (для Resware), на одном экземпляре SQL Server могут размещаться базы данных десятков или сотен различных клиентов. Для обеспечения безопасности и стабильности вендоры применяют политику полной изоляции уровня данных (Data Tier Isolation).
+
+1. **Сетевая изоляция:** Серверы баз данных размещаются в закрытых подсетях (backend subnets), не имеющих маршрутизируемых публичных IP-адресов. Доступ к ним разрешен исключительно с IP-адресов серверов приложений (Application Tier) внутри периметра дата-центра.11  
+2. **Блокировка портов:** Стандартный порт SQL Server (TCP 1433) закрыт на внешних фаерволах. Даже при использовании VPN (который обычно предоставляется только для доступа клиентов к RDP-шлюзу, а не к инфраструктуре), трафик к порту 1433 будет отброшен.6  
+3. **Отсутствие учетных записей:** Клиентам Hosted-версий не предоставляются учетные записи SQL Server Authentication (sa или db_owner). Вся работа с данными ведется через сервисный аккаунт, вшитый в приложение SoftPro Select Server, пароль от которого клиенту неизвестен.3
+
+### **2.2. Проблема «Шумного соседа» и стабильность сервиса**
+
+Почему вендоры так категоричны в этом вопросе? Ответ кроется в архитектуре производительности. SQL-запросы, генерируемые непроверенными сторонними приложениями (Ad-hoc queries), могут быть крайне неэффективными. Запрос вида SELECT * FROM Orders без ограничения выборки на базе данных с историей за 10 лет может привести к вычитыванию гигабайтов данных в память, вытеснению кэша (Buffer Pool thrashing) и блокировке таблиц (Table Locks).9
+
+В среде, где ресурсы процессора и дисковой подсистемы (IOPS) делятся между множеством клиентов, один такой запрос от клиента ꆜ может парализовать работу десятков других фирм. Источник 9 (Azure SQL Resource Limits) детально описывает механизмы троттлинга (искусственного замедления) при превышении лимитов DTU (Database Transaction Units), но даже они не гарантируют защиту от «плохих» запросов. Поэтому политика «No Direct SQL Access» является императивом выживания для SaaS-провайдера.
+
+### **2.3. Латентность протокола TDS и несостоятельность удаленного опроса**
+
+Даже если бы гипотетически порт 1433 был открыт, идея клиента опрашивать базу из офиса в Портленде через интернет обречена на провал из-за особенностей протокола TDS (Tabular Data Stream), используемого Microsoft SQL Server. TDS является «болтливым» (chatty) протоколом: выполнение одного логического запроса может требовать множества сетевых пакетов (round-trips) для согласования транзакции, передачи метаданных и курсоров.
+
+При работе в локальной сети (LAN) с задержкой <1 мс это незаметно. Однако при работе через WAN (интернет) с задержкой 50-100 мс производительность падает экспоненциально. Приложение клиента будет постоянно сталкиваться с таймаутами соединения (Connection Timeouts) и обрывами транзакций.10 Это делает невозможным построение надежной системы синхронизации данных («seamless and automated»), о которой мечтает ꆜ.
+
+---
+
+## **3. Мираж доступности API: Технический разбор интеграционных шлюзов (D𐊑₃)**
+
+### **3.1. SoftPro 360: Торговая площадка вместо Data Pipe**
+
+Осознав невозможность SQL-доступа, клиент рассчитывает на API («push that data... via our API»). Однако здесь кроется подмена понятий. SoftPro действительно имеет развитую интеграционную платформу **SoftPro 360** 6, но её архитектура фундаментально отличается от ожидаемого REST API для доступа к данным.
+
+SoftPro 360 спроектирован как **транзакционный шлюз** для заказа услуг у партнеров (Order Placement). Он идеально подходит для сценария: «Отправить запрос на страхование → Получить PDF с полисом». Он **не предназначен** для сценария: «Выгрузить все изменения по всем заказам за последние 10 минут» (Data Replication/Sync).
+
+* **Бизнес-модель:** Интеграция через SoftPro 360 требует вступления в партнерскую программу SoftPro, прохождения сертификации и, зачастую, оплаты комиссионных за транзакции (Revenue Share).14 Это путь для вендоров ПО (как Sphere), но он чрезмерно сложен и дорог для разовой интеграции одного клиента.  
+* **Технические ограничения:** API SoftPro 360 оперирует высокоуровневыми бизнес-объектами в специфическом XML-формате. Он не дает доступа к низкоуровневым полям базы данных, которые могут быть критичны для аналитики. Более того, документация по этому API закрыта и предоставляется только партнерам под NDA.14
+
+### **3.2. Resware: Наследие SOAP и XML-инжиниринг**
+
+Ситуация с Resware еще более драматична. Будучи системой, разработанной в эпоху доминирования SOA (Service Oriented Architecture), Resware полагается на тяжеловесные протоколы SOAP и сложнейшие схемы XML.15
+
+Интеграция с Resware не работает по принципу «Plug and Play». Она требует:
+
+1. **Ручной настройки маппинга:** Необходимо конфигурировать «ResWare-to-ResWare Partner Mappings», сопоставляя каждое поле вручную.13  
+2. **Статические IP:** Для настройки фаерволов Resware часто требует указания статических IP-адресов, с которых будут приходить запросы, что усложняет использование динамических облачных функций (AWS Lambda и т.п.).16  
+3. **Компетенции:** Работа с WCF (Windows Communication Foundation) и отладка SOAP-конвертов требует специфических знаний, которые редко встречаются у современных веб-разработчиков, привыкших к JSON/REST.
+
+Кроме того, после приобретения Resware компанией Qualia наблюдается стратегический сдвиг. Qualia активно продвигает свою платформу Core и, судя по судебным искам и рыночным сигналам 17, не заинтересована в облегчении жизни пользователям legacy-продукта Resware, искусственно ограничивая развитие его API.
+
+---
+
+## **4. Фактор объема данных: Ложная корреляция размера и сложности (D𐊑₄)**
+
+### **4.1. Бинарность систем безопасности**
+
+Клиент аргументирует простоту задачи малым объемом данных: *"It's a very small amount of data - probably less than 10MB daily"*. Это классическая когнитивная ошибка нетехнических специалистов, пытающихся экстраполировать физические аналогии (меньше груз — легче перенести) на цифровую безопасность.
+
+В корпоративных системах защиты периметра (Firewalls, IDS/IPS) правило доступа является бинарным: порт либо открыт, либо закрыт. Авторизация либо пройдена, либо нет. Сложность настройки защищенного VPN-туннеля или конфигурации OAuth2 аутентификации абсолютно идентична для передачи 1 килобайта и 1 терабайта данных.
+
+Для администраторов SoftPro Hosted открытие доступа для «маленького» потока данных несет те же риски компрометации системы, что и для большого. Взломанное соединение, через которое передается 10 МБ, может быть использовано для атаки на всю инфраструктуру (Lateral Movement). Поэтому аргумент «малого объема» не является валидным рычагом для переговоров с вендором об ослаблении политик безопасности.3
+
+### **4.2. Семантическая сложность данных**
+
+Несмотря на малый физический объем (10 МБ), семантическая плотность данных в TPS чрезвычайно высока. Данные в SQL-базе SoftPro сильно нормализованы. Один «Заказ» (Order) может быть размазан по 50-ти таблицам (Parties, Properties, Policies, Endorsements, Tasks, Notes, Documents и т.д.).
+
+Чтобы получить осмысленную структуру для импорта в CRM Sphere, клиенту недостаточно просто «скачать данные». Ему придется реконструировать бизнес-логику связей (JOINs) на своей стороне. Без доступа к схеме БД (Data Dictionary), которая является интеллектуальной собственностью вендора, эта задача превращается в реверс-инжиниринг методом «черного ящика». Риск ошибок интерпретации данных здесь критически высок, что ставит под угрозу целостность данных в целевой системе CRM.19
+
+---
+
+## **5. Автоматизация в условиях отсутствия прав: Тупик планировщика**
+
+### **5.1. Проблема MFA и отсутствия «Headless» режима**
+
+Требование клиента о том, чтобы процесс был «бесшовным и автоматизированным» (seamless and automated), наталкивается на современные требования безопасности, в частности Multi-Factor Authentication (MFA).
+
+SoftPro Hosted и Resware все чаще требуют MFA для входа пользователей (через Okta, Azure AD).20 Это означает, что для инициации сессии требуется интерактивное участие человека (ввод кода из SMS или приложения). Сервисные учетные записи, которые могли бы работать без MFA (headless accounts), в Hosted-среде для клиентов обычно не предоставляются.
+
+Это делает невозможным создание простого скрипта, который бы «логинился и скачивал данные» по расписанию ночью. Любая попытка автоматического входа будет остановлена запросом второго фактора, что разрушает идею полной автоматизации.
+
+### **5.2. Роботизация (RPA) как вынужденный компромисс**
+
+Единственным технически возможным вектором реализации требований клиента в текущих условиях является использование технологий RPA (Robotic Process Automation), таких как UiPath или Microsoft Power Automate Desktop.
+
+В этом сценарии робот запускается в пользовательской сессии, имитирует ввод логина/пароля (или использует сохраненную сессию), открывает интерфейс SoftPro, переходит в раздел отчетов, генерирует отчет в формате CSV/XML и сохраняет его на перенаправленный диск.
+
+**Преимущества RPA:**
+
+* Работает через UI, не требуя доступа к SQL или API.  
+* Не требует разрешений от вендора (для системы это выглядит как работа человека).
+
+**Недостатки RPA:**
+
+* **Хрупкость:** Любое изменение интерфейса, всплывающее окно с новостью или задержка отрисовки Citrix приведет к падению робота.21  
+* **Стоимость:** Лицензии RPA и поддержка скриптов требуют постоянных расходов.  
+* **Скорость:** Это медленный процесс, работающий со скоростью интерфейса, а не базы данных.
+
+Однако, учитывая ограничения D𐊑₁-D𐊑₅, RPA остается единственным «лазом» в стене.
+
+---
+
+## **6. Синтез решений и стратегический вердикт**
+
+### **6.1. Оценка правдоподобности заблуждений**
+
+| ID | Формулировка заблуждения | Оценка Pⰳ | Обоснование вердикта |
+| :---- | :---- | :---- | :---- |
+| D𐊑₁ | Возможность установки серверного ПО в Hosted-среде | **95/100** | Архитектура Citrix/RDS и политики AppLocker делают это физически невозможным для пользователя. |
+| D𐊑₂ | Доступность прямого SQL-опроса | **98/100** | Сетевая изоляция, закрытые порты 1433, отсутствие публичных IP и учетных записей SQL. |
+| D𐊑₃ | Легкость API-интеграции | **85/100** | API закрыты партнерскими программами (SoftPro 360) или технологически устарели (Resware XML/SOAP). |
+| D𐊑₄ | Малый объем данных упрощает доступ | **70/100** | Сложность преодоления периметра безопасности не зависит от объема передаваемых данных. |
+| D𐊑₅ | Локальный сервер может видеть облачную БД | **90/100** | Отсутствие Site-to-Site VPN для данных и проблемы латентности протокола TDS через WAN. |
+
+### **6.2. Итоговое заключение и рекомендации**
+
+Проведенный анализ показывает, что проект P⁎ в его текущей постановке — **«локальное приложение, опрашивающее SQL облачной TPS»** — является технической утопией. Клиент ꆜ пытается наложить ментальную модель управления локальными серверами (On-Premise) на жестко регламентированную среду SaaS/Hosted.
+
+Реализация проекта «в лоб» невозможна. Любые попытки пробить защиту (VPN, SQL-проброс) потребуют кооперации со стороны вендоров (SoftPro/Qualia), в которой они, как показывает практика, отказывают клиентам такого масштаба (10-99 сотрудников).
+
+**Рекомендуемая стратегия трансформации (The Pivot):**
+
+Вместо попыток «забрать» данные (Pull) путем взлома защиты, клиенту следует переориентироваться на штатные механизмы «выталкивания» данных (Push):
+
+1. **Автоматизация отчетов (Scheduled Reports):** Использовать встроенные планировщики SoftPro/Resware для генерации регулярных отчетов (XML/CSV) и их отправки на FTP/SFTP сервер, контролируемый клиентом. Локальное приложение в офисе будет забирать эти файлы, парсить их и отправлять в Sphere API. Это самый надежный и легальный путь.6  
+2. **Использование готовых интеграторов:** Вместо написания своего ПО, рассмотреть использование существующих решений (например, Alanna.ai или CloseSimple), которые уже прошли «круги ада» интеграции с SoftPro и могут иметь необходимые коннекторы.10  
+3. **Миграция:** Если потребность в данных критична, рассмотреть миграцию с Hosted-версии обратно на On-Premise (где SQL доступен) или переход на Cloud-Native платформу (Qualia Core), имеющую современный GraphQL API.18
+
+Таким образом, задача T⁎ выполнена: заблуждения клиента деконструированы, технические барьеры доказаны, а альтернативные (реалистичные) пути интеграции предложены.
+
+### **Таблицы интеграционных возможностей (Приложение к разделу 3)**
+
+#### **Таблица 3.1. Матрица доступных методов интеграции для SoftPro Hosted**
+
+| Метод | Доступность | Сложность | Примечание |
+| :---- | :---- | :---- | :---- |
+| **Direct SQL** | ⛔ Нет | N/A | Блокируется на уровне сети и аутентификации.3 |
+| **SoftPro 360 API** | ⚠️ Ограничено | Высокая | Требует статуса партнера, ориентировано на заказ услуг.14 |
+| **Automated Reports** | ✅ Да | Средняя | Экспорт в CSV/XML по расписанию. Лучший вариант для ꆜ.6 |
+| **RPA (UI Automation)** | ✅ Да | Высокая | Хрупкость скриптов, зависимость от интерфейса Citrix.21 |
+| **SoftPro Sync** | ⚠️ Ограничено | Высокая | Только для обмена между инстансами SoftPro, закрытый протокол.23 |
+
+#### **Таблица 3.2. Специфика интеграции с Resware (Qualia)**
+
+| Характеристика | Описание и Ограничения |
+| :---- | :---- |
+| **Протокол** | SOAP (Simple Object Access Protocol) + XML.24 |
+| **Транспорт** | HTTP/HTTPS, часто требует WCF-биндингов и белых списков IP. |
+| **Модель данных** | Сложная вложенность XML. Требует ручного маппинга полей в админке Resware («Partner Mappings»).15 |
+| **Аутентификация** | Basic Auth или сертификаты. Часто привязана к конкретному пользователю. |
+| **Статус поддержки** | Legacy. Qualia приоритизирует собственную платформу Core, поддержка новых функций в Resware API ограничена.17 |
+
+---
+
+Данный отчет подтверждает, что успешная реализация интеграции требует отказа от концепции «прямого доступа» в пользу асинхронного обмена данными через отчеты или использования специализированных middleware-решений. Технологический суверенитет клиента в Hosted-среде является иллюзорным, и признание этого факта — первый шаг к построению работающей архитектуры.
+
+#### **Works cited**
+
+1. SoftPro Select System Requirements, accessed November 22, 2025, [https://www.softprocorp.com/softpro-system-requirements-select/](https://www.softprocorp.com/softpro-system-requirements-select/)  
+2. SoftPro Hosted is Your Perfect Solution, accessed November 22, 2025, [https://info.softprocorp.com/softpro-hosted](https://info.softprocorp.com/softpro-hosted)  
+3. SYSPRO OData, accessed November 22, 2025, [https://help.syspro.com/syspro-8-2022/topics/insights-and-reporting/syspro-odata/syspro-odata.htm](https://help.syspro.com/syspro-8-2022/topics/insights-and-reporting/syspro-odata/syspro-odata.htm)  
+4. Application client goes into Suspended Status in Task manager. - Microsoft Q&A, accessed November 22, 2025, [https://learn.microsoft.com/en-us/answers/questions/2189995/application-client-goes-into-suspended-status-in-t](https://learn.microsoft.com/en-us/answers/questions/2189995/application-client-goes-into-suspended-status-in-t)  
+5. Error | Home on the web ~ Dan Van Fleet, accessed November 22, 2025, [http://danvanfleet.com/index.php/tag/error/](http://danvanfleet.com/index.php/tag/error/)  
+6. Real Estate Hosted Software Data - SoftPro, accessed November 22, 2025, [https://www.softprocorp.com/real-estate-software-solutions/softpro-hosted-software/](https://www.softprocorp.com/real-estate-software-solutions/softpro-hosted-software/)  
+7. For Customers - SoftPro, accessed November 22, 2025, [https://www.softprocorp.com/resources/for-customers/](https://www.softprocorp.com/resources/for-customers/)  
+8. Overview of Azure SQL Managed Instance resource limits - Microsoft Learn, accessed November 22, 2025, [https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql](https://learn.microsoft.com/en-us/azure/azure-sql/managed-instance/resource-limits?view=azuresql)  
+9. Resource Management - Azure SQL Database, accessed November 22, 2025, [https://docs.azure.cn/en-us/azure-sql/database/resource-limits-logical-server](https://docs.azure.cn/en-us/azure-sql/database/resource-limits-logical-server)  
+10. ProForm Classic Client install Database Error | Home on the web - Dan Van Fleet, accessed November 22, 2025, [http://danvanfleet.com/index.php/proform-classic-client-install-database-error/](http://danvanfleet.com/index.php/proform-classic-client-install-database-error/)  
+11. SYSPRO OData Service, accessed November 22, 2025, [https://help.syspro.com/syspro-8-2021-r2/topics/architecture/syspro-services/syspro-odata-service/syspro-odata-service.htm?Highlight=odata](https://help.syspro.com/syspro-8-2021-r2/topics/architecture/syspro-services/syspro-odata-service/syspro-odata-service.htm?Highlight=odata)  
+12. Possible to connect hosted web application to local database? - Stack Overflow, accessed November 22, 2025, [https://stackoverflow.com/questions/3892858/possible-to-connect-hosted-web-application-to-local-database](https://stackoverflow.com/questions/3892858/possible-to-connect-hosted-web-application-to-local-database)  
+13. SQL Server requirements - AVEVA™ Documentation, accessed November 22, 2025, [https://docs.aveva.com/bundle/sp-install/page/266951.html](https://docs.aveva.com/bundle/sp-install/page/266951.html)  
+14. SoftPro 360 Integrations, accessed November 22, 2025, [https://www.softprocorp.com/real-estate-software-solutions/softpro-360-data-integration/](https://www.softprocorp.com/real-estate-software-solutions/softpro-360-data-integration/)  
+15. ResWare/A.S.K. Search Integration User Guide - Stewart Title, accessed November 22, 2025, [https://www.stewart.com/content/dam/stewart/education-and-training/PDFs/resware-a.s.k-search-integration-user-guide.pdf](https://www.stewart.com/content/dam/stewart/education-and-training/PDFs/resware-a.s.k-search-integration-user-guide.pdf)  
+16. Kofax SignDoc Standard Installation Guide - Product Documentation, accessed November 22, 2025, [https://docshield.tungstenautomation.com/SD/en_US/3.3.1-a492webtr2/print/KofaxSignDocStandardInstallationGuide_EN.pdf](https://docshield.tungstenautomation.com/SD/en_US/3.3.1-a492webtr2/print/KofaxSignDocStandardInstallationGuide_EN.pdf)  
+17. Resware Comparison - Qualia, accessed November 22, 2025, [https://www.qualia.com/resware-comparison/](https://www.qualia.com/resware-comparison/)  
+18. Qualia API, accessed November 22, 2025, [https://www.qualia.com/qualia-api/](https://www.qualia.com/qualia-api/)  
+19. SQL | Home on the web - Dan Van Fleet, accessed November 22, 2025, [http://danvanfleet.com/index.php/tag/sql/](http://danvanfleet.com/index.php/tag/sql/)  
+20. SoftPro - SoftPro System Requirements – Hosted | SoftPro, accessed November 22, 2025, [https://www.softprocorp.com/softpro-system-requirements-hosted/](https://www.softprocorp.com/softpro-system-requirements-hosted/)  
+21. Rezervology, LLC | Data Migration, accessed November 22, 2025, [https://www.rezervology.com/](https://www.rezervology.com/)  
+22. Resware Integrations | Qualia, accessed November 22, 2025, [https://www.qualia.com/resware-integrations/](https://www.qualia.com/resware-integrations/)  
+23. Kofax SignDoc Standard - Installation Guide - Version: 3.0.0 - Product Documentation, accessed November 22, 2025, [https://docshield.tungstenautomation.com/SD/en_US/3.0.0-7s9x4v5c5f/print/KofaxSignDocStandardInstallationGuide_EN.pdf](https://docshield.tungstenautomation.com/SD/en_US/3.0.0-7s9x4v5c5f/print/KofaxSignDocStandardInstallationGuide_EN.pdf)  
+24. Top BusinessWare Alternatives in 2025 - Slashdot, accessed November 22, 2025, [https://slashdot.org/software/p/BusinessWare/alternatives](https://slashdot.org/software/p/BusinessWare/alternatives)

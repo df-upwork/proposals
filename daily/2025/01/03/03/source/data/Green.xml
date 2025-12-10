@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Green>
+	<Field>
+		<Name>Tracking Number</Name>
+		<Samples>
+			<Sample>283573236567</Sample>
+			<Sample>1ZHF69090337292411</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Cost</Name>
+		<Samples>
+			<Sample>18.78</Sample>
+			<Sample>46.24</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Zone</Name>
+	</Field>
+	<Field>
+		<Name>Order Number</Name>
+		<Samples>
+			<Sample>order 1</Sample>
+			<Sample>order 2</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Fulfillment Order Id</Name>
+		<Samples>
+			<Sample>1535401</Sample>
+			<Sample>1542120</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Ship from warehouse</Name>
+		<Samples>
+			<Sample>warehouse</Sample>
+			<Sample>warehouse</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Channel</Name>
+		<Samples>
+			<Sample>channel 1</Sample>
+			<Sample>channel 2</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Estimated Delivery Date</Name>
+		<Samples>
+			<Sample>2024-12-23</Sample>
+			<Sample>2024-12-30</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Shipping Date</Name>
+		<Samples>
+			<Sample>Exit Scan</Sample>
+			<Sample>Exit Scan</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Fulfillment Order Status</Name>
+		<Samples>
+			<Sample>Delivered</Sample>
+			<Sample>Delivered</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Carrier Delivery Status</Name>
+		<Samples>
+			<Sample>Delivered</Sample>
+			<Sample>Delivered</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Delivery Status</Name>
+		<Samples>
+			<Sample>FedEx</Sample>
+			<Sample>UPS Ground</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Deliver By Date</Name>
+		<Samples>
+			<Sample>2024-12-22</Sample>
+			<Sample>2024-12-30</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Carrier Service</Name>
+		<Samples>
+			<Sample>Hon</Sample>
+			<Sample>2024-12-23</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Actual Delivery Date</Name>
+		<Samples>
+			<Sample>2024-12-21</Sample>
+			<Sample>16</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Carrier Pickup Date</Name>
+		<Samples>
+			<Sample>2024-12-20</Sample>
+			<Sample>Seller 2</Sample>
+		</Samples>
+	</Field>
+	<Field>
+		<Name>Seller</Name>
+		<Samples>
+			<Sample>Seller 1</Sample>
+		</Samples>
+	</Field>
+</Green>

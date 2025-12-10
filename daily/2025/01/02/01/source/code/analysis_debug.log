@@ -1,0 +1,87 @@
+2025-01-02 10:52:34,081 - DEBUG - Starting analysis for domain: Organization
+2025-01-02 10:52:34,081 - DEBUG - Processing domain: Organization
+2025-01-02 10:52:34,083 - DEBUG - Split document into 1 chunks for Organization
+2025-01-02 10:52:34,083 - DEBUG - Processing chunk 1/1 for Organization
+2025-01-02 10:53:07,099 - DEBUG - Saved metamodel to output\victoria_police_metamodel.json
+2025-01-02 10:53:07,102 - DEBUG - Completed analysis for domain: Organization
+2025-01-02 10:53:07,103 - DEBUG - Starting analysis for domain: Organization Units
+2025-01-02 10:53:07,103 - DEBUG - Processing domain: Organization Units
+2025-01-02 10:53:07,112 - DEBUG - Split document into 1 chunks for Organization Units
+2025-01-02 10:53:07,113 - DEBUG - Processing chunk 1/1 for Organization Units
+2025-01-02 10:53:36,268 - ERROR - JSON parsing error: Extra data: line 41 column 1 (char 1712)
+2025-01-02 10:53:36,270 - ERROR - Problematic response text: {
+    "Title": "Victoria Police",
+    "Description": "Victoria Police is the primary law enforcement agency of Victoria, Australia that provides policing services to the community. It was formed in 1853 and operates under the Victoria Police Act 2013.",
+    "Purpose": "Our mission is to keep everyone safe.",
+    "Owner": "The Chief Commissioner of Police",
+    "Parent Unit": "",
+    "Child Units": [
+      "Crime Command",
+      "Counter Terrorism Command",
+      "Family Violence Command",
+      "Forensic Services Department",
+      "Intelligence and Covert Support Command",
+      "Legal Services Department",
+      "Media, Communications and Engagement Department",
+      "People Development Command",
+      "Professional Standards Command",
+      "Road Policing Command",
+      "Service Delivery Transformation Command",
+      "Transit and Public Safety Command"
+    ],
+    "Roles": [
+      "police officers",
+      "protective services officers",
+      "police custody officers",
+      "Victorian Public Service employees"
+    ],
+    "Processes": [
+      "preserving the peace",
+      "protecting life and property",
+      "preventing the commission of offences",
+      "detecting and apprehending offenders",
+      "helping those in need of assistance"
+    ],
+    "Performance Indicators": [],
+    "Dependencies": [],
+    "Related Units": [],
+    "Risks": [],
+    "Improvement Opportunities": [],
+    "Strategic Alignment": "Our vision is for a community in which: everyone is safe and feels safe, those affected by crime feel supported, those who break the law are held to account, police work with the community and our partners to prevent crime, reduce harm and build a better, safer Victoria."
+  }
+]
+
+There were no other distinct instances of organizational units found in this document section.
+2025-01-02 10:53:36,278 - DEBUG - Saved metamodel to output\victoria_police_metamodel.json
+2025-01-02 10:53:36,279 - DEBUG - Completed analysis for domain: Organization Units
+2025-01-02 10:53:36,279 - DEBUG - Starting analysis for domain: Stakeholders
+2025-01-02 10:53:36,279 - DEBUG - Processing domain: Stakeholders
+2025-01-02 10:53:36,281 - DEBUG - Split document into 1 chunks for Stakeholders
+2025-01-02 10:53:36,281 - DEBUG - Processing chunk 1/1 for Stakeholders
+2025-01-02 10:53:39,451 - DEBUG - Rate limit hit, waiting 2 seconds...
+2025-01-02 10:53:44,284 - DEBUG - Rate limit hit, waiting 4 seconds...
+2025-01-02 10:53:51,607 - ERROR - Error processing chunk 1 for Stakeholders: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+2025-01-02 10:53:51,619 - DEBUG - Saved metamodel to output\victoria_police_metamodel.json
+2025-01-02 10:53:51,623 - DEBUG - Completed analysis for domain: Stakeholders
+2025-01-02 10:53:51,624 - DEBUG - Starting analysis for domain: Strategy
+2025-01-02 10:53:51,624 - DEBUG - Processing domain: Strategy
+2025-01-02 10:53:51,627 - DEBUG - Split document into 1 chunks for Strategy
+2025-01-02 10:53:51,627 - DEBUG - Processing chunk 1/1 for Strategy
+2025-01-02 10:53:55,302 - DEBUG - Rate limit hit, waiting 2 seconds...
+2025-01-02 10:54:01,169 - DEBUG - Rate limit hit, waiting 4 seconds...
+2025-01-02 10:54:08,265 - ERROR - Error processing chunk 1 for Strategy: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+2025-01-02 10:54:08,285 - DEBUG - Saved metamodel to output\victoria_police_metamodel.json
+2025-01-02 10:54:08,290 - DEBUG - Completed analysis for domain: Strategy
+2025-01-02 10:54:08,290 - DEBUG - Starting analysis for domain: Capabilities
+2025-01-02 10:54:08,290 - DEBUG - Processing domain: Capabilities
+2025-01-02 10:54:08,292 - DEBUG - Split document into 1 chunks for Capabilities
+2025-01-02 10:54:08,292 - DEBUG - Processing chunk 1/1 for Capabilities
+2025-01-02 10:54:11,289 - DEBUG - Rate limit hit, waiting 2 seconds...
+2025-01-02 10:54:16,282 - DEBUG - Rate limit hit, waiting 4 seconds...
+2025-01-02 10:54:23,133 - ERROR - Error processing chunk 1 for Capabilities: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+2025-01-02 10:54:23,140 - DEBUG - Saved metamodel to output\victoria_police_metamodel.json
+2025-01-02 10:54:23,143 - DEBUG - Completed analysis for domain: Capabilities
+2025-01-02 10:54:23,144 - DEBUG - Starting analysis for domain: Value Streams
+2025-01-02 10:54:23,144 - DEBUG - Processing domain: Value Streams
+2025-01-02 10:54:23,145 - DEBUG - Split document into 1 chunks for Value Streams
+2025-01-02 10:54:23,145 - DEBUG - Processing chunk 1/1 for Value Streams

@@ -1,0 +1,575 @@
+## 1. `Def`
+### 1.1.
+```
+Def(A, B)
+```
+будет обозначать, что для понятия `B` я использую обозначение `A`.
+
+### 1.2.
+~~~
+Def(A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def(A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+## 2. `Def_P`
+### 2.1.
+```
+Def_P(A)
+```
+будет обозначать, что `A` является для меня проблемой.
+
+### 2.2.
+```
+Def_P(A, B)
+```
+будет обозначать, что `B` является для меня проблемой, и для этой проблемы я использую обозначение `A`.
+
+### 2.3.
+~~~
+Def_P(A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_P(A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+## 3. `Def_C`
+### 3.1.
+```
+Def_C(P, A, B)
+```
+будет обозначать `Def(A, B)` в контексте пункта `P`.
+Вне пункта `P` это правило не применяется.
+Если до пункта `P` обозначение `A` имело другой смысл, то после пункта `P` обозначение `A` снова будет иметь этот смысл.
+По сути, `Def_C` объявляет локальную переменную `A` с областью действия `P`.
+В отличие от него, `Def` объявляет глобальную переменную `A` (значение которой действует для всех пунктов, кроме `P`).
+
+### 3.2.
+~~~
+Def_C(P, A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_C(P, A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+### 3.3.
+```
+Def_C([P1, P2, …, Pn], A, B)
+```
+имеет значение, аналогичное `Def_C(P, A, B)`, только в этом случае обозначение `A` имеет значение `B` в контексте не одного пункта `P`, а всех пунктов [`P1`, `P2`, …, `Pn`], перечисленных в квадратных скобках.
+
+### 3.4.
+```
+Def_C([P1-Pn], A, B)
+```
+имеет значение, аналогичное `Def_C([P1, P2, …, Pn], A, B)`: в этом случае обозначение `A` имеет значение `B` в контексте множества всех пунктов между `P1` и `Pn`, включая сами эти пункты.
+
+### 3.5.
+~~~
+Def_C([P1, P2, …, Pn], A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_C([P1, P2, …, Pn], A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+### 3.6.
+~~~
+Def_C([P1-Pn], A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_C([P1-Pn], A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+## 4. `Def_F`
+### 4.1.
+Def_C(4-5, `F`):
+```
+Факт: некое событие, которое случилось в описываем мной случае.
+```
+
+### 4.2.
+```
+Def_F(B)
+```
+будет обозначать, что `B` — это `F`.
+
+### 4.3.
+~~~
+Def_F:
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_F(B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+### 4.4.
+```
+Def_F(A, B)
+```
+будет обозначать, что `B` — это `F`, и для него я использую обозначение `A`.
+
+### 4.5.
+~~~
+Def_F(A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_F(A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+## 5. `Def_Ph`
+### 5.1.
+Def_C(5, `Ph`):
+```
+Феномен: `F`, который вызывает у меня удивление.
+```
+
+### 5.2.
+```
+Def_Ph(B)
+```
+будет обозначать, что `B` — это `Ph`.
+
+### 5.3.
+~~~
+Def_Ph:
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_Ph(B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+### 5.4.
+```
+Def_Ph(A, B)
+```
+будет обозначать, что `B` — это `Ph`, и для него я использую обозначение `A`.
+
+### 5.5.
+~~~
+Def_Ph(A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_Ph(A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+## 6. `Def_H`
+### 6.1.
+Def_C(6, `H`):
+```
+Гипотеза: некое предположение, требующее проверки.
+```
+
+### 6.2.
+```
+Def_H(B)
+```
+будет обозначать, что `B` — это `H`.
+
+### 6.3.
+~~~
+Def_H:
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_H(B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+### 6.4.
+```
+Def_H(A, B)
+```
+будет обозначать, что `B` — это `H`, и для него я использую обозначение `A`.
+
+### 6.5.
+~~~
+Def_H(A):
+```
+B
+```
+~~~
+имеет то же значение, что и `Def_H(A, B)`.
+Такой синтаксис я буду использовать, когда для записи `B` мне нужно несколько строк текста.
+
+## 7. `Def_Set`
+```
+Def_Set(S, I)
+```
+будет обозначать, что `S` — множество всех возможных `I`.
+
+## 8. `Def_I`
+### 8.1.
+```
+Def_I(I, S)
+```
+будет обозначать, что `I` ∈ `S` (`I` — элемент множества `S`).
+
+### 8.2.
+~~~
+Def_I(I, S):
+```
+B
+```
+~~~
+будет обозначать, что `I` ∈ `S` и `B` — определение `I`.
+
+## 9. `Use`
+```
+Use(A)
+```
+будет обозначать, что в описываемой мной ситуации я использую `A`.
+
+## 10.
+Потенциальный клиент опубликовал на Upwork следующий проект:
+### 10.1. Title
+Tax residency analysis
+
+### 10.2. Description
+```text
+I am based in UK but have ownership and involvement in several Singapore based companies. 
+Need to understand the tax residency classification of those companies.
+```
+
+### 10.3. Tags
+Indirect Tax
+Tax Law
+
+## 11. Информация о клиенте
+### 11.1. Местоположение
+Singapore
+
+## 11.2. Характеристики компании
+### 11.2.1. Сектор экономики
+неизвестно
+### 11.2.2. Количество сотрудников
+100-1,000 people
+
+## 11.3. Характеристики учётной записи на Upwork
+### 11.3.1. Member since
+Sep 25, 2018
+#### 11.3.2. Hire rate (%)
+100
+#### 11.3.3. Количество опубликованных проектов (jobs posted)
+11
+#### 11.3.4. Total spent (USD)
+$4.5K
+#### 11.3.5. Количество оплаченных часов в почасовых проектах
+23
+
+## 12.
+Def(`C`):
+```
+клиент пункта 10
+```
+
+## 13.
+Def(`P`):
+```
+проект пункта 10
+```
+
+## 14.
+Def(`Ps`):
+```
+множество подобных `P` проектов 
+```
+
+## 15.
+Def(`D`):
+```
+Описание `P` (пункт 10.2 выше)
+```
+
+## 16.
+Def(`T`):
+```
+Задача, о которой `C` пишет в `D`:
+~~~
+understand the tax residency classification of those companies
+~~~
+```
+## 17.
+Def(`Cs`):
+```
+«several Singapore based companies», о которых говорит `C` в `D`.
+```
+
+## 18.
+Def_F:
+```
+`Cs` состоит из ровно 5 компаний
+```
+
+## 19.
+Def_I(`C0`, `Cs`):
+```
+«SUK Limited»
+```
+
+## 20.
+Def_I(`CA`, `Cs`):
+```
+«SSG A Pte Ltd»
+```
+
+## 21.
+Def_I(`CB`, `Cs`):
+```
+«SSG B Pte Ltd»
+```
+
+## 22.
+Def_I(`CC`, `Cs`):
+```
+«SSG C Pte Ltd»
+```
+
+## 23.
+Def_I(`CD`, `Cs`):
+```
+«SSG D Pte Ltd»
+```
+
+## 24.
+Def_F:
+```
+`C` называет себя «Saroj»
+```
+
+## 25. `C1`
+### 25.1.
+Def_F:
+```
+`C` is a «Sole director» of `C0`
+```
+
+### 25.2.
+Def_F:
+```
+`C0` is an UK incorporated wholly-owned subsidiary of `CA`
+```
+
+### 25.3.
+Def_F:
+```
+`C0` does not have employees
+```
+
+### 25.4.
+Def_F:
+```
+Деятельность `C0`: 
+~~~
+Passive entity. 
+Does some in house research into energy transition topics.
+~~~
+```
+
+### 25.5.
+Def_F:
+```
+`C0` does not have any business income
+```
+
+### 25.6.
+Def_F:
+```
+Вознаграждение `C` в `C0`: 
+~~~
+`C` does not receive any salary or director fee atm. 
+`C` intends to start paying himself a director fee from Q3.
+~~~
+```
+
+## 26. `CA`
+### 26.1.
+Def_F:
+```
+`C` is a 100% owner & sole director of `CA`
+```
+
+### 26.2.
+Def_F:
+```
+`CA` is a «SG incorporated»
+```
+
+### 26.3.
+Def_F:
+```
+`CA` does not have employees
+```
+
+### 26.4.
+Def_F:
+```
+Деятельность `CA`: 
+~~~
+Holding vehicle for angel investments (monority < 10% ownership) in private companies in SG, India, Brazil. 
+Includes a minority stake in `CC`.
+~~~
+```
+
+### 26.5.
+Def_F:
+```
+Доход `CA`:
+~~~
+`CA` does not have any business income
+Only capital gains from sale of stake time to time (only once in last 5 years). 
+Some part of the proceeds is paid to `C` as dividend.
+~~~
+```
+
+### 26.6.
+Def_F:
+```
+Вознаграждение `C` в `CA`: 
+~~~
+`C` does not receive any salary or director fee atm. 
+`C` intends to start paying himself a director fee from Q3 and dividends from any sale of holdings.
+~~~
+```
+
+## 27. `CB`
+### 27.1.
+Def_F:
+```
+`C` is a 100% owner & director of `CB`
+2nd director is in Philippines and is the CEO (he manages business day to day).
+```
+
+### 27.2.
+Def_F:
+```
+`CB` is a «SG incorporated»
+```
+
+### 27.3.
+Def_F:
+```
+`CB` does not have employees
+```
+
+### 27.4.
+Def_F:
+```
+Деятельность `CB`: 
+~~~
+Debt advisory to middle market companies in the Philippines through 10+ Philippines based independent contractors.
+~~~
+```
+
+### 27.5.
+Def_F:
+```
+Доход `CB`:
+~~~
+ `CB` generates fee income from Philippine clients
+ Fee is used to cover the cost of the Philippine contractors. 
+Residual is paid to `C` and CEO as director fee, and sometimes as dividend.
+~~~
+```
+
+## 28. `CC`
+### 28.1.
+Def_F:
+```
+`C` has < 10% ownership in `CC`. 
+`C` is not a Director of `CC`.
+```
+
+### 28.2.
+Def_F:
+```
+`CC` is a «SG incorporated»
+```
+
+### 28.3.
+Def_F:
+```
+`CC` has 200+ employees in SG and overseas
+```
+
+### 28.4.
+Def_F:
+```
+Деятельность `CC`: 
+~~~
+Ongoing business in payments industry
+~~~
+```
+
+### 28.5.
+Def_F:
+```
+`C` does not receive any salary or director fee. 
+`CC` does not pay any dividend.
+```
+
+
+## 29. `CD`
+### 29.1.
+Def_F:
+```
+`C` is a 50% owner & Director `CD`. 
+2nd director of `CD` is Singapore based and 50% owner.
+The Singapore based director is CEO.
+```
+
+### 29.2.
+Def_F:
+```
+`CD` is a «SG incorporated»
+```
+
+### 29.3.
+Def_F:
+```
+`CD` does not have employees
+```
+
+### 29.4.
+Def_F:
+```
+Деятельность `CD`: 
+~~~
+No ongoing business (besides general marketing and business development).
+Awaiting VC fund manager license from MAS.
+~~~
+```
+
+### 29.5.
+Def_F:
+```
+`C` does not receive any salary or director fee atm. 
+`C` intends to take a full time employment in `CD` and start receiving monthly salary and director fee once licensed.
+```
+
+## 30. Твоя задача.
+1) Твоя задача — `T`.
+2) На остальные вопросы не отвечай.
+3) Уже известную мне информацию не пересказывай.
+4) Обязательно используй свой режим «Deep Research».
+Твой ответ без режима «Deep Research» — гарантированно неверный.
+5) В своём анализе используй авторитетные источники информации на английском языке.
+Свой ответ дай на русском языке. 
+6) В своём ответе сошлись на конкретные пункты конкретных нормативных актов, с конкретными цитатами из них.
+Цитаты давай как в оригинальном варианте (как они записаны в нормативном акте, на английском), так и в своём переводе.

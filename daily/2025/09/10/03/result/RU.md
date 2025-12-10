@@ -1,0 +1,3 @@
+1) Как я вижу по приложенными вами изображениям, то, что вы называете «photoshop actions» — это скорее всего функция «Generative Match» Adobe Firefly: https://www.adobe.com/products/firefly/features/generative-match.html
+У Adobe Firefly есть API: https://developer.adobe.com/firefly-services/docs/firefly-api
+В том числе через API доступна и функция «Generative Match»: https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-image-reference

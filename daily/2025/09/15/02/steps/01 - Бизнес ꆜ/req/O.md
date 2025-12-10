@@ -1,0 +1,281 @@
+# 0.
+Сегодня 2025-09-15.
+
+# 1.
+## 1.1.
+`UW` ≔ (Upwork: https://en.wikipedia.org/wiki/Upwork)
+
+## 1.2.
+`ꆜ` ≔ (Некий конкретный потенциальный клиент на `UW`)
+
+## 1.3.
+`P⁎` ≔ (Некий конкретный потенциальный проект, опубликованный `ꆜ` на `UW`)
+
+# 2. Информация о `P⁎`
+## 2.1. URL
+https://www.upwork.com/jobs/~021967009698906765518
+
+## 2.2. Title
+EXPERT: Stripe Token Migration, Subscription Recreation & Kajabi Integration
+
+## 2.3. Description
+`PD` ≔ 
+```text
+We need a SUPERSTAR to migrate and consolidate two Stripe accounts (one US and one international) into a new US Stripe, recreate all active subscriptions using migrated payment tokens, provision free accounts in Kajabi for these customers, and build a Kajabi cancel-to-Stripe webhook flow. Samcart is legacy only and will not be used going forward.
+
+SCOPE
+
+Plan the migration: old US Stripe will be be able to be moved to new US Stripe. Old international Stripe will have the date copied to new US Stripe. Define migration/PAN copy steps into the target US Stripe, map products, prices, taxes, trials, and metadata, outline risks, verification, and rollback.
+
+Execute migration: coordinate token move or copy, recreate or map products and prices, programmatically rebuild subscriptions preserving billing cycles, trials, coupons, and next invoice dates, set old-to-new ID mappings, update webhooks and secrets in the new Stripe.
+
+Kajabi: provision free accounts for all migrated subscribers, implement a secure webhook so cancel in Kajabi cancels the Stripe subscription, add logging, alerts, and idempotency, document a manual cancellation fallback.
+
+DELIVERABLES
+
+- Migration plan and product-price-tax mappings
+- Scripts or documented steps to recreate subscriptions using migrated tokens
+- Working Kajabi provisioning for free accounts
+- Webhook-driven cancellation from Kajabi to Stripe with secure middleware and observability
+- Updated webhooks, keys, and endpoints
+- Test results, cutover checklist, rollback plan, and an operations runbook
+
+SUCCESS CRITERIA
+
+- 100 percent of active paying subscribers recreated without unintended cancellations or double charges
+- All migrated users have correct Kajabi access
+- Kajabi cancel reliably cancels the matching Stripe subscription within seconds
+- Clear documentation for ongoing operations
+
+REQUIREMENTS
+
+- Multiple Stripe-to-Stripe migrations using PAN copy or token moves
+- Deep Stripe subscription expertise across products, prices, payment methods, mandates, trials, coupons, taxes, and webhooks
+- Kajabi user management and webhook automation experience, including secure middleware, signature verification, and idempotent design
+- Strong secrets management and PCI scope minimization
+- Excellent documentation and communication
+
+NICE TO HAVE
+
+- Multi-currency consolidation experience
+- Observability, retry strategies, DLQs, and reconciliation jobs
+
+HOW TO APPLY
+
+- Confirm that you have done successfully: token migration, subscription recreation, webhook implementation
+- Confirm that NDA is ok for you
+- Provide references or Upwork links to similar projects
+- Confirm that you're available in the next few weeks
+- Start your cover letter with: I have migrated Stripe accounts and rebuilt subscriptions before
+```
+
+## 2.4. Tags
+Full-Stack Development
+Stripe
+stripe migration
+
+# 5. Информация о `ꆜ`
+## 5.1. Местоположение
+United States
+Sheridan
+
+## 5.2. Характеристики компании
+### 5.2.1. Сектор экономики
+Education
+
+### 5.2.2. Количество сотрудников
+Mid-sized company (10-99 people)
+
+## 5.3. Характеристики учётной записи на `UW`
+### 5.3.1. Member since
+Apr 19, 2025
+### 5.3.2. Hire rate (%)
+34
+### 5.3.3. Количество опубликованных проектов (jobs posted)
+12
+### 5.3.4. Total spent (USD)
+$7.7K
+### 5.3.5. Количество оплаченных часов в почасовых проектах
+53
+### 5.3.6. Средняя почасовая ставка (USD)
+$137.98
+
+# 6. Другие проекты `ꆜ` на `UW`
+## 6.1. `P1⁎`
+
+## 6.1.1. URL
+https://www.upwork.com/jobs/~021937271108059320536
+
+## 6.1.2. Title
+Kajabi Expert for Advanced Funnels, Complex Automations & Full Setu
+
+## 6.1.3. Description
+`P1D` ≔ 
+```text
+We’re looking for a Kajabi superstar to help us build out and optimize a powerful, advanced setup for our existing digital product business.
+
+This is not your basic Kajabi install - we need someone who really knows the platform inside and out.
+
+You’ll be setting up complex pipelines, cohort-based launches, conditional upsells and downsells, automations, tags, and the full backend logic that makes everything run like a well-oiled machine. You’ll also help us configure Kajabi Email properly and streamline user journeys from start to finish.
+
+You’ll be responsible for direct implementation of these systems in Kajabi, as well as advising on best practices and showing our team how to manage it going forward.
+
+What you’ll be doing:
+
+- Setting up advanced Kajabi pipelines for cohort-based launches and evergreen upsells
+- Implementing conditional logic, automation flows, and tagging systems across products and emails
+- Creating behavior-based triggers and segmentations to personalize the user journey
+- Configuring and optimizing Kajabi Email with advanced flows and sequences
+- Building systems for user segmentation, onboarding, and upsell/downgrade logic
+- Helping us test, troubleshoot, and improve the setup
+- Training our team and providing clear documentation or walkthroughs
+- Advising on how to improve and scale the setup over time
+
+What we’re looking for:
+
+- Deep Kajabi experience - especially with complex funnel logic, launches, and automations
+- A sharp eye for system design, user experience, and workflow efficiency
+- Someone who’s comfortable both executing and collaborating - you can own tasks but also jump on a call and walk the team through things
+- Bonus if you’ve worked with info products, course creators, or coaching programs
+
+If you’re the kind of person who gets excited about building smooth, scalable systems - and you know Kajabi like the back of your hand - this is for you.
+
+1.) Especially initially, there might be quite a lot of work that needs to be done quickly. Please confirm your availability for the next 2-3 weeks.
+
+2.) What's the most complex setup on Kajabi you've created?
+
+3.) What's the most similar project you've worked on, and which challenges did you have to overcome?
+
+IMPORTANT: Start your application with "Kajabi Superstar". Applications without this in the first line will be ignored.
+```
+
+## 6.1.4. Publication Date
+3 months ago
+
+## 6.1.5. Payment Terms (USD) 
+### 6.1.5.1. Expected by `ꆜ`  
+20-65 (Hourly)
+### 6.1.5.2. Actual
+2 hrs @ $20.00/hr
+Billed: $64.24
+
+## 6.1.6. Contractor Level (expected by `ꆜ`)
+More than 30 hrs/week
+
+## 6.1.7. Duration (expected by `ꆜ`)
+6+ months
+
+## 6.1.8. Contractor Location (expected by `ꆜ`)
+Not specified
+
+## 6.2. `P2⁎`
+
+## 6.2.1. URL
+https://www.upwork.com/jobs/~021932400703103097781
+
+## 6.2.3. Title
+Skincare Formulation Chemist *Superstars Only*
+
+## 6.2.3. Description
+`P2D` ≔ 
+```text
+We’re looking for an experienced cosmetic formulation chemist with a strong background in the skincare industry to review our existing formulas and provide expert insights into their effectiveness, safety, and potential improvements.
+
+You need to be:
+
+- Experienced with natural, clean beauty formulations
+- Up to date on the latest skincare ingredients and trends
+- Skilled at understanding how adjusting ingredient percentages affects formula performance, texture, and stability
+- Ideally familiar with Korean skincare formulations
+
+Bonus if you’ve worked with known skincare brands - please share which ones in your application.
+Which similar projects have you worked on? We’d love to hear about your relevant experience.
+
+Please begin your application with the phrase: "Formulation Superstar". Applications without this phrase will not be considered.
+```
+
+## 6.2.4. Publication Date
+last quarter
+
+## 6.2.5. Payment Terms  (USD) 
+### 6.2.5.1. Expected by `ꆜ`
+40-85 (Hourly)
+### 6.2.5.2. Actual
+####  
+3 hrs @ $85.00/hr
+Billed: $277.74
+####  
+4 hrs @ $75.00/hr
+Billed: $324.99
+####  
+16 hrs @ $50.00/hr
+Billed: $832.49
+
+## 6.2.6. Contractor Level (expected by `ꆜ`)
+Expert
+
+## 6.2.7. Duration (expected by `ꆜ`)
+Less than 30 hrs/week
+6+ months
+
+## 6.2.8. Contractor Location (expected by `ꆜ`)
+United States
+
+# 7.
+## 7.1.
+`POs` ≔⠿ {`P1⁎`, `P2⁎`}
+
+## 7.2.
+`Ps` ≔ (⠿{`P⁎`} ⋃ `POs`)
+
+## 7.3.
+`Pi` : `Ps`
+
+# 8.
+## 8.1.
+`С⁎` ≔ (Компания `ꆜ`)
+
+## 8.2.
+⊤ (Все `Pi` касаются `С⁎`)
+
+# 9.
+`T⁎` ≔
+```
+Задача, о которой `ꆜ` пишет в `PD`:
+~~~
+migrate and consolidate two Stripe accounts (one US and one international) into a new US Stripe, recreate all active subscriptions using migrated payment tokens, provision free accounts in Kajabi for these customers, and build a Kajabi cancel-to-Stripe webhook flow
+~~~
+```
+
+# 10.
+## 10.1.
+`T1⁎` ≔
+```
+Подзадача `T⁎`, о которой `ꆜ` пишет в `PD`:
+~~~
+Plan the migration: old US Stripe will be be able to be moved to new US Stripe. 
+Old international Stripe will have the date copied to new US Stripe.
+Define migration/PAN copy steps into the target US Stripe, map products, prices, taxes, trials, and metadata, outline risks, verification, and rollback.
+~~~
+```
+
+## 10.2.
+`T2⁎` ≔
+```
+Подзадача `T⁎`, о которой `ꆜ` пишет в `PD`:
+~~~
+Execute migration: coordinate token move or copy, recreate or map products and prices, programmatically rebuild subscriptions preserving billing cycles, trials, coupons, and next invoice dates, set old-to-new ID mappings, update webhooks and secrets in the new Stripe.
+~~~
+```
+
+## 10.3.
+`T3⁎` ≔
+```
+Подзадача `T⁎`, о которой `ꆜ` пишет в `PD`:
+~~~
+Kajabi: provision free accounts for all migrated subscribers, implement a secure webhook so cancel in Kajabi cancels the Stripe subscription, add logging, alerts, and idempotency, document a manual cancellation fallback.
+~~~
+```
+
+
+ 

@@ -1,0 +1,1 @@
+gswin64c -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=3 -dLastPage=3 -sOutputFile=3.pdf source.pdf

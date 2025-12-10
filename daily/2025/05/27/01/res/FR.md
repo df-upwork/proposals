@@ -1,0 +1,5 @@
+Je ne travaille pas pour $30-$50 de l'heure.
+De plus, je vois que pour le contrat actuel vous avez un taux horaire vraiment risible: $22.51/hr.
+Lorsque vous serez prêt à payer mon travail conformément au taux horaire indiqué dans mon profil — alors je vous conseillerai en détail sur l'applicabilité de dense vectors, HNSW, hybrid retrieval, Weaviate/Qdrant, etc. dans votre projet.
+Une analyse de qualité nécessite des heures de mon travail.
+Auparavant, j’effectuais ce type d’analyse directement dans mes propositions et rédigeais des propositions détaillées de 10,000–20,000 caractères, en consacrant 2-3 heures de mon temps de travail à chaque proposition, mais les clients avec un taux horaire de $20-$30-$50 ne l’apprécient pas particulièrement : ils ne peuvent tout simplement pas se permettre mes services.

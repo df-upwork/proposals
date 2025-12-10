@@ -1,0 +1,580 @@
+# 0.
+Сегодня 2025-12-06.
+
+# 1.
+## 1.1.
+`UW` ≔ (Upwork: https://en.wikipedia.org/wiki/Upwork)
+
+## 1.2.
+`ꆜ` ≔ (Некий конкретный потенциальный клиент на `UW`)
+
+## 1.3.
+`P⁎` ≔ (Некий конкретный потенциальный проект, опубликованный `ꆜ` на `UW`)
+
+# 2. Информация о `P⁎`
+## 2.1. URL
+https://www.upwork.com/jobs/~021997365344665705873
+
+## 2.2. Title
+CBSA Anti-Dumping Reassessment Review & Import Compliance
+
+## 2.3. Description
+`PD` ≔ 
+```text
+I had a recent import of sofa beds from China into Canada that was reassessed by CBSA on Oct 15th that charged significant anti-dumping duties. 
+I need an experienced Canadian customs/trade consultant to review the reassessment and determine if there is a realistic way to dispute or appeal it.
+
+I also plan to import regular sofas and other furniture in the future and want guidance to ensure these products won’t fall under anti-dumping rules.
+```
+
+# 5. Информация о `ꆜ`
+## 5.1. Местоположение
+Canada
+Montreal
+
+## 5.2. Характеристики компании
+### 5.2.1. Сектор экономики
+неизвестно
+
+### 5.2.2. Количество сотрудников
+неизвестно
+
+## 5.3. Характеристики учётной записи на `UW`
+### 5.3.1. Member since
+Mar 5, 2016
+### 5.3.2. Hire rate (%)
+100
+### 5.3.3. Количество опубликованных проектов (jobs posted)
+81
+### 5.3.4. Total spent (USD)
+81K
+### 5.3.5. Количество оплаченных часов в почасовых проектах
+2111
+### 5.3.6. Средняя почасовая ставка (USD)
+18.15
+
+# 6. Другие проекты `ꆜ` на `UW`
+## 6.1. `P1⁎`
+
+### 6.1.1. URL
+https://www.upwork.com/jobs/~016bd16601fcef1a28
+
+### 6.1.2. Title
+Seeking US customs broker for consulting
+
+### 6.1.3. Description
+`P1D` ≔ 
+```text
+I am Canadian e-commerce business. I want to ship my China made goods from my Canadian warehouse to Amazon FBA in USA. 
+I want to consult with an experienced US customs broker to find the best solution for exporting my goods from Canada to Amazon FBA in USA.
+
+My goods are watch bands. Some are made from leather, some nylon/synthetic materials and some from stainless steel.
+
+A couple of my main questions are:
+
+Would both the sender and receiver be my company?
+Would the value that I declare for the merchandise be my cost price, or the price that I sell the items for on Amazon.com, or something else? (I am hoping to find a compliant solution where I would not be declaring value at the eventual price that my items would sell for at retail on amazon.com as the duties would likely be too expensive to make this a viable situation).
+
+I want to research and discuss potential options to come up with the best sollution for my situation.
+```
+
+### 6.1.4. Publication Date
+last year
+
+## 6.2. `P2⁎`
+
+### 6.2.1. URL
+https://www.upwork.com/jobs/~021986477433316750072
+
+### 6.2.3. Title
+Social Media Video Editor for StrapsCo
+
+### 6.2.3. Description
+`P2D` ≔ 
+```text
+StrapsCo is a leading online retailer of watch straps and accessories. We’re looking for a skilled short-form video editor to edit both paid ads and organic videos to match our brand’s clean, modern style.
+
+Responsibilities:
+•	Edit short-form videos from raw footage for use on social and ad platforms
+•	Add captions, text overlays, transitions, and music where appropriate
+•	Repurpose existing long-form or product content into short clips
+•	Collaborate with our marketing team for feedback and direction
+
+Requirements:
+•	Proven experience editing short-form content (please include examples)
+•	Strong sense of storytelling and attention to visual detail
+•	Familiarity with trends on TikTok, Instagram, and YouTube Shorts
+•	Fast turnaround and good communication
+
+Bonus: Experience with e-commerce or lifestyle brands.
+
+Please include your portfolio or sample edits when applying.
+
+Deliverables
+Edit short-form videos from raw footage for use on social and ad platforms
+Add captions, text overlays, transitions, and music where appropriate
+Repurpose existing long-form or product content into short clips
+Collaborate with our marketing team for feedback and direction
+```
+
+### 6.2.4. Publication Date
+4 weeks ago
+
+## 6.3. `P3⁎`
+
+### 6.3.1. URL
+https://www.upwork.com/jobs/~021931371781253637319
+
+### 6.3.2. Title
+Help Setting up Small Business Health Insurance in New York State
+
+### 6.3.3. Description
+`P3D` ≔ 
+```text
+I'm a small business owner with a newly opened warehouse in New York State and a team of 6 employees. I'm looking for an experienced consultant or broker who can help me navigate affordable health insurance options available through the NY State of Health Small Business Marketplace, as well as any other relevant state or federal programs.
+
+Objectives:
+
+Explain options and recommend the best health insurance plans for my small business (including Healthy NY or other subsidized options)
+
+Explain eligibility requirements, tax credit opportunities, and enrollment timelines
+
+Guide me through setting up coverage via the NY State of Health Marketplace or through an HRA/QSEHRA if more appropriate
+
+Ensure compliance with state and federal requirements
+
+Please include a brief description of similar work you’ve done for small businesses and your availability over the next two weeks. This may lead to future consulting as our team grows.
+```
+
+### 6.3.4. Publication Date
+2 quarters ago
+
+## 6.4. `P4⁎`
+
+### 6.4.1. URL
+https://www.upwork.com/jobs/~021884061671012815407
+
+### 6.4.2. Title
+HTS Classification
+
+### 6.4.3. Description
+`P4D` ≔ 
+```text
+I need to identify the HTS codes for the items below to import my products to the USA:
+
+Watch buckle made from stainless steel
+Spring bars – this is a watch part made from stainless steel
+Watch band removal tool – made from plastic and metal
+Plastic poly bags used for watch strap packaging
+Paper cards for advertising
+
+Please see attached pictures for more details.
+```
+
+### 6.4.4. Publication Date
+3 quarters ago
+
+## 6.5. `P5⁎`
+
+### 6.5.1. URL
+https://www.upwork.com/jobs/~021846866033663280782
+
+### 6.5.2. Title
+Trademark Clearance Search and USPTO Application
+
+### 6.5.3. Description
+`P5D` ≔ 
+```text
+ have 3 potential names that I am considering for my new watch brand.
+
+I am seeking an experienced trademark attorney to perform a Trademark Clearance Search on all 3 potential names and provide their opinion on the results. Then I want to file a Trademark Application with USPTO for the one name that I decide to pursue.
+```
+
+### 6.5.4. Publication Date
+last year
+
+## 6.6. `P6⁎`
+
+### 6.6.1. URL
+https://www.upwork.com/jobs/~021845950479663498368
+
+### 6.6.2. Title
+HTS Classification and Related Questions
+
+### 6.6.3. Description
+`P6D` ≔ 
+```text
+I am considering moving my warehouse and shipping operations from Canada to the USA and I have related questions to help my decision. 
+
+My main products are watch bands. I want to determine the specific HTS codes for my watch bands and the applicable tax and duty rates to import them into the USA.
+
+Leather watch bands - Made in China
+Leather watch bands - Made in Spain
+Leather watch bands - Made in Italy
+Silicone watch bands - Made in China
+Nylon watch bands - Made in China
+Stainless steel watch bands - Made in China
+
+What are the specific HTS codes and applicable taxes/duties for the above products to import them from China to USA?
+
+Are all watch bands that are made in China part of section 301? Are there some that are not section 301?
+
+Would assembling the buckle of the watch band and packaging the product in Canada effect the HTS code and tax/duty rate?
+
+Would manufacturing the buckle of the watch band in Canada, assembling it to the watch band and packaging it all in Canada effect the HTS code and tax/duty rate?
+
+I also have some questions about importing the inventory that I currently have in Canada to the USA.
+```
+
+### 6.6.4. Publication Date
+last year
+
+## 6.7. `P7⁎`
+
+### 6.7.1. URL
+https://www.upwork.com/jobs/~021960855502266581811
+
+### 6.7.2. Title
+ITIN for Canadian
+
+### 6.7.3. Description
+`P7D` ≔ 
+```text
+I am a Canadian citizen and the owner of a US corporation. I am registering for tax accounts in several US states, and some require me as a foreign owner to have an Individual Taxpayer Identification Number (ITIN).
+
+I am seeking a professional who can provide a turnkey solution to obtain my ITIN from the IRS. I want the process handled from start to finish, with minimal involvement on my part beyond providing the required documents.
+```
+
+### 6.7.4. Publication Date
+last quarter
+
+# 7.
+## 7.1.
+`POs` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`}
+
+## 7.2.
+`Ps` ≔ (⠿{`P⁎`} ⋃ `POs`)
+
+## 7.3.
+`Pi` : `Ps`
+
+# 8.
+## 8.1.
+`С⁎` ≔ 
+```
+Компания `ꆜ`:
+```
+
+## 8.2.
+⊤ (Все `Pi` касаются `С⁎`)
+
+# 9.
+`P†` ≔†
+```
+Проблема, о которой `ꆜ` пишет в `PD`:
+~~~
+I had a recent import of sofa beds from China into Canada that was reassessed by CBSA on Oct 15th that charged significant anti-dumping duties
+~~~
+```
+
+# 10.
+`T⁎` ≔
+```
+Задача, о которой `ꆜ` пишет в `PD`:
+~~~
+a realistic way to dispute or appeal it
+~~~
+```
+
+# 11. Что беспокоит `ꆜ` (анализ выполнен Gemini Deep Think)
+https://gemini.google.com/share/cf35a424b313
+
+## 1. Выявление проблем `ꆜ` в рамках `P⁎`
+
+Исходя из текста описания проекта `P⁎`, я выделил три ключевые проблемы, которые беспокоят клиента `ꆜ`:
+
+1.  **Финансовый ущерб от ретроактивного начисления пошлин (Reassessment).** Клиент столкнулся с неожиданным решением CBSA (Агентство пограничных служб Канады) от 15 октября 2025 года о пересмотре классификации/стоимости ранее ввезенной партии диванов-кроватей (sofa beds) и доначислении «значительных» антидемпинговых пошлин.
+2.  **Потребность в правовой защите (Dispute/Appeal).** Клиент ищет способ оспорить это решение, но не уверен в наличии юридических оснований для апелляции.
+3.  **Риски для бизнес-модели (Future Compliance).** Клиент планирует продолжать импорт мебели (упоминаются «regular sofas» и «other furniture»), но опасается, что новые поставки также станут экономически нецелесообразными из-за пошлин.
+
+## 2. Анализ обоснованности выявленных проблем
+
+Ниже приведен анализ каждой проблемы с точки зрения канадского законодательства (SIMA — *Special Import Measures Act*).
+
+### 2.1. Обоснованность начисления пошлин на диваны-кровати
+Действия CBSA являются **юридически обоснованными**.
+
+*   **Правовое основание:** В отношении мягкой мебели, произведенной в Китае и Вьетнаме, действует постановление Канадского внешнеторгового трибунала (**CITT**) **NQ-2021-002** (*Certain Upholstered Domestic Seating*). Это постановление вступило в силу 2 сентября 2021 года и действует 5 лет (до 2 сентября 2026 года).
+*   **Классификация товара:** Диваны-кровати (**sofa beds**) прямо включены в определение подпадающих товаров (*Subject Goods*) в рамках этого дела. Тот факт, что мебель имеет спальное место, не освобождает её от пошлин.
+*   **Размер пошлины:** Поскольку поставщик клиента, вероятно, не проходил расследование CBSA и не имеет индивидуальной ставки (*Specific Normal Value*), к товару применяется «Министерская спецификация» (Ministerial Specification). Для Китая ставка антидемпинговой пошлины составляет **188%**, плюс дополнительная компенсационная пошлина. Это объясняет, почему начисления оказались «значительными» (часто превышают 200-300% от стоимости товара).
+
+### 2.2. Анализ возможности обжалования (Appeal)
+Шансы на успешное оспаривание решения по существу («пошлина слишком высокая») **крайне низки**, но процедурная возможность существует.
+
+*   **Сроки:** Согласно **Section 60** закона *Customs Act*, у клиента есть строго **90 дней** с даты уведомления (Detailed Adjustment Statement) для подачи формы B2 (*Request for Re-determination*).
+    *   Дата решения: 15 октября 2025 г.
+    *   Крайний срок подачи: **13 января 2026 г.** (ориентировочно). Время еще есть.
+*   **Основания для успеха:** Апелляция может быть выиграна только в узких случаях:
+    1.  **Ошибка происхождения:** Доказательство того, что товар произведен *не* в Китае или Вьетнаме.
+    2.  **Техническая ошибка:** Если фабрика *имеет* индивидуальную низкую ставку, но брокер использовал общий код.
+    3.  **Исключение товара:** Если доказать, что товар не является «Upholstered Domestic Seating» (для sofa bed это практически невозможно).
+
+### 2.3. Решение для будущих поставок («Regular Sofas»)
+Опасения клиента насчет будущих поставок обоснованы, так как «обычные диваны» тоже подпадают под пошлину 188%. Однако существует **критически важное исключение**, которое может спасти бизнес клиента.
+
+*   **Исключение (The "Stationary Fabric" Exclusion):**
+    В постановлении NQ-2021-002 указано, что антидемпинговые пошлины **НЕ применяются** к товарам, соответствующим следующим критериям:
+    > **Stationary seating upholstered only with fabric** (Стационарная мебель для сидения, обитая *только* тканью).
+*   **Стратегия:** Клиент может безопасно импортировать из Китая «обычные диваны» при условии, что они:
+    1.  **Стационарные** (не имеют механизмов, не раскладываются, не реклайнеры).
+    2.  Обиты **текстилем** (не кожа, не кожзам/PU/PVC).
+
+Если же клиент ввезет кожаный диван или диван с механизмом, он снова получит штраф в 188%.
+
+# 12. Что беспокоит `ꆜ` (анализ выполнен Gemini Deep Research)
+https://gemini.google.com/share/c3822d91f8ab
+
+## **Введение: Анатомия кризиса соблюдения требований при импорте в Канаду**
+
+В современном ландшафте международной торговли, характеризующемся усилением протекционистских мер и цифровизацией таможенного администрирования, канадские импортеры сталкиваются с беспрецедентными вызовами. Рассматриваемая ситуация, в которой оказался субъект внешнеэкономической деятельности (далее — Импортер ꆜ), представляет собой хрестоматийный пример столкновения модели электронной коммерции с жесткой реальностью Закона о специальных мерах по импорту (Special Import Measures Act — SIMA).
+
+Инцидент, связанный с переоценкой (reassessment) партии диванов-кроватей (sofa beds), ввезенных из Китая, и последующим начислением запретительных антидемпинговых и компенсационных пошлин, выходит далеко за рамки частного фискального спора. Он вскрывает системные риски для малого и среднего бизнеса, диверсифицирующего товарную матрицу без глубокого предварительного комплаенс-анализа. Дата вынесения решения — 15 октября — добавляет критический слой сложности, так как совпадает с периодом фундаментальной трансформации таможенной системы Канады и внедрением Release 3 системы CBSA Assessment and Revenue Management (CARM).
+
+Настоящий отчет призван предоставить исчерпывающий анализ правовых, процедурных и экономических аспектов дела. Целью исследования является не только выявление проблемных точек текущего инцидента, но и разработка стратегической дорожной карты для минимизации ущерба и обеспечения будущей операционной устойчивости импортера. Анализ базируется на нормативных актах Агентства пограничных служб Канады (CBSA), прецедентных решениях Канадского внешнеторгового трибунала (CITT) и детальном изучении специфики дела NQ-2021-002, регулирующего импорт мягкой мебели для жилых помещений (Upholstered Domestic Seating — UDS).
+
+## ---
+
+**Раздел 1. Правовая архитектура защиты внутреннего рынка Канады и механизм SIMA**
+
+Для понимания глубины проблемы, с которой столкнулся Импортер ꆜ, необходимо деконструировать юридический механизм, лежащий в основе начисления пошлин. Это не обычные таможенные тарифы, регулируемые Таможенным тарифом (Customs Tariff), а инструменты торговой защиты, регулируемые отдельным законодательством — SIMA.
+
+### **1.1. Двухуровневая система расследования и правоприменения**
+
+Канадская система торговой защиты уникальна своим бифуркационным характером, разделяющим полномочия между двумя ключевыми органами: CBSA и CITT. Понимание этого разделения критически важно для построения стратегии защиты, так как аргументы, эффективные в одном органе, могут быть юридически ничтожны в другом.
+
+Агентство пограничных служб Канады (CBSA) выполняет следственную и административную функции. В рамках дела UDS (Upholstered Domestic Seating) роль CBSA заключалась в установлении факта демпинга (продажи товара в Канаду по цене ниже, чем на внутреннем рынке страны-экспортера) и субсидирования (получения экспортерами финансовой помощи от правительства иностранного государства). Именно CBSA рассчитывает маржу демпинга и определяет конкретные ставки пошлин для отдельных экспортеров.1
+
+Канадский внешнеторговый трибунал (CITT), являясь квазисудебным органом, определяет наличие ущерба (injury) или угрозы ущерба для национальной промышленности. В деле UDS Трибунал установил, что демпинговый и субсидируемый импорт из Китая и Вьетнама наносит существенный ущерб таким канадским производителям, как Palliser Furniture Ltd..1
+
+**Критический инсайт для Импортера:** На этапе, когда Импортер ꆜ получил уведомление о переоценке (reassessment) от 15 октября, вопрос о наличии ущерба уже решен окончательно и обжалованию не подлежит. Юридическое поле битвы сузилось до вопросов классификации конкретного товара и правильности применения ставок, определенных CBSA. Аргументы типа «мой импорт слишком мал, чтобы навредить экономике Канады» (de minimis defense) на данном этапе юридически несостоятельны, так как решение Трибунала имеет общее действие (erga omnes) для всех товаров данного класса.
+
+### **1.2. Концепция ретроспективной ответственности и «Нормальной стоимости»**
+
+В отличие от США, где действует система ретроспективной оценки (retrospective assessment), Канада использует проспективную систему «нормальных стоимостей» (Normal Values). Это означает, что для каждого конкретного экспортера, сотрудничавшего со следствием, CBSA рассчитывает минимальную цену, по которой товар может быть продан в Канаду без уплаты антидемпинговой пошлины.
+
+Проблема Импортера ꆜ заключается в том, что его поставщик, по всей видимости, не имеет индивидуально рассчитанной нормальной стоимости. В таких случаях автоматически применяется «Министерская спецификация» (Ministerial Specification), предписывающая использование ставки для «Всех остальных экспортеров» (All Others Rate). Эта ставка по своей природе является карательной (punitive), так как базируется на наихудших доступных фактах (facts available), выявленных в ходе расследования, чтобы мотивировать экспортеров к сотрудничеству.3
+
+## ---
+
+**Раздел 2. Дело NQ-2021-002: Мягкая мебель для жилых помещений (UDS) и его последствия**
+
+Расследование в отношении мягкой мебели стало одним из самых масштабных и сложных в истории современной торговой политики Канады. Оно охватывает огромный пласт товарной номенклатуры и затрагивает тысячи импортеров, многие из которых, подобно ꆜ, ранее не сталкивались с SIMA.
+
+### **2.1. Хронология и статус мер**
+
+Решение CITT NQ-2021-002 было вынесено 2 сентября 2021 года. С этого момента любой ввоз подпадающих товаров (Subject Goods) из Китая и Вьетнама подлежит обложению специальными пошлинами. Важно отметить, что CBSA регулярно проводит пересмотры нормальных стоимостей (re-investigations) и административные пересмотры (administrative reviews) для актуализации ставок.
+
+Согласно последним данным, административный пересмотр для ряда экспортеров завершился в 2024 году, а новые пересмотры инициируются постоянно.2 Это создает динамичную среду, где ставки пошлин могут изменяться. Однако для не кооперирующих экспортеров (к которым, вероятно, относится поставщик ꆜ) ставка остается статично высокой.
+
+### **2.2. Ставки пошлин: Математика экономического краха**
+
+Анализ предоставленных данных позволяет точно реконструировать фискальную нагрузку, которая была применена к партии диванов-кроватей Импортера.
+
+Для экспортеров из Китая, не имеющих индивидуальных нормальных стоимостей (категория «Все остальные»), применяются следующие ставки 3:
+
+| Вид пошлины | Ставка / Механизм расчета | Комментарий |
+| :---- | :---- | :---- |
+| **Антидемпинговая пошлина (SIMA AD)** | **188.0%** от экспортной цены | Начисляется адвалорно. Фактически утраивает стоимость товара. |
+| **Компенсационная пошлина (SIMA CVD)** | **1,390.65 CNY** (Китайских юаней) за единицу | Фиксированная ставка за штуку (per piece), независимо от цены товара. |
+
+Иллюстративный расчет ущерба:  
+Предположим, Импортер ꆜ ввез партию из 20 диванов-кроватей по цене 300 USD (приблизительно 420 CAD) за штуку.
+
+1. **Таможенная стоимость:** 420 CAD.  
+2. **Антидемпинговая пошлина:** 420 CAD * 188% = **789.60 CAD**.  
+3. **Компенсационная пошлина:** 1,390.65 CNY ≈ **270.00 CAD** (по текущему курсу).  
+4. **Итого SIMA пошлин на 1 единицу:** 789.60 + 270.00 = **1,059.60 CAD**.  
+5. **Обычная таможенная пошлина (Duty):** (420 + 1059.60) * Ставка тарифа (обычно 0% или 6-9.5% в зависимости от GPT/MFN) = ~140 CAD.  
+6. **GST (5%):** Начисляется на сумму стоимости и всех пошлин: (420 + 1059.60 + 140) * 5% = **80.98 CAD**.
+
+Итоговая себестоимость единицы: ~1,700 CAD при закупочной цене 420 CAD.  
+Такая структура затрат делает любую коммерческую деятельность бессмысленной и объясняет шок Импортера («significant anti-dumping duties»).
+
+## ---
+
+**Раздел 3. Проблема классификации товара: Ловушка дефиниции «Диван-кровать»**
+
+Центральным элементом запроса Импортера ꆜ является поиск «реалистичного способа оспорить» решение. Успех любой апелляции в таможенном праве на 80% зависит от точности классификации товара и его соотнесения с буквальным текстом определения подпадающих товаров (Product Definition).
+
+### **3.1. Анализ определения «Subject Goods» в деле UDS**
+
+Определение товара в деле UDS составлено юридически виртуозно, с целью перекрыть любые возможные лазейки для обхода (circumvention). Согласно официальным уведомлениям о начале расследования и решениям Трибунала, подпадающие товары определяются как «мягкая мебель для жилых помещений».1
+
+Критически важным для Импортера является раздел «For greater certainty» (Для большей определенности), который прямо перечисляет включенные категории:
+
+"...includes, but not limited to seating such as sofas, chairs, loveseats, **sofa-beds**, day-beds, futons, ottomans...".6
+
+Наличие термина **«sofa-beds»** в списке прямых включений создает презумпцию того, что данный товар является объектом регулирования. CBSA не нужно доказывать, что диван-кровать является «мягкой мебелью» — это уже установлено дефиницией. Бремя доказывания обратного ложится исключительно на импортера.
+
+### **3.2. Дихотомия «Motion» (С механизмами) и «Stationary» (Стационарная)**
+
+Импортеры часто пытаются апеллировать к исключениям, предусмотренным для стационарной мебели. Список исключений содержит следующий пункт:
+
+"Excluding: Stationary (i.e. non-motion) seating upholstered **only with fabric** (rather than leather)...".3
+
+Здесь возникает сложная технико-юридическая коллизия, которую необходимо разобрать детально:
+
+1. **Критерий обивки (Upholstery Test):** Если диван-кровать Импортера ꆜ обит кожей (leather), искусственной кожей (PU leather, vinyl) или комбинацией кожи и ткани, он **автоматически подпадает** под пошлины, независимо от того, является ли он стационарным или механическим. Исключение действует *только* для чисто тканевой обивки.  
+2. **Критерий механизма (Motion Test):** Даже если диван обит тканью, для исключения он должен быть «Stationary (i.e. non-motion)».  
+   * В определениях CBSA к «motion seating» относятся мебель с функциями: «reclining» (откидывание), «swivel» (вращение), «rocking» (качание), «massage» (массаж) и **«similar functions»**.1  
+   * Является ли механизм трансформации дивана в кровать (convertible mechanism) «функцией движения»? Практика CBSA и решения CITT показывают, что наличие механизма трансформации (раскладной механизм, выдвижной блок, механизм «клик-клак») функционально отличает предмет от простой стационарной софы. Трансформация подразумевает движение частей каркаса.
+
+**Аналитический вывод:** Вероятность успешной переклассификации дивана-кровати в категорию «исключенной стационарной мебели» крайне низка. Трибунал намеренно включил «sofa-beds» и «futons» в список подпадающих товаров, понимая их гибридную природу. Если бы диваны-кровати считались стационарной мебелью, не было бы необходимости выделять их в отдельную категорию включений. Следовательно, аргумент о том, что диван-кровать — это просто «стационарный диван, на котором можно спать», скорее всего, будет отклонен.
+
+### **3.3. Роль кодов ТН ВЭД (HS Codes)**
+
+В описании проекта 1 указаны типичные коды ТН ВЭД: 9401.40.00.00, 9401.61.10.10 и др.  
+Импортер может полагать, что если его брокер задекларировал товар под кодом, не указанным в списке CBSA, то пошлина не применяется. Это опасное заблуждение.
+
+* Коды ТН ВЭД в уведомлениях SIMA носят **индикативный**, а не исчерпывающий характер.  
+* Определяющим является **физическое описание товара** (Product Definition).  
+* Даже если товар классифицирован как «Мебель прочая» (9403), но физически является мягким диваном-кроватем, он подлежит обложению SIMA-пошлинами.
+
+## ---
+
+**Раздел 4. Процедурный кризис: Апелляция в эпоху перехода на CARM**
+
+Проблема Импортера ꆜ усугубляется беспрецедентным стечением обстоятельств: переоценка произошла 15 октября, за неделю до исторического запуска системы CARM (21 октября 2024 года). Это создает значительные процедурные риски.
+
+### **4.1. Смерть формы B2 и рождение цифровой апелляции**
+
+До октября 2024 года основным инструментом оспаривания решений CBSA была форма B2 (Canada Customs - Adjustment Request). Это был бумажный или EDI-документ, который импортеры или их брокеры подавали для корректировки данных.  
+С 21 октября 2024 года, с запуском CARM Release 3, форма B2 была официально выведена из оборота.8 Вся процедура взаимодействия с таможней перешла в цифровой формат через CARM Client Portal (CCP).
+
+### **4.2. Механизм подачи жалобы согласно Разделу 60 (Section 60)**
+
+Действие, которое необходимо предпринять Импортеру, юридически классифицируется не как простая корректировка, а как **Запрос на повторное определение (Request for Re-determination)** согласно Разделу 60 Закона о таможне (Customs Act).9
+
+**Алгоритм действий в новой системе CARM:**
+
+1. **Регистрация и делегирование:** Импортер обязан иметь активированный аккаунт на портале CCP. Если ꆜ ранее полагался исключительно на брокера и не имеет собственного доступа к порталу, он не сможет подать апелляцию. Необходимо срочно пройти регистрацию и делегировать полномочия (Delegation of Authority) консультанту.  
+2. **Функционал "SIMA Re-determination":** В отличие от простых коммерческих корректировок (CAD correction), запросы, связанные с SIMA, подаются через отдельный веб-интерфейс на портале. Импортер должен выбрать опцию "SIMA re-determination" в разделе деклараций.11  
+3. **Принцип "Pay to Play" (Сначала плати, потом спорь):** Это, возможно, самый болезненный аспект для ꆜ. Согласно законодательству (Section 58 of SIMA), запрос на пересмотр может быть подан **только после полной уплаты** всех начисленных пошлин, налогов и процентов. Портал CCP технически заблокирует подачу заявки, если баланс по декларации не погашен.11  
+   * *Последствие:* Импортер должен изъять из оборота сумму, эквивалентную ~200% стоимости товара, просто чтобы получить право на рассмотрение своего аргумента.
+
+### **4.3. Временные рамки и "Blackout Period"**
+
+Уведомление от 15 октября попало в так называемый "cutover period" (период переключения систем). CBSA предупреждало, что бумажные B2, поданные в этот период, могут обрабатываться с задержкой или требовать повторного ввода в CARM.8
+
+* **Срок давности:** У Импортера есть строгий срок в **90 дней** с даты уведомления о переоценке (15 октября) для подачи запроса по Разделу 60.13 Крайний срок выпадает на середину января 2025 года. Пропуск этого срока сделает долг окончательным и безнадежным к взысканию.
+
+## ---
+
+**Раздел 5. Анализ аргументации и стратегии защиты (Validating the Dispute)**
+
+Импортер запрашивает анализ «обоснованности» (validity) проблем и наличие реалистичного способа спора. Основываясь на фактах, необходимо провести трезвую оценку шансов.
+
+### **5.1. Аргумент "Незнание закона" (Mistake of Law)**
+
+Из контекста других проектов Импортера (P1⁎, P4⁎, P6⁎) видно, что его основной профиль — мелкие аксессуары (ремешки для часов). Переход к мебели был, вероятно, оппортунистическим расширением ассортимента. В своем описании проблемы ꆜ не упоминает о консультациях перед ввозом, что указывает на неосведомленность о мерах SIMA.
+
+**Юридическая оценка:** В канадском (как и в британском и американском) праве принцип *ignorantia juris non excusat* (незнание закона не освобождает от ответственности) применяется неукоснительно, особенно в сфере регулируемой торговли.14
+
+* CBSA и CITT занимают позицию строгой ответственности (strict liability). Тот факт, что импортер является малым бизнесом или впервые ввозит товар, не является смягчающим обстоятельством.  
+* Апелляция, построенная на тезисе «я не знал, что на диваны есть пошлина» или «мой брокер меня не предупредил», обречена на провал.
+
+### **5.2. Аргумент "Ошибка идентификации производителя" (The Exporter Identity Defense)**
+
+Это **единственный реалистичный путь** для существенного снижения пошлины, если факты позволяют.
+
+* **Гипотеза:** Предположим, что Импортер ꆜ на самом деле купил диваны у крупной фабрики (например, Man Wah или Kuka), которая имеет низкую ставку пошлины (например, 20%). Однако, в коммерческом инвойсе или экспортной декларации название производителя было указано неточно, или товар был куплен через торговую компанию (trading company), не имеющую собственной ставки.  
+* **Действие:** В рамках апелляции по Разделу 60 можно предоставить доказательную базу (письма от производителя, платежные поручения, производственные сертификаты), подтверждающую, что реальным производителем товара является компания из списка верифицированных экспортеров.2  
+* **Результат:** Если CBSA примет доказательства, ставка может быть пересчитана с 188% ("All Others") на индивидуальную ставку производителя. Это может вернуть импортеру десятки тысяч долларов.
+
+### **5.3. Аргумент "Техническое несоответствие товара"**
+
+Если диван-кровать имеет уникальные конструктивные особенности, выводящие его из-под определения UDS (например, это надувная мебель, плетеная мебель, или мебель для кемпинга/сада), есть шанс на успех.
+
+* *Нюанс:* Исключение для "мебели для использования на открытом воздухе" (seating manufactured for outdoor use, e.g., patio or swing chairs) существует.3 Если диван-кровать по своим характеристикам (материалы, конструкция, маркетинг) является садовой мебелью, апелляция имеет высокие шансы на успех. Однако, если он выглядит и продается как домашняя мебель, переклассификация маловероятна.
+
+## ---
+
+**Раздел 6. Стратегические рекомендации и план действий на будущее**
+
+Исходя из анализа, текущая ситуация требует немедленных кризисных мер и пересмотра бизнес-модели.
+
+### **6.1. Дорожная карта по текущему инциденту (P⁎)**
+
+1. **Аудит документации (Немедленно):**  
+   * Проверить точное наименование поставщика в инвойсе и сверить его со списком экспортеров, имеющих Normal Values.2  
+   * Если поставщик — "Gold Lion", "Man Wah", "Natuzzi" и т.д., но ставка применена 188% — **подавать апелляцию немедленно**. Это техническая ошибка, которую можно исправить.  
+   * Если поставщик — неизвестная фабрика или торговый посредник — признать убытки. Апелляция потребует уплаты депозита (пошлин), который, скорее всего, не вернут, плюс расходы на юриста (от $3,000-$5,000 CAD минимум), что при малом объеме партии только увеличит потери.  
+2. **Взаимодействие через CARM:**  
+   * Убедиться, что доступ к порталу активен.  
+   * Проверить статус задолженности. Если пошлины не уплачены, начнут начисляться проценты, и право на апелляцию будет заблокировано.
+
+### **6.2. Гайдлайн по будущему импорту: "Безопасная гавань"**
+
+Импортер заявил о планах ввозить "regular sofas" в будущем. Чтобы избежать повторения катастрофы, необходимо строго следовать правилам исключений.
+
+**Таблица безопасного импорта (Risk Matrix):**
+
+| Тип мебели | Материал обивки | Механизм | Статус риска | Комментарий |
+| :---- | :---- | :---- | :---- | :---- |
+| **Обычный диван** | **Только ткань** | **Нет (Stationary)** | **ЗЕЛЕНЫЙ (Безопасно)** | Прямое исключение из SIMA.7 |
+| **Обычный диван** | Кожа / Кожзам | Нет (Stationary) | **КРАСНЫЙ (Опасно)** | Подпадает под пошлину (188%). |
+| **Диван-кровать** | Ткань | Раскладной | **КРАСНЫЙ (Опасно)** | Включен в дефиницию Subject Goods. |
+| **Кресло (Recliner)** | Любой | Да | **КРАСНЫЙ (Опасно)** | Включен как Motion Seating. |
+| **Стул для столовой** | Любой | Нет | **ЗЕЛЕНЫЙ (Безопасно)** | Исключение для "Dining chairs". |
+| **Банкетка (Bench)** | Ткань | Нет | **ЗЕЛЕНЫЙ (Безопасно)** | Исключение для столовых банкеток. |
+
+### **6.3. Выбор поставщика (Supplier Compliance)**
+
+Если Импортер все же хочет ввозить кожаные диваны или диваны-кровати, он **обязан** работать только с фабриками, имеющими действующие Specific Normal Values.
+
+* *Действие:* Перед размещением заказа запросить у фабрики письмо с подтверждением их статуса в CBSA ("Letter of Confirmation of Normal Values").  
+* *Проверка:* Не верить на слово. Проверить имя фабрики в списках завершенных пересмотров CBSA (Normal Value Reviews).2
+
+## ---
+
+**Заключение**
+
+Ситуация, в которой оказался Импортер ꆜ, является следствием столкновения глобальной логистики, позволяющей легко купить товар в Китае, и национального протекционизма, возводящего невидимые, но непреодолимые барьеры. Переоценка от 15 октября легитимна с точки зрения действующего законодательства Канады, и шансы на ее полную отмену через апелляцию низки, за исключением случаев выявления процедурных ошибок в идентификации поставщика.
+
+Главный урок данного кейса заключается в том, что в эпоху CARM и активного применения SIMA, таможенный комплаенс перестает быть формальностью и становится фактором выживания бизнеса. Для Импортера ꆜ наиболее рациональной стратегией является минимизация текущих потерь (отказ от бесперспективных споров, если нет доказательств ошибки производителя) и радикальная перестройка закупочной политики с фокусом на товары-исключения (тканевая стационарная мебель) или верифицированных поставщиков.
+
+Анализ показывает, что проблема носит не ситуативный, а структурный характер: попытка масштабирования бизнеса в категорию товаров с высокой степенью торговой защиты без соответствующей юридической подготовки привела к реализации риска, заложенного в регуляторную систему Канады.
+
+### ---
+
+**Приложение: Сводная таблица ключевых данных**
+
+| Параметр | Значение / Деталь | Ссылка на источник |
+| :---- | :---- | :---- |
+| **Товар** | Диваны-кровати (Sofa beds) | 1 |
+| **Решение CITT** | NQ-2021-002 (Upholstered Domestic Seating) | 2 |
+| **Дата переоценки** | 15 октября 2024 |  |
+| **Антидемпинговая пошлина** | 188.0% (для "All Others") | 3 |
+| **Субсидия (CVD)** | 1,390.65 CNY / шт. | 5 |
+| **Срок апелляции** | 90 дней (до ~13 января 2025) | 13 |
+| **Метод подачи** | CARM Client Portal (Section 60 Request) | 9 |
+| **Ключевое исключение** | Стационарная мебель, обитая ТОЛЬКО тканью | 3 |
+
+#### **Works cited**
+
+1. UDS 2020 IN: Certain upholstered domestic seating Notice of initiation of investigations, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/sima-lmsi/i-e/uds2020/uds2020-ni-eng.html](https://www.cbsa-asfc.gc.ca/sima-lmsi/i-e/uds2020/uds2020-ni-eng.html)  
+2. Notice of conclusion of administrative review: Upholstered Domestic Seating (UDS 2024 UP6) - Agence des services frontaliers du Canada, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/sima-lmsi/ar-ra/uds2024/uds202406-nc2-eng.html](https://www.cbsa-asfc.gc.ca/sima-lmsi/ar-ra/uds2024/uds202406-nc2-eng.html)  
+3. Upholstered domestic seating: Measures in force, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/sima-lmsi/mif-mev/uds-eng.html](https://www.cbsa-asfc.gc.ca/sima-lmsi/mif-mev/uds-eng.html)  
+4. Notice of initiation of administrative review: Upholstered Domestic Seating (UDS 2025 UP1), accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/sima-lmsi/ar-ra/uds2025/uds202501-ni-eng.html](https://www.cbsa-asfc.gc.ca/sima-lmsi/ar-ra/uds2025/uds202501-ni-eng.html)  
+5. Conclusion of normal value review: Upholstered Domestic Seating (UDS 2024 UP2), accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/sima-lmsi/up/uds2024/uds202402-nc-eng.html](https://www.cbsa-asfc.gc.ca/sima-lmsi/up/uds2024/uds202402-nc-eng.html)  
+6. Canada's new anti-dumping investigation on imports of upholstered domestic seating - W2C, accessed December 6, 2025, [https://w2c.ca/en/canadas-new-anti-dumping-investigation-on-imports-of-upholstered-domestic-seating/](https://w2c.ca/en/canadas-new-anti-dumping-investigation-on-imports-of-upholstered-domestic-seating/)  
+7. Conclusion of normal value review: Upholstered domestic furniture (UDS 2022 UP7), accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/sima-lmsi/up/uds2022/uds202207-nc-eng.html](https://www.cbsa-asfc.gc.ca/sima-lmsi/up/uds2022/uds202207-nc-eng.html)  
+8. Customs Notice 24-25: Submission and Processing of Single B2 and Blanket B2 Adjustments, or Voluntary Disclosure Program Requests on or After September 1, 2024, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/publications/cn-ad/cn24-25-eng.html](https://www.cbsa-asfc.gc.ca/publications/cn-ad/cn24-25-eng.html)  
+9. Memorandum D11-6-7: Request under Section 60 of the Customs Act for a Re-Determination, a further Re, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/publications/dm-md/pdf/d11-6-7-eng.pdf](https://www.cbsa-asfc.gc.ca/publications/dm-md/pdf/d11-6-7-eng.pdf)  
+10. Memorandum D11-6-7: Request under Section 60 of the Customs Act for a Re-determination, a further Re-determination or a Review by the President of the Canada Border Services Agency, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/publications/dm-md/d11/d11-6-7-eng.html](https://www.cbsa-asfc.gc.ca/publications/dm-md/d11/d11-6-7-eng.html)  
+11. Memorandum D14-1-3: Re-determinations and Appeals Under the Special Import Measures Act, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/publications/dm-md/d14/d14-1-3-eng.html](https://www.cbsa-asfc.gc.ca/publications/dm-md/d14/d14-1-3-eng.html)  
+12. CBSA Assessment and Revenue Management (CARM) Playbook, accessed December 6, 2025, [https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/assets/pdfs/onboarding/en//CARM%20Go-Live%20Playbook.pdf](https://ccp-pcc.cbsa-asfc.cloud-nuage.canada.ca/en/assets/pdfs/onboarding/en//CARM%20Go-Live%20Playbook.pdf)  
+13. Memorandum D14-1-3: Re-determinations and Appeals under the Special Measures Import Act, accessed December 6, 2025, [https://www.cbsa-asfc.gc.ca/publications/dm-md/pdf/d14-1-3-eng.pdf](https://www.cbsa-asfc.gc.ca/publications/dm-md/pdf/d14-1-3-eng.pdf)  
+14. Mistake (contract law) - Wikipedia, accessed December 6, 2025, [https://en.wikipedia.org/wiki/Mistake_(contract_law)](https://en.wikipedia.org/wiki/Mistake_(contract_law))  
+15. Novel Criminal Fraud - NYU Law Review, accessed December 6, 2025, [https://www.nyulawreview.org/wp-content/uploads/2018/08/NYULawReview-81-6-Buell.pdf](https://www.nyulawreview.org/wp-content/uploads/2018/08/NYULawReview-81-6-Buell.pdf)  
+16. Upholstered domestic seating: Listing of representations, accessed December 6, 2025, [https://www.asfc.gc.ca/sima-lmsi/mos-sdm/uds-re-eng.html?wbdisable=true](https://www.asfc.gc.ca/sima-lmsi/mos-sdm/uds-re-eng.html?wbdisable=true)

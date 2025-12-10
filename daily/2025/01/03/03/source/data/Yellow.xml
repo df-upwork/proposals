@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Yellow>
+    <Field>
+        <Name>Delivered True or False</Name>
+        <Samples>
+            <Sample>TRUE</Sample>
+            <Sample>TRUE</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Delivered date</Name>
+        <Samples>
+            <Sample>2021-12-21 11:38</Sample>
+            <Sample>2024-12-30 12:28</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 1</Name>
+        <Samples>
+            <Sample>picked up</Sample>
+            <Sample>Label Created</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 1</Name>
+        <Samples>
+            <Sample>2024-12-23 11:40</Sample>
+            <Sample>2024-12-20 00:00</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 2</Name>
+        <Samples>
+            <Sample>Shipment in</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 2</Name>
+        <Samples>
+            <Sample>2024-12-23 16:30</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 3</Name>
+        <Samples>
+            <Sample>Arrived at</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 3</Name>
+        <Samples>
+            <Sample>2024-12-23 22:44</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 4</Name>
+        <Samples>
+            <Sample><![CDATA[Shipment arriving On-Time FRESNO, CA]]></Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 4</Name>
+        <Samples>
+            <Sample>2024-12-28 10:00</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 5</Name>
+        <Samples>
+            <Sample><![CDATA[Left FedEx origin facility FRESNO, CA]]></Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 5</Name>
+        <Samples>
+            <Sample>2024-12-20 21:12</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 6</Name>
+        <Samples>
+            <Sample><![CDATA[At local FedEx facility SOUTH SAN FRANCISCO, CA]]></Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 6</Name>
+        <Samples>
+            <Sample>2021-12-21 04:42</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 7</Name>
+        <Samples>
+            <Sample><![CDATA[On FedEx vehicle for delivery SOUTH SAN FRANCISCO, CA]]></Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 7</Name>
+        <Samples>
+            <Sample>2021-12-21 05:05</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 8</Name>
+        <Samples>
+            <Sample><![CDATA[Processing at UPS Facility Edison, NJ, United States]]></Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 8</Name>
+        <Samples>
+            <Sample>2024-12-30 06:21</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 9</Name>
+        <Samples>
+            <Sample><![CDATA[Out for Delivery Out For Delivery Today Edison, NJ, United States]]></Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Date 9</Name>
+        <Samples>
+            <Sample>2024-12-30 09:19</Sample>
+        </Samples>
+    </Field>
+    <Field>
+        <Name>Event 10</Name>
+    </Field>
+    <Field>
+        <Name>Date 10</Name>
+    </Field>
+    <Field>
+        <Name>Event 11</Name>
+    </Field>
+    <Field>
+        <Name>Date 11</Name>
+    </Field>
+    <Field>
+        <Name>Event 12</Name>
+    </Field>
+    <Field>
+        <Name>Date 12</Name>
+    </Field>
+    <Field>
+        <Name>Event 13</Name>
+    </Field>
+    <Field>
+        <Name>Date 13</Name>
+    </Field>
+    <Field>
+        <Name>Event 14</Name>
+    </Field>
+    <Field>
+        <Name>Date 14</Name>
+    </Field>
+    <Field>
+        <Name>Event 15</Name>
+    </Field>
+    <Field>
+        <Name>Date 15</Name>
+    </Field>
+</Yellow>

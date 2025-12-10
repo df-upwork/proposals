@@ -1,0 +1,290 @@
+<main id="main">
+
+
+	<div class="background_tech"></div>
+
+
+	<div style="position:relative;z-index:2;top:0px;left:0px;padding-left:20px;padding-right:20px;width:100%;display:flex;">
+
+
+		<div style="width:300px;float:left;z-index:-1;">
+			<div style="text-align:right;margin-right:15px">
+				<h1 class="explore-title">
+					By Interface Type
+				</h1>
+			</div>
+			<div class="flavorSection">
+
+
+			</div>
+			<nav aria-label="Sub Menu">
+				<ul id="submenu">
+
+					<li><a href="/interface/HL7v2">HL7v2</a></li>
+					<li><a href="/interface/HL7v3">HL7v3</a></li>
+					<li><a href="/interface/IHE">IHE Profiles</a></li>
+					<li><a href="/interface/FHIR">FHIR</a></li>
+					<li><a href="/interface/WebServices">Web Services</a></li>
+					<li><a href="/interface/DICOM">DICOM</a></li>
+					<li><a href="/interface/NCPDP">NCPDP</a></li>
+					<li><a href="/interface/X12">ASC X12</a></li>
+
+					<li><a href="/interface/Other">Other</a></li>
+
+				</ul>
+			</nav>
+		</div>
+
+
+		<div class="interface-list interface-list-content">
+
+
+			<h2>HL7v3</h2>
+			<div class="mainSection">
+				<p>"The Version 3 Normative Edition represents a new approach to clinical information exchange based on a model
+					driven methodology that produces messages and electronic documents expressed in XML syntax. The V3
+					specification is built around subject domains that provide storyboard descriptions, trigger events,
+					interaction designs, domain object models derived from the RIM, hierarchical message descriptors (HMDs) and a
+					prose description of each element." - <a
+							href="https://www.hl7.org/implement/standards/product_brief.cfm?product_id=186">HL7.org</a></p>
+			</div>
+
+
+			<h3 class="interface-title" id="OutgoingChildProtectionInformationSharingNHSQuery">
+				Outgoing Child Protection Information Sharing NHS Query
+				<a href="/Tech/TechSpec?spec=5289" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Outgoing Child Protection Information Sharing NHS Query technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					This interface sends queries to the Spine for the NHS Digital Child Protection - Information Sharing project
+					(CP-IS) in the United Kingdom. The Spine responds whether a child is in Child Protection, a child who is a
+					Looked After Child, or an expectant mother of an unborn child who will be under Child Protection.
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104694">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104694" class="showHideList">
+						<li>National Health Service</li>
+						<li>PDS</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="OutgoingInfectionReportingtoNHSNInterface">
+				Outgoing Infection Reporting to NHSN Interface
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					Sends documents in clinical document architecture (CDA) format, supporting <a
+						href="https://www.cdc.gov/nhsn/pdfs/pscmanual/pcsmanual_current.pdf">the January 2021 Patient Safety
+					Component Manual</a> developed and maintained by the National Healthcare Safety Network (NHSN). Each CDA
+					document represents either a single patient infection, a surgical procedure, an antimicrobial resistance
+					event, or a month of department-level or facility-level antimicrobial usage, device utilization, or patient
+					census summary data. This covers all US nationally mandated reporting elements for inpatient infection
+					prevention.
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104705">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104705" class="showHideList">
+						<li>Center for Disease Control</li>
+						<li>RosettaHealth</li>
+						<li>TheraDoc</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="OutgoingRiskAssessmentQuery">
+				Outgoing Risk Assessment Query
+				<a href="/Tech/TechSpec?spec=5756" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Outgoing Risk Assessment Query technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					Supports comprehensive breast cancer risk assessment following the HL7 Version 3 Implementation Guide for
+					Family History/Pedigree Interoperability, Release 1 - US Realm April 2013.
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104808">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104808" class="showHideList">
+						<li>Change Healthcare</li>
+						<li>National Decision Support Company</li>
+						<li>Volpara Health</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="DataExchangewithDBCOnderhoudGrouper">
+				Data Exchange with DBC Onderhoud Grouper
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					Sends Diagnosis Behandeling Combinatie (DBC) and charge information from Epic to the VECOZO Declaratie Grouper
+					(Netherlands). The Grouper retrieves a billable product and billing code (DBC-zorgproduct).
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104855">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104855" class="showHideList">
+						<li>DBC Onderhoud</li>
+						<li>Vecozo</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="Real-TimeLocationSystem(RTLS)Interface">
+				Real-Time Location System (RTLS) Interface
+				<a href="/Tech/TechSpec?spec=5192" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Real-Time Location System (RTLS) Interface technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					Tracks the location of patients, staff, and medical devices within a facility. This automates and enhances
+					many workflows. For example, it can automatically document operating room wheels in and out times, or make it
+					easier for staff to associate medical devices with specific patients.
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104863">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104863" class="showHideList">
+						<li>Cadi Scientific</li>
+						<li>CenTrak</li>
+						<li>Infinite Leap</li>
+						<li>Intelligent InSites</li>
+						<li>Midmark</li>
+						<li>Securitas Healthcare</li>
+						<li>Versus</li>
+						<li>ZulaFly</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="OutgoingBSNVerificationQuery">
+				Outgoing BSN Verification Query
+				<a href="/Tech/TechSpec?spec=5291" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Outgoing BSN Verification Query technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					BSN or Burgerservicenummer verification is required in the Netherlands. There are two types of BSN queries:
+					BSN request, and BSN verification. Using provided demographic data, a BSN request will retrieve and store the
+					BSN for a patient, whereas the BSN verification serves to validate that the BSN a user has stored to the
+					patient record is correct.
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104885">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104885" class="showHideList">
+						<li>Sectorale Berichten Voorziening in de Zorg</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="IncomingQRDADocumentsInterface">
+				Incoming QRDA Documents Interface
+				<a href="/Tech/TechSpec?spec=5328" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Incoming QRDA Documents Interface technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					Imports QRDA document information used to report on quality measures for regulatory programs. This interface
+					supports ONC 2015 Edition Certification (for Meaningful Use).
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104889">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104889" class="showHideList">
+						<li>Cerner</li>
+						<li>CMS</li>
+						<li>Meditech</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="OutgoingNationalHealthcareSurveyInterface">
+				Outgoing National Healthcare Survey Interface
+				<a href="/Tech/TechSpec?spec=5248" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Outgoing National Healthcare Survey Interface technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					Reports National Healthcare Survey data to the Centers for Disease Control and Prevention (CDC).
+				</div>
+
+				<div class="vendor-list" aria-live="assertive">
+					<a class="showhide" href="#" data-which="104891">Current integrations include <img
+							src="/Content/Images/downscrolly.png"
+							style="max-height:20px; max-width:20px; filter: grayscale(100%);"></a>
+					<ul id="104891" class="showHideList">
+						<li>Center for Disease Control</li>
+					</ul>
+				</div>
+			</div>
+
+			<h3 class="interface-title" id="ClinicalDocumentArchitecture(CDA)">
+				Clinical Document Architecture (CDA)
+				<a href="/Tech/TechSpec?spec=5433" class="readthespec">read the spec<img
+						src="../Content/images/FlatButton/btn_dl.png" style="outline:none;border:0px;top:5px;position:relative;"
+						alt="Clinical Document Architecture (CDA) technical specification"></a>
+
+			</h3>
+			<div class="subSection">
+				<div class="html-description">
+					When exchanging patient summary documents, we use Clinical Document Architecture (CDA) as the content
+					standard. CDA is an XML-based markup standard defined by Health Level Seven (HL7), intended to specify
+					encoding, structure and semantics of clinical documents for the purpose of exchange. Care Everywhere supports
+					the exchange of document defined in the Consolidated CDA (C-CDA) framework, which is required for ONC 2015
+					Edition certification for Meaningful Use.
+					<ul>
+						<li>Epic's EHR can consume any valid C-CDA or CDA document.</li>
+						<li>Epic's EHR can create the following documents:
+							<ul>
+								<li>HL7/ASTM CCD (HITSP C32 Implementation)</li>
+								<li>HL7/IHE Consolidated CDA (CCD and Progress Notes Template)</li>
+							</ul>
+						</li>
+					</ul>
+					<br><a href="mailto:open@epic.com?subject=Question" about="" cda="" documents="" from="" open.epic="">Contact
+					us</a> if you have questions about our CDAs.
+				</div>
+
+			</div>
+
+
+		</div>
+
+		<div class="clear"></div>
+
+	</div>
+
+</main>

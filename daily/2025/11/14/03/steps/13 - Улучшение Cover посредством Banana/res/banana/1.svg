@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="800"
+   viewBox="0 0 264.58333 211.66667"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradientWater"
+       x1="0"
+       y1="211.66667"
+       x2="264.58333"
+       y2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         style="stop-color:#e0f2f7;stop-opacity:1;"
+         offset="0"
+         id="stopWaterDark" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stopWaterLight" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradientSidebar"
+       x1="0"
+       y1="0"
+       x2="10.128444"
+       y2="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         style="stop-color:#ff6133;stop-opacity:1;"
+         offset="0"
+         id="stopSidebar1" />
+      <stop
+         style="stop-color:#ff4d1c;stop-opacity:1;"
+         offset="1"
+         id="stopSidebar2" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:url(#linearGradientWater);fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect3"
+       width="264.58334"
+       height="211.66666"
+       x="0"
+       y="0" />
+
+    <g id="abstractShapes" style="opacity:0.1;fill:#00aabb;">
+        <circle cx="240" cy="180" r="15" />
+        <circle cx="220" cy="195" r="8" />
+        <circle cx="250" cy="150" r="5" />
+        <circle cx="200" cy="20" r="10" style="opacity:0.5" />
+        <circle cx="180" cy="40" r="4" style="opacity:0.5" />
+    </g>
+
+    <rect
+       style="fill:url(#linearGradientSidebar);fill-opacity:1;stroke-width:0.254233"
+       id="rect1"
+       width="10.128444"
+       height="211.66666"
+       x="0"
+       y="0" />
+
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#df3d16;stroke-width:0.264583"
+       x="139.86461"
+       y="46.771694"
+       id="text1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.5778px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif Light';text-align:center;text-anchor:middle;fill:#5a5a5a;fill-opacity:1;stroke-width:0.264583"
+         x="139.86461"
+         y="46.771694"
+         id="tspan7">Overcoming</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.5778px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif Light';text-align:center;text-anchor:middle;fill:#5a5a5a;fill-opacity:1;stroke-width:0.264583"
+         x="139.86461"
+         y="73.865036"
+         id="tspan8"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:25.4px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#212121"
+   id="tspan13">legislative</tspan>, zoning,</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.5778px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif Light';text-align:center;text-anchor:middle;fill:#5a5a5a;fill-opacity:1;stroke-width:0.264583"
+         x="139.86461"
+         y="101.80504"
+         id="tspan14"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:25.4px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#212121"
+   id="tspan15">wastewater discharge</tspan> </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.5778px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif Light';text-align:center;text-anchor:middle;fill:#5a5a5a;fill-opacity:1;stroke-width:0.264583"
+         x="139.86461"
+         y="127.48727"
+         id="tspan9">barriers for </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:25.4px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#212121;fill-opacity:1;stroke-width:0.264583"
+         x="139.86461"
+         y="154.58063"
+         id="tspan10">alkaline hydrolysis</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:22.5778px;line-height:1.15;font-family:sans-serif;-inkscape-font-specification:'sans-serif Light';text-align:center;text-anchor:middle;fill:#5a5a5a;fill-opacity:1;stroke-width:0.264583"
+         x="139.86461"
+         y="180.26286"
+         id="tspan11">in Massachusetts</tspan></text>
+  </g>
+</svg>
