@@ -276,91 +276,264 @@ last month
 ## 6.9. `P9⁎`
 
 ### 6.9.1. URL
-STUB
+https://www.upwork.com/jobs/~021976763199104265958
 
 ### 6.9.2. Title
-STUB
+Audit Script for Security Group Usage in Azure and Microsoft 365
 
 ### 6.9.3. Description
 `P9D` ≔ 
 ```text
-STUB
+I need to understand what hybrid security groups (syncing AD to AAD) are actively used for access control, permissions, or roles across Azure resources and Microsoft 365 services. Deleting a group that's still referenced could break authentication, resource access, or integrations, leading to outages or security issues.
+
+Develop PowerShell script that audits a specified security group's usage. It checks for assignments  references in key Azure and M365 areas.
+
+The script takes a group name or Object ID as input and performs a comprehensive scan across the following services (grouped by category for clarity):
+
+Identity and Access (Entra ID/Azure AD): Checks for role assignments (e.g., admin roles like Global Admin) and directory-level usage.
+Azure Resources (RBAC and Specific Services): Scans subscriptions for RBAC role assignments; also inspects Key Vault (access policies), Sentinel (workspace permissions), Virtual Desktop (host pools), Backup (vaults), Policy (assignments), SQL (servers/databases), and Storage (accounts).
+Microsoft 365 Collaboration Tools:
+
+Teams: Verifies if the group backs a Team or is used in channels/memberships.
+SharePoint Online: Flags site permissions (note: this is partial and may need site-specific iteration for full coverage).
+OneDrive: Suggests checks for delegated access (via SharePoint audits).
+Planner/Project: Looks for associated plans.
+Exchange Online: Examines group links and memberships.
+
+
+Security and Compliance: Audits Purview/Copilot references (e.g., audit logs) and Graph API (app role assignments/consents).
+Device Management: Checks Intune role assignments.
 ```
 
 ### 6.9.4. Publication Date
-STUB
+2 months ago
 
 ## 6.10. `P10⁎`
 
 ### 6.10.1. URL
-STUB
+https://www.upwork.com/jobs/~021970849920727383409
 
 ### 6.10.2. Title
-STUB
+Troubleshoot On-Prem SQL Server 2022 Entra ID (Azure AD) Authentication for Service Principal
 
 ### 6.10.3. Description
 `P10D` ≔ 
 ```text
-STUB
+Experienced SQL Server DBA needed ASAP to fix Entra ID authentication error on on-premises SQL 2022 instance. Error: "Command 'CREATE USER FROM EXTERNAL PROVIDER' not supported as Azure Active Directory is not configured." Goal: Enable SPN logins via Azure Arc. Quick turnaround
 ```
 
 ### 6.10.4. Publication Date
-STUB
+3 months ago
 
 ## 6.11. `P11⁎`
 
 ### 6.11.1. URL
-STUB
+https://www.upwork.com/jobs/~021958886974371840651
 
 ### 6.11.2. Title
-STUB
+Azure AKS and PostgreSQL Access Configuration
+
 
 ### 6.11.3. Description
 `P11D` ≔ 
 ```text
-STUB
+Looking for an experience Azure Kubernetes Service (AKS) and PostgreSQL expert to assist with configuring and granting access to our PostgreSQL database integrated with our AKS environment. This role involves working with our inBranch Backend architecture deployed on Microsoft Azure
 ```
 
 ### 6.11.4. Publication Date
-STUB
+last quarter
 
 ## 6.12. `P12⁎`
 
 ### 6.12.1. URL
-STUB
+https://www.upwork.com/jobs/~021945073415357127853
 
 ### 6.12.2. Title
-STUB
+Azure Kubernetes SME
 
 ### 6.12.3. Description
 `P12D` ≔ 
 ```text
-STUB
+Need Azure Kubernetes SME and need to review code and enable disk encryption.  Gitlab and Teffaform are the two tools used.
 ```
 
 ### 6.12.4. Publication Date
-STUB
+last quarter
 
 ## 6.13. `P13⁎`
 
 ### 6.13.1. URL
-STUB
+https://www.upwork.com/jobs/~021949510797914266486
 
 ### 6.13.2. Title
-STUB
+VS Code Migration Tutorial Creator for SQL Database Projects (From Visual Studio Workflow)
+
 
 ### 6.13.3. Description
 `P13D` ≔ 
 ```text
-STUB
+Need a skilled technical writer/developer experienced in VS Code, SQL Server database projects, and Azure DevOps to create a comprehensive tutorial for migrating workflows from Visual Studio (VS) to VS Code. We are transitioning actuarial and modeling users (e.g., students and experts) to VS Code to avoid licensing costs and streamline processes like publishing DAC packs, handling PowerShell scripts for table scripting, and populating data in repositories (e.g., model point files).
+
+Key Tasks:
+
+Review existing VS documentation (provided) and adapt it into a step-by-step VS Code tutorial, covering:
+
+Environment setup (installing VS Code extensions like Database Projects, PowerShell, SQL tools).
+
+Publishing databases to SQL Server (e.g., handling .sqlproj files, build/publish profiles, permissions flags in XML).
+
+Running PowerShell scripts (e.g., script tables.ps1) post-publish for merge statements and data updates.
+
+Troubleshooting common issues (e.g., data not populating, order dependencies in builds, empty tables).
+
+Branching strategies in Git/Azure DevOps for safe testing (e.g., dev branches for new tables like comp grade LTC).
+
+Make the tutorial user-friendly for non-developers (e.g., actuaries): Include screenshots, code snippets, and explanations of why steps are needed (e.g., avoiding Git data governance pitfalls).
+
+Incorporate best practices for migration, such as validating with a guinea pig user (deep VS expert) for feedback.
+
+Suggest brief extensions for automation insights (e.g., flagging DAC pack dependencies), but focus primarily on the core tutorial.
+
+Deliver a draft in Markdown/PDF format for review, with revisions based on team feedback.
+
+Required Skills:
+
+Expertise in VS Code, Visual Studio, SQL Server (DAC packs, stored procedures like SP generate merge), PowerShell scripting, and Git/Azure DevOps.
+
+Familiarity with database workflows (e.g., table creation/population, merge statements); actuarial/modeling knowledge is a plus.
 ```
 
 ### 6.13.4. Publication Date
-STUB
+last quarter
+
+## 6.14. `P14⁎`
+
+### 6.14.1. URL
+https://www.upwork.com/jobs/~021943386746220758613
+
+### 6.14.2. Title
+Azure Sentinel filter Windows log data sent to Sentinel
+
+
+### 6.14.3. Description
+`P14D` ≔ 
+```text
+I need to find ways we can reduce the noice on azure sentinel and save costs.  Its way too high.  I also need below task completed:
+
+Validate Current DCR:
+
+Access the Azure portal Microsoft Sentinel Configuration Data connectors Windows Security Events via AMA.
+
+Confirm the DCR "Microsoft-Security-Event-CustomXPath-DCR" is linked to McBank-Sentinel-Workspace.
+
+Review the current XPath query to ensure it matches the assumed configuration.
+
+Test the New XPath Query:
+
+Create a test DCR (e.g., "Test-Microsoft-Security-Event-CustomXPath-DCR") with the new XPath query.
+
+Apply it to a subset of servers (e.g., a single file server hosting shares accessed by robocopy_sa).
+
+Use a KQL query to verify Event ID 5145 exclusion for robocopy_sa:
+
+SecurityEvent
+| where EventID == 5145 and Account == "MCBANK\robocopy_sa"
+| summarize count() by TimeGenerated
+
+Expected result: No events after applying the test DCR.
+
+Update the Production DCR:
+
+Navigate to Azure portal Monitor Data Collection Rules Microsoft-Security-Event-CustomXPath-DCR.
+
+Edit the DCR and replace the XPath query with the new one provided above.
+
+Save and deploy the updated DCR to all enrolled machines.
+```
+
+### 6.14.4. Publication Date
+last quarter
+
+
+## 6.15. `P15⁎`
+
+### 6.15.1. URL
+https://www.upwork.com/jobs/~021921178157218030852
+
+### 6.15.2. Title
+Azure Kubernetes connection issues
+
+### 6.15.3. Description
+`P15D` ≔ 
+```text
+We have  connection issues.  We have 2 clusters and aks-02 which responds for my command but not aks-01 fails.No errors in diagnose. Having connection issues.  I feel like we are missing few standards to deploy AKS.
+```
+
+### 6.15.4. Publication Date
+2 quarters ago
+
+
+## 6.16. `P16⁎`
+
+### 6.16.1. URL
+https://www.upwork.com/jobs/~021979132360843737909
+
+### 6.16.2. Title
+Windows WSL2 Expert Needed: Find Alternatives to Ubuntu When Blocked by Group Policy
+
+### 6.16.3. Description
+`P16D` ≔ 
+```text
+I need help implementing alternatives to installing Ubuntu in WSL2 on Windows, as group policy blocks it. Based on these options:
+
+Install a different WSL2 distro like Debian (via PowerShell or manual .appx sideload).
+Install WSL2 without a distro and manually import Debian tar file.
+Use alternatives like Multipass for Debian VM, VirtualBox/VMware for full Linux VMs, or Azure VM if all else fails.
+
+You'll set this up on my Windows machine (remote access via TeamViewer or similar), test the chosen method, and provide step-by-step documentation. Ensure it bypasses policy restrictions where possible without exemption.
+```
+
+### 6.16.4. Publication Date
+2 months ago
+
+
+## 6.17. `P17⁎`
+
+### 6.17.1. URL
+https://www.upwork.com/jobs/~021930600114871209360
+
+### 6.17.2. Title
+Migrate NPS to new server
+
+### 6.17.3. Description
+`P17D` ≔ 
+```text
+We need to migrate the NPS service used for VPN1 and VPN2.  VPN2 can be tested first before cutting over the primary VPN, i.e. VPN1.
+```
+
+### 6.17.4. Publication Date
+2 quarters ago
+
+## 6.18. `P18⁎`
+
+### 6.18.1. URL
+https://www.upwork.com/jobs/~021956086820766368034
+
+### 6.18.2. Title
+Azure Security Specialist for CMK Implementation and Key Backup
+
+### 6.18.3. Description
+`P18D` ≔ 
+```text
+I need an Azure SME to enable Customer-Managed Keys (CMK) for Transparent Data Encryption (TDE) on our Azure SQL development databases and configure secure key backups in Azure Key Vault.
+```
+
+### 6.18.4. Publication Date
+last quarter
 
 # 7.
 ## 7.1.
-`POs` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`, `P8⁎`, `P9⁎`, `P10⁎`, `P11⁎`, `P12⁎`, `P13⁎`}
+`POs` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`, `P8⁎`, `P9⁎`, `P10⁎`, `P11⁎`, `P12⁎`, `P13⁎`, `P14⁎`, `P15⁎`, `P16⁎`, `P17⁎`, `P18⁎`}
 
 ## 7.2.
 `Ps` ≔ (⠿{`P⁎`} ⋃ `POs`)
@@ -373,9 +546,6 @@ STUB
 `С⁎` ≔ 
 ```
 Компания `ꆜ`:
-~~~
-STUB
-~~~
 ```
 
 ## 8.2.
@@ -386,87 +556,26 @@ STUB
 ```
 Проблема, о которой `ꆜ` пишет в `PD`:
 ~~~
-STUB
-~~~
-```
-
-# 9.
-`T⁎` ≔
-```
-Задача, о которой `ꆜ` пишет в `PD`:
-~~~
-STUB
+an SSL certificate verification error I'm encountering when using Azure CLI on my Windows machine
 ~~~
 ```
 
 # 10.
-## 10.1.
-`T1⁎` ≔ 
+`P1†` ≔† 
 ```		
-Подзадача из `PD`:
+Подпроблема (часть `P†`):
 ~~~
-STUB
-~~~
-```
-
-## 10.2.
-`T2⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
-STUB
-~~~
-```
-
-## 10.3.
-`T3⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
-STUB
-~~~
-```
-
-## 10.4.
-`T4⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
-STUB
-~~~
-```
-
-## 10.5.
-`T5⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
-STUB
-~~~
-```
-
-## 10.6.
-`T6⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
-STUB
+Command failing: az login (aliased to python -m azure.cli).
+Error message: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA cert does not include key usage extension (_ssl.c:1028)".
 ~~~
 ```
 
 # 11.
-## 11.1.
-`Q1⁎` ≔ (Вопрос `ꆜ` §2.5.1)
-
-## 11.2.
-`Q2⁎` ≔ (Вопрос `ꆜ` §2.5.2)
-
-## 11.3.
-`Q3⁎` ≔ (Вопрос `ꆜ` §2.5.3)
-
-## 11.4.
-`Q4⁎` ≔ (Вопрос `ꆜ` §2.5.4)
-
-## 11.5.
-`Q5⁎` ≔ (Вопрос `ꆜ` §2.5.5)
+`T⁎` ≔
+```
+Задача, о которой `ꆜ` пишет в `PD`:
+~~~
+Get az login working without disabling verification (insecure workaround)
+~~~
+```
  
