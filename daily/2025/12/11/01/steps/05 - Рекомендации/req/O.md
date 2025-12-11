@@ -1603,3 +1603,16 @@ Varnish версии 4.0 и выше имеет встроенную интел�
 37. Purging and banning — Varnish version 4.0.5 documentation, accessed December 11, 2025, [https://varnish-cache.org/docs/4.0/users-guide/purging.html](https://varnish-cache.org/docs/4.0/users-guide/purging.html)  
 38. Varnish Administrator documentation - Read the Docs, accessed December 11, 2025, [https://readthedocs.org/projects/varnish-cache/downloads/pdf/readthedocs/](https://readthedocs.org/projects/varnish-cache/downloads/pdf/readthedocs/)  
 39. Removing cookies in Varnish - Varnish Developer Portal, accessed December 11, 2025, [https://www.varnish-software.com/developers/tutorials/removing-cookies-varnish/](https://www.varnish-software.com/developers/tutorials/removing-cookies-varnish/)
+
+# 19.
+## 19.1.
+`Mᚖ⠿` ≔ ⠿~ (Способы устранения `P†`)
+
+## 19.2.
+`Mᚖᵢ` : `Mᚖ⠿`
+
+# 20. Анализ `Mᚖ⠿` (выполнен Gemini Deep Think)
+
+# 21. Анализ `Mᚖ⠿` (выполнен экземпляром №1 Gemini Deep Research)
+
+# 22. Анализ `Mᚖ⠿` (выполнен экземпляром №5 Gemini Deep Research)
