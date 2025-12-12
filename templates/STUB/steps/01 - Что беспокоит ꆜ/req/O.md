@@ -3,57 +3,59 @@
 
 # 1.
 ## 1.1.
-`UW` ≔ ⟨ Upwork: https://en.wikipedia.org/wiki/Upwork ⟩
+`UW` ≔Ⱳ https://en.wikipedia.org/wiki/Upwork
 
 ## 1.2.
 `ꆜ` ≔ ⟨ a potential client on `UW` ⟩
 
-## 1.3.
+# 2. `P⁎`
+## 2.1.
 `P⁎` ≔ ⟨ a potential project of `ꆜ`, published on `UW` ⟩
 
-# 2. Информация о `P⁎`
-## 2.1. Metadata
+## 2.2.
+ꘖ `P⁎` ∋
 ```toml
 URL = 'STUB'
-'Publication Date' = 'STUB'
 Title = 'STUB'
-```
+Publication_Date = 'STUB'
+``` 
 
-## 2.2. Description
-`PD` ≔ ⟪текст `P⁎`⟫ 
+## 2.3. 
+ꘖ `P⁎` ∋ `PD` ≔ ⟪ Description ⟫ 
 ~~~markdown
 STUB
 ~~~
 
 ## 2.4. Questions of `ꆜ` about `P⁎`
-`Q⠿` ≔ (Questions of `ꆜ` about `P⁎`)
+###
+`Q⠿` ≔ ⟨ Questions of `ꆜ` about `P⁎`⟩
 
 ### 2.4.1.
-`Q1⁎` ≔ 
+`Q1⁎` : `Q⠿` ≔ 
 ~~~markdown
 STUB
 ~~~
 
 ### 2.4.2.
-`Q2⁎` ≔ 
+`Q2⁎` : `Q⠿` ≔ 
 ~~~markdown
 STUB
 ~~~
 
 ### 2.4.3.
-`Q3⁎` ≔ 
+`Q3⁎` : `Q⠿` ≔ 
 ~~~markdown
 STUB
 ~~~
 
 ### 2.4.4.
-`Q4⁎` ≔ 
+`Q4⁎` : `Q⠿` ≔ 
 ~~~markdown
 STUB
 ~~~
 
 ### 2.4.5.
-`Q5⁎` ≔ 
+`Q5⁎` : `Q⠿` ≔ 
 ~~~markdown
 STUB
 ~~~
@@ -61,7 +63,7 @@ STUB
 # 3. Files attached to `P⁎` by `ꆜ`
 ## 3.1.
 ### 3.1.1.
-`I⠿` ≔ ⠿~ (Files attached to `P⁎` by `ꆜ`)
+`I⠿` ≔ ⠿~ ⟨ Files attached to `P⁎` by `ꆜ` ⟩
 
 ### 3.1.2.
 ⊤ (`I⠿` ⊆ `߷⠿`)
@@ -78,12 +80,13 @@ means:
 
 ## 3.2.
 ### 3.2.1.
-Iⰳ(`I1`, `STUB`) ≔ (`ꆜ` приводит его в `PD` как «STUB»)
+Iⰳ(`I1`, `STUB`) ≔ ⟨ `ꆜ` приводит его в `PD` как «STUB» ⟩
 
 ### 3.2.2.
-Iⰳ(`I2`, `STUB`) ≔ (`ꆜ` приводит его в `PD` как «STUB»)
+Iⰳ(`I2`, `STUB`) ≔ ⟨ `ꆜ` приводит его в `PD` как «STUB» ⟩
 
-# 4. Информация о `ꆜ`
+# 4. ꘖ `ꆜ`
+ꘖ `ꆜ` ∋
 ```toml
 Location = 'STUB'
 
@@ -100,310 +103,410 @@ Location = 'STUB'
 'Средняя почасовая ставка (USD)' = 'STUB'
 ```
 
-# 6. Другие проекты `ꆜ` на `UW`
-отсутствуют
+# 5. `P⠿`
+## 
+`PO⠿` ~ ⟨ другие проекты `ꆜ` на `UW` ⟩
 
-## 6.1. `P1⁎`
-### 6.1.1.
+##
+`P⠿` ≔ ⠿{`P⁎`} ⋃ `PO⠿`
+
+##
+`Pᵢ` : `P⠿`
+
+## `P1⁎`
+###
+`P1⁎` : `PO⠿`
+
+###
+ꘖ `P1⁎` ∋
 ```toml
 URL = 'STUB'
 Title = 'STUB'
-'Publication Date' = 'STUB'
-```
-### 6.1.2. Description
-`P1D` ≔ 
-```text
-STUB
-```
+Publication_Date = 'STUB'
+``` 
 
-## 6.2. `P2⁎`
-### 6.2.1. URL
-STUB
-### 6.2.3. Title
-STUB
-### 6.2.3. Publication Date
-STUB
-### 6.2.4. Description
-`P2D` ≔ 
-```text
-STUB
-```
-
-## 6.3. `P3⁎`
-### 6.3.1. URL
-STUB
-### 6.3.2. Title
-STUB
-### 6.3.4. Publication Date
-STUB
-### 6.3.3. Description
-`P3D` ≔ 
-```text
-STUB
-```
-
-## 6.4. `P4⁎`
-
-### 6.4.1. URL
-STUB
-
-### 6.4.2. Title
-STUB
-
-### 6.4.3. Description
-`P4D` ≔ 
-```text
-STUB
-```
-
-### 6.4.4. Publication Date
-STUB
-
-## 6.5. `P5⁎`
-
-### 6.5.1. URL
-STUB
-
-### 6.5.2. Title
-STUB
-
-### 6.5.3. Description
-`P5D` ≔ 
-```text
-STUB
-```
-
-### 6.5.4. Publication Date
-STUB
-
-## 6.6. `P6⁎`
-
-### 6.6.1. URL
-STUB
-
-### 6.6.2. Title
-STUB
-
-### 6.6.3. Description
-`P6D` ≔ 
-```text
-STUB
-```
-
-### 6.6.4. Publication Date
-STUB
-
-## 6.7. `P7⁎`
-
-### 6.7.1. URL
-STUB
-
-### 6.7.2. Title
-STUB
-
-### 6.7.3. Description
-`P7D` ≔ 
-```text
-STUB
-```
-
-### 6.7.4. Publication Date
-STUB
-
-## 6.8. `P8⁎`
-
-### 6.8.1. URL
-STUB
-
-### 6.8.2. Title
-STUB
-
-### 6.8.3. Description
-`P8D` ≔ 
-```text
-STUB
-```
-
-### 6.8.4. Publication Date
-STUB
-
-## 6.9. `P9⁎`
-
-### 6.9.1. URL
-STUB
-
-### 6.9.2. Title
-STUB
-
-### 6.9.3. Description
-`P9D` ≔ 
-```text
-STUB
-```
-
-### 6.9.4. Publication Date
-STUB
-
-## 6.10. `P10⁎`
-
-### 6.10.1. URL
-STUB
-
-### 6.10.2. Title
-STUB
-
-### 6.10.3. Description
-`P10D` ≔ 
-```text
-STUB
-```
-
-### 6.10.4. Publication Date
-STUB
-
-## 6.11. `P11⁎`
-
-### 6.11.1. URL
-STUB
-
-### 6.11.2. Title
-STUB
-
-### 6.11.3. Description
-`P11D` ≔ 
-```text
-STUB
-```
-
-### 6.11.4. Publication Date
-STUB
-
-## 6.12. `P12⁎`
-
-### 6.12.1. URL
-STUB
-
-### 6.12.2. Title
-STUB
-
-### 6.12.3. Description
-`P12D` ≔ 
-```text
-STUB
-```
-
-### 6.12.4. Publication Date
-STUB
-
-## 6.13. `P13⁎`
-
-### 6.13.1. URL
-STUB
-
-### 6.13.2. Title
-STUB
-
-### 6.13.3. Description
-`P13D` ≔ 
-```text
-STUB
-```
-
-### 6.13.4. Publication Date
-STUB
-
-# 7.
-## 7.1.
-`PO⠿` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`, `P8⁎`, `P9⁎`, `P10⁎`, `P11⁎`, `P12⁎`, `P13⁎`}
-
-## 7.2.
-`P⠿` ≔ (⠿{`P⁎`} ⋃ `PO⠿`)
-
-## 7.3.
-`Pᵢ` : `Ps`
-
-# 8.
-## 8.1.
-`С⁎` ≔ 
-```
-Компания `ꆜ`:
-~~~
+### 
+ꘖ `P1⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 STUB
 ~~~
-```
 
-## 8.2.
+## `P2⁎`
+###
+`P2⁎` : `PO⠿`
+
+###
+ꘖ `P2⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P2⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P3⁎`
+###
+`P3⁎` : `PO⠿`
+
+###
+ꘖ `P3⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P3⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P4⁎`
+###
+`P4⁎` : `PO⠿`
+
+###
+ꘖ `P4⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P4⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P5⁎`
+###
+`P5⁎` : `PO⠿`
+
+###
+ꘖ `P5⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P5⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P6⁎`
+###
+`P6⁎` : `PO⠿`
+
+###
+ꘖ `P6⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P6⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P7⁎`
+###
+`P7⁎` : `PO⠿`
+
+###
+ꘖ `P7⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P7⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P8⁎`
+###
+`P8⁎` : `PO⠿`
+
+###
+ꘖ `P8⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P8⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P9⁎`
+###
+`P9⁎` : `PO⠿`
+
+###
+ꘖ `P9⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P9⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P10⁎`
+###
+`P10⁎` : `PO⠿`
+
+###
+ꘖ `P10⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P10⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P11⁎`
+###
+`P11⁎` : `PO⠿`
+
+###
+ꘖ `P11⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P11⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P12⁎`
+###
+`P12⁎` : `PO⠿`
+
+###
+ꘖ `P12⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P12⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P13⁎`
+###
+`P13⁎` : `PO⠿`
+
+###
+ꘖ `P13⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P13⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P14⁎`
+###
+`P14⁎` : `PO⠿`
+
+###
+ꘖ `P14⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P14⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P15⁎`
+###
+`P15⁎` : `PO⠿`
+
+###
+ꘖ `P15⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P15⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P16⁎`
+###
+`P16⁎` : `PO⠿`
+
+###
+ꘖ `P16⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P16⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P17⁎`
+###
+`P17⁎` : `PO⠿`
+
+###
+ꘖ `P17⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P17⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+## `P18⁎`
+###
+`P18⁎` : `PO⠿`
+
+###
+ꘖ `P18⁎` ∋
+```toml
+URL = 'STUB'
+Title = 'STUB'
+Publication_Date = 'STUB'
+``` 
+
+### 
+ꘖ `P18⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+STUB
+~~~
+
+# 6. `С⁎`
+## 6.1.
+`С⁎` ≔ ⟨ компания `ꆜ` ⟩
+
+## 6.2. 
+ꘖ `С⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+- ⌖ ⟦`P⠿`⟧ ❮ STUB ❯
+- ⌖ ⟦`P⠿`⟧ ❮ STUB ❯
+- ⌖ ⟦`P⠿`⟧ ❮ STUB ❯
+~~~
+
+## 6.3. 
+ꘖ `С⁎` ∋ ⟨ Website ⟩ ≔ STUB
+
+## 6.4.
 ⊤ (Все `Pᵢ` касаются `С⁎`)
 
-# 9.
-`P†` ≔†
-```
-Проблема, о которой `ꆜ` пишет в `PD`:
-~~~
+# 7. `T⁎`
+## `T⁎`
+`T⁎` ≔ ⟪ задача `ꆜ` в рамках `P⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-# 9.
-`T⁎` ≔
-```
-Задача, о которой `ꆜ` пишет в `PD`:
-~~~
+## `T1⁎`
+`T1⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-# 10.
-## 10.1.
-`T1⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
+## `T2⁎`
+`T2⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-## 10.2.
-`T2⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
+## `T3⁎`
+`T3⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-## 10.3.
-`T3⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
+## `T4⁎`
+`T4⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-## 10.4.
-`T4⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
+## `T5⁎`
+`T5⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-## 10.5.
-`T5⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
+## `T6⁎`
+`T6⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
 
-## 10.6.
-`T6⁎` ≔ 
-```		
-Подзадача из `PD`:
-~~~
+# 8. `P†`
+## `P†`
+`P†` ≔† ⟪ проблема `ꆜ` в рамках `P⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
 STUB
 ~~~
-```
+
+## `P1†`
+`P1†` ≔† ⟪ подпроблема `P1†` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
+STUB
+~~~

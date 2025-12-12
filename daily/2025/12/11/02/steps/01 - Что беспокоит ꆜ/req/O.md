@@ -3,24 +3,25 @@
 
 # 1.
 ## 1.1.
-`UW` ≔ (Upwork: https://en.wikipedia.org/wiki/Upwork)
+`UW` ≔Ⱳ https://en.wikipedia.org/wiki/Upwork
 
 ## 1.2.
-`ꆜ` ≔ (a potential client on `UW`)
+`ꆜ` ≔ ⟨ a potential client on `UW` ⟩
 
-## 1.3.
-`P⁎` ≔ (a potential project of `ꆜ`, published on `UW`)
+# 2. `P⁎`
+## 2.1.
+`P⁎` ≔ ⟨ a potential project of `ꆜ`, published on `UW` ⟩
 
-# 2. Информация о `P⁎`
-## 2.1. Metadata
+## 2.2.
+ꘖ `P⁎` ∋
 ```toml
 URL = 'https://www.upwork.com/jobs/~021998936685512149772'
-'Publication Date' = 'today'
 Title = 'Azure CLI SSL Certificate Verification Expert Needed for Python 3.13 Proxy Issue'
-```
+Publication_Date = 'today'
+``` 
 
-## 2.2. Description
-`PD` ≔ ⟪текст `P⁎`⟫ 
+## 2.3. 
+ꘖ `P⁎` ∋ `PD` ≔ ⟪ Description ⟫ 
 ~~~markdown
 #
 I need an experienced freelancer to troubleshoot and resolve an SSL certificate verification error I'm encountering when using Azure CLI on my Windows machine (likely running in Git Bash or similar). 
@@ -57,7 +58,8 @@ Get `az login` working without disabling verification (insecure workaround).
 Prefer secure fixes like using system cert store, proper CA config, or Python tweaks.
 ~~~
 
-# 4. Информация о `ꆜ`
+# 4. ꘖ `ꆜ`
+ꘖ `ꆜ` ∋
 ```toml
 Location = 'New York, United States'
 
@@ -74,36 +76,54 @@ Location = 'New York, United States'
 'Средняя почасовая ставка (USD)' = 44.22
 ```
 
-# 6. Другие проекты `ꆜ` на `UW`
-## 6.1. `P1⁎`
+# 5. `P⠿`
+## 
+`PO⠿` ~ ⟨ другие проекты `ꆜ` на `UW` ⟩
 
-### 6.1.1. URL
-https://www.upwork.com/jobs/~021997044898041376943
+##
+`P⠿` ≔ ⠿{`P⁎`} ⋃ `PO⠿`
 
-### 6.1.2. Title
-Azure Networking
+##
+`Pᵢ` : `P⠿`
 
-### 6.1.3. Description
-`P1D` ≔ 
-```text
-Need SME to troubleshoot azure firewall issues, route tables, vpn gateway etc.  Strong preference for those who are azure network certified.  Not too many people out there with that skillset.
+## `P1⁎`
+###
+`P1⁎` : `PO⠿`
+
+###
+ꘖ `P1⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021997044898041376943'
+Publication_Date = '6 days ago'
+Title = 'Azure Networking'
 ```
 
-### 6.1.4. Publication Date
-6 days ago
+### 
+ꘖ `P1⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+Need SME to troubleshoot azure firewall issues, route tables, vpn gateway etc.  
+Strong preference for those who are azure network certified.  
+Not too many people out there with that skillset.
+~~~
 
-## 6.2. `P2⁎`
+## `P2⁎`
+###
+`P2⁎` : `PO⠿`
 
-### 6.2.1. URL
-https://www.upwork.com/jobs/~021996198048289262610
+###
+ꘖ `P2⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021996198048289262610'
+Title = 'Azure Cosmos DB Developer – Define & Implement Schema for Cosmos DB (NoSQL) Blob Storage Integration'
+Publication_Date = 'last week'
+``` 
 
-### 6.2.3. Title
-Azure Cosmos DB Developer – Define & Implement Schema for Cosmos DB (NoSQL) Blob Storage Integration
-
-### 6.2.3. Description
-`P2D` ≔ 
-```text
-Must join call today 11am EST for this tutorial.  No audio just mouse control.  Lets connect before 11am call though.
+### 
+ꘖ `P2⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+Must join call today 11am EST for this tutorial.  
+No audio just mouse control.  
+Lets connect before 11am call though.
 
 We already have data being stored in Azure Blob Storage (JSON files). We now need to:
 
@@ -112,22 +132,23 @@ Decide partitioning strategy, indexing policy, container structure, and relation
 Create the actual Cosmos DB database, containers, and implement the schema in a real Azure environment.
 Write sample code (preferably C#/.NET 6+) to insert/read data respecting the new schema.
 Ensure smooth integration between existing Blob Storage data pipeline and the new Cosmos DB layer.
-```
+~~~
 
-### 6.2.4. Publication Date
-last week
+## `P3⁎`
+###
+`P3⁎` : `PO⠿`
 
-## 6.3. `P3⁎`
+###
+ꘖ `P3⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021996002015865609380'
+Title = 'Azure Policy Expert Needed to Modify and Exempt Policies for AKS Deployments'
+Publication_Date = 'STUB'
+``` 
 
-### 6.3.1. URL
-Azure Policy Expert Needed to Modify and Exempt Policies for AKS Deployments
-
-### 6.3.2. Title
-https://www.upwork.com/jobs/~021996002015865609380
-
-### 6.3.3. Description
-`P3D` ≔ 
-```text
+### 
+ꘖ `P3⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 Modify our existing Azure policies that are currently blocking AKS (Azure Kubernetes Service) deployments. The policies enforce standards like naming conventions, image restrictions, high-privileged roles, and DNS integrations, but they conflict with AKS's managed resources (e.g., random VMSS names, Microsoft-provided images).
 
 Your tasks:
@@ -139,39 +160,43 @@ Update policy rules to inherently exclude AKS-specific resource types (e.g., usi
 Implement targeted exemptions using resourceSelectors (e.g., by resourceType for temporary waivers scoped to resource groups).
 
 Ensure modifications align with best practices for least privilege, compliance (e.g., CIS benchmarks), and our multi-tenant environment.
-```
+~~~
 
-### 6.3.4. Publication Date
-last week
+## `P4⁎`
+###
+`P4⁎` : `PO⠿`
 
-## 6.4. `P4⁎`
+###
+ꘖ `P4⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021995911249699121827'
+Title = 'Azure DevOps Pipeline Setup for On-Prem SQL DACPAC Deployment (CI/CD Automation)'
+Publication_Date = 'last week'
+``` 
 
-### 6.4.1. URL
-https://www.upwork.com/jobs/~021995911249699121827
+### 
+ꘖ `P4⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+Currently building a CI/CD pipeline in Azure DevOps for deploying SQL Server DACPACs to on-prem environments (UAT and Prod). 
+The pipeline needs to handle building .sqlproj files, generating DACPAC artifacts, and deploying them using the `SqlDacpacDeploymentOnMachineGroup@0` task with secure Windows authentication. 
+We have a basic YAML pipeline working for DEV/UAT, but need help refining it for production: adding approvals/gates, integrating Key Vault for credentials (avoid hardcoded), handling cross-database references, ensuring deployment order (e.g., Nexus before Synapse), and scripting agent reinstalls/PowerShell for proxy persistence. The goal is fully automated, repeatable deploys with least-privilege security. Experience with restricted on-prem setups (no internet, domain accounts) is a plus.
+~~~
 
-### 6.4.2. Title
-Azure DevOps Pipeline Setup for On-Prem SQL DACPAC Deployment (CI/CD Automation)
+## `P5⁎`
+###
+`P5⁎` : `PO⠿`
 
-### 6.4.3. Description
-`P4D` ≔ 
-```text
-Currently building a CI/CD pipeline in Azure DevOps for deploying SQL Server DACPACs to on-prem environments (UAT and Prod). The pipeline needs to handle building .sqlproj files, generating DACPAC artifacts, and deploying them using the SqlDacpacDeploymentOnMachineGroup@0 task with secure Windows authentication. We have a basic YAML pipeline working for DEV/UAT, but need help refining it for production: adding approvals/gates, integrating Key Vault for credentials (avoid hardcoded), handling cross-database references, ensuring deployment order (e.g., Nexus before Synapse), and scripting agent reinstalls/PowerShell for proxy persistence. The goal is fully automated, repeatable deploys with least-privilege security. Experience with restricted on-prem setups (no internet, domain accounts) is a plus.
-```
+###
+ꘖ `P5⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021995894758345910947'
+Title = 'Azure AI Document Intelligence SME for Data Extraction Platform'
+Publication_Date = 'last week'
+``` 
 
-### 6.4.4. Publication Date
-last week
-
-## 6.5. `P5⁎`
-
-### 6.5.1. URL
-https://www.upwork.com/jobs/~021995894758345910947
-
-### 6.5.2. Title
-Azure AI Document Intelligence SME for Data Extraction Platform
-
-### 6.5.3. Description
-`P5D` ≔ 
-```text
+### 
+ꘖ `P5⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 Building a scalable Azure-based platform for financial document processing (e.g., ingestion, classification, extraction, validation, and GO/NIGO rules).  Collaborate on optimizing the data pipeline, improving AI model accuracy (custom neural models via Document Intelligence), implementing feedback loops for continuous training, and ensuring scalability for thousands of docs/day.
 
 Azure Document Intelligence (Form Recognizer) – custom models, programmatic training/API integration.
@@ -188,22 +213,23 @@ Event-driven architecture (Event Grid, queues, retries).
 Strong debugging skills (JSON diffs, API versioning).
 
 Collaborative prototyping in agile teams.
-```
+~~~
 
-### 6.5.4. Publication Date
-last week
+## `P6⁎`
+###
+`P6⁎` : `PO⠿`
 
-## 6.6. `P6⁎`
+###
+ꘖ `P6⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021991876712436376190'
+Title = 'Azure Expert Needed to Reset VMSS Admin Password and Troubleshoot Access Issues'
+Publication_Date = '3 weeks ago'
+``` 
 
-### 6.6.1. URL
-https://www.upwork.com/jobs/~021991876712436376190
-
-### 6.6.2. Title
-Azure Expert Needed to Reset VMSS Admin Password and Troubleshoot Access Issues
-
-### 6.6.3. Description
-`P6D` ≔ 
-```text
+### 
+ꘖ `P6⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 I'm facing challenges resetting the local admin password for an Azure Virtual Machine Scale Set (VMSS) instance. I need an experienced Azure specialist to guide me through the process or implement the fix remotely (via screen share or direct access if possible). The setup involves:
 
 Azure VMSS with Windows instances (using Bastion for secure RDP access).
@@ -212,22 +238,23 @@ Handling multiple Azure subscriptions and ensuring the correct one is selected.
 Applying the VMAccessAgent extension to update the password across instances.
 Troubleshooting errors like "Resource group not found" or extension failures.
 Verifying access post-reset and providing best practices to avoid future issues.
-```
+~~~
 
-### 6.6.4. Publication Date
-3 weeks ago
+## `P7⁎`
+###
+`P7⁎` : `PO⠿`
 
-## 6.7. `P7⁎`
+###
+ꘖ `P7⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021989699095682937282'
+Title = 'AWS Architecture Diagram for Self-Hosted Active Directory on EC2'
+Publication_Date = '4 weeks ago'
+``` 
 
-### 6.7.1. URL
-https://www.upwork.com/jobs/~021989699095682937282
-
-### 6.7.2. Title
-AWS Architecture Diagram for Self-Hosted Active Directory on EC2
-
-### 6.7.3. Description
-`P7D` ≔ 
-```text
+### 
+ꘖ `P7⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 I'm looking for an AWS expert with Active Directory experience to create a high-level architecture diagram for a self-hosted AD setup in AWS. This is for an enterprise migration project extending an on-prem domain (bcbsfl.com) to AWS EC2.
 Diagram Requirements:
 
@@ -250,22 +277,23 @@ InSM JIT (CrowdStrike → DCs/VMs).
 
 Visual Style: Use AWS icons (VPC, subnet, EC2, Transit Gateway, etc.). High-level – no CIDR/IPs, no security groups/NACLs. Group by accounts with boxes.
 Tools: Draw.io
-```
+~~~
 
-### 6.7.4. Publication Date
-4 weeks ago
+## `P8⁎`
+###
+`P8⁎` : `PO⠿`
 
-## 6.8. `P8⁎`
+###
+ꘖ `P8⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021985766303100858858'
+Title = 'Fix Real-Time Speaker Diarization Issue in Audio Streaming App Using AssemblyAI'
+Publication_Date = 'last month'
+``` 
 
-### 6.8.1. URL
-https://www.upwork.com/jobs/~021985766303100858858
-
-### 6.8.2. Title
-Fix Real-Time Speaker Diarization Issue in Audio Streaming App Using AssemblyAI
-
-### 6.8.3. Description
-`P8D` ≔ 
-```text
+### 
+ꘖ `P8⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 We're building an AI meeting analysis app that uses AssemblyAI for real-time transcription and xAI's Grok API for analysis. The app processes audio in small chunks (2-5 seconds) for low latency, but we're facing issues with speaker diarization: labels reset across chunks (e.g., Speaker B in one chunk becomes Speaker A in the next), leading to instability in multi-speaker meetings (3-5 speakers). The code is Python-based with PyAudio for capture, and AssemblyAI for transcription (streaming mode).
 I need an experienced developer to:
 
@@ -276,22 +304,23 @@ Suggest optimizations for mobile/browser (e.g., React Native compatibility) if p
 Provide updated code, test results (error rates), and explanation of changes.
 
 Experience with AssemblyAI, real-time audio processing, and diarization is essential.
-```
+~~~
 
-### 6.8.4. Publication Date
-last month
+## `P9⁎`
+###
+`P9⁎` : `PO⠿`
 
-## 6.9. `P9⁎`
+###
+ꘖ `P9⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021976763199104265958'
+Title = 'Audit Script for Security Group Usage in Azure and Microsoft 365'
+Publication_Date = '2 months ago'
+``` 
 
-### 6.9.1. URL
-https://www.upwork.com/jobs/~021976763199104265958
-
-### 6.9.2. Title
-Audit Script for Security Group Usage in Azure and Microsoft 365
-
-### 6.9.3. Description
-`P9D` ≔ 
-```text
+### 
+ꘖ `P9⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 I need to understand what hybrid security groups (syncing AD to AAD) are actively used for access control, permissions, or roles across Azure resources and Microsoft 365 services. Deleting a group that's still referenced could break authentication, resource access, or integrations, leading to outages or security issues.
 
 Develop PowerShell script that audits a specified security group's usage. It checks for assignments  references in key Azure and M365 areas.
@@ -311,75 +340,81 @@ Exchange Online: Examines group links and memberships.
 
 Security and Compliance: Audits Purview/Copilot references (e.g., audit logs) and Graph API (app role assignments/consents).
 Device Management: Checks Intune role assignments.
-```
+~~~
 
-### 6.9.4. Publication Date
-2 months ago
+## `P10⁎`
+###
+`P10⁎` : `PO⠿`
 
-## 6.10. `P10⁎`
+###
+ꘖ `P10⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021970849920727383409'
+Title = 'Troubleshoot On-Prem SQL Server 2022 Entra ID (Azure AD) Authentication for Service Principal'
+Publication_Date = '3 months ago'
+``` 
 
-### 6.10.1. URL
-https://www.upwork.com/jobs/~021970849920727383409
+### 
+ꘖ `P10⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+Experienced SQL Server DBA needed ASAP to fix Entra ID authentication error on on-premises SQL 2022 instance. 
+Error: "Command 'CREATE USER FROM EXTERNAL PROVIDER' not supported as Azure Active Directory is not configured." 
+Goal: Enable SPN logins via Azure Arc. Quick turnaround
+~~~
 
-### 6.10.2. Title
-Troubleshoot On-Prem SQL Server 2022 Entra ID (Azure AD) Authentication for Service Principal
+## `P11⁎`
+###
+`P11⁎` : `PO⠿`
 
-### 6.10.3. Description
-`P10D` ≔ 
-```text
-Experienced SQL Server DBA needed ASAP to fix Entra ID authentication error on on-premises SQL 2022 instance. Error: "Command 'CREATE USER FROM EXTERNAL PROVIDER' not supported as Azure Active Directory is not configured." Goal: Enable SPN logins via Azure Arc. Quick turnaround
-```
+###
+ꘖ `P11⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021958886974371840651'
+Title = 'Azure AKS and PostgreSQL Access Configuration'
+Publication_Date = 'last quarter'
+``` 
 
-### 6.10.4. Publication Date
-3 months ago
+### 
+ꘖ `P11⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+Looking for an experience Azure Kubernetes Service (AKS) and PostgreSQL expert to assist with configuring and granting access to our PostgreSQL database integrated with our AKS environment. 
+This role involves working with our inBranch Backend architecture deployed on Microsoft Azure
+~~~
 
-## 6.11. `P11⁎`
+## `P12⁎`
+###
+`P12⁎` : `PO⠿`
 
-### 6.11.1. URL
-https://www.upwork.com/jobs/~021958886974371840651
+###
+ꘖ `P12⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021945073415357127853'
+Title = 'Azure Kubernetes SME'
+Publication_Date = 'last quarter'
+``` 
 
-### 6.11.2. Title
-Azure AKS and PostgreSQL Access Configuration
+### 
+ꘖ `P12⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+Need Azure Kubernetes SME and need to review code and enable disk encryption.  
+Gitlab and Teffaform are the two tools used.
+~~~
 
+## `P13⁎`
+###
+`P13⁎` : `PO⠿`
 
-### 6.11.3. Description
-`P11D` ≔ 
-```text
-Looking for an experience Azure Kubernetes Service (AKS) and PostgreSQL expert to assist with configuring and granting access to our PostgreSQL database integrated with our AKS environment. This role involves working with our inBranch Backend architecture deployed on Microsoft Azure
-```
+###
+ꘖ `P13⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021949510797914266486'
+Title = 'VS Code Migration Tutorial Creator for SQL Database Projects (From Visual Studio Workflow)'
+Publication_Date = 'last quarter'
+``` 
 
-### 6.11.4. Publication Date
-last quarter
-
-## 6.12. `P12⁎`
-
-### 6.12.1. URL
-https://www.upwork.com/jobs/~021945073415357127853
-
-### 6.12.2. Title
-Azure Kubernetes SME
-
-### 6.12.3. Description
-`P12D` ≔ 
-```text
-Need Azure Kubernetes SME and need to review code and enable disk encryption.  Gitlab and Teffaform are the two tools used.
-```
-
-### 6.12.4. Publication Date
-last quarter
-
-## 6.13. `P13⁎`
-
-### 6.13.1. URL
-https://www.upwork.com/jobs/~021949510797914266486
-
-### 6.13.2. Title
-VS Code Migration Tutorial Creator for SQL Database Projects (From Visual Studio Workflow)
-
-
-### 6.13.3. Description
-`P13D` ≔ 
-```text
+### 
+ꘖ `P13⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 Need a skilled technical writer/developer experienced in VS Code, SQL Server database projects, and Azure DevOps to create a comprehensive tutorial for migrating workflows from Visual Studio (VS) to VS Code. We are transitioning actuarial and modeling users (e.g., students and experts) to VS Code to avoid licensing costs and streamline processes like publishing DAC packs, handling PowerShell scripts for table scripting, and populating data in repositories (e.g., model point files).
 
 Key Tasks:
@@ -409,23 +444,23 @@ Required Skills:
 Expertise in VS Code, Visual Studio, SQL Server (DAC packs, stored procedures like SP generate merge), PowerShell scripting, and Git/Azure DevOps.
 
 Familiarity with database workflows (e.g., table creation/population, merge statements); actuarial/modeling knowledge is a plus.
-```
+~~~
 
-### 6.13.4. Publication Date
-last quarter
+## `P14⁎`
+###
+`P14⁎` : `PO⠿`
 
-## 6.14. `P14⁎`
+###
+ꘖ `P14⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021943386746220758613'
+Title = 'Azure Sentinel filter Windows log data sent to Sentinel'
+Publication_Date = 'last quarter'
+``` 
 
-### 6.14.1. URL
-https://www.upwork.com/jobs/~021943386746220758613
-
-### 6.14.2. Title
-Azure Sentinel filter Windows log data sent to Sentinel
-
-
-### 6.14.3. Description
-`P14D` ≔ 
-```text
+### 
+ꘖ `P14⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 I need to find ways we can reduce the noice on azure sentinel and save costs.  Its way too high.  I also need below task completed:
 
 Validate Current DCR:
@@ -457,41 +492,43 @@ Navigate to Azure portal Monitor Data Collection Rules Microsoft-Security-Event-
 Edit the DCR and replace the XPath query with the new one provided above.
 
 Save and deploy the updated DCR to all enrolled machines.
-```
+~~~
 
-### 6.14.4. Publication Date
-last quarter
+## `P15⁎`
+###
+`P15⁎` : `PO⠿`
 
+###
+ꘖ `P15⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021921178157218030852'
+Title = 'Azure Kubernetes connection issues'
+Publication_Date = '2 quarters ago'
+``` 
 
-## 6.15. `P15⁎`
+### 
+ꘖ `P15⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
+We have  connection issues.  
+We have 2 clusters and aks-02 which responds for my command but not aks-01 fails.No errors in diagnose. Having connection issues.  
+I feel like we are missing few standards to deploy AKS.
+~~~
 
-### 6.15.1. URL
-https://www.upwork.com/jobs/~021921178157218030852
+## `P16⁎`
+###
+`P16⁎` : `PO⠿`
 
-### 6.15.2. Title
-Azure Kubernetes connection issues
+###
+ꘖ `P16⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021979132360843737909'
+Title = 'Windows WSL2 Expert Needed: Find Alternatives to Ubuntu When Blocked by Group Policy'
+Publication_Date = '2 months ago'
+``` 
 
-### 6.15.3. Description
-`P15D` ≔ 
-```text
-We have  connection issues.  We have 2 clusters and aks-02 which responds for my command but not aks-01 fails.No errors in diagnose. Having connection issues.  I feel like we are missing few standards to deploy AKS.
-```
-
-### 6.15.4. Publication Date
-2 quarters ago
-
-
-## 6.16. `P16⁎`
-
-### 6.16.1. URL
-https://www.upwork.com/jobs/~021979132360843737909
-
-### 6.16.2. Title
-Windows WSL2 Expert Needed: Find Alternatives to Ubuntu When Blocked by Group Policy
-
-### 6.16.3. Description
-`P16D` ≔ 
-```text
+### 
+ꘖ `P16⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 I need help implementing alternatives to installing Ubuntu in WSL2 on Windows, as group policy blocks it. Based on these options:
 
 Install a different WSL2 distro like Debian (via PowerShell or manual .appx sideload).
@@ -499,91 +536,69 @@ Install WSL2 without a distro and manually import Debian tar file.
 Use alternatives like Multipass for Debian VM, VirtualBox/VMware for full Linux VMs, or Azure VM if all else fails.
 
 You'll set this up on my Windows machine (remote access via TeamViewer or similar), test the chosen method, and provide step-by-step documentation. Ensure it bypasses policy restrictions where possible without exemption.
-```
+~~~
 
-### 6.16.4. Publication Date
-2 months ago
+## `P17⁎`
+###
+`P17⁎` : `PO⠿`
 
+###
+ꘖ `P17⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021930600114871209360'
+Title = 'Migrate NPS to new server'
+Publication_Date = '2 quarters ago'
+``` 
 
-## 6.17. `P17⁎`
-
-### 6.17.1. URL
-https://www.upwork.com/jobs/~021930600114871209360
-
-### 6.17.2. Title
-Migrate NPS to new server
-
-### 6.17.3. Description
-`P17D` ≔ 
-```text
+### 
+ꘖ `P17⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 We need to migrate the NPS service used for VPN1 and VPN2.  VPN2 can be tested first before cutting over the primary VPN, i.e. VPN1.
-```
+~~~
 
-### 6.17.4. Publication Date
-2 quarters ago
+## `P18⁎`
+###
+`P18⁎` : `PO⠿`
 
-## 6.18. `P18⁎`
+###
+ꘖ `P18⁎` ∋
+```toml
+URL = 'https://www.upwork.com/jobs/~021956086820766368034'
+Title = 'Azure Security Specialist for CMK Implementation and Key Backup'
+Publication_Date = 'last quarter'
+``` 
 
-### 6.18.1. URL
-https://www.upwork.com/jobs/~021956086820766368034
-
-### 6.18.2. Title
-Azure Security Specialist for CMK Implementation and Key Backup
-
-### 6.18.3. Description
-`P18D` ≔ 
-```text
+### 
+ꘖ `P18⁎` ∋ ⟨ Description ⟩ ≔
+~~~markdown
 I need an Azure SME to enable Customer-Managed Keys (CMK) for Transparent Data Encryption (TDE) on our Azure SQL development databases and configure secure key backups in Azure Key Vault.
-```
+~~~
 
-### 6.18.4. Publication Date
-last quarter
+# 6. `С⁎`
+## 6.1.
+`С⁎` ≔ ⟨ компания `ꆜ` ⟩
 
-# 7.
-## 7.1.
-`PO⠿` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`, `P8⁎`, `P9⁎`, `P10⁎`, `P11⁎`, `P12⁎`, `P13⁎`, `P14⁎`, `P15⁎`, `P16⁎`, `P17⁎`, `P18⁎`}
-
-## 7.2.
-`P⠿` ≔ (⠿{`P⁎`} ⋃ `PO⠿`)
-
-## 7.3.
-`Pᵢ` : `P⠿`
-
-# 8.
-## 8.1.
-`С⁎` ≔ 
-```
-Компания `ꆜ`:
-```
-
-## 8.2.
+## 6.4.
 ⊤ (Все `Pᵢ` касаются `С⁎`)
 
-# 9.
-`P†` ≔†
-```
-Проблема, о которой `ꆜ` пишет в `PD`:
-~~~
-an SSL certificate verification error I'm encountering when using Azure CLI on my Windows machine
-~~~
-```
-
-# 10.
-`P1†` ≔† 
-```		
-Подпроблема (часть `P†`):
-~~~
-Command failing: az login (aliased to python -m azure.cli).
-Error message: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA cert does not include key usage extension (_ssl.c:1028)".
-~~~
-```
-
-# 11.
-`T⁎` ≔
-```
-Задача, о которой `ꆜ` пишет в `PD`:
+# 7. `T⁎`
+`T⁎` ≔ ⟪ задача `ꆜ` в рамках `P⁎` ⟫ ⌖ ⟦`PD`⟧
 ~~~markdown
 Get `az login` working without disabling verification (insecure workaround)
 ~~~
-```
+
+# 8. `P†`
+## `P†`
+`P†` ≔† ⟪ проблема `ꆜ` в рамках `P⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
+an SSL certificate verification error I'm encountering when using Azure CLI on my Windows machine
+~~~
+
+## `P1†`
+`P1†` ≔† ⟪ подпроблема `P1†` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
+Command failing: `az login` (aliased to python -m azure.cli).
+Error message: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA cert does not include key usage extension (_ssl.c:1028)".
+~~~
+
  
