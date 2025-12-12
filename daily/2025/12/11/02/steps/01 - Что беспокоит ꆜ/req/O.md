@@ -6,65 +6,73 @@
 `UW` ≔ (Upwork: https://en.wikipedia.org/wiki/Upwork)
 
 ## 1.2.
-`ꆜ` ≔ (Некий конкретный потенциальный клиент на `UW`)
+`ꆜ` ≔ (a potential client on `UW`)
 
 ## 1.3.
-`P⁎` ≔ (Некий конкретный потенциальный проект, опубликованный `ꆜ` на `UW`)
+`P⁎` ≔ (a potential project of `ꆜ`, published on `UW`)
 
 # 2. Информация о `P⁎`
-## 2.1. URL
-https://www.upwork.com/jobs/~021998936685512149772
+## 2.1. Metadata
+```toml
+URL = 'https://www.upwork.com/jobs/~021998936685512149772'
+'Publication Date' = 'today'
+Title = 'Azure CLI SSL Certificate Verification Expert Needed for Python 3.13 Proxy Issue'
+```
 
-## 2.2. Title
-Azure CLI SSL Certificate Verification Expert Needed for Python 3.13 Proxy Issue
-
-## 2.3. Description
-`PD` ≔ 
-```text
-I need an experienced freelancer to troubleshoot and resolve an SSL certificate verification error I'm encountering when using Azure CLI on my Windows machine (likely running in Git Bash or similar). The setup involves a custom Python 3.13 environment with Azure CLI installed via pip, and I'm behind a corporate proxy that performs SSL/TLS inspection. Despite following standard fixes, the issue persists, and I suspect it's related to strict certificate validation in Python 3.13.
-Problem Details:
-
-Command failing: az login (aliased to python -m azure.cli).
-Error message: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA cert does not include key usage extension (_ssl.c:1028)".
-Environment: Windows, Python 3.13, custom .bashrc with exports like:
+## 2.2. Description
+`PD` ≔ ⟪текст `P⁎`⟫ 
+~~~markdown
+#
+I need an experienced freelancer to troubleshoot and resolve an SSL certificate verification error I'm encountering when using Azure CLI on my Windows machine (likely running in Git Bash or similar). 
+#
+The setup involves a custom Python 3.13 environment with Azure CLI installed via pip, and I'm behind a corporate proxy that performs SSL/TLS inspection. 
+#
+Despite following standard fixes, the issue persists, and I suspect it's related to strict certificate validation in Python 3.13.
+# Problem Details:
+## Command failing
+`az login` (aliased to `python -m azure.cli`).
+## Error message
+"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA cert does not include key usage extension (_ssl.c:1028)".
+## Environment
+Windows, Python 3.13, custom `.bashrc` with exports like:
+```bash
 export PATH=/c/Users/[username]/bin:$PATH
 export SSL_CERT_FILE=/path/to/cacert.pem
 export REQUESTS_CA_BUNDLE=$SSL_CERT_FILE (and similar for GIT, CURL, NODE).
-
-Attempts made:
-Appended the proxy's root CA certificate (exported from a working machine) to a custom cacert.pem.
-Set proxy vars (HTTP_PROXY, HTTPS_PROXY).
-The CA cert is from our internal network/proxy (e.g., Zscaler or similar), but it lacks required extensions like keyCertSign in Key Usage.
-Works on another machine (possibly older Python or different config), but not here.
-
-Goal: Get az login working without disabling verification (insecure workaround). Prefer secure fixes like using system cert store, proper CA config, or Python tweaks.
 ```
 
-# 5. Информация о `ꆜ`
-## 5.1. Местоположение
-United States
-New York
+# Attempts made:
+- Appended the proxy's root CA certificate (exported from a working machine) to a custom `cacert.pem`.
+- Set proxy vars (`HTTP_PROXY`, `HTTPS_PROXY`).
 
-## 5.2. Характеристики компании
-### 5.2.1. Сектор экономики
-Tech & IT
+# 
+The CA cert is from our internal network/proxy (e.g., Zscaler or similar), but it lacks required extensions like keyCertSign in Key Usage.
+#
+Works on another machine (possibly older Python or different config), but not here.
 
-### 5.2.2. Количество сотрудников
-Individual client
+# Goal
+##
+Get `az login` working without disabling verification (insecure workaround). 
+##
+Prefer secure fixes like using system cert store, proper CA config, or Python tweaks.
+~~~
 
-## 5.3. Характеристики учётной записи на `UW`
-### 5.3.1. Member since
-Jun 12, 2020
-### 5.3.2. Hire rate (%)
-65
-### 5.3.3. Количество опубликованных проектов (jobs posted)
-417
-### 5.3.4. Total spent (USD)
-351K
-### 5.3.5. Количество оплаченных часов в почасовых проектах
-7599
-### 5.3.6. Средняя почасовая ставка (USD)
-44.22
+# 4. Информация о `ꆜ`
+```toml
+Location = 'New York, United States'
+
+['Характеристики компании `ꆜ`']
+'Сектор экономики' = 'Tech & IT'
+'Количество сотрудников' = 'Individual client'
+
+['Характеристики учётной записи `ꆜ` на `UW`']
+'Member since' = 'Jun 12, 2020'
+'Hire rate (%)' = 65
+'Количество опубликованных проектов (jobs posted)' = 417
+'Total spent (USD)' = '351K'
+'Количество оплаченных часов в почасовых проектах' = 7599
+'Средняя почасовая ставка (USD)' = 44.22
+```
 
 # 6. Другие проекты `ꆜ` на `UW`
 ## 6.1. `P1⁎`
@@ -533,13 +541,13 @@ last quarter
 
 # 7.
 ## 7.1.
-`POs` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`, `P8⁎`, `P9⁎`, `P10⁎`, `P11⁎`, `P12⁎`, `P13⁎`, `P14⁎`, `P15⁎`, `P16⁎`, `P17⁎`, `P18⁎`}
+`PO⠿` ≔⠿ {`P1⁎`, `P2⁎`, `P3⁎`, `P4⁎`, `P5⁎`, `P6⁎`, `P7⁎`, `P8⁎`, `P9⁎`, `P10⁎`, `P11⁎`, `P12⁎`, `P13⁎`, `P14⁎`, `P15⁎`, `P16⁎`, `P17⁎`, `P18⁎`}
 
 ## 7.2.
-`Ps` ≔ (⠿{`P⁎`} ⋃ `POs`)
+`P⠿` ≔ (⠿{`P⁎`} ⋃ `PO⠿`)
 
 ## 7.3.
-`Pi` : `Ps`
+`Pᵢ` : `P⠿`
 
 # 8.
 ## 8.1.
@@ -549,7 +557,7 @@ last quarter
 ```
 
 ## 8.2.
-⊤ (Все `Pi` касаются `С⁎`)
+⊤ (Все `Pᵢ` касаются `С⁎`)
 
 # 9.
 `P†` ≔†
@@ -574,8 +582,8 @@ Error message: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA c
 `T⁎` ≔
 ```
 Задача, о которой `ꆜ` пишет в `PD`:
-~~~
-Get az login working without disabling verification (insecure workaround)
+~~~markdown
+Get `az login` working without disabling verification (insecure workaround)
 ~~~
 ```
  
