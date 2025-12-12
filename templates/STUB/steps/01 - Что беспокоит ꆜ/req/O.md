@@ -17,7 +17,7 @@
 ```toml
 URL = 'STUB'
 Title = 'STUB'
-Publication_Date = 'STUB'
+Publication_Date = 2025-12-12
 ``` 
 
 ## 2.3. 
