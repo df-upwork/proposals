@@ -2573,3 +2573,18 @@ except AttributeError:
 13. cRLSign key usage enforcement · strongswan strongswan · Discussion #1548 - GitHub, accessed December 14, 2025, [https://github.com/strongswan/strongswan/discussions/1548](https://github.com/strongswan/strongswan/discussions/1548)  
 14. Login to Azure Devops Server - Failed to authenticate using the supplied token #32378, accessed December 14, 2025, [https://github.com/Azure/azure-cli/issues/32378](https://github.com/Azure/azure-cli/issues/32378)  
 15. 2.77.0 raises error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Authority Key Identifier (_ssl.c:1032) #32083 - GitHub, accessed December 14, 2025, [https://github.com/Azure/azure-cli/issues/32083](https://github.com/Azure/azure-cli/issues/32083)
+
+# 20.
+## 20.1.
+`Cᛘ⠿` ≔ ⠿~ ⟨ Возможные причины `P†` ⟩
+
+## 20.2.
+`Cᛘᵢ` : `Cᛘ⠿`
+
+## 20.3.
+? `Cᛘᵢ`
+
+## 20.4.
+`Pⰳ(Cᛘᵢ)` ≔ ⟨ Правдоподобность гипотезы `Cᛘᵢ` ⟩
+
+# 21. Анализ `Cᛘ⠿` (выполнен Gemini Deep Think)
