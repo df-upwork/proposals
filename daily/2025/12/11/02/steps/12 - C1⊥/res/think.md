@@ -2,7 +2,7 @@ https://gemini.google.com/share/ed4e00a960d6
 
 Вот сравнительный анализ методов и итоговые рекомендации по составлению ответа для клиента `ꆜ`.
 
-# 28\. Сравнительный анализ `Mᚖ-S` и `Mᚖ-T`
+# 28. Сравнительный анализ `Mᚖ-S` и `Mᚖ-T`
 
 Оба метода решают задачу делегирования проверки SSL от библиотеки OpenSSL (которая в Python 3.13 работает в строгом режиме) к системному API Windows (CAPI), который доверяет корпоративным сертификатам прокси. Однако они имеют принципиально разную архитектуру внедрения.
 
@@ -27,7 +27,7 @@ https://gemini.google.com/share/ed4e00a960d6
 
 -----
 
-# 29\. Рекомендации для ответа `ꆜ` (R⬆)
+# 29. Рекомендации для ответа `ꆜ` (R⬆)
 
 Ваш ответ должен демонстрировать глубокую техническую экспертизу (понимание RFC 5280) и предлагать дифференцированное решение: `Mᚖ-S` для инструментария (CLI) и `Mᚖ-T` для разработки кода.
 
@@ -56,7 +56,7 @@ We should NOT disable SSL verification (which would violate compliance standards
 
 I will guide you to inject the `pip-system-certs` adapter directly into the Azure CLI’s isolated environment.
 
-  * **Command Preview:** `& "C:\Program Files\...\python.exe" -m pip install pip-system-certs`
+  * **Command Preview:** `& "C:Program Files...python.exe" -m pip install pip-system-certs`
   * **Result:** `az login` works instantly using your corporate trust chain.
 
 **Bonus Value:**
@@ -86,9 +86,9 @@ $env:REQUESTS_CA_BUNDLE=""
 
 # 2. Инъекция пакета
 # Путь может отличаться (x86 vs x64), лучше проверить через 'az --version'
-$cli_python = "C:\Program Files\Microsoft SDKs\Azure\CLI2\python.exe"
+$cli_python = "C:Program FilesMicrosoft SDKsAzureCLI2python.exe"
 if (-not (Test-Path $cli_python)) {
-    $cli_python = "C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\python.exe"
+    $cli_python = "C:Program Files (x86)Microsoft SDKsAzureCLI2python.exe"
 }
 
 & $cli_python -m pip install pip-system-certs
