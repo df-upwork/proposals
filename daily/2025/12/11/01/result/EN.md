@@ -3,19 +3,19 @@ In points 7-10, I outline my 4 main recommendations.
 2) `⋇1`: cache bloat
 Your website `RunRepeat.com` (hereafter — `Rᨀ`) uses faceted search (color, size) and advertising tags (`gclid`, `utm`).
 This creates a combinatorial explosion of URLs (cache bloat).
-If aggressive normalization (cleaning and sorting of parameters) is not performed before caching, memory will be clogged with garbage faster than any eviction policies can free it.
+If aggressive normalization (cleaning and sorting of parameters) is not performed before caching, the metadata overhead from duplicate objects consumes system memory outside the storage limit, leading to exhaustion regardless of eviction policies.
 3) `⋇2`: Unbounded transient storage
-`Vᨀ` uses the special `Transient` storage for short-lived objects and technical `hit-for-miss` records created when caching is impossible.
+`Vᨀ` uses the special `Transient` storage for objects with a TTL shorter than the `shortlived` parameter and for buffering uncacheable response bodies.
 By default, this storage uses the system allocator `malloc` and has no limit on the maximum amount of consumed memory.
-During an influx of traffic with unique tags or Cookies that the backend marks as `private`, `Vᨀ` uncontrollably fills RAM with these temporary records until the server crashes completely (OOM).
+During an influx of traffic resulting in uncacheable responses (e.g. containing `Set-Cookie` headers or `Cache-Control: private` directives), `Vᨀ` uncontrollably fills RAM with buffered data until the server crashes completely (OOM).
 4) `⋇3`: metadata overhead
-The configuration parameter `-s malloc,SIZE` limits only the memory volume for object bodies but does not account for the overhead on their metadata.
-Each object in the cache requires approximately 1 KB of RAM for internal structures (`struct obj`, `objcore`) allocated outside the capped area.
-Due to `⋇1`, the number of objects can reach tens of millions, which results in the consumption of tens of gigabytes of memory solely for metadata.
+The configuration parameter `-s malloc,SIZE` limits the memory volume for object bodies and HTTP headers but does not account for the overhead on their metadata.
+Each object in the cache requires approximately 1 KB of RAM for internal structures (`objhead`, `objcore`) allocated outside the capped area.
+Due to `⋇1`, the number of objects can reach millions, which results in the consumption of gigabytes of memory solely for metadata.`
 5) `⋇4`: heap fragmentation
-The standard system allocator `glibc` (hereafter — `Gᨀ`), used in Linux by default, is inefficient for the multi-threaded operation of `Vᨀ` with frequent memory allocation.
-This leads to external heap fragmentation, when the operating system considers memory occupied by the process, although internally it is free but broken into small chunks.
-On the AWS Graviton (ARM64) architecture, the problem of `Gᨀ` fragmentation manifests itself particularly acutely, causing an increase in the process RSS.
+The standard system allocator `glibc` (hereafter — `Gᨀ`), used in Linux by default, prioritizes execution speed over memory efficiency during the multi-threaded operation of `Vᨀ`.
+This leads to external heap fragmentation, where available memory is split into small non-contiguous blocks that cannot be effectively reused.
+On multi-core processors, e.g. your AWS Graviton, `Gᨀ` uses multiple memory arenas to reduce lock contention, which significantly increases the process RSS.
 6) In points 7-10, I outline my 4 main recommendations for eliminating `P†`.
 7) `R1`
 7.1) Essence
@@ -31,9 +31,9 @@ Implement strict logic for cleaning `req.url` from marketing tags (`gclid`, `fbc
 8.1) Essence
 Add the flag `-s Transient=malloc,SIZE` (e.g. `-s Transient=malloc,2G`) to the startup parameters of the `varnishd` daemon (hereafter — `VDᨀ`).
 8.2) Rationale
-In the standard configuration, `Vᨀ` uses an unbounded storage for transient objects (hit-for-miss, shortlived), which occupies all available memory during attacks or failures.
+In the standard configuration, `Vᨀ` uses an unbounded storage for short-lived objects and uncacheable response buffers, which occupies all available memory during attacks or failures.
 Setting a hard limit forces `Vᨀ` to apply the eviction algorithm (LRU) to transient objects when the threshold is reached, instead of allocating new memory pages.
-This creates a guaranteed safety barrier preventing a server crash (OOM) even during a flood of requests with `Set-Cookie` or unique parameters.
+This creates a guaranteed safety barrier preventing a server crash (OOM) even during a flood of uncacheable responses.
 `R2` compensates for the architectural vulnerability of `Vᨀ` related to the `unbounded` nature of the transient storage by default.
 9) `R3`
 9.1) Essence
