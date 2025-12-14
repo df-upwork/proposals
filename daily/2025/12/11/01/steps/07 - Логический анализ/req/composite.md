@@ -3446,7 +3446,7 @@ The calculation must take into account the formula: RAM minus OS reserve, minus 
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(2)`
+`Fᨀ` ≔ `Fⰳ(10)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:
