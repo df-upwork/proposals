@@ -6,4 +6,4 @@ https://archive.is/cow72#selection-2557.0-2575.29
 2) `VERIFY_X509_STRICT` forces OpenSSL to perform certificate validation in strict compliance with IETF standards.
 3) The correct way to resolve your problem is to use the `pip-system-certs` (`SC`) package to integrate Azure CLI with the Windows system certificate store.
 `SC` dynamically substitutes the validation mechanisms of the `requests` module, redirecting checks from OpenSSL to the Windows System Cryptographic API (CAPI).
-Windows, unlike Python 3.13 in strict mode, correctly processes corporate certificates without the `KeyUsage` extension if they are in the trusted store.
+Unlike Python 3.13 in strict mode, Windows correctly processes corporate certificates without the `KeyUsage` extension if they are in the trusted store.
