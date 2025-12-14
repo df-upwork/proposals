@@ -601,8 +601,6 @@ Command failing: `az login` (aliased to python -m azure.cli).
 Error message: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: CA cert does not include key usage extension (_ssl.c:1028)".
 ~~~
 
- 
-
 # 9. Что беспокоит `ꆜ` (анализ выполнен Gemini Deep Think)
 
 # 10. Что беспокоит `ꆜ` (анализ выполнен экземпляром №5 Gemini Deep Research)
