@@ -3,7 +3,6 @@ In points 7-10, I outline my 4 main recommendations.
 2) `⋇1`: cache bloat
 Your website `RunRepeat.com` (hereafter — `Rᨀ`) uses faceted search (color, size) and advertising tags (`gclid`, `utm`).
 This creates a combinatorial explosion of URLs (cache bloat).
-Varnish (hereafter — `Vᨀ`) by default considers `/shoe?color=red` and `/shoe?gclid=123` as different objects.
 If aggressive normalization (cleaning and sorting of parameters) is not performed before caching, memory will be clogged with garbage faster than any eviction policies can free it.
 3) `⋇2`: Unbounded transient storage
 `Vᨀ` uses the special `Transient` storage for short-lived objects and technical `hit-for-miss` records created when caching is impossible.
@@ -40,7 +39,7 @@ This creates a guaranteed safety barrier preventing a server crash (OOM) even du
 9.1) Essence
 Switch `VDᨀ` to using the `jemalloc` library (hereafter — `Jᨀ`) instead of `Gᨀ`.
 9.2) Implementation
-Install the `Gᨀ` package.
+Install the `Jᨀ` package.
 Configure the `LD_PRELOAD` environment variable or linking parameters in the `systemd` unit file.
 9.3) Rationale
 `Jᨀ` uses efficient memory management algorithms (arenas, size classes), minimizing external heap fragmentation in multithreaded applications.
