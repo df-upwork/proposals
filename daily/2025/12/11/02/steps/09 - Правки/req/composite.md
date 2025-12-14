@@ -3633,14 +3633,33 @@ https://gemini.google.com/share/8b54781009d9
 # 1.
 `Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
 ~~~markdown
-STUB
+1) In Python ≥ 3.13 (which is built into Azure CLI ≥ 2.77.0), the `ssl.create_default_context` function sets the `VERIFY_X509_STRICT` and `VERIFY_X509_PARTIAL_CHAIN` flags by default:
+1.1) https://docs.python.org/3/whatsnew/3.13.html
+https://archive.is/BhVA3#selection-1787.0-1805.18
+1.2) https://docs.python.org/3/library/ssl.html
+https://archive.is/cow72#selection-2557.0-2575.29
+2) `VERIFY_X509_STRICT` forces OpenSSL to perform certificate validation in strict compliance with IETF standards.
+3) The correct way to resolve your problem is to use the `pip-system-certs` (`SC`) package to integrate Azure CLI with the Windows system certificate store.
+`SC` dynamically substitutes the validation mechanisms of the `requests` module, redirecting checks from OpenSSL to the Windows System Cryptographic API (CAPI).
+Unlike Python 3.13 in strict mode, Windows correctly processes corporate certificates without the `KeyUsage` extension if they are in the trusted store.
 ~~~
 
 # 2. 
 ## 2.1.
 `𐒌⠿` ≔ ⠿~ ⟨ недостатки `Aᨀ` ⟩ 
 ```
-STUB
+2.
+**Замечание:** Фактическая ошибка в пункте 3 при описании механизма работы `pip-system-certs`.
+Утверждается, что пакет `pip-system-certs` перенаправляет проверки из OpenSSL в Windows CAPI («redirecting checks... to... CAPI»).
+Это технически неверно. Пакет `pip-system-certs` извлекает сертификаты из системного хранилища Windows и добавляет их в контекст OpenSSL, но сама криптографическая валидация по-прежнему выполняется библиотекой OpenSSL. Описанный в `Fᨀ` механизм (делегирование валидации уровню ОС) реализует другая библиотека — `truststore`.
+Это критично, так как если `pip-system-certs` просто подсовывает сертификаты строгому OpenSSL (без отключения флагов), ошибка `KeyUsage` может сохраниться.
+**Степень уверенности:** 95
+
+3.
+**Замечание:** Логическая/семантическая ошибка в пункте 3.
+Использована формулировка «Windows... **correctly** processes» («Windows... корректно обрабатывает»).
+В контексте стандартов безопасности (RFC 5280), сертификат CA без `KeyUsage` является **некорректным**. То, что Windows его принимает, является проявлением **снисходительности** («permissive behavior») и обратной совместимости, а не «корректности». Правильнее было бы написать «permissively processes» или «accepts», чтобы не создавать ложного впечатления, будто строгий режим Python работает «неправильно».
+**Степень уверенности:** 90
 ```
 
 ## 2.2.
