@@ -1,3 +1,5 @@
+https://gemini.google.com/share/0222c7b3f19e
+
 # 1. `R.md`
 ## 1. Анализ доводов в пользу Mᚖ-S (pip-system-certs) `C↯⬆-Mᚖ-S`
 
