@@ -930,7 +930,23 @@ Target Mismatch (50%) и Propagation Lag (40%) замыкают список к�
 # 1.
 `Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
 ~~~markdown
-STUB
+3 most likely causes of your problem:
+1) `⋇1`
+It is possible that when creating CNAME records in the DNS control panel, you specified the Fully Qualified Domain Name (FQDN) in the host name field.
+Many registrars (e.g. GoDaddy or Namecheap) automatically append the zone name to the value if it does not end with a dot.
+As a result, a record of the form `selector1._domainkey.yourdomain.com.yourdomain.com` is created, which is technically correct but is located at the wrong address.
+The Microsoft Defender validator queries the expected address `selector1._domainkey.yourdomain.com` and receives an `NXDOMAIN` response, which blocks activation.
+2) `⋇2`
+It is possible that the DNS provider (e.g. Cloudflare) has proxying enabled for DKIM records.
+In this mode, the DNS server returns `A` records instead of a `CNAME` pointing to `onmicrosoft.com`.
+Microsoft 365 requires a non-proxied `CNAME` for verification and key rotation.
+Thus, Microsoft Defender cannot verify the configuration despite the published record.
+3) `⋇3`
+It could be a desynchronization between the Microsoft Defender portal and the backend Exchange Online configuration.
+The internal `DkimSigningConfig` object often remains disabled even if the interface displays the status as «Enabled».
+Consequently, the system fails to append signatures despite the presence of correct DNS records.
+Attempts to update the configuration via the portal often fail due to cached data.
+An example of the problem: https://www.reddit.com/r/sysadmin/comments/11itcpm
 ~~~
 
 # 2.
@@ -941,7 +957,7 @@ STUB
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(1)`
+`Fᨀ` ≔ `Fⰳ(2)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:
