@@ -932,11 +932,11 @@ Target Mismatch (50%) и Propagation Lag (40%) замыкают список к�
 ~~~markdown
 The 3 most likely causes of your problem:
 1) `⋇1`
-The Microsoft Defender portal may be desynchronized with the backend Exchange Online backend configuration.
-The internal `DkimSigningConfig` object often remains disabled even if the interface displays the status as «Enabled».
-Consequently, the system fails to append signatures despite the presence of correct DNS records.
+The Microsoft Defender portal may be desynchronized with the backend Exchange Online configuration.
+The internal `DkimSigningConfig` object often remains in an inconsistent state even if the interface displays the status as «Enabled».
+Consequently, outgoing emails trigger `dkim=fail` errors (e.g. «no key for signature») despite the presence of correct DNS records.
 Attempts to update the configuration via the portal often fail due to cached data.
-An example of the problem: https://www.reddit.com/r/sysadmin/comments/11itcpm
+An example of the problem:  https://www.reddit.com/r/sysadmin/comments/11itcpm
 2) `⋇2`
 Specifying the fully qualified domain name in the «Host» field often causes registrars (e.g. GoDaddy) to append the zone name.
 This results in a record like `selector1._domainkey.yourdomain.com.yourdomain.com` located at the wrong address.
@@ -957,7 +957,7 @@ Thus, Microsoft Defender cannot verify the configuration despite the published r
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(2 - 3)`
+`Fᨀ` ≔ `Fⰳ(начало и пункт 1)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:
