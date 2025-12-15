@@ -1,15 +1,8 @@
-1. `𐒌3`
-Пункт 7.1
-Implement strict logic for stripping marketing tags (`gclid`, `fbclid`, `utm_`) from `req.url` and normalizing HTTP headers in the `vcl_recv` procedure before hash calculation.
+1. `𐒌(1)`, `𐒌(2)`, `𐒌(3)`
+10.1) Essence
+Reducing the value of the `-s malloc,SIZE` parameter of `VDᨀ` to a level that reserves sufficient headroom for fragmentation, thread memory, and metadata.
+For a server with 32 GB RAM, a safe value is 14-16 GB, rather than 25-28 GB.
+The calculation must account for the OS reserve, the Transient storage limit, heap fragmentation, thread stacks, and object metadata overhead.
 
-2. `𐒌1`, `𐒌2`
-Пункт 7.2.1
-Use the `regsuball` function to remove tracking parameters or the `vmod_querystring` module to filter and sort parameters alphabetically, which brings them to a canonical form.
-
-3. `𐒌4`
-Пункт 7.2.3
-Remove the `Cookie` header for all requests that do not require server-side personalization.
-
-4. `𐒌5`
-Пункт 7.3.1
-Prevention of `⋇1` by eliminating unique marketing parameters and converting potential duplicates into single instances of objects in memory.
+2. `𐒌(4)`
+10.2.1) `R4` significantly reduces the risk of the OOM Killer triggering by reserving physical memory for overheads that are not tracked by the `-s` parameter.
