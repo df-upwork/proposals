@@ -1,8 +1,13 @@
-1. `𐒌(1)`, `𐒌(2)`, `𐒌(3)`
-10.1) Essence
-Reducing the value of the `-s malloc,SIZE` parameter of `VDᨀ` to a level that reserves sufficient headroom for fragmentation, thread memory, and metadata.
-For a server with 32 GB RAM, a safe value is 14-16 GB, rather than 25-28 GB.
-The calculation must account for the OS reserve, the Transient storage limit, heap fragmentation, thread stacks, and object metadata overhead.
+1. Исправление `𐒌(5)` в пункте 2 (`⋇1`):
+Faceted search, advertising tags, and `User-Agent` variations on `runrepeat.com` create a combinatorial explosion of cache objects.
+Without normalization, metadata overhead from duplicate objects consumes memory outside the storage limit.
+This leads to exhaustion regardless of eviction policies.
 
-2. `𐒌(4)`
-10.2.1) `R4` significantly reduces the risk of the OOM Killer triggering by reserving physical memory for overheads that are not tracked by the `-s` parameter.
+2. Исправление `𐒌(1)` в пункте 3 (`⋇2`):
+`Vᨀ` uses `Transient` storage for objects with a TTL shorter than `shortlived` and for tracking `hit-for-miss` states.
+By default, this storage uses `malloc` and has no memory limit.
+Traffic with uncacheable responses (e.g. containing `Set-Cookie`) generates millions of `hit-for-miss` objects.
+The accumulated metadata overhead for these technical markers uncontrollably consumes RAM until the server crashes (OOM).
+
+3. Исправление `𐒌(4)` в пункте 7.3 (`R1`):
+7.3) Remove the `Cookie` header in `vcl_recv` and the `Set-Cookie` header in `vcl_backend_response` for requests not requiring server-side personalization.
