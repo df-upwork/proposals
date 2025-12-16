@@ -957,7 +957,7 @@ An example of the problem: https://www.reddit.com/r/sysadmin/comments/11itcpm
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(2)`
+`Fᨀ` ≔ `Fⰳ(3)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:
