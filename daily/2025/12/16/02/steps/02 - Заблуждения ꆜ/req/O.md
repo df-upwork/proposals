@@ -232,13 +232,13 @@ transition from a personal ownership structure to a corporate structure in Malta
 ~~~
 
 ## `T1⁎`
-`T1⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+`T1⁎` ≔? ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
 ~~~markdown
 Validating the use of the Malta Consolidated Group (Fiscal Unit) to pay the 5% effective tax rate immediately, avoiding the cash-flow trap of paying 35% and waiting for the 6/7 refund
 ~~~
 
 ## `T2⁎`
-`T2⁎` ≔ ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
+`T2⁎` ≔? ⟪ подзадача `T⁎` ⟫ ⌖ ⟦`PD`⟧
 ~~~markdown
 Confirming the feasibility of a Cyprus Holding for a Malta Resident. 
 We need to analyze the trade-off between gaining immediate corporate liquidity (Fiscal Unit) vs. losing the personal Remittance Basis on dividends.
@@ -261,7 +261,6 @@ Structuring the Holding to access Tier-1 banking (e.g., Swiss banks) for ETF/Sto
 ~~~markdown
 Proposed Structure: Cyprus Holding + Malta Trading Ltd (owning the US LLC)
 ~~~
-
 
 # 9. Что беспокоит `ꆜ` (анализ выполнен Gemini Deep Think)
 https://gemini.google.com/share/a3c808369025
