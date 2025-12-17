@@ -1,49 +1,39 @@
 1.
-**Степень уверенности: 85**
-В первом предложении пункта 4.1 формулировка «Using `MHᨀ` with the payment of 5% tax» звучит стилистически тяжеловесно, а глагол «populate» в контексте налоговых счетов является нестандартным (в профессиональной лексике используется «credit»).
+В заголовке пункта 5 допущена опечатка (дублирование предлога «for»).
+Уверенность: 100.
 Предложение по устранению:
 
 ```markdown
-Operating `MHᨀ` under the 5% tax regime results in the majority of profits being allocated to the «Untaxed Account», as the tax paid is insufficient to fully credit the «Maltese Taxed Account».
+5) A more effective strategy for your situation
 
 ```
 
 2.
-**Степень уверенности: 95**
-В третьем предложении пункта 4.1 содержится математическая ошибка в расчёте эффективной налоговой нагрузки: при ставке корпоративного налога 5% (от 100 единиц прибыли) к распределению доступно 95 единиц, и налог у источника (15% от 95) составит 14.25, что в сумме даёт 19.25%, а не 17.9%.
+В пункте 5.2.3 в предложении «assert historical `ECI` existed» пропущен союз «that» перед придаточным предложением, что делает конструкцию грамматически неполной в формальном стиле.
+Уверенность: 85.
 Предложение по устранению:
 
 ```markdown
-This increases your effective tax burden from 5% to approximately 19.25% (5% CIT + 14.25% WHT), making `MH⧟MT` economically inefficient.
+This transaction establishes a stepped-up basis and triggers tax for `Uᨀ` only if `U᛭` authorities successfully assert that historical `ECI` existed.
 
 ```
 
 3.
-**Степень уверенности: 80**
-Во втором предложении пункта 4.2 оборот «For you, this means» звучит несколько разговорно для формального анализа; использование связки «Consequently» усилит логическую связность текста.
+В пункте 5.2.4 придаточное предложение «which are exempt...» носит пояснительный (non-restrictive), а не ограничительный характер, так как все дивиденды в данном контексте освобождаются от налога, поэтому перед «which» требуется запятая.
+Уверенность: 95.
 Предложение по устранению:
 
 ```markdown
-Consequently, dividends are ineligible for `RB`, which applies only to foreign source income.
+Profit flows from `U2ᨀ` to `MTᨀ` as dividends, which are exempt from corporate tax in `M᛭` under the Participation Exemption.
 
 ```
 
 4.
-**Степень уверенности: 75**
-В третьем предложении пункта 4.2 во фразе «kept abroad» глагол «kept» звучит просторечно в контексте налогового планирования; термин «retained» или «held» является более точным.
+В пункте 5.4.2 глагол «abstain» чаще используется в контексте голосования или воздержания от употребления чего-либо; в контексте управленческих действий стилистически точнее использовать глагол «refrain».
+Уверенность: 85.
 Предложение по устранению:
 
 ```markdown
-Such dividends trigger the 15% final tax liability mentioned above, regardless of whether they are remitted to `M᛭` or retained outside `M᛭`.
-
-```
-
-5.
-**Степень уверенности: 90**
-В пункте 4.3 фраза «lose the method of protecting» является лексически слабой и неидиоматичной; конструкция «forfeit the asset protection benefit» звучит профессиональнее.
-Предложение по устранению:
-
-```markdown
-4.3) You forfeit the asset protection benefit against direct claims provided by a foreign holding.
+To prevent `CHᨀ` from being deemed a tax resident of `M᛭`, you must ensure strategic decisions are demonstrably taken by qualified directors in `C᛭` and refrain from managing `CHᨀ` from `M᛭`.
 
 ```
