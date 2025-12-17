@@ -1,19 +1,19 @@
-1) Both structures considered by you are not the best for solving your task.
+1) Neither of the structures you are considering is optimal for achieving your objectives.
 In points 3 and 4 I outline their main disadvantages.
-In point 5 I outline a much higher quality structure in your case.
+In point 5, I outline a structure that is significantly more effective for your situation.
 
-2) Key designations in my analysis:
+2) Key definitions used in my analysis:
 Malta: `M᛭`
-Cyprus: `C᛭`.
+Cyprus: `C᛭`
 USA: `U᛭`
 Cyprus Holding: `CHᨀ`
-Malta Consolidated Group (Fiscal Unit): `MHᨀ`
+Malta Holding: `MHᨀ`
 Malta Trading Ltd: `MTᨀ`
 The Income Tax Act of `M᛭`: `ITA`
 Place of Effective Management: `POEM`
 Your US LLC: `Uᨀ`
 Your proposed structure «`CHᨀ` + `MTᨀ`»: `CH⧟MT`
-Your proposed structure «`MHᨀ` + `MTᨀ`»: `MH⧟MT`
+Your alternative structure «Malta Consolidated Group (Fiscal Unit)»: `MH⧟MT`
 
 3) Disadvantages of `CH⧟MT`
 Registration of `CHᨀ` as the «Principal Taxpayer» in `M᛭` combined with the management of the company by you (residing in `M᛭`) creates a strong presumption that the `POEM` is in `M᛭`.
