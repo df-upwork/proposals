@@ -38,17 +38,17 @@ Such dividends trigger the 15%  `FWT` mentioned above, regardless of whether the
 5.1) Essence: `CH⧟MH⧟MT`
 5.2) Implementation:
 5.2.1) `CHᨀ` must own 100% of `MHᨀ` shares.
-5.2.2) `MHᨀ` and `MTᨀ` form an internal fiscal unit, allowing the payment of consolidated tax at a rate of 5% immediately.
+5.2.2) `MHᨀ` and `MTᨀ` form an internal fiscal unit; dividends received from `U2ᨀ` qualify for the Participation Exemption, resulting in 0% corporate tax in `M᛭`.
 5.2.3) `MTᨀ` incorporates a `U᛭` C-Corporation (`U2ᨀ`) to acquire business assets from `Uᨀ` at fair market value, subjecting profits to a flat 21% Federal Corporate Tax but eliminating the risk of the 30% Branch Profits Tax.
-This asset purchase triggers an immediate Capital Gains Tax liability for `Uᨀ`, which must be budgeted as the unavoidable cost for effectively severing historical regulatory risks.
+This asset purchase triggers an immediate tax liability on Ordinary Income (regarding inventory) and Capital Gains (regarding intangibles) for `Uᨀ`, which must be budgeted as the cost for severing historical risks.
 Dividends distributed by `U2ᨀ` to `MTᨀ` will be subject to a 15% `FWT` under the Derivative Benefits clause of the `U᛭`-`M᛭` Treaty, resulting in a total effective `U᛭` tax burden of approximately 32.85%.
-5.2.4) Profit, cleared of taxes (95%), is distributed from `MHᨀ` to `CHᨀ` without `FWT` in `M᛭`.
+5.2.4) Profit, cleared of taxes (100% due to Participation Exemption), is distributed from `MHᨀ` to `CHᨀ` without `FWT` in `M᛭`.
 5.2.5) You receive dividends from `CHᨀ` into a non-Maltese bank account.
 These dividends remain tax-free in `M᛭` only if not remitted; any funds transferred to `M᛭` for living expenses are taxed at standard progressive rates (up to 35%).
 5.3) Advantages
-5.3.1) The `U2ᨀ` structure caps the effective `U᛭` tax burden at approximately 32.85% (21% CIT + 15% `FWT`), which is significantly more efficient than the 44.7% risk associated with a Branch structure (21% CIT + 30% BPT).
+5.3.1) Although a Branch structure could theoretically achieve a lower effective rate of 24.95% (21% CIT + 5% BPT) under the Treaty, the `U2ᨀ` structure (approximately 32.85%) provides robust protection against `U᛭` Estate Tax which the Branch structure lacks.
 This approach provides legal certainty and banking access, avoiding the contradictions inherent in filing a «Protective Return» while actively trading.
 5.3.2) The legal isolation of `CHᨀ` prevents the creation of a `POEM` in `M᛭` only if strategic decisions are demonstrably taken by qualified directors in `C᛭` and you abstain from managing `CHᨀ` from `M᛭`.
-Given your current residency and active involvement, there is a critical risk that `CHᨀ` will be deemed a tax resident of `M᛭`, which would reclassify dividends as local income and nullify the `RB` advantage.
+To prevent `CHᨀ` from being deemed a tax resident of `M᛭`, you must ensure strategic decisions are demonstrably taken by qualified directors in `C᛭` and abstain from managing `CHᨀ` from `M᛭`.
 5.3.3) Creation of a protected investment perimeter at the level of `CHᨀ`, which facilitates access to Swiss banking for capital accumulation.
 5.3.4) Full legitimacy of using the 5% rate in `M᛭` combined with asset protection through a foreign jurisdiction.
