@@ -6932,3 +6932,14 @@ https://gemini.google.com/share/8009695d8ba1
 
 Внедрение трехуровневой структуры требует больших затрат на администрирование и создание экономического присутствия (Substance) для верхней холдинговой компании.
 
+
+
+# 49.
+## 49.1.
+`S2⌖1` ≔  ⌖ ⟦`PD`⟧
+~~~markdown
+Proposed Structure: Cyprus Holding + Malta Trading Ltd (owning the US LLC).
+~~~
+
+## 49.2.
+`S2⌖2` ≔ ⟨ `Mᚖ-T₁` из §39 ⟩
