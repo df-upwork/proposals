@@ -1,6 +1,6 @@
 1) Both structures considered by you are not the best for solving your task.
 In points 3 and 4 I outline their main disadvantages.
-1In point 5 I outline a much higher quality structure in your case.
+In point 5 I outline a much higher quality structure in your case.
 
 2) Key designations in my analysis:
 Malta: `M᛭`
