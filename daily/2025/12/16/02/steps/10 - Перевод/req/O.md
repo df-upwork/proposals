@@ -6456,9 +6456,6 @@ US C-Corp обязана уплачивать федеральный налог 
 15. Technical Explanation - US-Malta Income Tax Treaty of August 8, 2008 - Treasury.gov, accessed December 17, 2025, [https://home.treasury.gov/system/files/131/Treaty-Malta-TE-8-8-2008.pdf](https://home.treasury.gov/system/files/131/Treaty-Malta-TE-8-8-2008.pdf)  
 16. United States - Corporate - Branch income - Worldwide Tax Summaries Online, accessed December 17, 2025, [https://taxsummaries.pwc.com/united-states/corporate/branch-income](https://taxsummaries.pwc.com/united-states/corporate/branch-income)
 
-
-
-
 # 43.
 ## 43.1.
 `R⬆⠿` ≔ ⠿~ ⟨ Рекомендации для моего ответа `ꆜ` на `P⁎` ⟩
