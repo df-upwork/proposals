@@ -1178,8 +1178,6 @@ https://gemini.google.com/share/784b94e4ca9b
 26. Assignment of Rights to Refund of Tax - Florida Department of Revenue, accessed December 18, 2025, [https://floridarevenue.com/Forms_library/current/dr26a.pdf](https://floridarevenue.com/Forms_library/current/dr26a.pdf)  
 27. Tourist Development Tax Compliance | Osceola County Tax Collector - Office of Bruce Vickers, accessed December 18, 2025, [https://osceolataxcollector.org/tourist-development-tax-compliance/](https://osceolataxcollector.org/tourist-development-tax-compliance/)
 
-
-
 # 14.
 `Ⰲ⧙Pᵢ⧘` ≔? ⟨ Гипотетическая связь между `P⁎` и `Pᵢ`⟩
 
