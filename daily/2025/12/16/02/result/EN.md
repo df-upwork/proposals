@@ -35,23 +35,23 @@ Such dividends trigger the 15%  `FWT` mentioned above, regardless of whether the
 4.3) You forfeit the asset protection benefit against direct claims provided by a foreign holding.
 
 5) A more effective strategy for for your situation
-5.1) Essence: `CH⧟MH⧟MT`
+5.1) Essence: `CH⧟MH⧟MT⧟U2`
 5.2) Implementation:
 5.2.1) `CHᨀ` owns 100% of `MHᨀ` shares.
-5.2.2) `MHᨀ` owns 100% of `MTᨀ` shares.
-Dividends received from `U2ᨀ` qualify for the Participation Exemption (`PE`), resulting in 0% corporate tax in `M᛭` without the need for a fiscal unit.
-5.2.3) `MTᨀ` incorporates a `U᛭` C-Corporation (`U2ᨀ`) to acquire business assets from `Uᨀ` at fair market value, subjecting profits to a flat 21% Federal Corporate Tax but eliminating the risk of the 30% Branch Profits Tax.
-This asset purchase triggers an immediate tax liability on Ordinary Income (regarding inventory) and Capital Gains (regarding intangibles) for `Uᨀ`, which must be budgeted as the cost for severing historical risks.
-Dividends distributed by `U2ᨀ` to `MTᨀ` will be subject to a 15% `FWT` under the Derivative Benefits clause of the `U᛭`-`M᛭` Treaty, resulting in a total effective `U᛭` tax burden of approximately 32.85%.
-5.2.4) Profit, cleared of taxes (100% due to `PE`), is distributed from `MHᨀ` to `CHᨀ` without `FWT` in `M᛭`.
+5.2.2) `MHᨀ` owns 100% of `MTᨀ` shares, and they elect to form a Fiscal Unit to pay the effective 5% tax immediately.
+This configuration eliminates the cash-flow trap while keeping `CHᨀ` outside the Maltese fiscal perimeter.
+5.2.3) `MTᨀ` incorporates a `U᛭` C-Corporation (`U2ᨀ`) to acquire business assets from `Uᨀ` at fair market value.
+This transaction establishes a stepped-up basis and triggers tax for `Uᨀ` only if `U᛭` authorities successfully assert historical `ECI` existed.
+Dividends distributed by `U2ᨀ` to `MTᨀ` will be subject to a 15% `FWT` under the Derivative Benefits clause of the `U᛭`-`M᛭` Treaty.
+5.2.4) Profit flows from `U2ᨀ` to `MTᨀ` and is consolidated at the level of `MHᨀ` within the Fiscal Unit.
+Subsequently, `MHᨀ` distributes dividends to `CHᨀ` without `FWT` in `M᛭`.
 5.2.5) You receive dividends from `CHᨀ` into a non-Maltese bank account.
 These dividends remain tax-free in `M᛭` only if not remitted; any funds transferred to `M᛭` for living expenses are taxed at standard progressive rates (up to 35%).
 5.3) Advantages
 5.3.1) Creation of a protected investment perimeter at the level of `CHᨀ`, which facilitates access to Swiss banking for capital accumulation.
-5.3.2) Full legitimacy of using `PE` in `M᛭` combined with asset protection through a foreign jurisdiction.
+5.3.2) Full legitimacy of using Participation Exemption in `M᛭` combined with asset protection through a foreign jurisdiction.
 5.4) Remarks
-5.4.1) Both the Branch and the `U2ᨀ` structure provide robust protection against `U᛭` Estate Tax, as you hold shares in a non-US entity.
-However, the Branch structure would likely incur a 15% Branch Profits Tax due to Treaty rate matching, resulting in a similar effective tax burden to the `U2ᨀ` structure.
-Therefore, the `U2ᨀ` structure is preferable as it offers superior legal certainty and simplified banking compliance compared to a foreign branch.
+5.4.1) The Branch structure would qualify for a 5% Branch Profits Tax under the Derivative Benefits clause, resulting in a lower effective tax burden (~24.95%) than the `U2ᨀ` structure (~32.85%).
+However, the `U2ᨀ` structure is preferable as it offers superior legal certainty and simplified banking compliance.
 5.4.2) The legal isolation of `CHᨀ` does not automatically prevent the creation of a `POEM` in `M᛭`.
 To prevent `CHᨀ` from being deemed a tax resident of `M᛭`, you must ensure strategic decisions are demonstrably taken by qualified directors in `C᛭` and abstain from managing `CHᨀ` from `M᛭`.
