@@ -10,6 +10,7 @@ Cyprus Holding: `CHᨀ`
 Malta Holding: `MHᨀ`
 Malta Trading Ltd: `MTᨀ`
 The Income Tax Act of `M᛭`: `ITA`
+Effectively Connected Income: `ECI`
 Place of Effective Management: `POEM`
 Remittance Basis: `RB`
 Final Withholding Tax: `FWT`
@@ -38,16 +39,16 @@ Such dividends trigger the 15%  `FWT` mentioned above, regardless of whether the
 5.2) Implementation:
 5.2.1) `CHᨀ` must own 100% of `MHᨀ` shares.
 5.2.2) `MHᨀ` and `MTᨀ` form an internal fiscal unit, allowing the payment of consolidated tax at a rate of 5% immediately.
-5.2.3) `MTᨀ` incorporates a new US LLC (`U2ᨀ`) and maintains its default classification as a Disregarded Entity to operate as a US Branch.
-`U2ᨀ` purchases the business assets from `Uᨀ` at fair market value to cut off historical liabilities.
-`MTᨀ` files a US Protective Return (Form 1120-F) claiming no Effectively Connected Income (`ECI`) to target a 0% US tax rate.
-Alternatively, `MTᨀ` relies on the Derivative Benefits clause of the US-Malta Treaty to reduce Branch Profits Tax to 5% if taxable presence is asserted.
+5.2.3) `MTᨀ` incorporates a `U᛭` C-Corporation (`U2ᨀ`) to acquire business assets from `Uᨀ` at fair market value, subjecting profits to a flat 21% Federal Corporate Tax but eliminating the risk of the 30% Branch Profits Tax.
+This asset purchase triggers an immediate Capital Gains Tax liability for `Uᨀ`, which must be budgeted as the unavoidable cost for effectively severing historical regulatory risks.
+Dividends distributed by `U2ᨀ` to `MTᨀ` will be subject to a 15% `FWT` under the Derivative Benefits clause of the `U᛭`-`M᛭` Treaty, resulting in a total effective `U᛭` tax burden of approximately 32.85%.
 5.2.4) Profit, cleared of taxes (95%), is distributed from `MHᨀ` to `CHᨀ` without `FWT` in `M᛭`.
 5.2.5) You receive dividends from `CHᨀ` into a non-Maltese bank account.
 These dividends remain tax-free in `M᛭` only if not remitted; any funds transferred to `M᛭` for living expenses are taxed at standard progressive rates (up to 35%).
 5.3) Advantages
-5.3.1) Maximization of corporate liquidity by targeting a 0% US tax rate via the Protective Return strategy or limiting US tax exposure to ~25% (21% CIT + 5% BPT).
-This strategy avoids the ~33% effective tax burden inherent in a US C-Corporation structure while preserving the option for 5% tax in `M᛭` on non-US income.
-5.3.2) Legal isolation of `CHᨀ` from `MH⧟MT` minimizes residency risk only if effective management is physically exercised in `C᛭` by local directors, preventing the creation of a `POEM` in `M᛭`.
+5.3.1) The `U2ᨀ` structure caps the effective `U᛭` tax burden at approximately 32.85% (21% CIT + 15% `FWT`), which is significantly more efficient than the 44.7% risk associated with a Branch structure (21% CIT + 30% BPT).
+This approach provides legal certainty and banking access, avoiding the contradictions inherent in filing a «Protective Return» while actively trading.
+5.3.2) The legal isolation of `CHᨀ` prevents the creation of a `POEM` in `M᛭` only if strategic decisions are demonstrably taken by qualified directors in `C᛭` and you abstain from managing `CHᨀ` from `M᛭`.
+Given your current residency and active involvement, there is a critical risk that `CHᨀ` will be deemed a tax resident of `M᛭`, which would reclassify dividends as local income and nullify the `RB` advantage.
 5.3.3) Creation of a protected investment perimeter at the level of `CHᨀ`, which facilitates access to Swiss banking for capital accumulation.
 5.3.4) Full legitimacy of using the 5% rate in `M᛭` combined with asset protection through a foreign jurisdiction.
