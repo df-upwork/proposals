@@ -1,59 +1,49 @@
 1.
-Степень уверенности: 95.
-Конструкция «Both ... are not» является стилистически спорной в формальном английском языке и может создавать логическую двусмысленность (отрицание обоих вариантов против отрицания совокупности). Фраза «solving your task» звучит неестественно («задачу» выполняют, а «проблему» решают).
+**Степень уверенности: 85**
+В первом предложении пункта 4.1 формулировка «Using `MHᨀ` with the payment of 5% tax» звучит стилистически тяжеловесно, а глагол «populate» в контексте налоговых счетов является нестандартным (в профессиональной лексике используется «credit»).
 Предложение по устранению:
 
 ```markdown
-1) Neither of the structures you are considering is optimal for achieving your objectives.
+Operating `MHᨀ` under the 5% tax regime results in the majority of profits being allocated to the «Untaxed Account», as the tax paid is insufficient to fully credit the «Maltese Taxed Account».
 
 ```
 
 2.
-Степень уверенности: 85.
-Словосочетание «much higher quality» звучит разговорно и оценочно. Для описания корпоративной структуры лучше использовать термины «more effective» или «superior».
+**Степень уверенности: 95**
+В третьем предложении пункта 4.1 содержится математическая ошибка в расчёте эффективной налоговой нагрузки: при ставке корпоративного налога 5% (от 100 единиц прибыли) к распределению доступно 95 единиц, и налог у источника (15% от 95) составит 14.25, что в сумме даёт 19.25%, а не 17.9%.
 Предложение по устранению:
 
 ```markdown
-In point 5, I outline a structure that is significantly more effective for your situation.
+This increases your effective tax burden from 5% to approximately 19.25% (5% CIT + 14.25% WHT), making `MH⧟MT` economically inefficient.
 
 ```
 
 3.
-Степень уверенности: 80.
-Слово «designations» (обозначения) в данном контексте допустимо, но термин «definitions» (определения) или «key terms» является более стандартным для аналитических отчетов.
+**Степень уверенности: 80**
+Во втором предложении пункта 4.2 оборот «For you, this means» звучит несколько разговорно для формального анализа; использование связки «Consequently» усилит логическую связность текста.
 Предложение по устранению:
 
 ```markdown
-2) Key definitions used in my analysis:
+Consequently, dividends are ineligible for `RB`, which applies only to foreign source income.
 
 ```
 
 4.
-Степень уверенности: 100.
-В пункте списка «Cyprus: `C᛭`.» стоит точка, что нарушает единообразие оформления (в остальных пунктах списка точки отсутствуют).
+**Степень уверенности: 75**
+В третьем предложении пункта 4.2 во фразе «kept abroad» глагол «kept» звучит просторечно в контексте налогового планирования; термин «retained» или «held» является более точным.
 Предложение по устранению:
 
 ```markdown
-Cyprus: `C᛭`
+Such dividends trigger the 15% final tax liability mentioned above, regardless of whether they are remitted to `M᛭` or retained outside `M᛭`.
 
 ```
 
 5.
-Степень уверенности: 98.
-Определение `MHᨀ` как «Malta Consolidated Group (Fiscal Unit)» содержит логическую ошибку. В дальнейшем тексте (пункт 4.2) `MHᨀ` описывается как «a company resident in `M᛭`», что применимо к холдингу, но не к фискальной единице как таковой.
+**Степень уверенности: 90**
+В пункте 4.3 фраза «lose the method of protecting» является лексически слабой и неидиоматичной; конструкция «forfeit the asset protection benefit» звучит профессиональнее.
 Предложение по устранению:
 
 ```markdown
-Malta Holding: `MHᨀ`
-
-```
-
-6.
-Степень уверенности: 90.
-Называть структуру «`MHᨀ` + `MTᨀ`» фразой «Your proposed structure» фактологически неточно, так как клиент в исходном запросе (`O.md`, `PD`) предложил структуру с Кипрским холдингом, а вариант с Мальтийским холдингом рассматривался лишь как альтернатива в вопросах.
-Предложение по устранению:
-
-```markdown
-The alternative structure «`MHᨀ` + `MTᨀ`»: `MH⧟MT`
+4.3) You forfeit the asset protection benefit against direct claims provided by a foreign holding.
 
 ```
