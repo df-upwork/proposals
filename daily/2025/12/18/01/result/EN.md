@@ -17,16 +17,16 @@ Unjust Enrichment: `UE†`
 Voluntary Disclosure Agreement: `VDA`
 
 3) A common misconception regarding `DSS𐏐` concerns the «$5,000 cap».
-According to §212.054(2)(b)(1) `S⸙`, `DSS𐏐` applies only to the first $5,000 of the sales price of a single item.
-However, `S⸙` establishes a critical exception for `R༄`.
-`DOR` clarifications unequivocally state that the limit does not apply to `R༄`.
+According to §212.054(2)(b)(1) `S⸙`, `DSS𐏐` applies only to the first $5,000 of the sales price of a single item of tangible personal property.
+However, `S⸙` restricts this cap to tangible personal property, thereby excluding `R༄` by definition.
+Consequently, `DOR` confirms that the limit is inapplicable to rental charges.
 Rental charges are subject to `DSS𐏐` in full regardless of the invoice amount.
 
 4) A valid overpayment scenario involves geographical sourcing errors.
 `TDT𐏐` rates are tied to the specific location of the property.
 Applying the maximum rate in `Qᨀ` across all properties causes systematic overpayment.
-Outdated reference tables in `Qᨀ` often fail to reflect rate changes, such as those effective January 1, 2025.
-A refund is possible here but requires a detailed recalculation schedule for each transaction.
+Outdated reference tables in `Qᨀ` often fail to reflect rate changes, e.g. those effective January 1, 2025.
+If `L⌹` collected this excess from `Gꆜ`, `L⌹` must reimburse `Gꆜ` before claiming a refund to comply with `UE†` rules.
 
 5) Under `F᛭` law, `SST𐏐` and `TDT𐏐` are consumption taxes borne by `Gꆜ`.
 `L⌹` acts solely as a state agent holding collected funds in trust.
@@ -45,7 +45,7 @@ Consequently, a refund can be claimed without contacting `Gꆜ`.
 
 8) Some `Mᚖ` remit `SST𐏐` to `DOR` but do not collect county-specific `TDT𐏐`.
 This partial collection creates a liability to the county.
-A valid refund claim arises only if `L⌹` erroneously remitted `TDT𐏐` to `DOR` instead of the local tax collector.
+A valid refund claim arises, e.g., if `L⌹` erroneously remitted `TDT𐏐` to `DOR` instead of the local tax collector.
 Establish the evidence by reconciling `Mᚖ` reports with filed tax returns.
 
 9) Export transaction reports from `Mᚖ` and data from `Qᨀ` for the last 36 months to perform a 3-way reconciliation: compare taxes withheld by `Mᚖ`, taxes recorded in `Qᨀ`, and taxes actually paid via DR-15.
