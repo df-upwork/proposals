@@ -3,7 +3,6 @@ I outline their disadvantages in points 4 and 5 below.
 In points 6 and 7, I outline 2 high-quality ways to solve your problem.
 
 2) Key definitions used in my analysis:
-
 - Data replication: `R᛭`
 - Your «Option 1» (use of `R᛭`): `⌖1`
 - Your «Option 2» («a scheduled backend job»): `⌖2`
