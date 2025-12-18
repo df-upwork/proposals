@@ -220,3 +220,36 @@ Looking forward to working with an expert who knows how to maximize Bubble’s f
 ```
 основная информационная система `ꆜ` и `С⁎`, разработка которой ведётся в рамках `P⁎`
 ```
+
+# 8. `T⁎`
+## `T⁎`
+`T⁎` ≔ ⟪ задача `ꆜ` в рамках `P⁎` ⟫ ⌖ ⟦`PD`⟧
+~~~markdown
+propose the best architecture for generating per entity daily analytics from user actions
+~~~
+
+# 9. `O⌖1`
+`O⌖1` ≔⌖ ⟦`PD`⟧
+~~~markdown
+copy or replicate production data to a replica or warehouse and run the analytics job there
+~~~
+
+# 10. `O⌖2`
+`O⌖2` ≔⌖ ⟦`PD`⟧
+~~~markdown
+a scheduled backend job that computes the daily metrics and writes them to the reporting DB
+~~~
+
+# 11. `C⊥` ≔⊥ (`O⌖1`, `O⌖2`)
+
+# 12. `P1†`
+`P1†` ≔† ⌖ ⟦`PD`⟧
+```
+our current setup may limit built in replication support
+```
+
+# 13. `P2†`
+`P2†` ≔† ⌖ ⟦`PD`⟧
+```
+a naive `O⌖2` could be intensive and create heavy IO load on production if it scans across all entities
+```
