@@ -4,7 +4,7 @@ Carefully consider the pitfalls and recommendations below.
 2) Key definitions used in my analysis:
 Florida: `F᛭`
 Florida Department of Revenue: `DOR`
-Florida Statutes: `S⸙`
+Florida Statutes: `S꙳`
 QuickBooks Online: `Qᨀ`
 State Sales Tax: `SST𐏐`
 Discretionary Sales Surtax: `DSS𐏐`
@@ -17,8 +17,8 @@ Unjust Enrichment: `UE†`
 Voluntary Disclosure Agreement: `VDA`
 
 3) A common misconception regarding `DSS𐏐` concerns the «$5,000 cap».
-According to §212.054(2)(b)(1) `S⸙`, `DSS𐏐` applies only to the first $5,000 of the sales price of a single item of tangible personal property.
-However, `S⸙` restricts this cap to tangible personal property, thereby excluding `R༄` by definition.
+According to §212.054(2)(b)(1) `S꙳`, `DSS𐏐` applies only to the first $5,000 of the sales price of a single item of tangible personal property.
+However, `S꙳` restricts this cap to tangible personal property, thereby excluding `R༄` by definition.
 Consequently, `DOR` confirms that the limit is inapplicable to rental charges.
 Rental charges are subject to `DSS𐏐` in full regardless of the invoice amount.
 

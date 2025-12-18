@@ -2719,7 +2719,7 @@ Participating in a `VDA` protects the business from license suspension and ruino
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(1 - 2)`
+`Fᨀ` ≔ `Fⰳ(12 - 13)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:
