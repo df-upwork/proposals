@@ -1,5 +1,6 @@
 1) In points 3-9, I outline potential pitfalls in your situation.
 In points 10-13, I outline my recommendations.
+
 2) Key definitions used in my analysis:
 Florida: `F᛭`
 Florida's Department of Revenue: `DOR`
