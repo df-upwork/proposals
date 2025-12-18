@@ -2824,14 +2824,14 @@ https://gemini.google.com/share/45a3fd06ab10
 # 30. Анализ `R⬆⠿` (выполнен Gemini Deep Think)
 https://gemini.google.com/share/dea202a0736d
 
-# 1. `R⬆⠿`
+## 1. `R⬆⠿`
 
 `R⬆1` ≔ ⟨ Валидация технических страхов (`P1†`, `P2†`) и отказ от внутренней обработки ⟩
 `R⬆2` ≔ ⟨ Архитектура параллельной записи (`Dual-Write`) в `Supabase`/`Neon` ⟩
 `R⬆3` ≔ ⟨ Использование `INSERT ON CONFLICT` для идемпотентности ⟩
 `R⬆4` ≔ ⟨ Стратегия обратного бэкфиллинга с ограничением скорости ⟩
 
-# 2. `᛭T`
+## 2. `᛭T`
 
 ## R⬆1-S
 
@@ -2922,12 +2922,18 @@ https://gemini.google.com/share/dea202a0736d
 
 Полная синхронизация всего исторического архива может занять продолжительное время.
 
-# 3. Вердикт
+## 3. Вердикт
 
 Я выношу вердикт, что наиболее эффективной стратегией ответа является последовательное изложение рекомендаций **`R⬆1`**, **`R⬆2`**, **`R⬆3`** и **`R⬆4`**.
 Клиент `ꆜ` находится в ситуации, когда попытка решить задачу стандартными методами внутри `Bubble` приведет к гарантированному техническому и финансовому провалу.
 Твой ответ должен быть жестким, но аргументированным предписанием внедрить **Гибридную архитектуру (`Dual-Write`)**.
 Начни с экспертной валидации страхов (`R⬆1`), предложи архитектурное решение (`R⬆2`), детализируй техническую реализацию надежности (`R⬆3`) и заверши безопасным планом внедрения (`R⬆4`).
+
+# 31.
+При обсуждении Bubble запрещено использовать термин «Capacity». 
+ В современной модели тарификации Bubble (с апреля 2023 года) понятие «Capacity» является устаревшим (legacy). 
+ Ему на смену пришло понятие **Workload Units (`WU`)**. 
+ Использование старого термина вводит в заблуждение относительно механики ограничений (замедление vs переплата).
 ~~~~~~
 
 # 4. `T.md`
@@ -2935,7 +2941,77 @@ https://gemini.google.com/share/dea202a0736d
 # 1.
 `Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
 ~~~markdown
-STUB
+1) Both your options are bad.
+I outline their critical drawbacks in points 4 and 5.
+In points 6 and 7, I outline 2 high-quality ways to solve your problem.
+
+2) Key definitions used in my analysis:
+- Data replication: `R᛭`
+- Your «Option 1» (use of `R᛭`): `⌖1`
+- Your «Option 2» («a scheduled backend job»): `⌖2`
+- «our current setup may limit built in replication support»: `P1†`
+- «a naive scheduled job could be intensive and create heavy IO load on production if it scans across all entities»: `P2†`
+- Your information system as a whole: `S༄`
+- The frontend of `S༄`: `F༄`
+- Bubble.io: `Bᨀ`
+- React: `Rᨀ`
+- PostgreSQL: `Pᨀ`
+- Supabase: `Sᨀ`
+- Tinybird: `Tᨀ`
+- Workload Units in `Bᨀ`: `WU`
+- Write-Ahead Log: `WAL`
+
+3) My assumptions about `S༄` based on your projects on Upwork
+`S༄` is likely a B2C platform for gaming clips, potentially designed for integration with the Twitch API.
+Viewers generate a stream of events via a `Rᨀ` interface.
+`S༄` likely utilizes `Rᨀ` as `F༄` and relies on a `Bᨀ` backend, which imposes replication and IO limitations.
+
+4) Disadvantages of `⌖1`
+4.1) `Bᨀ` uses a multi-tenant `Pᨀ` architecture that prevents direct access to `WAL` or replication slots for security reasons.
+Consequently, you are architecturally denied access to the low-level synchronization mechanisms required for standard `R᛭`.
+4.2) Since direct `R᛭` is impossible, periodic API Polling is often considered, but it has critical scalability flaws in your case:
+4.2.1) The `Bᨀ` Data API throughput is strictly constrained by application-layer serialization overhead and platform rate limits.
+Attempting to parallelize requests via cursor-based pagination rapidly exhausts available Capacity and triggers «429 Too Many Requests» errors.
+This resource contention creates a bottleneck that makes daily extraction of large datasets slow and operationally fragile.
+4.2.2) The real throughput in `Bᨀ` is strictly constrained by server-side processing time.
+Complex read requests consume significant `WU` and trigger timeouts long before reaching rate limits.
+4.2.3) The `Bᨀ` Data API lacks transactional snapshot isolation across pagination pages.
+Maintaining data accuracy during the prolonged export window necessitates implementing strict timestamp filtering logic.
+The native automated export action «Email a list of things as CSV» relies on asynchronous email delivery, preventing reliable programmatic ingestion.
+Plugins shift the load to server-side actions, consuming `WU` and reintroducing `P2†` risks.
+
+5) Disadvantages of `⌖2`
+5.1) `⌖2` requires a normalized database structure to bypass the 10,000-point limit on lists.
+Native aggregation instantiates application objects in memory rather than utilizing efficient SQL-level grouping.
+This serialization overhead creates a performance bottleneck even if database indices maintain fast lookup speeds.
+5.2) Executing daily statistics via scheduled workflows creates a concentrated burst load rather than continuous pressure.
+The scheduler places tasks into a job queue that processes them subject to strict platform concurrency limits.
+This activity spike drives up financial costs via `WU` overages and risks triggering hard rate limits.
+5.3) `Bᨀ` consumes `WU` for every database search and aggregation operation performed on the new daily event delta.
+Even this incremental processing strategy generates a recurring operational cost that scales linearly with user activity.
+High-volume processing necessitates purchasing expensive «Workload Tiers».
+
+6) `R1⁂`
+6.1) Essence
+`F༄` transmits high-frequency analytical events via the `Sᨀ` REST API.
+State-changing events persist in `Bᨀ` and are asynchronously replicated to `Sᨀ`.
+Secure recording is enforced via Row Level Security policies using a custom JWT generated by `Bᨀ`.
+The external database aggregates data in the background, allowing `Bᨀ` to fetch final metrics via API.
+6.2) Advantages
+The direct data ingestion architecture bypasses the internal replication limitations, effectively eliminating `P1†`.
+Physical isolation of the write stream from the transactional database guarantees the resolution of `P2†`.
+External SQL services eliminate `WU` costs associated with the ingestion of high-volume analytical events.
+The `INSERT ON CONFLICT` mechanism combined with client-generated deterministic IDs ensures strict write idempotency.
+
+7) `R2⁂`
+7.1) Essence
+`F༄` generates a deterministic deduplication ID for each event and transmits data directly to `Tᨀ` via a custom domain to bypass client-side blockers.
+The ingestion layer utilizes this ID as a deduplication token to discard redundant requests immediately upon receipt.
+`Bᨀ` retrieves aggregated metrics via «Pipes» API endpoints.
+7.2) Advantages
+The serverless columnar architecture ensures high performance at scale and automatically handles peak loads.
+The engine utilizes materialized views to incrementally aggregate data strictly from the unique event stream.
+This approach minimizes query latency by avoiding full scans of raw data for user-facing statistics.
 ~~~
 
 # 2.
@@ -2946,7 +3022,7 @@ STUB
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(1)`
+`Fᨀ` ≔ `Fⰳ(7)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:

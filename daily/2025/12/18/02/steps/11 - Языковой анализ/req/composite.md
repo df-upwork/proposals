@@ -2824,14 +2824,14 @@ https://gemini.google.com/share/45a3fd06ab10
 # 30. Анализ `R⬆⠿` (выполнен Gemini Deep Think)
 https://gemini.google.com/share/dea202a0736d
 
-# 1. `R⬆⠿`
+## 1. `R⬆⠿`
 
 `R⬆1` ≔ ⟨ Валидация технических страхов (`P1†`, `P2†`) и отказ от внутренней обработки ⟩
 `R⬆2` ≔ ⟨ Архитектура параллельной записи (`Dual-Write`) в `Supabase`/`Neon` ⟩
 `R⬆3` ≔ ⟨ Использование `INSERT ON CONFLICT` для идемпотентности ⟩
 `R⬆4` ≔ ⟨ Стратегия обратного бэкфиллинга с ограничением скорости ⟩
 
-# 2. `᛭T`
+## 2. `᛭T`
 
 ## R⬆1-S
 
@@ -2922,12 +2922,18 @@ https://gemini.google.com/share/dea202a0736d
 
 Полная синхронизация всего исторического архива может занять продолжительное время.
 
-# 3. Вердикт
+## 3. Вердикт
 
 Я выношу вердикт, что наиболее эффективной стратегией ответа является последовательное изложение рекомендаций **`R⬆1`**, **`R⬆2`**, **`R⬆3`** и **`R⬆4`**.
 Клиент `ꆜ` находится в ситуации, когда попытка решить задачу стандартными методами внутри `Bubble` приведет к гарантированному техническому и финансовому провалу.
 Твой ответ должен быть жестким, но аргументированным предписанием внедрить **Гибридную архитектуру (`Dual-Write`)**.
 Начни с экспертной валидации страхов (`R⬆1`), предложи архитектурное решение (`R⬆2`), детализируй техническую реализацию надежности (`R⬆3`) и заверши безопасным планом внедрения (`R⬆4`).
+
+# 31.
+При обсуждении Bubble запрещено использовать термин «Capacity». 
+ В современной модели тарификации Bubble (с апреля 2023 года) понятие «Capacity» является устаревшим (legacy). 
+ Ему на смену пришло понятие **Workload Units (`WU`)**. 
+ Использование старого термина вводит в заблуждение относительно механики ограничений (замедление vs переплата).
 ~~~~~~
 
 # 4. `T.md`
@@ -2935,7 +2941,73 @@ https://gemini.google.com/share/dea202a0736d
 # 1.
 `Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
 ~~~markdown
-STUB
+1) Both options you are considering are suboptimal.
+I outline their disadvantages in points 4 and 5 below.
+In points 6 and 7, I outline 2 high-quality ways to solve your problem.
+
+2) Key definitions used in my analysis:
+- Data replication: `R᛭`
+- Your «Option 1» (use of `R᛭`): `⌖1`
+- Your «Option 2» («a scheduled backend job»): `⌖2`
+- «a naive scheduled job could be intensive and create heavy IO load on production if it scans across all entities»: `P1†`
+- «our current setup may limit built in replication support»: `P2†`
+- Your information system as a whole: `S༄`
+- Bubble.io: `Bᨀ`
+- React: `Rᨀ`
+- PostgreSQL: `Pᨀ`
+- Supabase: `Sᨀ`
+- Tinybird: `Tᨀ`
+- Workload Units in `Bᨀ`: `WU`
+- Write-Ahead Log: `WAL`
+
+3) My assumptions about `S༄` based on your projects on Upwork
+`S༄` probably represents a B2C platform for gaming clips aggregated via the Twitch API.
+Viewers generate a stream of events: «views», «skips», and «saves» via a `Rᨀ` interface.
+`S༄` probably relies on a `Bᨀ` backend, creating replication and IO limitations, and utilizes a `Rᨀ` frontend.
+
+4) Disadvantages of `⌖1`
+4.1) `Bᨀ` uses a multi-tenant `Pᨀ` architecture that prevents direct access to `WAL` or replication slots for security reasons.
+Consequently, you are physically denied access to the low-level synchronization mechanisms required for standard `R᛭`.
+
+4.2) Since direct `R᛭` is impossible, periodic API Polling is often considered, but it has critical scalability flaws in your case:
+4.2.1) Algorithmic complexity of pagination.
+The `Bᨀ` Data API pagination forces the underlying `Pᨀ` database to scan and discard all preceding rows for each new page.
+Exporting 100,000 events generates a quadratic `O(N^2)` load that causes catastrophic performance degradation as the export depth increases.
+4.2.2) The real throughput in `Bᨀ` is strictly constrained by server-side processing time.
+Complex read requests consume significant capacity and trigger timeouts long before reaching numerical limits.
+4.2.3) API pagination lacks snapshot isolation, causing data skipping or duplication when new events shift offsets, which violates the requirement «the job must be accurate».
+Native export tools fail on large datasets and require manual triggering.
+Plugins shift the load to server-side actions, consuming server capacity and reintroducing `P2†` risks.
+
+5) Disadvantages of `⌖2`
+5.1) `Bᨀ` uses a pricing model where database operations consume `WU`.
+Daily processing of 100,000 events consumes 1,500,000 `WU` per month.
+This consumption necessitates upgrading to a pricing plan costing over $300 per month.
+These costs are disproportionate to the total spent of $1300.
+5.2) Processing large lists in `Bᨀ` via «Recursive Backend Workflows» creates sustained database pressure, directly triggering `P2†`.
+This continuous load exhausts available capacity, leading to resource contention and «app too busy» errors.
+Consequently, background analytical tasks degrade the performance of critical user transactions.
+5.3) Even with sufficient resources, `⌖2` is technically untenable due to the 10,000 items limit for List fields in `Bᨀ`.
+Storing «Views» directly inside an «Article» object will rapidly exhaust this limit, causing operations to fail.
+The mandatory workaround of using separate join tables reintroduces the problem of slow searches.
+
+6) `R1⁂`
+6.1) Essence
+The frontend sends events directly to an external `Pᨀ` (e.g. `Sᨀ`), bypassing `Bᨀ`.
+The external database aggregates data in the background, allowing `Bᨀ` to fetch final metrics via API.
+6.2) Advantages
+Physical isolation of the write stream eliminates IO blocking (`P1†`) in `S༄`.
+Full administrative control over the external `Pᨀ` resolves `WAL` access limitations (`P2†`).
+External SQL services eliminate `WU` costs.
+The `INSERT ON CONFLICT` mechanism ensures strict write idempotency.
+
+7) `R2⁂`
+7.1) Essence
+Use a specialized columnar database (`Tᨀ`) for direct ingestion of high-frequency data via HTTP.
+`Bᨀ` retrieves aggregated JSON statistics via «Pipes» API endpoints.
+7.2) Advantages
+The columnar architecture guarantees high performance at any scale and handles peak loads automatically.
+The engine processes arbitrary analytical queries without complex schema design.
 ~~~
 
 # 2.
@@ -2946,7 +3018,7 @@ STUB
 `Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
 
 # 3.
-`Fᨀ` ≔ `Fⰳ(1)`
+`Fᨀ` ≔ `Fⰳ(7)`
 
 # 4. `᛭T`
 Проанализируй `Fᨀ`:
