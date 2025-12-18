@@ -16,7 +16,7 @@ Guest (consumer) of `R༄`: `Gꆜ`
 Unjust Enrichment: `UE†`
 Voluntary Disclosure Agreement: `VDA`
 
-3) Submitting a flawed DR-26S application to `DOR` triggers a high risk of an audit exposing violations and penalties.
+3) Submitting a flawed DR-26S application to `DOR` triggers a high risk of an audit exposing violations and leading to penalties.
 Consequently, careful consideration of the pitfalls below is essential.
 
 4) A common misconception regarding `DSS𐏐` concerns the «$5,000 cap».
@@ -27,8 +27,8 @@ Rental charges are subject to `DSS𐏐` in full regardless of the invoice amount
 
 5) A valid overpayment scenario involves geographical sourcing errors.
 `TDT𐏐` rates are tied to the specific location of the property.
-Applying a maximum rate in `Qᨀ` across all properties causes systematic overpayment.
-Outdated reference tables in `Qᨀ` often ignore rate changes, e.g. those effective January 1, 2025.
+Applying the maximum rate in `Qᨀ` across all properties causes systematic overpayment.
+Outdated reference tables in `Qᨀ` often fail to reflect rate changes, such as those effective January 1, 2025.
 A refund is possible here but requires a detailed recalculation schedule for each transaction.
 
 6) Under `F᛭` law, `SST𐏐` and `TDT𐏐` are consumption taxes borne by the `Gꆜ`.
