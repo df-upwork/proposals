@@ -2366,7 +2366,7 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 
 ## `𐒌⫳1⠿`
 `𐒌⫳1⠿` ≔ ⠿~ ⟨ недостатки `A⫳1` ⟩ 
-```
+```markdown
 # 1.
 
 **Логическая ошибка в классификации причинно-следственных связей (Пункты 1, 3, 4, 5).**
@@ -2410,27 +2410,226 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 Степень уверенности: 85
 ```
 
+# `A⫳2` 
+##
+`A⫳2` : `A⫳⠿` ≔
+```markdown
+1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
+Viewport and layout coordinates become desynchronized after keyboard interaction or orientation changes.
+Fixed interface elements shift upward.
+This gap exposes the white `WKWebView` backing store.
+Chrome on iOS inherits this bug without the possibility of a fix at the browser level.
+2) Key definitions used in my analysis:
+Liquid Glass: `LG`
+3) The problem results from the interaction of 3 distinct factors (`C`, `S1`, and `S2`).
+4) `S1`: activation of the system setting «Reduce Transparency»
+4.1) Example
+https://discussions.apple.com/thread/256149325?answerId=256149325021
+4.2) The essence
+This setting replaces semi-transparent `LG` backdrops with opaque fills.
+In Chrome, the bottom navigation bar becomes a solid opaque block (the color depends on the system theme).
+This opaque layer visually occludes the webpage content layer.
+5) `S2`: architectural conflict between `LG` and Safe Area
+Dynamic floating layers create a race condition during Safe Area initialization.
+Chrome initially receives 0-value insets and extends the content to the full screen.
+The system subsequently applies an opaque protective mask under the panels.
+Consequently, the system overlay covers the content.
+6) Below are 2 high-quality strategies to mitigate the effects of `C`.
+In some cases, it is necessary to apply them in combination.
+7) `R1⁂`
+7.1) Essence
+Create an isolated stacking context for fixed elements and lock the root container height.
+Apply `transform: translateZ(0)` to `position: fixed` elements to bypass the WebKit bug.
+Set `html` and `body` height to `100dvh` with `overflow: hidden`.
+Move the content to an internal wrapper with `height: 100%` and `overflow-y: auto`.
+Set the `body` `background-color` to match the bottom panel for visual masking.
+7.2) Advantages
+It circumvents the layer compositing error in `LG`.
+`dvh` units ensure correct area calculation accounting for floating browser panels.
+`R1⁂` applies instantly without burdening the JavaScript thread.
+Background masking conceals the problem even if physical displacement persists.
+7.3) Key challenges
+7.3.1) Changing the stacking context affects `z-index`, requiring verification of modal windows.
+7.3.2) Moving scrolling to an internal container requires explicit `-webkit-overflow-scrolling: touch` to preserve native inertia.
+8) `R2⁂`
+8.1) Essence
+Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
+The script listens for `focusout` events to trigger a layout reset via `window.scrollTo(0, 0)`.
+This action resets the WebKit internal offset flag.
+8.2) Advantages
+It resolves interface displacement caused by interactions with the virtual keyboard.
+It works reactively when the engine fails to apply CSS rules correctly.
+It does not require layout restructuring and serves as a targeted «hotfix».
+8.3) Key challenges
+8.3.1) Frequent event handling increases CPU load and may cause interface «jitter».
+8.3.2) A delay between the event and execution may cause a visible content jump.
+8.3.3) Reliance on JavaScript reduces reliability under high system load.
+```
+
+## `𐒌⫳2⠿`
+`𐒌⫳2⠿` ≔ ⠿~ ⟨ недостатки `A⫳2` ⟩ 
+```markdown
+# 1.
+
+**Логическая ошибка (Противоречие между механизмом и симптомом).**
+В тексте утверждается, что механизм проблемы — это образование «зазора» («gap»), который «обнажает подложку» («exposes... backing store») в результате смещения элементов вверх. Однако в описании проблемы `P†` указано, что белая полоса **блокирует** контент («blocks content»). «Зазор» или «подложка» физически находятся *позади* слоя веб-контента и не могут перекрывать (блокировать) элементы интерфейса. Описанный механизм логически не соответствует наблюдаемому симптому наложения.
+Степень уверенности: 95
+
+# 2.
+
+**Фактическая ошибка (Техническая возможность исправления).**
+Утверждение, что Chrome на iOS наследует баг «без возможности исправления на уровне браузера» («without the possibility of a fix at the browser level»), ложно. Разработчики приложения Chrome имеют доступ к нативному API iOS и могут внедрять обходные пути (workarounds) на уровне приложения — например, через принудительное изменение размеров фрейма `WKWebView`, использование нативных оверлеев или автоматическую инъекцию компенсирующих JavaScript-сценариев.
+Степень уверенности: 95
+
+# 3.
+
+**Фактическая ошибка (Цвет подложки).**
+Утверждение «exposes the *white* `WKWebView` backing store» содержит фактическую неточность. Цвет подложки (`backing store`) не является фиксированно белым, а зависит от системной темы оформления (Light/Dark Mode). В тёмном режиме подложка будет чёрной или тёмно-серой. Безусловное определение её как белой ошибочно.
+Степень уверенности: 90
+
+# 4.
+
+**Фактическая неполнота (Триггеры возникновения).**
+В тексте возникновение рассинхронизации привязывается исключительно к «взаимодействию с клавиатурой или смене ориентации» («after keyboard interaction or orientation changes»). Это противоречит данным онтологии (`O.md`), согласно которым проблема также может возникать сразу при загрузке страницы из-за состояния гонки (Race Condition) при инициализации метрик Safe Area и Liquid Glass, без активных действий пользователя.
+Степень уверенности: 85
+```
+
+# `A⫳3` 
+##
+`A⫳3` : `A⫳⠿` ≔
+```markdown
+1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
+Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
+Consequently, the system renders an opaque protective mask over the bottom area of the webpage.
+This layer (the color depends on the system theme) visually blocks the content.
+Chrome on iOS inherits this bug, and the current application version fails to mitigate it via native workarounds.
+2) Key definitions used in my analysis:
+Liquid Glass: `LG`
+3) The problem results from the interaction of 3 distinct factors (`C`, `S1`, and `S2`).
+4) `S1`: activation of the system setting «Reduce Transparency»
+4.1) Example
+https://discussions.apple.com/thread/256149325?answerId=256149325021
+4.2) The essence
+This setting replaces semi-transparent `LG` backdrops with opaque fills.
+In Chrome, the bottom navigation bar becomes a solid opaque block (the color depends on the system theme).
+This opaque layer visually occludes the webpage content layer.
+5) `S2`: architectural conflict between `LG` and Safe Area
+Dynamic floating layers create a race condition during Safe Area initialization.
+Chrome initially receives 0-value insets and extends the content to the full screen.
+The system subsequently applies an opaque protective mask under the panels.
+Consequently, the system overlay covers the content.
+6) Below are 2 high-quality strategies to mitigate the effects of `C`.
+In some cases, it is necessary to apply them in combination.
+7) `R1⁂`
+7.1) Essence
+Create an isolated stacking context for fixed elements and lock the root container height.
+Apply `transform: translateZ(0)` to `position: fixed` elements to bypass the WebKit bug.
+Set `html` and `body` height to `100dvh` with `overflow: hidden`.
+Move the content to an internal wrapper with `height: 100%` and `overflow-y: auto`.
+Set the `body` `background-color` to match the bottom panel for visual masking.
+7.2) Advantages
+It circumvents the layer compositing error in `LG`.
+`dvh` units ensure correct area calculation accounting for floating browser panels.
+`R1⁂` applies instantly without burdening the JavaScript thread.
+Background masking conceals the problem even if physical displacement persists.
+7.3) Key challenges
+7.3.1) Changing the stacking context affects `z-index`, requiring verification of modal windows.
+7.3.2) Moving scrolling to an internal container requires explicit `-webkit-overflow-scrolling: touch` to preserve native inertia.
+8) `R2⁂`
+8.1) Essence
+Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
+The script listens for `focusout` events to trigger a layout reset via `window.scrollTo(0, 0)`.
+This action resets the WebKit internal offset flag.
+8.2) Advantages
+It resolves interface displacement caused by interactions with the virtual keyboard.
+It works reactively when the engine fails to apply CSS rules correctly.
+It does not require layout restructuring and serves as a targeted «hotfix».
+8.3) Key challenges
+8.3.1) Frequent event handling increases CPU load and may cause interface «jitter».
+8.3.2) A delay between the event and execution may cause a visible content jump.
+8.3.3) Reliance on JavaScript reduces reliability under high system load.
+```
+
+## `𐒌⫳3⠿`
+`𐒌⫳3⠿` ≔ ⠿~ ⟨ недостатки `A⫳3` ⟩ 
+```markdown
+## Замечание №1
+### Перечень пунктов, к которым относится замечение
+1, 5, 7.1
+### Конкретные цитаты, к которым относится замечение
+Пункт 1: «Consequently, the system renders an opaque protective mask over the bottom area of the webpage... visually blocks the content.»
+Пункт 5: «The system subsequently applies an opaque protective mask under the panels. Consequently, the system overlay covers the content.»
+Пункт 7.1: «Set the `body` `background-color` to match the bottom panel for visual masking.»
+### Суть замечания
+**Логическое противоречие (Диагноз vs Лечение).**
+В пунктах 1 и 5 утверждается, что механизм проблемы заключается в рендеринге системной маски *поверх* («over», «covers») веб-страницы. В стратегии `R1⁂` (пункт 7.1) предлагается решение через изменение цвета фона (`background-color`) элемента `body`.
+Фон `body` находится на самом нижнем уровне стека отрисовки документа. Если проблема вызвана наложением непрозрачного слоя *поверх* контента, то изменение цвета фона, находящегося *под* контентом, физически не может скрыть или замаскировать наложенный сверху элемент. Данная стратегия была бы эффективна, только если бы проблема заключалась в смещении контента (gap), обнажающем подложку, но это противоречит описанию механизма в пунктах 1 и 5.
+### Степень уверенности в истинности замечания
+100
+
+## Замечание №2
+### Перечень пунктов, к которым относится замечение
+8.1
+### Конкретные цитаты, к которым относится замечение
+«The script listens for `focusout` events to trigger a layout reset via `window.scrollTo(0, 0)`.»
+### Суть замечания
+**Критическая логическая ошибка (UX).**
+Инструкция выполнять `window.scrollTo(0, 0)` (мгновенный скролл в самый верх страницы) при событии `focusout` (потеря фокуса полем ввода / закрытие клавиатуры) является недопустимой с точки зрения юзабилити.
+Это событие срабатывает, когда пользователь заканчивает ввод или переходит к следующему полю. Если пользователь заполняет форму в середине или внизу длинной страницы, выполнение этого скрипта приведёт к потере визуального контекста и принудительному возврату в начало страницы. Интерфейс станет непригодным для использования. Корректный метод сброса лэйаута не должен разрушать текущую позицию скролла пользователя (например, микро-скролл на 1px).
+### Степень уверенности в истинности замечания
+100
+
+## Замечание №3
+### Перечень пунктов, к которым относится замечение
+1
+### Конкретные цитаты, к которым относится замечение
+«The root cause (`C`): ... Consequently, the system renders an opaque protective mask over the bottom area of the webpage.»
+### Суть замечания
+**Фактическая ошибка (Атрибуция механизма).**
+Баг WebKit #297779 вызывает рассинхронизацию координат (`VisualViewport` vs `LayoutViewport`), что приводит к смещению контента и образованию пустого пространства (gap/displacement), через которое видна подложка. Этот программный баг *не инициирует* активный рендеринг системой специальной «защитной маски» («protective mask»). Механизм защитных масок относится к штатной работе подсистемы Liquid Glass / Safe Area (описанной в `S2`), но не является прямым следствием бага координат. Текст ошибочно приписывает багу смещения свойства защитного оверлея.
+### Степень уверенности в истинности замечания
+95
+
+## Замечание №4
+### Перечень пунктов, к которым относится замечение
+3
+### Конкретные цитаты, к которым относится замечение
+«The problem results from the interaction of 3 distinct factors (`C`, `S1`, and `S2`).»
+### Суть замечания
+**Логическая ошибка (Неверное обобщение условий).**
+Формулировка подразумевает, что для возникновения проблемы необходимо одновременное взаимодействие всех трёх факторов. Это неверно:
+
+1. `S1` (настройка «Reduce Transparency») и `S2` (гонка инициализации прозрачности Liquid Glass) являются взаимоисключающими или альтернативными сценариями. Если активно `S1`, динамическая прозрачность отключена.
+2. Баг `C` может проявляться независимо от `S1` и `S2`.
+Проблема `P†` может возникать при наличии только `C`, только `S2` или их парной комбинации, но не требует одновременного участия всех трёх факторов.
+### Степень уверенности в истинности замечания
+90
+
+## Замечание №5
+### Перечень пунктов, к которым относится замечение
+7.3.2
+### Конкретные цитаты, к которым относится замечение
+«Moving scrolling to an internal container requires explicit `-webkit-overflow-scrolling: touch` to preserve native inertia.»
+### Суть замечания
+**Фактическая ошибка (Устаревшие технические данные).**
+Утверждение, что для сохранения инерции скролла во внутренних контейнерах *требуется* («requires») явное указание свойства `-webkit-overflow-scrolling: touch`, неактуально для iPadOS 26 (2025 год). Начиная с iOS 13, инерционный скролл включен по умолчанию для всех контейнеров с `overflow: auto` или `scroll`. В современном контексте данное свойство поддерживается только для обратной совместимости и не является обязательным требованием.
+### Степень уверенности в истинности замечания
+95
+```
 ~~~~~~
 
 # 5. `T.md`
 ~~~~~~markdown
 # 1.
-`Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫ `A⫳1`
+`Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫ `A⫳3`
 
 # 2. `᛭T`
-Предложи конкретные правки к `Aᨀ` для устранения `𐒌⫳1⠿`.
+Предложи конкретные правки к `Aᨀ` для устранения `𐒌⫳3⠿`.
 
-# Источники информации
+# Требования к правкам / Общее
 ##
-Используй все предыдущие пункты моего запроса для понимания обсуждаемой в `Aᨀ` предметной области.
+Писать свою версию `Aᨀ` не нужно: просто укажи конкретные точечные правки по пунктам.
 
-## 
-Используй авторитетные источники информации на английском языке, относящиеся к предметной области `P⁎` и `P†`.
-
-##
-В первую очередь используй официальные источники.
-
-# Требования к формату правок
 ## 
 Текст правок должен быть как можно более кратким.
 Концентрация смысла в словах должна быть максимальной.
@@ -2440,24 +2639,6 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 - быть корректным 
 - содержать самое главное
 - устранять указанные замечания и не порождать новые ошибки и замечания.
-
-##
-Писать свою версию `Aᨀ` не нужно: просто укажи конкретные точечные правки по пунктам.
-
-## 
-Для каждой правки указывай:
-###
-Порядковый номер правки (в виде заголовка 2-го уровня (`##`))
-Нумерация правок должна быть сквозной и начинаться с 1.
-### 
-Перечень номеров замечаний, которые устраняет твоя правка.
-###
-Номер пункта `Aᨀ`, который ты хочешь исправить.
-###
-Если ты хочешь исправить только часть пункта, то в точности процитируй эту исходную часть, чтобы мне было удобно её найти в `Aᨀ`.
-###
-Твой текст правки.
-В тексте правки не упоминай номер замечания (ведь этот текст — для `ꆜ`, а номер замечания — это внутренняя информация этапа редактирования `Aᨀ`).
 
 ##
 До и после списка правок ничего не пиши.
@@ -2476,6 +2657,25 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 ##
 Все числительные должны писаться цифрами (а не прописью).
 
+# Требования к правкам / Структура
+Для каждой правки указывай:
+##
+Порядковый номер правки (в виде заголовка 2-го уровня (`##`))
+Нумерация правок должна быть сквозной и начинаться с 1.
+##
+Всю следующую информацию стуктурируй заголовками 3-го уровня (`###`): 
+###
+Перечень номеров замечаний, которые устраняет твоя правка.
+###
+Номер пункта `Aᨀ`, который ты хочешь исправить.
+###
+Если ты хочешь исправить только часть пункта, то в точности процитируй эту исходную часть, чтобы мне было удобно её найти в `Aᨀ`.
+###
+Твой текст правки.
+В тексте правки не упоминай номер замечания (ведь этот текст — для `ꆜ`, а номер замечания — это внутренняя информация этапа редактирования `Aᨀ`).
+
+# Источники информации
+Используй `᛭O` и `᛭E` для понимания обсуждаемой в `Aᨀ` предметной области.
 
 # Правила ответа / Общие
 ## 
