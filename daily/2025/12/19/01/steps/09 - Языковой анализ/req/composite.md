@@ -1,77 +1,106 @@
 # 1. `B.md`
 ~~~~~~markdown
 # 1. `᛭MDi`
-## 1.1.
+##
 Каждый отдельный (произвольный, неопределённый) документ в формате Markdown, прикреплённый мной к этому запросу, буду обозначать `᛭Di`.
-## 1.2.
+## 
 Имя файла `᛭Di` всегда имеет расширение `.md`.
-## 1.3.
+## 
 Множество всех `᛭Di` буду обозначать `᛭Ds`.
 
 # 2. `L.md`
-### 2.1.
+### 
 `L.md` ∈ `᛭Ds`.
-## 2.2.
+## .
 `L.md` описывает полуформальный язык: `᛭L`.
-## 2.3.
+## 
 Большинство `᛭Di` написаны на `᛭L`.
-## 2.4.
+## 
 Множество всех `᛭Di`, написанных на `᛭L`, буду обозначать `᛭DLs`.
 Таким образом, `᛭DLs` ⊆ `᛭Ds`. 
 
 # 3. `O.md`
-## 3.1.
+##
 `O.md` ∈ `᛭DLs`
-## 3.2.
+## 
 `O.md` описывает некую **онтологию** (`᛭O`)  — модель предметной области, в которой тебе предстоит решать задачу.
 «An **ontology** encompasses a representation, formal naming, and definitions of the categories, properties, and relations between the concepts, data, or entities»: https://en.wikipedia.org/wiki/Ontology_(information_science)
+##
+Помни: содержащиеся в `᛭O` анализы могут быть некорректными, неточными или противоречивыми.
+Всегда относись к ним осторожно.
+##
+Иногда в запросе содержится описанный ниже документ `᛭E`: он содержит изменения (уточнения, расширение, обогащение) `᛭O` и имеет приоритет над знаниями `᛭O`.
 
 # 4. `T.md`
-## 4.1.
+## 
 `T.md` ∈ `᛭DLs`
-## 4.2.
+## 
 `T.md` описывает задачу (`᛭T`), которую ты должен решить.
 
-# 5. Порядок твоих действий
+# 5. `E.md`
+## 
+`E.md` ∈ `᛭DLs`
+##
+## 
+`E.md` (`᛭E`) содержит изменения (уточнения, расширение, обогащение) `᛭O`, которые были получены в результате предшествующего анализа `᛭O` и `᛭T`.
+##
+`᛭E` — факультативный файл. 
+`᛭E` отсутствует в запросах на ранних этапах анализа `᛭O` и `᛭T`.
+`᛭E` наполняется постепенно: по мере углубления анализа `᛭O` и `᛭T`.
+##
+Знания `᛭E` всегда имеют приоритет над знаниями `᛭O`.
+
+# 6. Порядок твоих действий
 Действуй пошагово:
-## 5.1.
+## 
 Сначала внимательно и полностью прочитай `L.md`.
 В точности запомни его содержание.
 
-## 5.2.
+## 
 Затем внимательно и полностью прочитай `O.md`. 
 В точности запомни его содержание.
 
-## 5.3.
+##
+Затем внимательно и полностью прочитай `E.md`. 
+В точности запомни его содержание.
+На основе этого содержания сам для себя скорректируй своё понимание `᛭O`.
+
+##
 Затем внимательно и полностью прочитай `T.md`. 
 Выполни `᛭T`.
 
-# 6. Требования к формату твоего ответа / Общее
-## 6.1.
+# 7. Требования к формату твоего ответа / Общее
+## .
 В разметке Markdown твоего ответа не используй `\`.
 
-## 6.2.
+## 
 Не пиши никогда «Хороший вопрос» и другой подобный мусор в начале ответа.
 Мне подобное пиздобольство не нужно.
 Вместо этого сразу отвечай конкретно, по существу `᛭T`.
 
-## 6.3.
+## 
 Если в `᛭T` явно не указано другое, то по умолчанию отвечай на русском языке.
 
-
-# 7. Требования к формату твоего ответа / Заголовки
-## 7.1.
+# 8. Требования к формату твоего ответа / Заголовки
+## 8.1.
 У твоего ответа не должно быть одного общего заголовка, потому что твой ответ будет вставлен внутрь секции 1-го уровня (`#`) другого документа Markdown.
-## 7.2.
-Исходя из §7.1, в качестве заголовков верхего уровня ты должен использовать заголовки 2-го уровня (`##`).
+## .
+Исходя из §8.1, в качестве заголовков верхего уровня ты должен использовать заголовки 2-го уровня (`##`).
 Таких заголовков должно быть несколько: тем самым ты разбиваешь свой ответ на разделы.
 Если твой ответ краток, то не разбивай его на разделы вообще.
-## 7.3.
+## 
 Разумеется, ты также можешь использовать заголовки более нижних уровней внутри заголовков 2-го уровня: для дополнительной структуризации текста.
-## 7.4.
+## 
 Никогда не используй выделение жирным (`**`) в заголовках.
-## 7.5.
+## 
 Всегда форматируй заголовки только символами решётки (`#`), не другими способами. 
+## Нумерация заголовков
+### 
+Если в `᛭T` не сказано иное, то делай заголовки нумерованными.
+###
+Если суть `᛭T`— изменение некоторого данного тебе текста, то никогда не меняй формат нумерации в этом тексте, если тебе явно не сказано поменять этот формат.
+#### 
+Например, если в исходном тексте используется нумерация `1)`, `2)`, `3)`, то не меняй самовольно `)` на `.` 
 
 # 8. Требования к формату твоего ответа / Режим «Deep Research»
 ## 8.1.
@@ -2268,7 +2297,173 @@ https://gemini.google.com/share/22c6a05bdd2c
 Метод **Mᚖ3** следует применить как стандарт гигиены кода для защиты от перекрытия контента в будущем.
 ~~~~~~
 
-# 4. `T.md`
+# 4. `E.md`
 ~~~~~~markdown
 STUB
+~~~~~~
+
+# 5. `T.md`
+~~~~~~markdown
+# 1.
+`Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
+~~~markdown
+1) The root cause (`C1`): https://bugs.webkit.org/show_bug.cgi?id=297779
+Viewport and layout coordinates desynchronize after keyboard interaction or orientation changes.
+Fixed interface elements shift upward by approximately 24 pixels.
+This gap exposes the white `WKWebView` rendering backing.
+Chrome on iOS inherits this bug without the possibility of application-level correction.
+2) `C1` manifests in 2 scenarios (`S1` and `S2`).
+3) `S1`: activation of the system setting «Reduce Transparency»
+3.1) Example
+https://discussions.apple.com/thread/256149325?answerId=256149325021
+3.2) The essence
+This setting replaces «Liquid Glass» semi-transparent backdrops with solid opaque fills.
+In Chrome, the bottom navigation bar becomes a solid white block.
+This block sits above the webpage layer and overlaps the content.
+4) `S2`: architectural conflict between «Liquid Glass» and Safe Area
+Dynamic floating layers create a race condition during Safe Area initialization.
+Chrome initially receives 0 insets and extends the content to the full screen.
+The system subsequently applies an opaque protective mask under the panels.
+Consequently, the system overlay covers the content.
+5) Below are 2 high-quality ways to eliminate `C1`.
+In some cases, it is necessary to apply them in combination.
+6) `R1⁂`
+6.1) Essence
+Create an isolated stacking context for fixed elements and lock the root container height.
+Apply `transform: translateZ(0)` to `position: fixed` elements to bypass the WebKit bug.
+Det `html` and `body` height to `100dvh` to handle the dynamic address bar.
+Set the `body` `background-color` to match the bottom panel for visual masking.
+6.2) Advantages
+`R1⁂` eliminates the layer compositing error in the Liquid Glass system.
+`dvh` units ensure correct area calculation regarding floating browser panels.
+`R1⁂` applies instantly without burdening the JavaScript thread.
+Background masking conceals the problem even if physical displacement persists.
+6.3) Key challenges
+6.3.1) Changing the stacking context affects `z-index`, requiring verification of modal windows.
+6.3.2) Rarely, the combination of `100dvh` and `translateZ` conflicts with native inertial scrolling.
+7) `R2⁂`
+7.1) Essence
+Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
+The script tracks `focusout` and `resize` events to trigger a micro-scroll `window.scrollTo(0, 0)`.
+This action resets the WebKit internal offset flag.
+7.2) Advantages
+`R2⁂` resolves interface displacement during interactions with the virtual keyboard.
+The solution works reactively when CSS rules are ignored by the engine.
+`R2⁂` does not require layout restructuring and serves as a targeted «hotfix».
+7.3) Key challenges
+7.3.1) Event listeners increase CPU load and may cause interface «jitter».
+7.3.2) A delay between the event and execution may cause a visible content jump.
+7.3.3) Dependence on JavaScript reduces stability under high system load.
+~~~
+
+# 2.
+## 2.1.
+`Fⰳ(§p)` ≔ ⟨ Пункт `§p` из `Aᨀ` ⟩
+
+## 2.2.
+`Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
+
+# 3.
+`Fᨀ` ≔ `Fⰳ(7)`
+
+# 4. `᛭T`
+Проанализируй `Fᨀ`:
+1) Есть ли там языковые ошибки?
+2) Можно ли улучшить формулировки написанного там?
+
+# 5. Требования к твоему ответу
+## 5.1.
+Отвечай на русском языке.
+## 5.2.
+Мой вопрос не пересказывай.
+## 5.3.
+Уже сформулированную мной информацию не пересказывай.
+## 5.4.
+Писать свою версию `Fᨀ` не нужно: просто укажи свои замечания по пунктам.
+## 5.5.
+До и после списка замечаний ничего не пиши.
+## 5.6.
+Нумерация замечаний должна быть сквозной.
+## 5.7.
+Все числительные должны писаться цифрами (а не прописью).
+## 5.8.
+Для каждого своего замечания указывай свою степень уверенности в нём по шкале от 0 до 100:
+- 0 означает, что твоё замечание безосновательно (ошибочно).
+- 100 означает, что ты полностью уверен в правоте своего замечания.
+
+## 5.9.
+Для каждого замечания указывай твоё предложение по его устранению: конкретный фрагамент текста.
+Этот фрагмент должен состоять из законченных предложений (не оборванных кусков предложений).
+
+## 5.10.
+Форматируй текст своих правок в точности как оригинал (`Aᨀ`). 
+В частности:
+###
+Каждый абзац должен содержать ровно одно предложение
+####
+Использование `:` не нарушает это требование, например:
+```
+`AID` is the correct tool for your task: it is designed for text layout and data integration.
+```
+####
+Использование маркированного списка (`-`) не нарушает это требование.
+###
+Между абзацами не должно оставаться пустых строк.
+###
+Кавычки используй те же, что и в оригинале: «» и ``.
+
+# 6. К чему не надо придираться
+## 6.1.
+Если большая часть `Fᨀ` — на русском языке, то не придирайся к смешению в `Fᨀ` русского и английского языков.
+Это смешение — временное и будет устранено позже.
+## 6.2.
+К угловым кавычкам `«»` не придирайся.
+## 6.3.
+К backticks для аббревиатур не придирайся.
+Пример: «the Notary Law (hereinafter `N`)».
+## 6.4.
+Не придирайся к фразам-заголовкам типа «Data Transformation: Adjusting the data structure to fit the layout requirements» по причине «Текст не является законченным предложением, так как в нём отсутствует сказуемое (главный глагол). Это нарушает требование о том, что каждый абзац должен содержать законченное предложение.» 
+## 6.5.
+Не придирайся к следующему:
+```
+В формальном английском тексте не рекомендуется начинать предложение с цифры.
+```
+## 6.6.
+Не придирайся к следующему:
+```
+Использование тире (—) внутри скобок в обороте «(hereafter — `P`)» стилистически необычно.
+```
+## 6.7.
+Не придирайся к следующему:
+```
+используется повелительное наклонение 
+```
+## 6.8.
+Не придирайся к следующему:
+```
+резкие оценочные суждения («waste of time and resources», «false premises»), которые звучат обвинительно. 
+```
+
+## 6.9.
+Не придирайся к следующему:
+```
+формулировка «This is incorrect» является точной, но может звучать слишком категорично.
+```
+
+## 6.10.
+Не придирайся к следующему:
+```
+Предложения имеют схожую синтаксическую структуру, что звучит монотонно
+```
+
+## 6.11.
+Не придирайся к следующему:
+```
+Одновременно вводятся несколько аббревиатур, что перегружает предложение и усложняет восприятие.
+```
+
+## 6.12.
+```
+Использование скобок для перечисления примеров допустимо, но в формальном техническом тексте конструкция «such as» выглядит стилистически предпочтительнее и улучшает читаемость.
+```
 ~~~~~~

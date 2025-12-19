@@ -1,77 +1,106 @@
 # 1. `B.md`
 ~~~~~~markdown
 # 1. `᛭MDi`
-## 1.1.
+##
 Каждый отдельный (произвольный, неопределённый) документ в формате Markdown, прикреплённый мной к этому запросу, буду обозначать `᛭Di`.
-## 1.2.
+## 
 Имя файла `᛭Di` всегда имеет расширение `.md`.
-## 1.3.
+## 
 Множество всех `᛭Di` буду обозначать `᛭Ds`.
 
 # 2. `L.md`
-### 2.1.
+### 
 `L.md` ∈ `᛭Ds`.
-## 2.2.
+## .
 `L.md` описывает полуформальный язык: `᛭L`.
-## 2.3.
+## 
 Большинство `᛭Di` написаны на `᛭L`.
-## 2.4.
+## 
 Множество всех `᛭Di`, написанных на `᛭L`, буду обозначать `᛭DLs`.
 Таким образом, `᛭DLs` ⊆ `᛭Ds`. 
 
 # 3. `O.md`
-## 3.1.
+##
 `O.md` ∈ `᛭DLs`
-## 3.2.
+## 
 `O.md` описывает некую **онтологию** (`᛭O`)  — модель предметной области, в которой тебе предстоит решать задачу.
 «An **ontology** encompasses a representation, formal naming, and definitions of the categories, properties, and relations between the concepts, data, or entities»: https://en.wikipedia.org/wiki/Ontology_(information_science)
+##
+Помни: содержащиеся в `᛭O` анализы могут быть некорректными, неточными или противоречивыми.
+Всегда относись к ним осторожно.
+##
+Иногда в запросе содержится описанный ниже документ `᛭E`: он содержит изменения (уточнения, расширение, обогащение) `᛭O` и имеет приоритет над знаниями `᛭O`.
 
 # 4. `T.md`
-## 4.1.
+## 
 `T.md` ∈ `᛭DLs`
-## 4.2.
+## 
 `T.md` описывает задачу (`᛭T`), которую ты должен решить.
 
-# 5. Порядок твоих действий
+# 5. `E.md`
+## 
+`E.md` ∈ `᛭DLs`
+##
+## 
+`E.md` (`᛭E`) содержит изменения (уточнения, расширение, обогащение) `᛭O`, которые были получены в результате предшествующего анализа `᛭O` и `᛭T`.
+##
+`᛭E` — факультативный файл. 
+`᛭E` отсутствует в запросах на ранних этапах анализа `᛭O` и `᛭T`.
+`᛭E` наполняется постепенно: по мере углубления анализа `᛭O` и `᛭T`.
+##
+Знания `᛭E` всегда имеют приоритет над знаниями `᛭O`.
+
+# 6. Порядок твоих действий
 Действуй пошагово:
-## 5.1.
+## 
 Сначала внимательно и полностью прочитай `L.md`.
 В точности запомни его содержание.
 
-## 5.2.
+## 
 Затем внимательно и полностью прочитай `O.md`. 
 В точности запомни его содержание.
 
-## 5.3.
+##
+Затем внимательно и полностью прочитай `E.md`. 
+В точности запомни его содержание.
+На основе этого содержания сам для себя скорректируй своё понимание `᛭O`.
+
+##
 Затем внимательно и полностью прочитай `T.md`. 
 Выполни `᛭T`.
 
-# 6. Требования к формату твоего ответа / Общее
-## 6.1.
+# 7. Требования к формату твоего ответа / Общее
+## .
 В разметке Markdown твоего ответа не используй `\`.
 
-## 6.2.
+## 
 Не пиши никогда «Хороший вопрос» и другой подобный мусор в начале ответа.
 Мне подобное пиздобольство не нужно.
 Вместо этого сразу отвечай конкретно, по существу `᛭T`.
 
-## 6.3.
+## 
 Если в `᛭T` явно не указано другое, то по умолчанию отвечай на русском языке.
 
-
-# 7. Требования к формату твоего ответа / Заголовки
-## 7.1.
+# 8. Требования к формату твоего ответа / Заголовки
+## 8.1.
 У твоего ответа не должно быть одного общего заголовка, потому что твой ответ будет вставлен внутрь секции 1-го уровня (`#`) другого документа Markdown.
-## 7.2.
-Исходя из §7.1, в качестве заголовков верхего уровня ты должен использовать заголовки 2-го уровня (`##`).
+## .
+Исходя из §8.1, в качестве заголовков верхего уровня ты должен использовать заголовки 2-го уровня (`##`).
 Таких заголовков должно быть несколько: тем самым ты разбиваешь свой ответ на разделы.
 Если твой ответ краток, то не разбивай его на разделы вообще.
-## 7.3.
+## 
 Разумеется, ты также можешь использовать заголовки более нижних уровней внутри заголовков 2-го уровня: для дополнительной структуризации текста.
-## 7.4.
+## 
 Никогда не используй выделение жирным (`**`) в заголовках.
-## 7.5.
+## 
 Всегда форматируй заголовки только символами решётки (`#`), не другими способами. 
+## Нумерация заголовков
+### 
+Если в `᛭T` не сказано иное, то делай заголовки нумерованными.
+###
+Если суть `᛭T`— изменение некоторого данного тебе текста, то никогда не меняй формат нумерации в этом тексте, если тебе явно не сказано поменять этот формат.
+#### 
+Например, если в исходном тексте используется нумерация `1)`, `2)`, `3)`, то не меняй самовольно `)` на `.` 
 
 # 8. Требования к формату твоего ответа / Режим «Deep Research»
 ## 8.1.
@@ -2268,7 +2297,110 @@ https://gemini.google.com/share/22c6a05bdd2c
 Метод **Mᚖ3** следует применить как стандарт гигиены кода для защиты от перекрытия контента в будущем.
 ~~~~~~
 
-# 4. `T.md`
+# 4. `E.md`
 ~~~~~~markdown
 STUB
+~~~~~~
+
+# 5. `T.md`
+~~~~~~markdown
+# 1.
+`Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
+~~~markdown
+1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
+Viewport and layout coordinates become desynchronized after keyboard interaction or orientation changes.
+Fixed interface elements shift upward.
+This gap exposes the white `WKWebView` backing store.
+Chrome on iOS inherits this bug without the possibility of a fix at the browser level.
+2) Key definitions used in my analysis:
+Liquid Glass: `LG`
+3) `C` manifests in 2 scenarios (`S1` and `S2`).
+4) `S1`: activation of the system setting «Reduce Transparency»
+4.1) Example
+https://discussions.apple.com/thread/256149325?answerId=256149325021
+4.2) The essence
+This setting replaces semi-transparent `LG` backdrops with opaque fills.
+In Chrome, the bottom navigation bar becomes a solid white block.
+This block is rendered above the webpage layer and blocks the content.
+5) `S2`: architectural conflict between `LG` and Safe Area
+Dynamic floating layers create a race condition during Safe Area initialization.
+Chrome initially receives 0-value insets and extends the content to the full screen.
+The system subsequently applies an opaque protective mask under the panels.
+Consequently, the system overlay covers the content.
+6) Below are 2 high-quality strategies to mitigate the effects of `C`.
+In some cases, it is necessary to apply them in combination.
+7) `R1⁂`
+7.1) Essence
+Create an isolated stacking context for fixed elements and lock the root container height.
+Apply `transform: translateZ(0)` to `position: fixed` elements to bypass the WebKit bug.
+Set `html` and `body` height to `100dvh` to handle the dynamic address bar.
+Set the `body` `background-color` to match the bottom panel for visual masking.
+7.2) Advantages
+It circumvents the layer compositing error in `LG`.
+`dvh` units ensure correct area calculation accounting for floating browser panels.
+`R1⁂` applies instantly without burdening the JavaScript thread.
+Background masking conceals the problem even if physical displacement persists.
+7.3) Key challenges
+7.3.1) Changing the stacking context affects `z-index`, requiring verification of modal windows.
+7.3.2) In rare cases, the combination of `100dvh` and `translateZ` conflicts with native inertial scrolling.
+8) `R2⁂`
+8.1) Essence
+Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
+The script listens for `focusout` and `resize` events to trigger a layout reset via `window.scrollTo(0, 0)`.
+This action resets the WebKit internal offset flag.
+8.2) Advantages
+It resolves interface displacement caused by interactions with the virtual keyboard.
+It works reactively when the engine fails to apply CSS rules correctly.
+It does not require layout restructuring and serves as a targeted «hotfix».
+8.3) Key challenges
+8.3.1) Frequent event handling increases CPU load and may cause interface «jitter».
+8.3.2) A delay between the event and execution may cause a visible content jump.
+8.3.3) Reliance on JavaScript reduces reliability under high system load.
+~~~
+
+# 2.
+## 2.1.
+`Fⰳ(§p)` ≔ ⟨ Пункт `§p` из `Aᨀ` ⟩
+
+## 2.2.
+`Fⰳ(§a-§b)` ≔ ⟨ Фрагмент `Aᨀ` с пункта `§a` по пункт `§b` включительно ⟩
+
+# 3.
+`Fᨀ` ≔ `Fⰳ(1 - 8)`
+
+# 4. `᛭T`
+Проанализируй `Fᨀ`:
+1) Есть ли там логические ошибки?
+2) Есть ли там фактические ошибки?
+
+# 5. Требования к твоему ответу
+## 5.0.
+Обязательно используй свой режим «Deep Research».
+Твой ответ без режима «Deep Research» — гарантированно неверный.
+## 5.1.
+Отвечай на русском языке.
+## 5.2.
+Мой вопрос не пересказывай.
+## 5.3.
+Уже сформулированную мной информацию не пересказывай.
+## 5.4.
+Писать свою версию `Fᨀ` не нужно: просто укажи свои замечания по пунктам.
+## 5.5.
+До и после списка замечаний ничего не пиши.
+## 5.6.
+Нумерация замечаний должна быть сквозной.
+## 5.7.
+Для каждого своего замечания указывай свою степень уверенности в нём по шкале от 0 до 100:
+- 0 означает, что твоё замечание безосновательно (ошибочно).
+- 100 означает, что ты полностью уверен в правоте своего замечания.
+
+# 6. К чему не надо придираться
+## 6.1.
+Если большая часть `Fᨀ` — на русском языке, то не придирайся к смешению в `Fᨀ` русского и английского языков.
+Это смешение — временное и будет устранено позже.
+
+## 6.2.
+Не придирайся, что в моей отнологии (`O.md`) я использую обозначения, отличные от письма клиенту.
+Онтология предназначения для моего внутреннего анализа, а не для клиента.
+Клиент не видит онтологию и он не знает о моих внутренних обозначениях.
 ~~~~~~
