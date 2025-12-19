@@ -1,8 +1,5 @@
 # 1.
-`Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫
-~~~markdown
-STUB
-~~~
+`Aᨀ` ≔ ⟪ мой proposal `ꆜ` для `P⁎` ⟫ `A⫳2`
 
 # 2.
 ## 2.1.
