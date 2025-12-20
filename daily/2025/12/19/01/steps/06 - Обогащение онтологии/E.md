@@ -1,6 +1,5 @@
-# `A⫳1` 
-##
-`A⫳1` : `A⫳⠿` ≔
+# `A⫳⧛1⧚`
+`A⫳⧛1⧚` ≔
 ```markdown
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized after keyboard interaction or orientation changes.
@@ -53,8 +52,8 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 8.3.3) Reliance on JavaScript reduces reliability under high system load.
 ```
 
-## `𐒌⫳1⠿`
-`𐒌⫳1⠿` ≔ ⠿~ ⟨ недостатки `A⫳1` ⟩ 
+# `𐒌⠿⧛1⧚`
+`𐒌⠿⧛1⧚` ≔ 
 ```markdown
 # 1.
 
@@ -99,9 +98,8 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 Степень уверенности: 85
 ```
 
-# `A⫳2` 
-##
-`A⫳2` : `A⫳⠿` ≔
+# `A⫳⧛2⧚`
+`A⫳⧛2⧚` ≔
 ```markdown
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized after keyboard interaction or orientation changes.
@@ -155,8 +153,8 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 8.3.3) Reliance on JavaScript reduces reliability under high system load.
 ```
 
-## `𐒌⫳2⠿`
-`𐒌⫳2⠿` ≔ ⠿~ ⟨ недостатки `A⫳2` ⟩ 
+# `𐒌⠿⧛2⧚`
+`𐒌⠿⧛2⧚` ≔ 
 ```markdown
 # 1.
 
@@ -183,9 +181,8 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 Степень уверенности: 85
 ```
 
-# `A⫳3` 
-##
-`A⫳3` : `A⫳⠿` ≔
+# `A⫳⧛3⧚`
+`A⫳⧛3⧚` ≔
 ```markdown
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
@@ -239,8 +236,8 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 8.3.3) Reliance on JavaScript reduces reliability under high system load.
 ```
 
-## `𐒌⫳3⠿`
-`𐒌⫳3⠿` ≔ ⠿~ ⟨ недостатки `A⫳3` ⟩ 
+# `𐒌⠿⧛3⧚`
+`𐒌⠿⧛3⧚` ≔ 
 ```markdown
 ## Замечание №1
 ### Перечень пунктов, к которым относится замечение
@@ -306,9 +303,8 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 95
 ```
 
-# `A⫳4` 
-##
-`A⫳4` : `A⫳⠿` ≔
+# `A⫳⧛4⧚`
+`A⫳⧛4⧚` ≔
 ```markdown
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
