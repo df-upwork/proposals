@@ -1,11 +1,11 @@
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
 Consequently, the system renders an opaque protective mask over the bottom area of the webpage.
-This layer (the color depends on the system theme) visually blocks the content.
-Chrome on iOS inherits this bug, and the current application version fails to mitigate it via native workarounds.
+Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
+This gap exposes the `WKWebView` backing store (the color depends on the system theme).
 2) Key definitions used in my analysis:
 Liquid Glass: `LG`
-3) The problem results from the interaction of 3 distinct factors (`C`, `S1`, and `S2`).
+3) The problem results from `C`, `S1`, `S2`, or a combination thereof.
 4) `S1`: activation of the system setting «Reduce Transparency»
 4.1) Example
 https://discussions.apple.com/thread/256149325?answerId=256149325021
@@ -16,8 +16,8 @@ This opaque layer visually occludes the webpage content layer.
 5) `S2`: architectural conflict between `LG` and Safe Area
 Dynamic floating layers create a race condition during Safe Area initialization.
 Chrome initially receives 0-value insets and extends the content to the full screen.
-The system subsequently applies an opaque protective mask under the panels.
-Consequently, the system overlay covers the content.
+The system subsequently enforces Safe Area constraints, but the layout fails to extend the content.
+Consequently, the unfilled area exposes the underlying background.
 6) Below are 2 high-quality strategies to mitigate the effects of `C`.
 In some cases, it is necessary to apply them in combination.
 7) `R1⁂`
@@ -34,11 +34,11 @@ It circumvents the layer compositing error in `LG`.
 Background masking conceals the problem even if physical displacement persists.
 7.3) Key challenges
 7.3.1) Changing the stacking context affects `z-index`, requiring verification of modal windows.
-7.3.2) Moving scrolling to an internal container requires explicit `-webkit-overflow-scrolling: touch` to preserve native inertia.
+7.3.2) Moving scrolling to an internal container preserves native inertia automatically on iOS 26.
 8) `R2⁂`
 8.1) Essence
 Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
-The script listens for `focusout` events to trigger a layout reset via `window.scrollTo(0, 0)`.
+The script listens for `focusout` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
 This action resets the WebKit internal offset flag.
 8.2) Advantages
 It resolves interface displacement caused by interactions with the virtual keyboard.
