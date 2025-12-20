@@ -1,85 +1,54 @@
-# 1
+## 1
 
-### Перечень номеров замечаний, которые устраняет твоя правка
+### Замечания
 
-1, 3
+1, 2, 3
 
-### Номер пункта `Aᨀ`, который ты хочешь исправить
+### Пункт документа
 
 1
 
-### Если ты хочешь исправить только часть пункта, то в точности процитируй эту исходную часть, чтобы мне было удобно её найти в `Aᨀ`.
+### Исходный текст
 
 Consequently, the system renders an opaque protective mask over the bottom area of the webpage.
-This layer (the color depends on the system theme) visually blocks the content.
+Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
 
-### Твой текст правки
+### Предлагаемый текст
 
 Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
-This gap exposes the `WKWebView` backing store (the color depends on the system theme).
 
-# 2
+## 2
 
-### Перечень номеров замечаний, которые устраняет твоя правка
+### Замечания
 
 4
 
-### Номер пункта `Aᨀ`, который ты хочешь исправить
+### Пункт документа
 
-3
+7.2
 
-### Твой текст правки
+### Исходный текст
 
-The problem results from `C`, `S1`, `S2`, or a combination thereof.
+`dvh` units ensure correct area calculation accounting for floating browser panels.
 
-# 3
+### Предлагаемый текст
 
-### Перечень номеров замечаний, которые устраняет твоя правка
+The internal scrolling architecture eliminates layout shifts caused by dynamic browser panels.
 
-1, 3
+## 3
 
-### Номер пункта `Aᨀ`, который ты хочешь исправить
-
-5
-
-### Если ты хочешь исправить только часть пункта, то в точности процитируй эту исходную часть, чтобы мне было удобно её найти в `Aᨀ`.
-
-The system subsequently applies an opaque protective mask under the panels.
-Consequently, the system overlay covers the content.
-
-### Твой текст правки
-
-The system subsequently enforces Safe Area constraints, but the layout fails to extend the content.
-Consequently, the unfilled area exposes the underlying background.
-
-# 4
-
-### Перечень номеров замечаний, которые устраняет твоя правка
+### Замечания
 
 5
 
-### Номер пункта `Aᨀ`, который ты хочешь исправить
+### Пункт документа
 
-7.3.2
+8.3.1
 
-### Твой текст правки
+### Исходный текст
 
-Moving scrolling to an internal container preserves native inertia automatically on iOS 26.
+Frequent event handling increases CPU load and may cause interface «jitter».
 
-# 5
+### Предлагаемый текст
 
-### Перечень номеров замечаний, которые устраняет твоя правка
-
-2
-
-### Номер пункта `Aᨀ`, который ты хочешь исправить
-
-8.1
-
-### Если ты хочешь исправить только часть пункта, то в точности процитируй эту исходную часть, чтобы мне было удобно её найти в `Aᨀ`.
-
-The script listens for `focusout` events to trigger a layout reset via `window.scrollTo(0, 0)`.
-
-### Твой текст правки
-
-The script listens for `focusout` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
+The fix triggers only after the interaction concludes, potentially leaving the interface displaced during input.

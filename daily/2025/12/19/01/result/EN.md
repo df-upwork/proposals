@@ -1,6 +1,5 @@
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
-Consequently, the system renders an opaque protective mask over the bottom area of the webpage.
 Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
 This gap exposes the `WKWebView` backing store (the color depends on the system theme).
 2) Key definitions used in my analysis:
@@ -29,7 +28,7 @@ Move the content to an internal wrapper with `height: 100%` and `overflow-y: aut
 Set the `body` `background-color` to match the bottom panel for visual masking.
 7.2) Advantages
 It circumvents the layer compositing error in `LG`.
-`dvh` units ensure correct area calculation accounting for floating browser panels.
+The internal scrolling architecture eliminates layout shifts caused by dynamic browser panels.
 `R1⁂` applies instantly without burdening the JavaScript thread.
 Background masking conceals the problem even if physical displacement persists.
 7.3) Key challenges
@@ -45,6 +44,6 @@ It resolves interface displacement caused by interactions with the virtual keybo
 It works reactively when the engine fails to apply CSS rules correctly.
 It does not require layout restructuring and serves as a targeted «hotfix».
 8.3) Key challenges
-8.3.1) Frequent event handling increases CPU load and may cause interface «jitter».
+8.3.1) The fix triggers only after the interaction concludes, potentially leaving the interface displaced during input.
 8.3.2) A delay between the event and execution may cause a visible content jump.
 8.3.3) Reliance on JavaScript reduces reliability under high system load.
