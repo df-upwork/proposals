@@ -1,4 +1,6 @@
 # `᛭A`
+`᛭A` ≔ ⟪ Мой proposal `ꆜ` для `P⁎` ⟫
+~~~markdown
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
 Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
@@ -48,3 +50,4 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 8.3.1) The fix triggers only after the interaction concludes, potentially leaving the interface displaced during input.
 8.3.2) A delay between the event and execution may cause a visible content jump.
 8.3.3) Reliance on JavaScript reduces reliability under high system load.
+~~~
