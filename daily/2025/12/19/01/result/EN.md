@@ -4,7 +4,7 @@ Consequently, fixed interface elements shift upward, creating a gap between the 
 This gap exposes the `WKWebView` backing store (the color depends on the system theme).
 2) Key definitions used in my analysis:
 Liquid Glass: `LG`
-3) The problem results from `C`, `S1`, `S2`, or a combination thereof.
+3) The problem stems from the root cause `C`, exacerbated by factors `S1` and `S2`
 4) `S1`: activation of the system setting «Reduce Transparency»
 4.1) Example
 https://discussions.apple.com/thread/256149325?answerId=256149325021
@@ -15,25 +15,23 @@ This opaque layer visually occludes the webpage content layer.
 5) `S2`: architectural conflict between `LG` and Safe Area
 Dynamic floating layers create a race condition during Safe Area initialization.
 Chrome initially receives 0-value insets and extends the content to the full screen.
-The system subsequently enforces Safe Area constraints, but the layout fails to extend the content.
-Consequently, the unfilled area exposes the underlying background.
+The system subsequently enforces Safe Area constraints by rendering an opaque protective overlay.
+Consequently, this system layer visually occludes the content layer.
 6) Below are 2 high-quality strategies to mitigate the effects of `C`.
 In some cases, it is necessary to apply them in combination.
 7) `R1⁂`
 7.1) Essence
 Create an isolated stacking context for fixed elements and lock the root container height.
 Apply `transform: translateZ(0)` to `position: fixed` elements to bypass the WebKit bug.
-Set `html` and `body` height to `100dvh` with `overflow: hidden`.
-Move the content to an internal wrapper with `height: 100%` and `overflow-y: auto`.
+Set `html` and `body` height to `100dvh`.
 Set the `body` `background-color` to match the bottom panel for visual masking.
 7.2) Advantages
 It circumvents the layer compositing error in `LG`.
-The internal scrolling architecture eliminates layout shifts caused by dynamic browser panels.
+The usage of `100dvh` units prevents layout shifts caused by dynamic browser panels.
 `R1⁂` applies instantly without burdening the JavaScript thread.
 Background masking conceals the problem even if physical displacement persists.
 7.3) Key challenges
 7.3.1) Changing the stacking context affects `z-index`, requiring verification of modal windows.
-7.3.2) Moving scrolling to an internal container preserves native inertia automatically on iOS 26.
 8) `R2⁂`
 8.1) Essence
 Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
