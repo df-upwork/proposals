@@ -10,13 +10,13 @@ Liquid Glass: `LG`
 https://discussions.apple.com/thread/256149325?answerId=256149325021
 4.2) The essence
 This setting replaces semi-transparent `LG` backdrops with opaque fills.
-In Chrome, the bottom navigation bar becomes a solid opaque block (the color depends on the system theme).
-This opaque layer visually occludes the webpage content layer.
+In Chrome, the exposed `WKWebView` backing store renders as a solid opaque block (the color depends on the system theme).
+This visual artifact fills the gap created by the layout displacement.
 5) `S2`: architectural conflict between `LG` and Safe Area
 Dynamic floating layers create a race condition during Safe Area initialization.
 Chrome initially receives 0-value insets and extends the content to the full screen.
-The system subsequently enforces Safe Area constraints by rendering an opaque protective overlay.
-Consequently, this system layer visually occludes the content layer.
+The system subsequently enforces Safe Area constraints, triggering a layout recalculation.
+Consequently, the content shifts upward, exposing the backing store in the resulting gap.
 6) Below are 2 high-quality strategies to mitigate the effects of `C`.
 In some cases, it is necessary to apply them in combination.
 7) `R1⁂`
@@ -27,7 +27,7 @@ Set `html` and `body` height to `100dvh`.
 Set the `body` `background-color` to match the bottom panel for visual masking.
 7.2) Advantages
 It circumvents the layer compositing error in `LG`.
-The usage of `100dvh` units prevents layout shifts caused by dynamic browser panels.
+The usage of `100dvh` units ensures the layout adapts to the dynamic viewport, preventing content clipping.
 `R1⁂` applies instantly without burdening the JavaScript thread.
 Background masking conceals the problem even if physical displacement persists.
 7.3) Key challenges

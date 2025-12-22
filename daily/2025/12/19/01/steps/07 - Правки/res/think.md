@@ -1,26 +1,26 @@
-## 1
+## 1.
 
 ### Замечания
 
-`𐒌₁`
+𐒌₂
 
 ### Пункт документа
 
-3
+4.2
 
 ### Исходный текст
 
-The problem results from `C`, `S1`, `S2`, or a combination thereof.
+In Chrome, the bottom navigation bar becomes a solid opaque block (the color depends on the system theme).
 
 ### Предлагаемый текст
 
-The problem stems from the root cause `C`, exacerbated by factors `S1` and `S2`.
+In Chrome, the System UI backdrop renders as a solid opaque overlay (the color depends on the system theme).
 
-## 2
+## 2.
 
 ### Замечания
 
-`𐒌₂`
+𐒌₃
 
 ### Пункт документа
 
@@ -28,19 +28,17 @@ The problem stems from the root cause `C`, exacerbated by factors `S1` and `S2`.
 
 ### Исходный текст
 
-The system subsequently enforces Safe Area constraints, but the layout fails to extend the content.
-Consequently, the unfilled area exposes the underlying background.
+Consequently, this system layer visually occludes the content layer.
 
 ### Предлагаемый текст
 
-The system subsequently enforces Safe Area constraints by rendering an opaque protective overlay.
-Consequently, this system layer visually occludes the content layer.
+Consequently, the System UI backdrop visually occludes the content layer.
 
-## 3
+## 3.
 
 ### Замечания
 
-`𐒌₃`
+𐒌₁
 
 ### Пункт документа
 
@@ -48,45 +46,26 @@ Consequently, this system layer visually occludes the content layer.
 
 ### Исходный текст
 
-Set `html` and `body` height to `100dvh` with `overflow: hidden`.
-Move the content to an internal wrapper with `height: 100%` and `overflow-y: auto`.
-
-### Предлагаемый текст
-
 Set `html` and `body` height to `100dvh`.
 
-## 4
+### Предлагаемый текст
+
+Set `html` and `body` `min-height` to `100dvh`.
+
+## 4.
 
 ### Замечания
 
-`𐒌₃`
+𐒌₄
 
 ### Пункт документа
 
-7.2
+8.1
 
 ### Исходный текст
 
-The internal scrolling architecture eliminates layout shifts caused by dynamic browser panels.
+The script listens for `focusout` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
 
 ### Предлагаемый текст
 
-The usage of `100dvh` units prevents layout shifts caused by dynamic browser panels.
-
-## 5
-
-### Замечания
-
-`𐒌₄`
-
-### Пункт документа
-
-7.3.2
-
-### Исходный текст
-
-Moving scrolling to an internal container preserves native inertia automatically on iOS 26.
-
-### Предлагаемый текст
-
-(Удалить этот пункт).
+The script listens for `focusout` and `resize` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).

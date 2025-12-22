@@ -2618,9 +2618,6 @@ https://gemini.google.com/share/22c6a05bdd2c
 
 # `A.md`
 ~~~~~~markdown
-# `᛭A`
-`᛭A` ≔ ⟪ Мой proposal `ꆜ` для `P⁎` ⟫
-~~~markdown
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
 Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
@@ -2633,13 +2630,13 @@ Liquid Glass: `LG`
 https://discussions.apple.com/thread/256149325?answerId=256149325021
 4.2) The essence
 This setting replaces semi-transparent `LG` backdrops with opaque fills.
-In Chrome, the bottom navigation bar becomes a solid opaque block (the color depends on the system theme).
-This opaque layer visually occludes the webpage content layer.
+In Chrome, the exposed `WKWebView` backing store renders as a solid opaque block (the color depends on the system theme).
+This visual artifact fills the gap created by the layout displacement.
 5) `S2`: architectural conflict between `LG` and Safe Area
 Dynamic floating layers create a race condition during Safe Area initialization.
 Chrome initially receives 0-value insets and extends the content to the full screen.
-The system subsequently enforces Safe Area constraints by rendering an opaque protective overlay.
-Consequently, this system layer visually occludes the content layer.
+The system subsequently enforces Safe Area constraints, triggering a layout recalculation.
+Consequently, the content shifts upward, exposing the backing store in the resulting gap.
 6) Below are 2 high-quality strategies to mitigate the effects of `C`.
 In some cases, it is necessary to apply them in combination.
 7) `R1⁂`
@@ -2650,7 +2647,7 @@ Set `html` and `body` height to `100dvh`.
 Set the `body` `background-color` to match the bottom panel for visual masking.
 7.2) Advantages
 It circumvents the layer compositing error in `LG`.
-The usage of `100dvh` units prevents layout shifts caused by dynamic browser panels.
+The usage of `100dvh` units ensures the layout adapts to the dynamic viewport, preventing content clipping.
 `R1⁂` applies instantly without burdening the JavaScript thread.
 Background masking conceals the problem even if physical displacement persists.
 7.3) Key challenges
@@ -2668,7 +2665,6 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 8.3.1) The fix triggers only after the interaction concludes, potentially leaving the interface displaced during input.
 8.3.2) A delay between the event and execution may cause a visible content jump.
 8.3.3) Reliance on JavaScript reduces reliability under high system load.
-~~~
 ~~~~~~
 
 # `E.md`
@@ -2685,5 +2681,15 @@ It does not require layout restructuring and serves as a targeted «hotfix».
 
 # Eⵂ4
 При описании стратегии «Internal Scrolling» в список недостатков необходимо включать нарушение нативного UX браузера (статичная адресная строка) и конфликты с системными жестами, а не технические аспекты инерции.
+
+# Eⵂ5
+При синтезе диагноза для багов смещения (Displacement/Gap/Shift) запрещено использовать термины «Occlusion» (Перекрытие) или «Overlay» (Наложение) для описания артефакта в зоне сдвига.
+Вместо этого следует использовать термины «Exposure» (Обнажение подложки) или «Visibility of Backing Store».
+Термин «Occlusion» допустим только при доказанном отсутствии смещения контента.
+
+# Eⵂ6
+В описании `dvh` (Dynamic Viewport Height) запрещено указывать свойство «предотвращение сдвигов макета» (prevents layout shifts), так как `dvh` вызывает ресайз.
+Следует указывать свойство «адаптация к вьюпорту» (adapts to viewport) или «предотвращение скрытия контента» (prevents content clipping).
+
 
 ~~~~~~
