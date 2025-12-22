@@ -1,4 +1,4 @@
-## 1.
+## 1
 
 ### Замечания
 
@@ -6,35 +6,15 @@
 
 ### Пункт документа
 
-4.2
-
 ### Исходный текст
 
-In Chrome, the bottom navigation bar becomes a solid opaque block (the color depends on the system theme).
+This gap exposes the `WKWebView` backing store (the color depends on the system theme).
 
 ### Предлагаемый текст
 
-In Chrome, the System UI backdrop renders as a solid opaque overlay (the color depends on the system theme).
+This gap exposes the `WKWebView` backing store.
 
-## 2.
-
-### Замечания
-
-𐒌₃
-
-### Пункт документа
-
-5
-
-### Исходный текст
-
-Consequently, this system layer visually occludes the content layer.
-
-### Предлагаемый текст
-
-Consequently, the System UI backdrop visually occludes the content layer.
-
-## 3.
+## 2
 
 ### Замечания
 
@@ -42,17 +22,69 @@ Consequently, the System UI backdrop visually occludes the content layer.
 
 ### Пункт документа
 
-7.1
-
 ### Исходный текст
 
-Set `html` and `body` height to `100dvh`.
+The problem stems from the root cause `C`, exacerbated by factors `S1` and `S2`
 
 ### Предлагаемый текст
 
-Set `html` and `body` `min-height` to `100dvh`.
+The problem stems from the root cause `C`, while factors `S1` and `S2` determine the visual appearance of the artifact
 
-## 4.
+## 3
+
+### Замечания
+
+𐒌₁, 𐒌₂
+
+### Пункт документа
+
+4.2)
+
+### Исходный текст
+
+In Chrome, the System UI Backdrop renders as a solid opaque block (the color depends on the system theme).
+This opaque layer visually occludes the underlying content.
+
+### Предлагаемый текст
+
+In Chrome, the System UI Backdrop renders as a solid white block.
+This opaque layer visually fills the exposed gap.
+
+## 4
+
+### Замечания
+
+𐒌₁
+
+### Пункт документа
+
+### Исходный текст
+
+Consequently, the system enforces a protective mask that visually occludes the content.
+
+### Предлагаемый текст
+
+Consequently, the system enforces a protective mask that visually fills the exposed gap.
+
+## 5
+
+### Замечания
+
+𐒌₃
+
+### Пункт документа
+
+7.1)
+
+### Исходный текст
+
+Create an isolated stacking context for fixed elements and lock the root container height.
+
+### Предлагаемый текст
+
+Create an isolated stacking context for fixed elements.
+
+## 6
 
 ### Замечания
 
@@ -60,12 +92,12 @@ Set `html` and `body` `min-height` to `100dvh`.
 
 ### Пункт документа
 
-8.1
+8.1)
 
 ### Исходный текст
 
-The script listens for `focusout` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
+The script listens for `focusout` and `resize` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
 
 ### Предлагаемый текст
 
-The script listens for `focusout` and `resize` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
+The script listens for `focusout` and `resize` events to trigger a layout reset via a forced scroll position reset (`window.scrollTo(0, 0)`).

@@ -1,29 +1,29 @@
 1) The root cause (`C`): https://bugs.webkit.org/show_bug.cgi?id=297779
 Viewport and layout coordinates become desynchronized during initialization, keyboard interaction, or orientation changes.
 Consequently, fixed interface elements shift upward, creating a gap between the content and the screen edge.
-This gap exposes the `WKWebView` backing store (the color depends on the system theme).
+This gap exposes the `WKWebView` backing store.
 2) Key definitions used in my analysis:
 Liquid Glass: `LG`
-3) The problem stems from the root cause `C`, exacerbated by factors `S1` and `S2`
+3) The problem stems from the root cause `C`, while factors `S1` and `S2` determine the visual appearance of the artifact.
 4) `S1`: activation of the system setting «Reduce Transparency»
 4.1) Example
 https://discussions.apple.com/thread/256149325?answerId=256149325021
 4.2) The essence
 This setting replaces semi-transparent `LG` backdrops with opaque fills.
-In Chrome, the exposed `WKWebView` backing store renders as a solid opaque block (the color depends on the system theme).
-This visual artifact fills the gap created by the layout displacement.
+In Chrome, the System UI Backdrop renders as a solid white block.
+This opaque layer visually fills the exposed gap.
 5) `S2`: architectural conflict between `LG` and Safe Area
 Dynamic floating layers create a race condition during Safe Area initialization.
 Chrome initially receives 0-value insets and extends the content to the full screen.
 The system subsequently enforces Safe Area constraints, triggering a layout recalculation.
-Consequently, the content shifts upward, exposing the backing store in the resulting gap.
+Consequently, the system enforces a protective mask that visually fills the exposed gap.
 6) Below are 2 high-quality strategies to mitigate the effects of `C`.
 In some cases, it is necessary to apply them in combination.
 7) `R1⁂`
 7.1) Essence
-Create an isolated stacking context for fixed elements and lock the root container height.
+Create an isolated stacking context for fixed elements.
 Apply `transform: translateZ(0)` to `position: fixed` elements to bypass the WebKit bug.
-Set `html` and `body` height to `100dvh`.
+Set `html` and `body` `min-height` to `100dvh`.
 Set the `body` `background-color` to match the bottom panel for visual masking.
 7.2) Advantages
 It circumvents the layer compositing error in `LG`.
@@ -35,7 +35,7 @@ Background masking conceals the problem even if physical displacement persists.
 8) `R2⁂`
 8.1) Essence
 Implement a script to synchronize layout coordinates with the visual viewport upon interface state changes.
-The script listens for `focusout` events to trigger a layout reset via a non-destructive micro-scroll (e.g. 1 pixel).
+The script listens for `focusout` and `resize` events to trigger a layout reset via a forced scroll position reset (`window.scrollTo(0, 0)`).
 This action resets the WebKit internal offset flag.
 8.2) Advantages
 It resolves interface displacement caused by interactions with the virtual keyboard.
